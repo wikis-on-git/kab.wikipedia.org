@@ -44,6 +44,15 @@ For help, see '''[[m:Help:How to start a new Wikipedia|how to start a new Wikipe
 <div style="font-family:Arial Unicode MS, Tahoma;">
 <!-- End Portals -->
 
+Nadi ger [[Special:Statistics|'''{{NUMBEROFARTICLES}}''']] [[Tallat:amagrad|imagraden]] s [[Tallat:Kab.wiki|teqbaylit]]:
+<inputbox>
+type=search2
+searchbuttonlabel=Ricerca
+buttonlabel=Nadi
+width=19
+id=MP
+</inputbox>
+
 ==Sister projects==
 [http://meta.wikipedia.org Meta-Wikipedia] | [http://www.wiktionary.org Wikitonary] | [http://www.wikibooks.org Wikibooks] | [http://www.wikinews.org Wikinews] | [http://www.wikiquote.org Wikiquote] | [http://www.wikisource.org Wikisource]
 
