@@ -6,7 +6,7 @@
 |-
 |style="width:280px;text-align:center;white-space:nowrap;color:#000" |
 <div style="font-size:162%; border:none; margin: 0; padding:.1em; color:#000"> Anṣuf yis-wen ar [[Wikipedia]] s [[Teqbaylit]] </div>
-<div style="top:+0.2em; font-size: 95%"> Tasanayt tilellit-agi, [[Wp/kab/Wikipedia:How to edit a page|Myal yiwen yezmer a tt-ibeddel]]. </div>
+<div style="top:+0.2em; font-size: 95%"> Tasanayt tilellit-agi, [[Wikipedia:How to edit a page|Myal yiwen yezmer a tt-ibeddel]]. </div>
 <div id="articlecount" style="width:100%;text-align:center;font-size:85%;"> Nadi ger [[Special:Statistics|'''{{NUMBEROFARTICLES}}''']] [[Tallat:amagrad|imagraden]] s [[Tallat:Kab.wiki|teqbaylit]]:
 <inputbox>
 type=search2
@@ -19,34 +19,34 @@ id=MP
 |style="width:33%; color:#000"|<!-- Portals Follow -->
 {| align="right" cellpadding="1" style="font-size: 85%;background:none"
 |style="padding-right: 5px" | [[image:Nuvola_apps_localeSLO.png|15px]]
-|style="padding-right: 15px" | [[:Wp/kab/Awwur:Timetti|Timetti]]
+|style="padding-right: 15px" | [[:Awwur:Timetti|Timetti]]
 |style="padding-right: 5px" | [[image:Nuvola apps kdmconfig.png|15px]]
-|style="padding-right: 15px" | [[:Wp/kab/Awwur:Tameddurt|Tameddurt]]
+|style="padding-right: 15px" | [[:Awwur:Tameddurt|Tameddurt]]
 |style="padding-right: 5px" | [[Image:Nuvola apps kcoloredit.png|15px]]
-|style="padding-right: 15px" | [[:Wp/kab/Awwur:Taẓuri|Taẓuri]]
+|style="padding-right: 15px" | [[:Awwur:Taẓuri|Taẓuri]]
 |-
 |style="padding-right: 5px" | [[image:Nuvola philosophy.png|16px]]
-|style="padding-right: 15px" | [[:Wp/kab/Awwur:Tafelsuft|Tafelsuft]] 
+|style="padding-right: 15px" | [[:Awwur:Tafelsuft|Tafelsuft]] 
 |style="padding-right: 5px" | [[image:Nuvola apps edu mathematics.png|15px]]
-|style="padding-right: 15px" | [[:Wp/kab/Awwur:Tusnakt|Tusnakt]]
+|style="padding-right: 15px" | [[:Awwur:Tusnakt|Tusnakt]]
 |style="padding-right: 5px" | [[image:Museum btn.png|15px]]
-|style="padding-right: 15px" | [[:Wp/kab/Awwur:Amezruy|Amezruy]]
+|style="padding-right: 15px" | [[:Awwur:Amezruy|Amezruy]]
 |-
 |style="padding-right: 5px" | [[image:Nuvola apps browser.png|15px]]
-|style="padding-right: 15px" | [[:Wp/kab/Awwur:Tarakalt|Tarakalt]]
+|style="padding-right: 15px" | [[:Awwur:Tarakalt|Tarakalt]]
 |style="padding-right: 5px" | [[image:Nuvola apps kcmsystem.png|15px]]
-|style="padding-right: 15px" | [[:Wp/kab/Awwur:Teknoloji|Teknoloji]] 
+|style="padding-right: 15px" | [[:Awwur:Teknoloji|Teknoloji]] 
 |style="padding-right: 5px" | [[image:Nuvola apps kalzium.png|15px]]
-|style="padding-right: 15px" | [[:Wp/kab/Awwur:Tussna|Tussna]]
+|style="padding-right: 15px" | [[:Awwur:Tussna|Tussna]]
 |}
 |}
 <div style="font-family:Arial Unicode MS, Tahoma;">
 <!-- End Portals -->
 <!--à traduire
 {|style="width:100%;background:none;margin:-.8em 0 -.7em 0"
-|style="font-size:95%;text-align:left;white-space:nowrap;color:#000"|[[Wp/kab/Wikipedia:About|Overview]] '''·'''  [[Wp/kab/Wikipedia:Tutorial|Editing]] '''·''' [[Wp/kab/Wikipedia:Questions|Questions]] '''·''' [[Wp/kab/Help:Contents|Help]]
+|style="font-size:95%;text-align:left;white-space:nowrap;color:#000"|[[Wikipedia:About|Overview]] '''·'''  [[Wikipedia:Tutorial|Editing]] '''·''' [[Wikipedia:Questions|Questions]] '''·''' [[Help:Contents|Help]]
 |style="font-size:95%;padding:10px 0;margin:0px;text-align:right;white-space:nowrap;color:#000"|
-[[Wp/kab/Wikipedia:Contents|Contents]] '''·''' [[Wp/kab/Wikipedia:Categorical index|Categories]] '''·''' [[Wp/kab/Wikipedia:Featured content|Featured content]] '''·''' [[Wp/kab/Wikipedia:Quick index|A–Z index]]
+[[Wikipedia:Contents|Contents]] '''·''' [[Wikipedia:Categorical index|Categories]] '''·''' [[Wikipedia:Featured content|Featured content]] '''·''' [[Wikipedia:Quick index|A–Z index]]
 |}
 -->
 {|style="border-spacing:8px;margin:0px -8px"
@@ -54,28 +54,28 @@ id=MP
 {|width="100%" cellpadding="2" cellspacing="5" style="vertical-align:top;background-color:#f5fffa"
 ! <h2 style="margin:0;background-color:#cef2e0;font-size:120%;font-weight:bold;border:1px solid #a3bfb1;text-align:left;color:#000;padding:0.2em 0.4em;">Amagrad n wassa</h2>
 |-
-|style="color:#000"|{{Wp/kab/WikiFeaturedArticle}}
+|style="color:#000"|{{WikiFeaturedArticle}}
 |-
 ! <h2 style="margin:0;background:#cef2e0;font-size:120%;font-weight:bold;border:1px solid #a3bfb1;text-align:left;color:#000;padding:0.2em 0.4em;">Teẓriḍ belli...</h2>
 |-
-|style="color:#000"|{{Wp/kab/Did you know}}
+|style="color:#000"|{{Did you know}}
 |-
 |}<!-- Start of right-column -->
 |class="MainPageBG" style="width:45%;border:1px solid #cedff2;background-color:#f5faff;vertical-align:top"|
 {| width="100%" cellpadding="2" cellspacing="5" style="vertical-align:top;background-color:#f5faff"
 ! <h2 style="margin:0;background-color:#cedff2;font-size:120%;font-weight:bold;border:1px solid #a3b0bf;text-align:left;color:#000;padding:0.2em 0.4em;">Talɣut</h2>
 |-
-|style="color:#000"|{{Wp/kab/In the news}}
+|style="color:#000"|{{In the news}}
 |-
 ! <h2 style="margin:0;background:#cedff2;font-size:120%;font-weight:bold;border:1px solid #a3b0bf;text-align:left;color:#000;padding:0.2em 0.4em;">Tugna n wassa</h2>
 |- 
-|style="color:#000"|{{Wp/kab/POTD row}} <!-- standardize format with other Pic of the day features --> 
+|style="color:#000"|{{POTD row}} <!-- standardize format with other Pic of the day features --> 
 |-
 <!--à traduire
 |-
 ! <h2 style="margin:0;background:#cedff2;font-size:120%;font-weight:bold;border:1px solid #a3b0bf;text-align:left;color:#000;padding:0.2em 0.4em;">On this day...</h2>
 |- 
-|style="color:#000"|{{Wp/kab/Selected anniversaries}}
+|style="color:#000"|{{Selected anniversaries}}
 |-
 -->
 |}
@@ -85,29 +85,29 @@ id=MP
 {|cellpadding="2" cellspacing="5" style="vertical-align:top; background-color:#faf5ff; color:#000"
 ! <h2 style="margin:0; background-color:#ddcef2; font-size:120%; font-weight:bold; border:1px solid #afa3bf; text-align:left; color:#000; padding:0.2em 0.4em;"> Acḥal llan yimagraden ar tura? </h2>
 |-
-|style="color:#000"|{{Wp/kab/imagraden}}
+|style="color:#000"|{{imagraden}}
 |-
 |}
 |}
 
 <!-- à traduire !!!!
 ==Imkanen nniḍen deg Wikipedia==
-{{Wp/kab/WikipediaOther}}<!--Template:WikipediaOther-->  
+{{WikipediaOther}}<!--Template:WikipediaOther-->  
 
 {|style="border-spacing:8px;margin:-8px -8px"
 |class="MainPageBG" style="width:100%; border:1px solid #FFB3B3; background-color:#faf5ff; vertical-align:top; color:#000"|
 {|cellpadding="2" cellspacing="5" style="vertical-align:top; background-color:#FFECEC; color:#000"
 ! <h2 style="margin:0; background-color:#FF9B9B; font-size:120%; font-weight:bold; border:1px solid #FF6666; text-align:center; color:#000; padding:0.2em 0.4em;"> Yessetma n Wikipedia </h2>
 |-
-|style="color:#000"|{{Wp/kab/WikipediaSister}}
+|style="color:#000"|{{WikipediaSister}}
 |-
 ! <h2 style="margin:0; background-color:#FF9B9B; font-size:120%; font-weight:bold; border:1px solid #FF6666; text-align:center; color:#000; padding:0.2em 0.4em;"> Wikipedia s tutlayin tiyaḍ </h2>
 |-
-|style="color:#000"|{{Wp/kab/Wikipedialang}}
+|style="color:#000"|{{Wikipedialang}}
 |-
 |}
 |}__NOTOC__ __NOEDITSECTION__
 <!--{{newpagelinksmain}}--><!--Template:Newpagelinksmain-->
-{{Wp/kab/MainPageInterwikis}}<!--Template:MainPageInterwikis-->
+{{MainPageInterwikis}}<!--Template:MainPageInterwikis-->
 
 </div>
