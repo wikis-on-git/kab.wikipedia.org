@@ -7,7 +7,14 @@
 |style="width:280px;text-align:center;white-space:nowrap;color:#000" |
 <div style="font-size:162%; border:none; margin: 0; padding:.1em; color:#000"> Anṣuf yis-wen ar [[Wikipedia]] s [[Teqbaylit]] </div>
 <div style="top:+0.2em; font-size: 95%"> Tasanayt tilellit-agi, [[Wp/kab/Wikipedia:How to edit a page|Myal yiwen yezmer a tt-ibeddel]]. </div>
-<div id="articlecount" style="width:100%;text-align:center;font-size:85%;"> [[Special:Statistics|'''{{NUMBEROFARTICLES}}''']] [[Tallat:amagrad|imagraden]] s [[Tallat:Kab.wiki|teqbaylit]] </div>
+<div id="articlecount" style="width:100%;text-align:center;font-size:85%;"> Nadi ger [[Special:Statistics|'''{{NUMBEROFARTICLES}}''']] [[Tallat:amagrad|imagraden]] s [[Tallat:Kab.wiki|teqbaylit]]:
+<inputbox>
+type=search2
+searchbuttonlabel=Ricerca
+buttonlabel=Nadi
+width=19
+id=MP
+</inputbox> </div>
 |}
 |style="width:33%; color:#000"|<!-- Portals Follow -->
 {| align="right" cellpadding="1" style="font-size: 85%;background:none"
