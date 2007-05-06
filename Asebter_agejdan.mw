@@ -1,4 +1,3 @@
-
 ==This subdomain is reserved for the creation of a Wikipedia in '''[[:en:Taqbaylit|Taqbaylit]]''' language==
 
 If you can write in this language and want to collaborate in the creation of this encyclopedia then '''you''' can make it.
@@ -6,6 +5,44 @@ If you can write in this language and want to collaborate in the creation of thi
 Go ahead. Translate this page and start working on your encyclopedia.
 
 For help, see '''[[m:Help:How to start a new Wikipedia|how to start a new Wikipedia]]'''.
+
+<div id="mainpage"></div>
+<!-- Beginning of header section -->
+{|style="width:100%; margin-top:+.7em; background-color:#fcfcfc; border:1px solid #ccc"
+|style="width:66%; color:#000"|
+{|style="width:280px; border:solid 0px; background:none"
+|-
+|style="width:280px;text-align:center;white-space:nowrap;color:#000" |
+<div style="font-size:162%; border:none; margin: 0; padding:.1em; color:#000"> Anṣuf yis-wen ar [[Wikipedia|Wikipedia]] s [[Taqbaylit|Teqbaylit]] </div>
+<div style="top:+0.2em; font-size: 95%"> Tasanayt tilellit-agi, [[Wikipedia:How to edit a page|Myal yiwen yezmer a tt-ibeddel]]. </div>
+<div id="articlecount" style="width:100%;text-align:center;font-size:85%;"> [[Special:Statistics|{{NUMBEROFARTICLES}}]] imagraden s Teqbaylit </div>
+|}
+|style="width:33%; color:#000"|<!-- Portals Follow -->
+{| align="right" cellpadding="1" style="font-size: 85%;background:none"
+|style="padding-right: 5px" | [[image:Nuvola_apps_localeSLO.png|15px]]
+|style="padding-right: 15px" | [[Awwur:Timetti|Timetti]]
+|style="padding-right: 5px" | [[image:Nuvola apps kdmconfig.png|15px]]
+|style="padding-right: 15px" | [[Awwur:Tameddurt|Tameddurt]]
+|style="padding-right: 5px" | [[Image:Nuvola apps kcoloredit.png|15px]]
+|style="padding-right: 15px" | [[Awwur:Taẓuri|Taẓuri]]
+|-
+|style="padding-right: 5px" | [[image:Nuvola philosophy.png|16px]]
+|style="padding-right: 15px" | [[Awwur:Tafelsuft|Tafelsuft]] 
+|style="padding-right: 5px" | [[image:Nuvola apps edu mathematics.png|15px]]
+|style="padding-right: 15px" | [[Awwur:Tusnakt|Tusnakt]]
+|style="padding-right: 5px" | [[image:Museum btn.png|15px]]
+|style="padding-right: 15px" | [[Awwur:Amezruy|Amezruy]]
+|-
+|style="padding-right: 5px" | [[image:Nuvola apps browser.png|15px]]
+|style="padding-right: 15px" | [[Awwur:Tarakalt|Tarakalt]]
+|style="padding-right: 5px" | [[image:Nuvola apps kcmsystem.png|15px]]
+|style="padding-right: 15px" | [[Awwur:Teknoloji|Teknoloji]] 
+|style="padding-right: 5px" | [[image:Nuvola apps kalzium.png|15px]]
+|style="padding-right: 15px" | [[Awwur:Tussna|Tussna]]
+|}
+|}
+<div style="font-family:Arial Unicode MS, Tahoma;">
+<!-- End Portals -->
 
 ==Sister projects==
 [http://meta.wikipedia.org Meta-Wikipedia] | [http://www.wiktionary.org Wikitonary] | [http://www.wikibooks.org Wikibooks] | [http://www.wikinews.org Wikinews] | [http://www.wikiquote.org Wikiquote] | [http://www.wikisource.org Wikisource]
