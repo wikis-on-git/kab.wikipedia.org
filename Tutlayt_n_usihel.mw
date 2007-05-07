@@ -1,0 +1,102 @@
+<div style="font-family:Arial Unicode MS, Tahoma;">
+'''TIMESLAYIN N USIHEL''' (Langages de programmation), Ma yili wugur gar yifassen-nneɣ, tewwi-yas-d awarzem (algorithme) i tifrat-is. Awarzem d awalen (n tefransist, tegnizit ..) i yesseqdac wussnan (scientifique) i tifrat n wugur, maca aselkim (ordinateur), ɣur-s awalen-is imaẓlayen, agraw-nnsen d tameslayt n usihel (imeslayen i ifehhem uselkim), wid ara d-isnedhen aselkim ( d azrar n wanaḍen (instructions)) i tifrat. Gar tmeslayin-a:
+
+==FORTRAN==
+Awal-a d asewzel (FORmula TRANslation), tisuqqelt n tenfalit, acku awalen-is sehlen i useqdec n tusnakt (mathématique). Amezwaru i d-yuran fell-as d RUTISHAUSER, deg useggas 1952, maca ur d-yeffiɣ ara i leqdic almi d useggas 1955, s ɣur JOHN BACKUS. Tameslayt-a telha nezzeh i yinekmaden ussananen n tesdawit.
+
+==BASIC==
+D asewzel (Beginner's All prupose Symbolic Instruction Code). Yeffeɣ-d deg useggas 1965. D tameslayt i d-yemmugen i wid urɛad ssnen nezzeh timeslayin n usihel, acku awalen n umeslay yettwaqdacen deg BASIC sehlen, ferzen. Yelha nezzeh i yinelmaden n tesnawit (aswir amenzu). S kra n wawalen, anelmad yezmer ad yektil: tajumma (surface), ableɣ (volume), azikit (périmètre).atg, neɣ ad ad d-yefru tigdiwin (équations).
+
+==PASCAL==
+Teffeɣ-d ger useggas 1967 d 1971 sɣur NIKLAUS WIRTH. Yefka-yas isem-ayi ilemen-d umussnaw ameqqran BLAISE PASCAL (1623-1662). Tameslay PASCAL tettwassen aṭas seg wasmi i d-teffeɣ i lɣaci tameslayt n Turbo pascal deg useggas 1984, sɣur Borland International, imi wwḍen azal n umeliyun i yettuzenzen seg-s.
+PASCAL daɣen yemmug-d i tusnakt, yelha nezzeh i yinelmaden ussananen n tesdawit.
+
+==LANGAGE C==
+D tameslayt i d-ilulen deg useggas 1972, sɣur umussnaw DENIS RITHIE. Deg tazwara, timeslayin-a mmugent-d i useqdec n uselkim ( ileḥḥun s UNIX); maca, deg useggas 1989, yuɣ abrid n useqdec s wahil, yuɣal am wid neẓra yakan.
+
+
+==DBASE==
+_ er taggara n yiseggasen 70, amussnaw WAYNE RATLIFF ( iqeddec di NASA), isnulfa-d timeslayen i useqdec n taffa n isefka (base de données), i wumi isemma VULCAN.
+Syin akkin, GEORGE TATE d HAL LASHLEE, gren-d afus, rnan sqewmen-t, armi d useggas 1981, yuɣal isem-is dbase (data base).
+
+==AWALEN N TMESLAYIN N USELKIM==
+Awalen-a zemren ad ilin, d wid n tegnizit mmden, neɣ d asewzel n wawalen n tegnizit.
+
+==Amedya==
+Wayi d ahil, s tmeslayin i neẓra, sendahen aselkim i wakken ad d-yaru ɣef ugdil (Ecran), awal (AZUL):
+
+FORTRAN
+ Ahil amenzu
+ WRITE(*,*)'AZUL'
+ END 10 CLS
+
+BASIC
+ 20 REM Ahil amenzu
+ 30 PRINT " AZUL "
+ 40 END Program azul
+
+PASCAL
+ Begin
+ {ahil amenzu}
+ WRITE('AZUL');
+ END. MAIN()
+ {
+
+C
+ /*Ahil amenzu */
+ PRINTF('AZUL')
+ } CLEAR
+
+DBASE
+ *Ahil amenzu*
+ ? ' AZUL'
+ END
+
+== Tamselyut ==
+*[http://www.imyura.net/Timenza/tabid/57/articleType/ArticleView/articleId/142/Awal-ef-uselkim-su-Y-At-Yiil.aspx www.imyura.net]
+
+[[Category:Teknoloji]]
+
+[[af:Programmeertaal]]
+[[ar:لغة برمجة]]
+[[bg:Език за програмиране]]
+[[bn:প্রোগ্রামিং ভাষা]]
+[[bs:Programski jezik]]
+[[ca:Llenguatge informàtic]]
+[[cs:Programování]]
+[[da:Programmeringssprog]]
+[[de:Programmiersprache]]
+[[el:Γλώσσα προγραμματισμού]]
+[[en:Programming language]]
+[[eo:Programlingvo]]
+[[es:Lenguaje de programación]]
+[[et:Programmeerimiskeel]]
+[[eu:Programazio lengoaia]]
+[[fr:Langage de programmation]]
+[[he:שפת תכנות]]
+[[hr:Programski jezik]]
+[[hu:Programozási nyelv]]
+[[ia:Linguage de programmation]]
+[[id:Bahasa pemrograman]]
+[[it:Linguaggio di programmazione]]
+[[ja:プログラミング言語]]
+[[ka:დაპროგრამების ენა]]
+[[ko:프로그래밍 언어]]
+[[lt:Programavimo kalba]]
+[[lv:Programmēšanas valoda]]
+[[nl:Programmeertaal]]
+[[no:Programmeringsspråk]]
+[[pl:Język programowania]]
+[[pt:Linguagem de programação]]
+[[ro:Limbaj de programare]]
+[[ru:Язык программирования]]
+[[sk:Programovací jazyk]]
+[[sl:Programski jezik]]
+[[fi:Ohjelmointikieli]]
+[[sv:Programmeringsspråk]]
+[[th:ภาษาโปรแกรม]]
+[[tl:Wikang pangkompyuter]]
+[[tr:Programlama dilleri]]
+[[uk:Мова програмування]]
+[[vi:Ngôn ngữ lập trình]]
+[[zh:程序设计语言]]
