@@ -71,14 +71,8 @@ id=MP
 |- 
 |style="color:#000"|{{POTD row}} <!-- standardize format with other Pic of the day features --> 
 |-
-<!--à traduire
-|-
-! <h2 style="margin:0;background:#cedff2;font-size:120%;font-weight:bold;border:1px solid #a3b0bf;text-align:left;color:#000;padding:0.2em 0.4em;">On this day...</h2>
-|- 
-|style="color:#000"|{{Selected anniversaries}}
-|-
--->
 |}
+
 |}<!-- Start of Featured Picture --> 
 {|style="border-spacing:8px;margin:-8px -8px"
 |class="MainPageBG" style="width:100%; border:1px solid #ddcef2; background-color:#faf5ff; vertical-align:top; color:#000"|
@@ -97,7 +91,7 @@ id=MP
 {|style="border-spacing:8px;margin:-8px -8px"
 |class="MainPageBG" style="width:100%; border:1px solid #FFB3B3; background-color:#faf5ff; vertical-align:top; color:#000"|
 {|cellpadding="2" cellspacing="5" style="vertical-align:top; background-color:#FFECEC; color:#000"
-! <h2 style="margin:0; background-color:#FF9B9B; font-size:120%; font-weight:bold; border:1px solid #FF6666; text-align:center; color:#000; padding:0.2em 0.4em;"> Yessetma n Wikipedia </h2>
+! <h2 style="margin:0; background-color:#FF9B9B; font-size:120%; font-weight:bold; border:1px solid #FF6666; text-align:center; color:#000; padding:0.2em 0.4em;"> Yessetma-s n Wikipedia </h2>
 |-
 |style="color:#000"|{{WikipediaSister}}
 |-
