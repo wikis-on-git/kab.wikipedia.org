@@ -1,0 +1,354 @@
+[[Image:Latin alphabet world distribution.png|thumb|right|350px|Timura isseqdacen agemmay alatini]]
+'''Agemmay alatini''' d agemmay yettuseqdac di tira n waṭas n tutlayin. Yekka-d aẓar-is seg [[Agemmay itruski|ugemmay itruski]].
+
+Agemmay alatini yettwura seg uzelmaḍ ɣer ayfus , yesεa 26 [[Asekkil|isekkilen]], aṭas n umsasa (adaptations) n ugemmay alatini di tutlayin tiyaḍ (am [[Taqbaylit|taqbaylit]]) sεan ugar n 26 isekkilen.
+
+==Amezruy==
+Agemmay alatini amezwaru ɣur-s 23 isekkilen, umbeεd rnan-as 3 wiyaḍ: J, U, W.
+
+{| border="1" cellpadding="2" cellspacing="0" style="margin:0.7em 0.7em 0.7em 0.7em;border:1px solid #AAAAAA;background:#F9F9F9;border-collapse:collapse;font-size:95%;text-align:center;" 
+|-
+! style="text-align:right;" | Asekkil
+! A || B || C || D || E || F || G || H || I || K || L || M || N
+|-
+! style="text-align:right;" | Isem alatini
+| ā || bē || cē || dē || ē || ef || gē || hā || ī || kā || el || em || en
+|- class="IPA"
+! style="text-align:right;" | Imesli aliatini (IPA)
+| /aː/ || /beː/ || /keː/ || /deː/ || /eː/ || /ef/ || /geː/ || /haː/ || /iː/ || /kaː/ || /el/ || /em/ || /en/
+|}
+{| border="1" cellpadding="2" cellspacing="0" style="margin:0.7em 0.7em 0.7em 0.7em;border:1px solid #AAAAAA;background:#F9F9F9;border-collapse:collapse;font-size:95%;text-align:center;" 
+|-
+! style="text-align:right;" | Asekkil
+! O || P || Q || R || S || T || V || X || Y || Z
+|-
+! style="text-align:right;" | Isem alatini
+| ō || pē || qū || er || es || tē || ū || ex || ī Graeca || zēta
+|- class="IPA"
+! style="text-align:right;" | Imesli aliatini (IPA)
+| /oː/ || /peː/ || /kʷuː/ || /er/ || /es/ || /teː/ || /uː/ || /eks/ || /iː 'graika/ || /'zeːta/ 
+|}
+
+==Agemmay alatini ameqqran ==
+Agemmay alatini d agemmay iwumi yesεan kter isekkilen ger igemmayen, Ṭṭabla deg ukessar seg Unicode 5.0 (Tasiwelt taneggarut).
+
+{| border="1" cellpadding="2" cellspacing="0" style="border-collapse:collapse"
+|----- style="background:#ccf"
+!width="4%"|U+!!width="6%"|0!!width="6%"|1!!width="6%"|2!!width="6%"|3!!width="6%"|4!!width="6%"|5!!width="6%"|6!!width="6%"|7!!width="6%"|8!!width="6%"|9!!width="6%"|A!!width="6%"|B!!width="6%"|C!!width="6%"|D!!width="6%"|E!!width="6%"|F
+|----- align="center" style="background:#cfc"
+!style="background:#fff"|0040
+|&#64;||[[A]]||[[B]]||[[C]]||[[D]]||[[E]]||[[F]]||[[G]]||[[H]]||[[I]]||[[J]]||[[K]]||[[L]]||[[M]]||[[N]]||[[O]]
+|----- align="center" style="background:#cfc"
+!style="background:#fff"|0050
+|[[P]]||[[Q]]||[[R]]||[[S]]||[[T]]||[[U]]||[[V]]||[[W]]||[[X]]||[[Y]]||[[Z]]||&#91;||&#92;||&#93;||&#94;||&#95;
+|----- align="center" style="background:#cfc"
+!style="background:#fff"|0060
+|&#96;||[[a]]||[[b]]||[[c]]||[[d]]||[[e]]||[[f]]||[[g]]||[[h]]||[[i]]||[[j]]||[[k]]||[[l]]||[[m]]||[[n]]||[[o]]
+|----- align="center" style="background:#cfc"
+!style="background:#fff"|0070
+|[[p]]||[[q]]||[[r]]||[[s]]||[[t]]||[[u]]||[[v]]||[[w]]||[[x]]||[[y]]||[[z]]||&#123;||&#124;||&#125;||&#126;||style="font-size:75%"|DEL
+|----- align="center" style="background:#cfc"
+!style="background:#fff"|00C0
+|[[À]]||[[Á]]||[[Â]]||[[Ã]]||[[Ä]]||[[Å]]||[[Æ]]||[[Ç]]||[[È]]||[[É]]||[[Ê]]||[[Ë]]||[[Ì]]||[[Í]]||[[Î]]||[[Ï]]
+|----- align="center" style="background:#cfc"
+!style="background:#fff"|00D0
+|[[Ð]]||[[Ñ]]||[[Ò]]||[[Ó]]||[[Ô]]||[[Õ]]||[[Ö]]||×||[[Ø]]||[[Ù]]||[[Ú]]||[[Û]]||[[Ü]]||[[Ý]]||[[Þ]]||[[ß]]
+|----- align="center" style="background:#cfc"
+!style="background:#fff"|00E0
+|[[à]]||[[á]]||[[â]]||[[ã]]||[[ä]]||[[å]]||[[æ]]||[[ç]]||[[è]]||[[é]]||[[ê]]||[[ë]]||[[ì]]||[[í]]||[[î]]||[[ï]]
+|----- align="center" style="background:#cfc"
+!style="background:#fff"|00F0
+|[[ð]]||[[ñ]]||[[ò]]||[[ó]]||[[ô]]||[[õ]]||[[ö]]||÷||[[ø]]||[[ù]]||[[ú]]||[[û]]||[[ü]]||[[ý]]||[[þ]]||[[ÿ]]
+|----- align="center" style="background:#cfc"
+!style="background:#fff"|0100
+|[[Ā]]||[[ā]]||[[Ă]]||[[ă]]||[[Ą]]||[[ą]]||[[Ć]]||[[ć]]||[[Ĉ]]||[[ĉ]]||[[Ċ]]||[[ċ]]||[[Č]]||[[č]]||[[Ď]]||[[ď]]
+|----- align="center" style="background:#cfc"
+!style="background:#fff"|0110
+|[[Đ]]||[[đ]]||[[Ē]]||[[ē]]||[[Ĕ]]||[[ĕ]]||[[Ė]]||[[ė]]||[[Ę]]||[[ę]]||[[Ě]]||[[ě]]||[[Ĝ]]||[[ĝ]]||[[Ğ]]||[[ğ]]
+|----- align="center" style="background:#cfc"
+!style="background:#fff"|0120
+|[[Ġ]]||[[ġ]]||[[Ģ]]||[[ģ]]||[[Ĥ]]||[[ĥ]]||[[Ħ]]||[[ħ]]||[[Ĩ]]||[[ĩ]]||[[Ī]]||[[ī]]||[[Ĭ]]||[[ĭ]]||[[Į]]||[[į]]
+|----- align="center" style="background:#cfc"
+!style="background:#fff"|0130
+|[[Turkish dotted and dotless I|İ]]||[[Turkish dotted and dotless I|ı]]||[[Ĳ]]||[[ĳ]]||[[Ĵ]]||[[ĵ]]||[[Ķ]]||[[ķ]]||[[ĸ]]||[[Ĺ]]||[[ĺ]]||[[Ļ]]||[[ļ]]||[[Ľ]]||[[ľ]]||[[Ŀ]]
+|----- align="center" style="background:#cfc"
+!style="background:#fff"|0140
+|[[ŀ]]||[[Ł]]||[[ł]]||[[Ń]]||[[ń]]||[[Ņ]]||[[ņ]]||[[Ň]]||[[ň]]||[[ŉ]]||[[Ŋ]]||[[ŋ]]||[[Ō]]||[[ō]]||[[Ŏ]]||[[ŏ]]
+|----- align="center" style="background:#cfc"
+!style="background:#fff"|0150
+|[[Ő]]||[[ő]]||[[Œ]]||[[œ]]||[[Ŕ]]||[[ŕ]]||[[Ŗ]]||[[ŗ]]||[[Ř]]||[[ř]]||[[Ś]]||[[ś]]||[[Ŝ]]||[[ŝ]]||[[Ş]]||[[ş]]
+|----- align="center" style="background:#cfc"
+!style="background:#fff"|0160
+|[[Š]]||[[š]]||[[Ţ]]||[[ţ]]||[[Ť]]||[[ť]]||[[Ŧ]]||[[ŧ]]||[[Ũ]]||[[ũ]]||[[Ū]]||[[ū]]||[[Ŭ]]||[[ŭ]]||[[Ů]]||[[ů]]
+|----- align="center" style="background:#cfc"
+!style="background:#fff"|0170
+|[[Ű]]||[[ű]]||[[Ų]]||[[ų]]||[[Ŵ]]||[[ŵ]]||[[Ŷ]]||[[ŷ]]||[[Ÿ]]||[[Ź]]||[[ź]]||[[Ż]]||[[ż]]||[[Ž]]||[[ž]]||style="background:#9b9"|[[Long s|ſ]]
+|----- align="center" style="background:#cfc"
+!style="background:#fff"|0180
+|[[ƀ]]||[[Ɓ]]||[[Ƃ]]||[[ƃ]]||[[Ƅ]]||[[ƅ]]||[[Ɔ]]||[[Ƈ]]||[[ƈ]]||[[Ɖ]]||[[Ɗ]]||[[Ƌ]]||[[ƌ]]||[[ƍ]]||[[Ǝ]]||[[Ə]]
+|----- align="center" style="background:#cfc"
+!style="background:#fff"|0190
+|[[Ɛ]]||[[Ƒ]]||[[ƒ]]||[[Ɠ]]||[[Ɣ]]||[[ƕ]]||[[Ɩ]]||[[Ɨ]]||[[Ƙ]]||[[ƙ]]||[[ƚ]]||[[ƛ]]||[[Ɯ]]||[[Ɲ]]||[[ƞ]]||[[Ɵ]]
+|----- align="center" style="background:#cfc"
+!style="background:#fff"|01A0
+|[[Ơ]]||[[ơ]]||[[Ƣ]]||[[ƣ]]||[[Ƥ]]||[[ƥ]]||[[Ʀ]]||[[Ƨ]]||[[ƨ]]||[[Ʃ]]||[[ƪ]]||[[ƫ]]||[[Ƭ]]||[[ƭ]]||[[Ʈ]]||[[Ư]]
+|----- align="center" style="background:#cfc"
+!style="background:#fff"|01B0
+|[[ư]]||[[Ʊ]]||[[Ʋ]]||[[Ƴ]]||[[ƴ]]||[[Ƶ]]||[[ƶ]]||[[Ʒ]]||[[Ƹ]]||[[ƹ]]||[[ƺ]]||[[ƻ]]||[[Ƽ]]||[[ƽ]]||[[ƾ]]||[[ƿ]]
+|----- align="center" style="background:#cfc"
+!style="background:#fff"|01C0
+|[[ǀ]]||[[ǁ]]||[[ǂ]]||[[ǃ]]||[[Ǆ]]||[[ǅ]]||[[ǆ]]||[[Ǉ]]||[[ǈ]]||[[ǉ]]||[[Ǌ]]||[[ǋ]]||[[ǌ]]||[[Ǎ]]||[[ǎ]]||[[Ǐ]]
+|----- align="center" style="background:#cfc"
+!style="background:#fff"|01D0
+|[[ǐ]]||[[Ǒ]]||[[ǒ]]||[[Ǔ]]||[[ǔ]]||[[Ǖ]]||[[ǖ]]||[[Ǘ]]||[[ǘ]]||[[Ǚ]]||[[ǚ]]||[[Ǜ]]||[[ǜ]]||[[ǝ]]||[[Ǟ]]||[[ǟ]]
+|----- align="center" style="background:#cfc"
+!style="background:#fff"|01E0
+|[[Ǡ]]||[[ǡ]]||[[Ǣ]]||[[ǣ]]||[[Ǥ]]||[[ǥ]]||[[Ǧ]]||[[ǧ]]||[[Ǩ]]||[[ǩ]]||[[Ǫ]]||[[ǫ]]||[[Ǭ]]||[[ǭ]]||[[Ǯ]]||[[ǯ]]
+|----- align="center" style="background:#9b9"
+!style="background:#fff"|01F0
+|style="background:#cfc"|[[ǰ]]||[[Ǳ]]||[[ǲ]]||[[ǳ]]||[[Ǵ]]||[[ǵ]]||style="background:#ff9"|[[Ƕ]]||style="background:#ff9"|[[Ƿ]]||style="background:#ff9"|[[Ǹ]]||style="background:#ff9"|[[ǹ]]||[[Ǻ]]||[[ǻ]]||[[Ǽ]]||[[ǽ]]||[[Ǿ]]||[[ǿ]]
+|----- align="center" style="background:#9b9"
+!style="background:#fff"|0200
+|[[Ȁ]]||[[ȁ]]||[[Ȃ]]||[[ȃ]]||[[Ȅ]]||[[ȅ]]||[[Ȇ]]||[[ȇ]]||[[Ȉ]]||[[ȉ]]||[[Ȋ]]||[[ȋ]]||[[Ȍ]]||[[ȍ]]||[[Ȏ]]||[[ȏ]]
+|----- align="center"
+!0210
+|style="background:#9b9"|[[Ȑ]]||style="background:#9b9"|[[ȑ]]||style="background:#9b9"|[[Ȓ]]||style="background:#9b9"|[[ȓ]]||style="background:#9b9"|[[Ȕ]]||style="background:#9b9"|[[ȕ]]||style="background:#9b9"|[[Ȗ]]||style="background:#9b9"|[[ȗ]]||style="background:#ff9"|[[Ș]]||style="background:#ff9"|[[ș]]||style="background:#ff9"|[[Ț]]||style="background:#ff9"|[[ț]]||style="background:#ff9"|[[Ȝ]]||style="background:#ff9"|[[ȝ]]||style="background:#ff9"|[[Ȟ]]||style="background:#ff9"|[[ȟ]]
+|----- align="center" style="background:#ff9"
+!style="background:#fff"|0220
+|style="background:#885"|[[Ƞ]]||style="background:#fcc"|[[ȡ]]||[[Ȣ]]||[[ȣ]]||[[Ȥ]]||[[ȥ]]||[[Ȧ]]||[[ȧ]]||[[Ȩ]]||[[ȩ]]||[[Ȫ]]||[[ȫ]]||[[Ȭ]]||[[ȭ]]||[[Ȯ]]||[[ȯ]]
+|----- align="center" style="background:#b99"
+!style="background:#fff"|0230
+|style="background:#ff9"|[[Ȱ]]||style="background:#ff9"|[[ȱ]]||style="background:#ff9"|[[Ȳ]]||style="background:#ff9"|[[ȳ]]||style="background:#fcc"|[[ȴ]]||style="background:#fcc"|[[ȵ]]||style="background:#fcc"|[[ȶ]]||[[ȷ]]||[[ȸ]]||[[ȹ]]||[[Ⱥ]]||[[Ȼ]]||[[ȼ]]||[[Ƚ]]||[[Ⱦ]]||[[ȿ]]
+|----- align="center" style="background:#866"
+!style="background:#fff"|0240
+|style="background:#b99"|[[ɀ]]||style="background:#b99"|[[Ɂ]]||[[ɂ]]||[[Ƀ]]||[[Ʉ]]||[[Ʌ]]||[[Ɇ]]||[[ɇ]]||[[Ɉ]]||[[ɉ]]||[[Ɋ]]||[[ɋ]]||[[Ɍ]]||[[ɍ]]||[[Ɏ]]||[[ɏ]]
+|----- align="center" style="background:#cfc"
+!style="background:#fff"|0250
+|[[ɐ]]||[[ɑ]]||[[ɒ]]||[[ɓ]]||[[ɔ]]||[[ɕ]]||[[ɖ]]||[[ɗ]]||[[ɘ]]||[[ə]]||[[ɚ]]||[[ɛ]]||[[ɜ]]||[[ɝ]]||[[ɞ]]||[[ɟ]]
+|----- align="center" style="background:#cfc"
+!style="background:#fff"|0260
+|[[ɠ]]||[[ɡ]]||[[ɢ]]||[[ɣ]]||[[ɤ]]||[[ɥ]]||[[ɦ]]||[[ɧ]]||[[ɨ]]||[[ɩ]]||[[ɪ]]||[[ɫ]]||[[ɬ]]||[[ɭ]]||[[ɮ]]||[[ɯ]]
+|----- align="center" style="background:#cfc"
+!style="background:#fff"|0270
+|[[ɰ]]||[[ɱ]]||[[ɲ]]||[[ɳ]]||[[ɴ]]||[[ɵ]]||[[ɶ]]||[[ɷ]]||[[ɸ]]||[[ɹ]]||[[ɺ]]||[[ɻ]]||[[ɼ]]||[[ɽ]]||[[ɾ]]||[[ɿ]]
+|----- align="center" style="background:#cfc"
+!style="background:#fff"|0280
+|[[ʀ]]||[[ʁ]]||[[ʂ]]||[[ʃ]]||[[ʄ]]||[[ʅ]]||[[ʆ]]||[[ʇ]]||[[ʈ]]||[[ʉ]]||[[ʊ]]||[[ʋ]]||[[ʌ]]||[[ʍ]]||[[ʎ]]||[[ʏ]]
+|----- align="center" style="background:#cfc"
+!style="background:#fff"|0290
+|[[ʐ]]||[[ʑ]]||[[ʒ]]||[[ʓ]]||[[ʔ]]||[[ʕ]]||[[ʖ]]||[[ʗ]]||[[ʘ]]||[[ʙ]]||[[ʚ]]||[[ʛ]]||[[ʜ]]||[[ʝ]]||[[ʞ]]||[[ʟ]]
+|----- align="center" style="background:#cfc"
+!style="background:#fff"|02A0
+|[[ʠ]]||[[ʡ]]||[[ʢ]]||[[ʣ]]||[[ʤ]]||[[ʥ]]||[[ʦ]]||[[ʧ]]||[[ʨ]]||style="background:#ff9"|[[ʩ]]||style="background:#ff9"|[[ʪ]]||style="background:#ff9"|[[ʫ]]||style="background:#ff9"|[[ʬ]]||style="background:#ff9"|[[ʭ]]||style="background:#fcc"|[[ʮ]]||style="background:#fcc"|[[ʯ]]
+|----- align="center" style="background:#fcc"
+!style="background:#fff"|1D00
+|ᴀ||ᴁ||ᴂ||ᴃ||ᴄ||ᴅ||ᴆ||ᴇ||ᴈ||ᴉ||ᴊ||ᴋ||ᴌ||ᴍ||ᴎ||ᴏ
+|----- align="center" style="background:#fcc"
+!style="background:#fff"|1D10
+|ᴐ||ᴑ||ᴒ||ᴓ||ᴔ||ᴕ||ᴖ||ᴗ||ᴘ||ᴙ||ᴚ||ᴛ||ᴜ||ᴝ||ᴞ||ᴟ
+|----- align="center" style="background:#fcc"
+!style="background:#fff"|1D20
+|ᴠ||ᴡ||ᴢ||ᴣ||ᴤ||ᴥ||ᴦ||ᴧ||ᴨ||ᴩ||ᴪ||ᴫ||ᴬ||ᴭ||ᴮ||ᴯ
+|----- align="center" style="background:#fcc"
+!style="background:#fff"|1D30
+|ᴰ||ᴱ||ᴲ||ᴳ||ᴴ||ᴵ||ᴶ||ᴷ||ᴸ||ᴹ||ᴺ||ᴻ||ᴼ||ᴽ||ᴾ||ᴿ
+|----- align="center" style="background:#fcc"
+!style="background:#fff"|1D40
+|ᵀ||ᵁ||ᵂ||ᵃ||ᵄ||ᵅ||ᵆ||ᵇ||ᵈ||ᵉ||ᵊ||ᵋ||ᵌ||ᵍ||ᵎ||ᵏ
+|----- align="center" style="background:#fcc"
+!style="background:#fff"|1D50
+|ᵐ||ᵑ||ᵒ||ᵓ||ᵔ||ᵕ||ᵖ||ᵗ||ᵘ||ᵙ||ᵚ||ᵛ||ᵜ||ᵝ||ᵞ||ᵟ
+|----- align="center" style="background:#fcc"
+!style="background:#fff"|1D60
+|ᵠ||ᵡ||ᵢ||ᵣ||ᵤ||ᵥ||ᵦ||ᵧ||ᵨ||ᵩ||ᵪ||[[ᵫ]]||style="background:#b99"|[[ᵬ]]||style="background:#b99"|[[ᵭ]]||style="background:#b99"|[[ᵮ]]||style="background:#b99"|[[ᵯ]]
+|----- align="center" style="background:#b99"
+!style="background:#fff"|1D70
+|[[ᵰ]]||[[ᵱ]]||[[ᵲ]]||[[ᵳ]]||[[ᵴ]]||[[ᵵ]]||[[ᵶ]]||[[ᵷ]]||ᵸ||[[ᵹ]]||[[ᵺ]]||[[ᵻ]]||[[ᵼ]]||[[ᵽ]]||[[ᵾ]]||[[ᵿ]]
+|----- align="center" style="background:#b99"
+!style="background:#fff"|1D80
+|[[ᶀ]]||[[ᶁ]]||[[ᶂ]]||[[ᶃ]]||[[ᶄ]]||[[ᶅ]]||[[ᶆ]]||[[ᶇ]]||[[ᶈ]]||[[ᶉ]]||[[ᶊ]]||[[ᶋ]]||[[ᶌ]]||[[ᶍ]]||[[ᶎ]]||[[ᶏ]]
+|----- align="center" style="background:#b99"
+!style="background:#fff"|1D90
+|[[ᶐ]]||[[ᶑ]]||[[ᶒ]]||[[ᶓ]]||[[ᶔ]]||[[ᶕ]]||[[ᶖ]]||[[ᶗ]]||[[ᶘ]]||[[ᶙ]]||[[ᶚ]]||ᶛ||ᶜ||ᶝ||ᶞ||ᶟ
+|----- align="center" style="background:#b99"
+!style="background:#fff"|1DA0
+|ᶠ||ᶡ||ᶢ||ᶣ||ᶤ||ᶥ||ᶦ||ᶧ||ᶨ||ᶩ||ᶪ||ᶫ||ᶬ||ᶭ||ᶮ||ᶯ
+|----- align="center" style="background:#b99"
+!style="background:#fff"|1DB0
+|ᶰ||ᶱ||ᶲ||ᶳ||ᶴ||ᶵ||ᶶ||ᶷ||ᶸ||ᶹ||ᶺ||ᶻ||ᶼ||ᶽ||ᶾ||ᶿ
+|----- align="center" style="background:#9b9"
+!style="background:#fff"|1E00
+|[[Ḁ]]||[[ḁ]]||[[Ḃ]]||[[ḃ]]||[[Ḅ]]||[[ḅ]]||[[Ḇ]]||[[ḇ]]||[[Ḉ]]||[[ḉ]]||[[Ḋ]]||[[ḋ]]||[[Ḍ]]||[[ḍ]]||[[Ḏ]]||[[ḏ]]
+|----- align="center" style="background:#9b9"
+!style="background:#fff"|1E10
+|[[Ḑ]]||[[ḑ]]||[[Ḓ]]||[[ḓ]]||[[Ḕ]]||[[ḕ]]||[[Ḗ]]||[[ḗ]]||[[Ḙ]]||[[ḙ]]||[[Ḛ]]||[[ḛ]]||[[Ḝ]]||[[ḝ]]||[[Ḟ]]||[[ḟ]]
+|----- align="center" style="background:#9b9"
+!style="background:#fff"|1E20
+|[[Ḡ]]||[[ḡ]]||[[Ḣ]]||[[ḣ]]||[[Ḥ]]||[[ḥ]]||[[Ḧ]]||[[ḧ]]||[[Ḩ]]||[[ḩ]]||[[Ḫ]]||[[ḫ]]||[[Ḭ]]||[[ḭ]]||[[Ḯ]]||[[ḯ]]
+|----- align="center" style="background:#9b9"
+!style="background:#fff"|1E30
+|[[Ḱ]]||[[ḱ]]||[[Ḳ]]||[[ḳ]]||[[Ḵ]]||[[ḵ]]||[[Ḷ]]||[[ḷ]]||[[Ḹ]]||[[ḹ]]||[[Ḻ]]||[[ḻ]]||[[Ḽ]]||[[ḽ]]||[[Ḿ]]||[[ḿ]]
+|----- align="center" style="background:#9b9"
+!style="background:#fff"|1E40
+|[[Ṁ]]||[[ṁ]]||[[Ṃ]]||[[ṃ]]||[[Ṅ]]||[[ṅ]]||[[Ṇ]]||[[ṇ]]||[[Ṉ]]||[[ṉ]]||[[Ṋ]]||[[ṋ]]||[[Ṍ]]||[[ṍ]]||[[Ṏ]]||[[ṏ]]
+|----- align="center" style="background:#9b9"
+!style="background:#fff"|1E50
+|[[Ṑ]]||[[ṑ]]||[[Ṓ]]||[[ṓ]]||[[Ṕ]]||[[ṕ]]||[[Ṗ]]||[[ṗ]]||[[Ṙ]]||[[ṙ]]||[[Ṛ]]||[[ṛ]]||[[Ṝ]]||[[ṝ]]||[[Ṟ]]||[[ṟ]]
+|----- align="center" style="background:#9b9"
+!style="background:#fff"|1E60
+|[[Ṡ]]||[[ṡ]]||[[Ṣ]]||[[ṣ]]||[[Ṥ]]||[[ṥ]]||[[Ṧ]]||[[ṧ]]||[[Ṩ]]||[[ṩ]]||[[Ṫ]]||[[ṫ]]||[[Ṭ]]||[[ṭ]]||[[Ṯ]]||[[ṯ]]
+|----- align="center" style="background:#9b9"
+!style="background:#fff"|1E70
+|[[Ṱ]]||[[ṱ]]||[[Ṳ]]||[[ṳ]]||[[Ṵ]]||[[ṵ]]||[[Ṷ]]||[[ṷ]]||[[Ṹ]]||[[ṹ]]||[[Ṻ]]||[[ṻ]]||[[Ṽ]]||[[ṽ]]||[[Ṿ]]||[[ṿ]]
+|----- align="center" style="background:#9b9"
+!style="background:#fff"|1E80
+|[[Ẁ]]||[[ẁ]]||[[Ẃ]]||[[ẃ]]||[[Ẅ]]||[[ẅ]]||[[Ẇ]]||[[ẇ]]||[[Ẉ]]||[[ẉ]]||[[Ẋ]]||[[ẋ]]||[[Ẍ]]||[[ẍ]]||[[Ẏ]]||[[ẏ]]
+|----- align="center" style="background:#9b9"
+!style="background:#fff"|1E90
+|[[Ẑ]]||[[ẑ]]||[[Ẓ]]||[[ẓ]]||[[Ẕ]]||[[ẕ]]||[[ẖ]]||[[ẗ]]||[[ẘ]]||[[ẙ]]||[[ẚ]]||style="background:#cff"|[[ẛ]]||style="background:#666"|&nbsp;||style="background:#666"|&nbsp;||style="background:#666"|&nbsp;||style="background:#666"|&nbsp;
+|----- align="center" style="background:#9b9"
+!style="background:#fff"|1EA0
+|[[Ạ]]||[[ạ]]||[[Ả]]||[[ả]]||[[Ấ]]||[[ấ]]||[[Ầ]]||[[ầ]]||[[Ẩ]]||[[ẩ]]||[[Ẫ]]||[[ẫ]]||[[Ậ]]||[[ậ]]||[[Ắ]]||[[ắ]]
+|----- align="center" style="background:#9b9"
+!style="background:#fff"|1EB0
+|[[Ằ]]||[[ằ]]||[[Ẳ]]||[[ẳ]]||[[Ẵ]]||[[ẵ]]||[[Ặ]]||[[ặ]]||[[Ẹ]]||[[ẹ]]||[[Ẻ]]||[[ẻ]]||[[Ẽ]]||[[ẽ]]||[[Ế]]||[[ế]]
+|----- align="center" style="background:#9b9"
+!style="background:#fff"|1EC0
+|[[Ề]]||[[ề]]||[[Ể]]||[[ể]]||[[Ễ]]||[[ễ]]||[[Ệ]]||[[ệ]]||[[Ỉ]]||[[ỉ]]||[[Ị]]||[[ị]]||[[Ọ]]||[[ọ]]||[[Ỏ]]||[[ỏ]]
+|----- align="center" style="background:#9b9"
+!style="background:#fff"|1ED0
+|[[Ố]]||[[ố]]||[[Ồ]]||[[ồ]]||[[Ổ]]||[[ổ]]||[[Ỗ]]||[[ỗ]]||[[Ộ]]||[[ộ]]||[[Ớ]]||[[ớ]]||[[Ờ]]||[[ờ]]||[[Ở]]||[[ở]]
+|----- align="center" style="background:#9b9"
+!style="background:#fff"|1EE0
+|[[Ỡ]]||[[ỡ]]||[[Ợ]]||[[ợ]]||[[Ụ]]||[[ụ]]||[[Ủ]]||[[ủ]]||[[Ứ]]||[[ứ]]||[[Ừ]]||[[ừ]]||[[Ử]]||[[ử]]||[[Ữ]]||[[ữ]]
+|----- align="center" style="background:#9b9"
+!style="background:#fff"|1EF0
+|[[Ự]]||[[ự]]||[[Ỳ]]||[[ỳ]]||[[Ỵ]]||[[ỵ]]||[[Ỷ]]||[[ỷ]]||[[Ỹ]]||[[ỹ]]||style="background:#666"|&nbsp;||style="background:#666"|&nbsp;||style="background:#666"|&nbsp;||style="background:#666"|&nbsp;||style="background:#666"|&nbsp;||style="background:#666"|&nbsp;
+|----- align="center" style="background:#866"
+!style="background:#fff"|2C60
+|[[Ⱡ]]||[[ⱡ]]||[[Ɫ]]||[[Ᵽ]]||[[Ɽ]]||[[ⱥ]]||[[ⱦ]]||[[Ⱨ]]||[[ⱨ]]||[[Ⱪ]]||[[ⱪ]]||[[Ⱬ]]||[[ⱬ]]||style="background:#666"|&nbsp;||style="background:#666"|&nbsp;||style="background:#666"|&nbsp;
+|----- align="center"
+!2C70
+|style="background:#666"|&nbsp;||style="background:#666"|&nbsp;||style="background:#666"|&nbsp;||style="background:#666"|&nbsp;||style="background:#866"|[[ⱴ]]||style="background:#866"|[[Ⱶ]]||style="background:#866"|[[ⱶ]]||style="background:#866"|[[ⱷ]]||style="background:#666"|&nbsp;||style="background:#666"|&nbsp;||style="background:#666"|&nbsp;||style="background:#666"|&nbsp;||style="background:#666"|&nbsp;||style="background:#666"|&nbsp;||style="background:#666"|&nbsp;||style="background:#666"|&nbsp;
+|----- align="center" style="background:#666"
+!style="background:#fff"|A720
+|style="background:#866"|꜠||style="background:#866"|꜡||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;
+|----- align="center" style="background:#666"
+!style="background:#fff"|A730
+|&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;
+|----- align="center" style="background:#666"
+!style="background:#fff"|A740
+|&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;
+|----- align="center" style="background:#666"
+!style="background:#fff"|A750
+|&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;
+|----- align="center" style="background:#666"
+!style="background:#fff"|A760
+|&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;
+|----- align="center" style="background:#666"
+!style="background:#fff"|A770
+|&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;
+|----- align="center" style="background:#666"
+!style="background:#fff"|A780
+|&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;
+|----- align="center" style="background:#666"
+!style="background:#fff"|A790
+|&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;
+|----- align="center" style="background:#666"
+!style="background:#fff"|A7A0
+|&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;
+|----- align="center" style="background:#666"
+!style="background:#fff"|A7B0
+|&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;
+|----- align="center" style="background:#666"
+!style="background:#fff"|A7C0
+|&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;
+|----- align="center" style="background:#666"
+!style="background:#fff"|A7D0
+|&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;
+|----- align="center" style="background:#666"
+!style="background:#fff"|A7E0
+|&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;
+|----- align="center" style="background:#666"
+!style="background:#fff"|A7F0
+|&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;
+|----- align="center"
+!FB00
+|style="background:#9b9"|[[ﬀ]]||style="background:#9b9"|[[ﬁ]]||style="background:#9b9"|[[ﬂ]]||style="background:#9b9"|[[ﬃ]]||style="background:#9b9"|[[ﬄ]]||style="background:#9b9"|[[ﬅ]]||style="background:#9b9"|[[ﬆ]]||style="background:#666"|&nbsp;||style="background:#666"|&nbsp;||style="background:#666"|&nbsp;||style="background:#666"|&nbsp;||style="background:#666"|&nbsp;||style="background:#666"|&nbsp;||style="background:#666"|&nbsp;||style="background:#666"|&nbsp;||style="background:#666"|&nbsp;
+|---- align="center" style="background:#cfc"
+!style="background:#fff"|FF20
+|＠||[[Ａ]]||[[Ｂ]]||[[Ｃ]]||[[Ｄ]]||[[Ｅ]]||[[Ｆ]]||[[Ｇ]]||[[Ｈ]]||[[Ｉ]]||[[Ｊ]]||[[Ｋ]]||[[Ｌ]]||[[Ｍ]]||[[Ｎ]]||[[Ｏ]]
+|---- align="center" style="background:#cfc"
+!style="background:#fff"|FF30
+|[[Ｐ]]||[[Ｑ]]||[[Ｒ]]||[[Ｓ]]||[[Ｔ]]||[[Ｕ]]||[[Ｖ]]||[[Ｗ]]||[[Ｘ]]||[[Ｙ]]||[[Ｚ]]||［||＼||］||＾||＿
+|---- align="center" style="background:#cfc"
+!style="background:#fff"|FF40
+|｀||[[ａ]]||[[ｂ]]||[[ｃ]]||[[ｄ]]||[[ｅ]]||[[ｆ]]||[[ｇ]]||[[ｈ]]||[[ｉ]]||[[ｊ]]||[[ｋ]]||[[ｌ]]||[[ｍ]]||[[ｎ]]||[[ｏ]]
+|---- align="center" style="background:#cfc"
+!style="background:#fff"|FF50
+|[[ｐ]]||[[ｑ]]||[[ｒ]]||[[ｓ]]||[[ｔ]]||[[ｕ]]||[[ｖ]]||[[ｗ]]||[[ｘ]]||[[ｙ]]||[[ｚ]]||｛||｜||｝||～||style="background:#885"|｟
+|}
+
+
+
+[[category:agemmay]]
+
+[[af:Latynse alfabet]]
+[[als:Lateinisches Alphabet]]
+[[ar:كتابة لاتينية]]
+[[ast:Alfabetu llatinu]]
+[[zh-min-nan:Lô-má-jī]]
+[[be:Лацінскі альфабэт]]
+[[bs:Latinica]]
+[[bg:Латинска азбука]]
+[[ca:Alfabet llatí]]
+[[cs:Latinka]]
+[[de:Lateinisches Alphabet]]
+[[arc:ܐܠܦܒܝܬ ܠܬܝܢܝܐ]]
+[[el:Λατινικό αλφάβητο]]
+[[en:Latin alphabet]]
+[[es:Alfabeto latino]]
+[[eo:Latina alfabeto]]
+[[eu:Latindar alfabeto]]
+[[fa:الفبای لاتین]]
+[[fr:Alphabet latin]]
+[[fur:Alfabet latin]]
+[[ga:Aibítir Laidineach]]
+[[gl:Alfabeto latino]]
+[[ko:로마자]]
+[[hi:रोमन लिपि]]
+[[hr:Latinica]]
+[[io:Latinal alfabeto]]
+[[id:Abjad Latin]]
+[[is:Latneskt stafróf]]
+[[it:Alfabeto latino]]
+[[he:אלפבית לטיני]]
+[[ka:ლათინური დამწერლობა]]
+[[la:Abecedarium Latinum]]
+[[lv:Latīņu alfabēts]]
+[[hu:Latin írás]]
+[[ms:Rumi]]
+[[nl:Latijns alfabet]]
+[[ja:ラテン文字]]
+[[no:Det latinske alfabetet]]
+[[nn:Det latinske alfabetet]]
+[[nrm:Alphabet latin]]
+[[pl:Alfabet łaciński]]
+[[pt:Alfabeto latino]]
+[[ro:Alfabetul latin]]
+[[rmy:Latinikano lekhipen]]
+[[ru:Латинский алфавит]]
+[[sq:Alfabeti latin]]
+[[ru-sib:Абевега латинска]]
+[[simple:Roman alphabet]]
+[[sl:Latinica]]
+[[sr:Латиница]]
+[[sh:Latinica]]
+[[fi:Latinalaiset aakkoset]]
+[[sv:Latinska alfabetet]]
+[[tl:Alpabetong Latin]]
+[[tt:Latín älifba]]
+[[th:อักษรละติน]]
+[[tr:Latin abecesi]]
+[[uk:Латинська абетка]]
+[[zh:拉丁字母]]
