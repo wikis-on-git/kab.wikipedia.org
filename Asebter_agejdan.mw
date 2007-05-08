@@ -29,6 +29,8 @@
 |}
 <!-- End Imagraden-->
 
+
+<!-- Start Rose-->
 {|style="border-spacing:8px;margin:-8px -8px"
 |class="MainPageBG" style="width:100%; border:1px solid #FFB3B3; background-color:#faf5ff; vertical-align:top; color:#000"|
 {|cellpadding="2" cellspacing="5" style="vertical-align:top; background-color:#FFECEC; color:#000"
@@ -42,7 +44,7 @@
 |-
 |}
 |}
-
+<!-- End Rose-->
 {{MainPageInterwikis}}
 
 __NOTOC__ __NOEDITSECTION__
