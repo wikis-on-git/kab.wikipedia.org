@@ -1,45 +1,6 @@
 <div id="mainpage"></div>
 <!-- Beginning of header section -->
-{|style="width:100%; margin-top:+.7em; background-color:#fcfcfc; border:1px solid #ccc"
-|style="width:66%; color:#000"|
-{|style="width:280px; border:solid 0px; background:none"
-|-
-|style="width:30%;text-align:center;white-space:nowrap;color:#000" |
-<div style="font-size:162%; border:none; margin: 0; padding:.1em; color:#000"> Anṣuf yis-wen ar [[Wikipedia]] s [[Taqbaylit|Teqbaylit]] </div>
-<div style="top:+0.2em; font-size: 95%"> Tasanayt tilellit-agi, [[Wikipedia:How to edit a page|Myal yiwen yezmer a tt-ibeddel]]. </div>
-<div id="articlecount" style="width:100%;text-align:center;font-size:85%;"> Nadi ger [[Special:Statistics|'''{{NUMBEROFARTICLES}}''']] [[Tallat:amagrad|imagraden]] s [[Tallat:Kab.wiki|teqbaylit]]:
-<inputbox>
-type=search2
-searchbuttonlabel=Ricerca
-buttonlabel=Nadi
-width=19
-id=MP
-</inputbox> </div>
-|}
-|style="width:33%; color:#000"|<!-- Portals Follow -->
-{| align="right" cellpadding="1" style="font-size: 85%;background:none"
-|style="padding-right: 5px" | [[image:Nuvola_apps_localeSLO.png|15px]]
-|style="padding-right: 15px" | [[:Awwur:Timetti|Timetti]]
-|style="padding-right: 5px" | [[image:Nuvola apps kdmconfig.png|15px]]
-|style="padding-right: 15px" | [[:Awwur:Tameddurt|Tameddurt]]
-|style="padding-right: 5px" | [[Image:Nuvola apps kcoloredit.png|15px]]
-|style="padding-right: 15px" | [[:Awwur:Taẓuri|Taẓuri]]
-|-
-|style="padding-right: 5px" | [[image:Nuvola philosophy.png|16px]]
-|style="padding-right: 15px" | [[:Awwur:Tafelsuft|Tafelsuft]] 
-|style="padding-right: 5px" | [[image:Nuvola apps edu mathematics.png|15px]]
-|style="padding-right: 15px" | [[:Awwur:Tusnakt|Tusnakt]]
-|style="padding-right: 5px" | [[image:Museum btn.png|15px]]
-|style="padding-right: 15px" | [[:Awwur:Amezruy|Amezruy]]
-|-
-|style="padding-right: 5px" | [[image:Nuvola apps browser.png|15px]]
-|style="padding-right: 15px" | [[:Awwur:Tarakalt|Tarakalt]]
-|style="padding-right: 5px" | [[image:Nuvola apps kcmsystem.png|15px]]
-|style="padding-right: 15px" | [[:Awwur:Teknoloji|Teknoloji]] 
-|style="padding-right: 5px" | [[image:Nuvola apps kalzium.png|15px]]
-|style="padding-right: 15px" | [[:Awwur:Tussna|Tussna]]
-|}
-|}
+{{Banner}}
 <div style="font-family:Arial Unicode MS, Tahoma;">
 <!-- End Portals -->
 
@@ -66,8 +27,8 @@ id=MP
 |style="color:#000"|{{POTD row}} <!-- standardize format with other Pic of the day features --> 
 |-
 |}
+|}
 
-|}<!-- Start of Featured Picture --> 
 {|style="border-spacing:8px;margin:-8px -8px"
 |class="MainPageBG" style="width:100%; border:1px solid #ddcef2; background-color:#faf5ff; vertical-align:top; color:#000"|
 {|cellpadding="2" cellspacing="5" style="vertical-align:top; background-color:#faf5ff; color:#000"
@@ -78,9 +39,6 @@ id=MP
 |}
 |}
 
-<!-- à traduire !!!!
-==Imkanen nniḍen deg Wikipedia==
-{{WikipediaOther}}<!--Template:WikipediaOther-->  
 
 {|style="border-spacing:8px;margin:-8px -8px"
 |class="MainPageBG" style="width:100%; border:1px solid #FFB3B3; background-color:#faf5ff; vertical-align:top; color:#000"|
@@ -94,8 +52,9 @@ id=MP
 |style="color:#000"|{{Wikipedialang}}
 |-
 |}
-|}__NOTOC__ __NOEDITSECTION__
-<!--{{newpagelinksmain}}--><!--Template:Newpagelinksmain-->
-{{MainPageInterwikis}}<!--Template:MainPageInterwikis-->
+|}
 
+{{MainPageInterwikis}}
+
+__NOTOC__ __NOEDITSECTION__
 </div>
