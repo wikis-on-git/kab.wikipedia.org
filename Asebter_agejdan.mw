@@ -42,13 +42,7 @@ id=MP
 |}
 <div style="font-family:Arial Unicode MS, Tahoma;">
 <!-- End Portals -->
-<!--à traduire
-{|style="width:100%;background:none;margin:-.8em 0 -.7em 0"
-|style="font-size:95%;text-align:left;white-space:nowrap;color:#000"|[[Wikipedia:About|Overview]] '''·'''  [[Wikipedia:Tutorial|Editing]] '''·''' [[Wikipedia:Questions|Questions]] '''·''' [[Help:Contents|Help]]
-|style="font-size:95%;padding:10px 0;margin:0px;text-align:right;white-space:nowrap;color:#000"|
-[[Wikipedia:Contents|Contents]] '''·''' [[Wikipedia:Categorical index|Categories]] '''·''' [[Wikipedia:Featured content|Featured content]] '''·''' [[Wikipedia:Quick index|A–Z index]]
-|}
--->
+
 {|style="border-spacing:8px;margin:0px -8px"
 |class="MainPageBG" style="width:55%;border:1px solid #cef2e0;background-color:#f5fffa;vertical-align:top;color:#000"|
 {|width="100%" cellpadding="2" cellspacing="5" style="vertical-align:top;background-color:#f5fffa"
