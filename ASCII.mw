@@ -1,0 +1,68 @@
+'''ANGAL (CODE) ASCII''', Aselkim ifehhem anagar tameslayt n uselkim (langage machine).
+Ameslay n uselkim d azrar n "0" d "1", d talɣa timisint (forme binaire). Mi ara neẓreg (éditer) azamul (d asekkil neɣ d amḍan..), azamul-a ad yettwasuqqel ɣer tmeslayt n uselkim ; yal azamul yellan ɣef unasiw (clavier), ɣur-s azal-is d angal (code).
+Gar wengalen yellan : ASCII, tanselfat (sigle) n (American Standard Code for Information Interchange), angal s tizeɣt amarikan n usmeksel n tilɣa.
+Anagalt-a d win n yemḍanen d yisekkilen d tecraḍ n usenqeḍ (signes de ponctuations) n tecraḍ nniḍen.
+Angal ASCII, deg-s 256 n wengalen. Tebḍa ɣef sin yeḥricen, yal aḥric deg-s 128.
+
+==Angalen isluganen: (codes standards)== 
+Seg 0 ar 31, d angalen n usenqed (contrôle) n taywalt (communication) d wayen yeɛnan tsaggazt (impimente). Ticraḍ n wengalen-a ur d-teffɣent ara ɣef ugdil (écran), d ilem.
+Seg 32 ar 127, d angalen n tecraḍ n usenqeḍ d yemḍanen (0 ar 9) d yisekkilen imeqqranen, imeẓyanen n ugemmay Arumani. Ticraḍ n wengalen-a teffɣent-d ɣef ugdil.
+
+==Angalen isakaken : (codes étendus)==
+Seg 128 ar 255, d tanaglin n wid i d-isnulfuyen iseɣẓanen (les logiciels).
+
+== Tamselyut ==
+*[http://www.imyura.net/Timenza/tabid/57/articleType/ArticleView/articleId/142/Awal-ef-uselkim-su-Y-At-Yiil.aspx www.imyura.net]
+
+[[Category:Teknoloji]]
+[[als:ASCII]]
+[[ar:آسكي]]
+[[ast:ASCII]]
+[[zh-min-nan:ASCII]]
+[[bs:ASCII]]
+[[bg:ASCII]]
+[[ca:ASCII]]
+[[cs:ASCII]]
+[[da:ASCII]]
+[[de:ASCII]]
+[[el:ASCII]]
+[[es:American Standard Code for Information Interchange]]
+[[eo:Askio]]
+[[eu:ASCII]]
+[[en:ASCII]]
+[[fr:American Standard Code for Information Interchange]]
+[[ga:ASCII]]
+[[gl:ASCII]]
+[[ko:ASCII]]
+[[hr:ASCII]]
+[[id:ASCII]]
+[[ia:ASCII]]
+[[it:ASCII]]
+[[he:ASCII]]
+[[ku:ASCII]]
+[[lv:ASCII]]
+[[lt:ASCII]]
+[[hu:ASCII]]
+[[ms:ASCII]]
+[[nl:ASCII (tekenset)]]
+[[ja:American Standard Code for Information Interchange]]
+[[no:ASCII]]
+[[nn:ASCII]]
+[[nds:ASCII]]
+[[pl:ASCII]]
+[[pt:ASCII]]
+[[ksh:ASCII]]
+[[ro:ASCII]]
+[[ru:ASCII]]
+[[sq:ASCII]]
+[[sk:ASCII]]
+[[sl:ASCII]]
+[[sr:Аски]]
+[[fi:ASCII]]
+[[sv:ASCII]]
+[[th:แอสกี]]
+[[vi:ASCII]]
+[[tr:ASCII]]
+[[uk:ASCII]]
+[[ur:امریکی معیاری رمز براۓ اطلاعاتی تبادلہ]]
+[[zh:ASCII]]
