@@ -2,7 +2,6 @@
 <!-- Beginning of header section -->
 {{Banner}}
 <!-- End Portals -->
-
 <!-- Start Imagraden-->
 {|style="border-spacing:8px;margin:-8px -8px"
 |class="MainPageBG" style="width:100%; border:1px solid #cef2e0; background-color:#f5fffa; vertical-align:top; color:#000"|
@@ -14,8 +13,6 @@
 |}
 |}
 <!-- End Imagraden-->
-
-
 <!-- Start Tasanaytt -->
 {|style="border-spacing:8px;margin:-8px -8px"
 |class="MainPageBG" style="width:100%; border:1px solid #ddcef2; background-color:#faf5ff; vertical-align:top; color:#000"|
@@ -27,8 +24,6 @@
 |}
 |}
 <!-- End Tasanayt -->
-
-
 <!-- Start Rose-->
 {|style="border-spacing:8px;margin:-8px -8px"
 |class="MainPageBG" style="width:100%; border:1px solid #FFB3B3; background-color:#faf5ff; vertical-align:top; color:#000"|
