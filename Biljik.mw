@@ -1,14 +1,24 @@
-<div style="font-family:Arial Unicode MS, Tahoma;">
-<table border="1" cellpadding="2" cellspacing="0" align="right" style="margin-left:0.5em;" width="300px">
-<caption><font size="-0">'''Tigelda n Biljik'''</font></caption>
-<tr><td style="background:#efefef;" align" colspan="2">
-<table border="0" " cellspacing="0">
-<tr><td align="center" width="140px">[[image_drapeau=Flag_of_Belgium.svg |
-lien_drapeau=Drapeau de la Belgique ]]</td>
-<td align="center" width="140px">[[image:France coa.png|125px]]</td></tr>
-</table></td></tr>
-
-==Amezruy==
-
-
-[[Category:Timura n turuft]]
+{{Infobox Country or territory
+|native_name              = ''Koninkrijk België''<br/>''Royaume de Belgique''<br/>''Königreich Belgien''
+|conventional_long_name   = Tigelda n Biljik
+|common_name              = Biljik
+|image_flag               = Flag of Belgium.svg
+|image_coat               = Belgium coat of arms large.png
+|symbol_type              = Coat of arms
+|image_map                = EU location BEL.png
+|map_caption              = {{map_caption |region=[[Europe]] |subregion=the [[European Union]] |legend=European location legend en.png}}
+|official_languages       = [[Tanirlandit]], [[Tafransit]], [[Talmanit]]
+|capital                  = [[Bruxelles]]
+|Timdinin timeqranin      = Anvers, Gand, Charleroi, Liège, Bruxelles, Bruges, Namur
+|leader_title1            = [[Belgian monarchy|King]]
+|leader_title2            = [[List of Prime Ministers of Belgium|Prime Minister]]
+|leader_name1             = [[Albert II of Belgium|Albert II]]
+|leader_name2             = [[Guy Verhofstadt]]
+|area                     = 30,528
+|areami²                  = 11,787 <!--Do not remove per [[WP:MOSNUM]]-->
+|population_census        = 10,296,350
+|population_census_year   = 2001
+|population_density       = 344.32<!--Infobox template cannot properly show: ref name=statbel2-->
+|population_density_rank  = <small>2006</small>) (29th&nbsp;<small>[2005]</small>
+|population_densitymi²    = 892 <!--Do not remove [[WP:MOSNUM]]-->
+}}
