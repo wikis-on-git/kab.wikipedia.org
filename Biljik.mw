@@ -1,24 +1,16 @@
-{{Infobox Country or territory
-|native_name              = ''Koninkrijk België''<br/>''Royaume de Belgique''<br/>''Königreich Belgien''
-|conventional_long_name   = Tigelda n Biljik
-|common_name              = Biljik
-|image_flag               = Flag of Belgium.svg
-|image_coat               = Belgium coat of arms large.png
-|symbol_type              = Coat of arms
-|image_map                = EU location BEL.png
-|map_caption              = {{map_caption |region=[[Europe]] |subregion=the [[European Union]] |legend=European location legend en.png}}
-|official_languages       = [[Tanirlandit]], [[Tafransit]], [[Talmanit]]
-|capital                  = [[Bruxelles]]
-|Timdinin timeqranin      = Anvers, Gand, Charleroi, Liège, Bruxelles, Bruges, Namur
-|leader_title1            = [[Belgian monarchy|King]]
-|leader_title2            = [[List of Prime Ministers of Belgium|Prime Minister]]
-|leader_name1             = [[Albert II of Belgium|Albert II]]
-|leader_name2             = [[Guy Verhofstadt]]
-|area                     = 30,528
-|areami²                  = 11,787 <!--Do not remove per [[WP:MOSNUM]]-->
-|population_census        = 10,296,350
-|population_census_year   = 2001
-|population_density       = 344.32<!--Infobox template cannot properly show: ref name=statbel2-->
-|population_density_rank  = <small>2006</small>) (29th&nbsp;<small>[2005]</small>
-|population_densitymi²    = 892 <!--Do not remove [[WP:MOSNUM]]-->
-}}
+<table class="infobox geography vcard" style="width:46ex; margin-top:0.75em;">
+<tr>
+<th colspan="3" align="center" class="mergedtoprow adr" style="line-height:1.2em; padding:0.25em 0.33em 0.33em; font-size:1.25em;"><i>Koninkrijk België</i><br />
+<i>Royaume de Belgique</i><br />
+<i>Königreich Belgien</i>
+<div class="fn org country-name" style="padding-top:0.25em;">Tigelda n Biljik</div>
+</th>
+</tr>
+<tr class="mergedtoprow">
+<td class="maptable" colspan="3" align="center" style="padding:0.5em 0;">
+<table align="center" style="width:100%; background:none;">
+<tr>
+<td align="center" style="width:58%; vertical-align:middle;"><span style="display:inline;"><span style="display:table-cell; border:1px solid #ddd;"><a href="/wiki/Image:Flag_of_Belgium.svg" class="image" title="Asengaq n Biljik"><img alt=" Asengaq n Biljik" longdesc="/wiki/Image:Flag_of_Belgium.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/125px-Flag_of_Belgium.svg.png" width="125" height="108" /></a></span></span></td>
+<td align="center" style="width:auto; vertical-align:middle;"><a href="/wiki/Image:Belgium_coat_of_arms_large.png" class="image” > longdesc="/wiki/Image:Belgium_coat_of_arms_large.png" src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Belgium_coat_of_arms_large.png/85px-Belgium_coat_of_arms_large.png" width="85" height="86" /></a></td>
+</tr>
+</table>
