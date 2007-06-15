@@ -3,7 +3,7 @@ nom_local1=Royaume de Belgique |
 nom_local2=Koninkrijk België   |
 nom_local3=Königreich Belgien  |
 nom_loca14=Bélgica             |
-isem_aqbayli=Tigelda n Biljik  |
+isem_aqbayli='''Tigelda n Biljik''' |
 image_drapeau=Flag_of_Belgium.svg |
 lien_drapeau=Drapeau de la Belgique |
 image_blason=COA of Government of Belgium.svg |
@@ -12,21 +12,20 @@ image_carte=EU location BEL.png |
 devise=|
 }}
 {{Tutlayin Tunṣibin|[[tafransist]], [[taneerlandit]], [[talmanit]]}}
-{{timdinin tmurt|tamanaɣt=[[Bruxelles]]|coordonnées_capitale=|
-timdinin_timeqranin=[[Anvers]], [[Gand]], [[Charleroi]], [[Liège]], [[Bruxelles-ville|Bruxelles]], [[Bruges]], [[Namur]]}}
-|- valign="top"
-| '''[[Liste des rois des Belges|Agelid]]'''
-| [[Albert II de Belgique|Albert II]]
-|- valign="top"
-| '''[[Aneɣlaf Amenzu]]'''
-| [[Guy Verhofstadt]]
+{{timdinin tmurt|tamanaɣt=[[Bruxelles]]|aseɣwen_timdinin=|
+| titre_timdinin_timeqranin=|
+| timdinin_timeqranin=[[Anvers]], [[Gand]], [[Charleroi]], [[Liège]], [[Bruxelles-ville|Bruxelles]], [[Bruges]], [[Namur]]|
+}}
 
 {{timunent tmurt
-| tamurt_timunent = Si Timura n Wadda
-| tawsit_tmunent=Azemz
+| tamurt_timunent = Si [[Timura n Wadda]]
+| tawsit_tmunent=
 | azemz_tmunent=1830
 }}
-{{Aqarid]]=|tangalt_aqarid=[[Euro]]}}
+{{aqarid tmurt
+| aqarid=Euro
+| tangalt uqarid=
+}}
 {{taɣult internet tmurt|.be}}
 {{tasarutt tatilifunit tmurt|32}}
 |}
