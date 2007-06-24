@@ -1,9 +1,6 @@
 <div id="mainpage"></div>
-<div style="clear:both;padding:1em 0 0 0;">
-{|border="0" width="100%" style="border:1px solid #FF5151;background-color:#FFEA2D;"
-|style="padding-right:4px;"| '''Ẓer''' : [[Wikipedia:Lvoṭ ɣef yinedbalen|Lvoṭ ɣef yinedbalen]].
-|}
-</div>
+<div style="background-color:#FFEA7D;border:2px solid #EF9A3A;padding:0 0.1em 0 0.1em">
+'''Ẓer''' : [[Wikipedia:Lvoṭ ɣef yinedbalen|Lvoṭ ɣef yinedbalen]].</div>
 <!-- Beginning of header section -->
 {{Banner}}
 {| width="100%"
