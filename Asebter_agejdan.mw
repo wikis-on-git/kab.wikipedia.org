@@ -1,4 +1,4 @@
-<div id="mainpage"></div>
+<div id="mainpage" style="position:absolute;top:0px;>
 
 <!-- Beginning of header section -->
 {{Banner}}
@@ -52,7 +52,7 @@
 
 </div>
 
-</div>
+<!--/div-->
 <!--/div-->
 
 <div style="margin:0 10px 10px 0; border:1px solid #9999c0; padding: 0em 1em 1em 1em; background-color:#dfdfef; align:left;">
@@ -72,6 +72,6 @@
 <!--/div-->
 </div>
 |}
-
+</div>
 {{MainPageInterwikis}}
 __NOTOC__ __NOEDITSECTION__
