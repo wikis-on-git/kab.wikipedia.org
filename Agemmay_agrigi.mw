@@ -6,6 +6,276 @@ Igrigiyen ṭṭfen agemmay afiniqi u rnan-t [[tiɣra]] (voyelles), yuɣ lḥal 
 
 Agemmay agrigi yettwura seg uzelmaḍ ɣer uyeffus. Yettubeddel geddac tikkwal u yefka-d aṭas n igemmayen : [[Agemmay alatini|Alatini]], [[Agemmay aqebṭi|Aqebṭi]], [[Ssirilik]]... atg. 
 
+
+
+{| border="1" cellpadding="3" cellspacing="0" style="border-collapse: collapse;text-align:center"
+! rowspan="2" style="background:#ccf;" | Letter
+! colspan="4" style="background:#ccf;" | Name
+! colspan="2" style="background:#ccf;" | Pronunciation
+! rowspan="2" style="background:#ccf;" | Corresponding<br />[[Phoenician alphabet|Phoenician]]<br />letter
+! colspan="2" style="background:#ccf;" | [[Transliteration of Greek to the Latin alphabet|Transliteration]]<sup>1</sup> <!-- footnote explains caveats -->
+! rowspan="2" style="background:#ccf;" | [[Greek numerals|Numeric value]]
+|-
+! style="background:#ccffff;" | Ancient<br />Greek
+! style="background:#ccffff;" | Medieval<br />Greek<br />(polytonic)
+! style="background:#ccffff;" | Modern<br />Greek
+! style="background:#ccffff;" | English
+! style="background:#ccffff;" | Classical<br />Ancient<br />Greek
+! style="background:#ccffff;" | Modern<br />Greek
+! style="background:#ccffff;" | Ancient<br />Greek
+! style="background:#ccffff;" | Modern<br />Greek
+|-
+|style="font-size:133%;"|Α α
+| colspan="2" | {{polytonic|ἄλφα}}
+| άλφα
+| [[Alpha (letter)|Alpha]]
+| {{IPA|[a] [aː]}}
+| {{IPA|[a]}}
+| [[Image:phoenician_aleph.png|20px|Aleph]] [[Aleph (letter)|Aleph]]
+| colspan="2" | a
+| 1
+|-
+|style="font-size:133%;"|Β β
+| colspan="2" | {{polytonic|βῆτα}}
+| βήτα
+| [[Beta (letter)|Beta]]
+| {{IPA|[b]}}
+| {{IPA|[v]}}
+| [[Image:phoenician_beth.png|20px|Beth]] [[Beth (letter)|Beth]]
+| b
+| v
+| 2
+|-
+|style="font-size:133%;"|Γ γ
+| colspan="2" | {{polytonic|γάμμα}}
+| γάμμα<br />γάμα
+| [[Gamma (letter)|Gamma]]
+| {{IPA|[g]}}
+| {{IPA|[{{Unicode|ɣ}}~{{Unicode|ʝ}}]
+| [[Image:phoenician_gimel.png|20px|Gimel]] [[Gimel (letter)|Gimel]]
+| g
+| gh, g, y
+| 3
+|-
+|style="font-size:133%;"|Δ δ
+| colspan="2" | {{polytonic|δέλτα}}
+| δέλτα
+| [[Delta (letter)|Delta]]
+| {{IPA|[d]}}
+| {{IPA|[ð]}}
+| [[Image:phoenician_daleth.png|20px|Daleth]] [[Daleth]]
+| d
+| d, dh
+| 4
+|-
+|style="font-size:133%;"|Ε ε
+| {{polytonic|εἶ}}
+| {{polytonic|έ ψιλόν}}
+| έψιλον
+| [[Epsilon]]
+| colspan="2" | {{IPA|[e]}}
+| [[Image:phoenician_he.png|20px|He]] [[He (letter)|He]]
+| colspan="2" | e
+| 5
+|-
+|style="font-size:133%;"|Ζ ζ
+| colspan="2" | {{polytonic|ζήτα}}
+| ζήτα
+| [[Zeta (letter)|Zeta]]
+| {{IPA|[zd]}}<br/>([[Zeta (letter)#Pronunciation|or {{IPA|[dz]}}?]])<br/>later {{IPA|[zː]}}
+| {{IPA|[z]}}
+| [[Image:phoenician_zayin.png|20px|Zayin]] [[Zayin]]
+| colspan="2" | z
+| 7
+|-
+|style="font-size:133%;"|Η η
+| colspan="2" | {{polytonic|ἦτα}}
+| ήτα
+| [[Eta (letter)|Eta]]
+| {{IPA|[ɛː]}}
+| {{IPA|[i]}}
+| [[Image:phoenician_heth.png|20px|Heth]] [[Heth (letter)|Heth]]
+| e, ē
+| i
+| 8
+|-
+|style="font-size:133%;"|Θ θ
+| colspan="2" | {{polytonic|θῆτα}}
+| θήτα
+| [[Theta (letter)|Theta]]
+| {{IPA|[tʰ]}}
+| {{IPA|[θ]}}
+| [[Image:phoenician_teth.png|20px|Teth]] [[Teth]]
+| colspan="2" | th
+| 9
+|-
+|style="font-size:133%;"|Ι ι
+| colspan="2" | {{polytonic|ἰῶτα}}
+| ιώτα<br />γιώτα
+| [[Iota (letter)|Iota]]
+| {{IPA|[i] [iː]}}
+| {{IPA|[i]}}, {{IPA|[j]}}
+| [[Image:phoenician_yodh.png|20px|Yodh]] [[Yodh]]
+| colspan="2" | i
+| 10
+|-
+|style="font-size:133%;"|Κ κ
+| colspan="2" | {{polytonic|κάππα}}
+| κάππα<br />κάπα
+| [[Kappa (letter)|Kappa]]
+| {{IPA|[k]}}
+| {{IPA|[k~c]}}
+| [[Image:phoenician_kaph.png|20px|Kaph]] [[Kaph]]
+| colspan="2" | k
+| 20
+|-
+|style="font-size:133%;"|Λ λ
+| {{polytonic|λάβδα}}
+| {{polytonic|λάμβδα}}
+| λάμδα<br />λάμβδα
+| [[Lambda (letter)|Lambda]]
+| colspan="2" | {{IPA|[l]}}
+| [[Image:phoenician_lamedh.png|20px|Lamedh]] [[Lamedh]]
+| colspan="2" | l
+| 30
+|-
+|style="font-size:133%;"|Μ μ
+| colspan="2" | {{polytonic|μῦ}}
+| μι<br />μυ
+| [[Mu (letter)|Mu]]
+| colspan="2" | {{IPA|[m]}}
+| [[Image:phoenician_mem.png|20px|Mem]] [[Mem]]
+| colspan="2" | m
+| 40
+|-
+|style="font-size:133%;"|Ν ν
+| colspan="2" | {{polytonic|νῦ}}
+| νι<br />νυ
+| [[Nu (letter)|Nu]]
+| colspan="2" | {{IPA|[n]}}
+| [[Image:phoenician_nun.png|20px|Nun]] [[Nun (letter)|Nun]]
+| colspan="2" | n
+| 50
+|-
+|style="font-size:133%;"|Ξ ξ
+| {{polytonic|ξεῖ}}
+| {{polytonic|ξῖ}}
+| ξι
+| [[Xi (letter)|Xi]]
+| colspan="2" | {{IPA|[ks]}}
+| [[Image:phoenician_samekh.png|20px|Samekh]] [[Samekh]]
+| x
+| x, ks
+| 60
+|-
+|style="font-size:133%;"|Ο ο
+| {{polytonic|οὖ}}
+| {{polytonic|ὂ μικρόν}}
+| όμικρον
+| [[Omicron]]
+| colspan="2" | {{IPA|[o]}}
+| [[Image:phoenician_ayin.png|20px|Ayin]] [[Ayin|'Ayin]]
+| colspan="2" | o
+| 70
+|-
+|style="font-size:133%;"|Π π
+| {{polytonic|πεῖ}}
+| {{polytonic|πῖ}}
+| πι
+| [[Pi (letter)|Pi]]
+| colspan="2" | {{IPA|[p]}}
+| [[Image:phoenician_pe.png|20px|Pe]] [[Pe (letter)|Pe]]
+| colspan="2" | p
+| 80
+|-
+|style="font-size:133%;"|Ρ ρ
+| colspan="2" | {{polytonic|ῥῶ}}
+| ρω
+| [[Rho (letter)|Rho]]
+| {{IPA|[r]}}, {{IPA|[r̥]}}
+| {{IPA|[r]}}
+| [[Image:phoenician_res.png|20px|Res]] [[Resh]]
+| r ({{polytonic|ῥ}}: rh)
+| r
+| 100
+|-
+| <span style="font-size:133%;">Σ σ<br />ς</span> (final)
+| colspan="2" | {{polytonic|σῖγμα}}
+| σίγμα
+| [[Sigma (letter)|Sigma]]
+| colspan="2" | {{IPA|[s]}}
+| [[Image:phoenician_sin.png|20px|Sin]] [[Shin (letter)|Shin]]
+| colspan="2" | s
+| 200
+|-
+|style="font-size:133%;"|Τ τ
+| colspan="2" | {{polytonic|ταῦ}}
+| ταυ
+| [[Tau (letter)|Tau]]
+| colspan="2" | {{IPA|[t]}}
+| [[Image:phoenician_taw.png|20px|Taw]] [[Taw (letter)|Taw]]
+| colspan="2" | t
+| 300
+|-
+|style="font-size:133%;"|Υ υ
+| {{polytonic|ὗ}}
+| {{polytonic|ὓ ψιλόν}}
+| ύψιλον
+| [[Upsilon (letter)|Upsilon]]
+| {{IPA|[y] [yː]<br />(earlier [u] [uː])}}
+| {{IPA|[i]}}
+| [[Image:phoenician_waw.png|20px|Waw]] [[Waw (letter)|Waw]]
+| u, y
+| y, v, f
+| 400
+|-
+|style="font-size:133%;"|Φ φ
+| {{polytonic|φεῖ}}
+| {{polytonic|φῖ}}
+| φι
+| [[Phi (letter)|Phi]]
+| {{IPA|[pʰ]}}
+| {{IPA|[f]}}
+| rowspan="3" | origin disputed<br />(see text)
+| ph
+| f
+| 500
+|-
+|style="font-size:133%;"|Χ χ
+| {{polytonic|χεῖ}}
+| {{polytonic|χῖ}}
+| χι
+| [[Chi (letter)|Chi]]
+| {{IPA|[kʰ]}}
+| {{IPA|[x~ç]}}
+| ch
+| ch, kh
+| 600
+|-
+|style="font-size:133%;"|Ψ ψ
+| {{polytonic|ψεῖ}}
+| {{polytonic|ψῖ}}
+| ψι
+| [[Psi (letter)|Psi]]
+| colspan="2" | {{IPA|[ps]}}
+| colspan="2" | ps
+| 700
+|-
+|style="font-size:133%;"|Ω ω
+| {{polytonic|ὦ}}
+| {{polytonic|ὦ μέγα}}
+| ωμέγα
+| [[Omega]]
+| {{IPA|[ɔː]}}
+| {{IPA|[o]}}
+| [[Image:phoenician_ayin.png|20px|Ayin]] [[Ayin|'Ayin]]
+| o, ō
+| o
+| 800
+|}
+
+
+
 [[Taggayt:Agemmay]]
 
 
