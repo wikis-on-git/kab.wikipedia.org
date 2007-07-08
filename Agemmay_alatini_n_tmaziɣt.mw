@@ -19,6 +19,97 @@
 | [[t]] || [[ṭ]] || [[u]] || [[v]] || [[w]] || [[x]] || [[y]] || [[z]] || [[ẓ]]
 |}
 
+*A   0041 
+*a   0061 
+*B   0042 
+*b   0062 
+*C   0043
+*c   0063 
+*Č   010C (latin capital letter C with caron)
+*č   010D (latin small letter c with caron)
+*** Czech, Slovak, Slovenian, and many other languages
+*D   0044 
+*d   0064 
+*Ḍ   1E0C (latin capital letter D with dot below)
+*ḍ   1E0D (latin small letter d with dot below)
+***Indic transliteration
+*E   0045 
+*e   0065 
+*F   0046 
+*f   0066 
+*G   0047 
+*g   0067 
+*Ǧ   01E6 (latin capital letter G with caron)
+*ǧ   01E7 (latin small letter g with caron)
+*** Skolt Sámi
+*H   0048 H
+*h   0068
+*Ḥ   1E24 [latin capital letter H with dot below]
+*ḥ   1E25 [latin small letter h with dot below]
+*** Indic transliteration
+*I   0049 
+*i   0069 
+*J   004A
+*j   006A 
+*K   004B 
+*k   006B 
+*L   004C 
+*l   006C 
+*M   004D 
+*m   006D 
+*N   004E 
+*n   006E 
+*O   004F 
+*o   006F 
+*P   0050 
+*p   0070 
+*Ɣ   0194 (latin capital letter gamma)
+*** African
+*ɣ   0263 (latin small letter gamma)
+*** voiced velar fricative
+*Q   0051
+*q   0071
+*R   0052    
+*r   0072   
+*Ṛ   1E5A [latin capital letter R with dot below]   
+*ṛ   1E5B [latin small letter r with dot below]   
+*** Indic transliteration   
+*S   0053   
+*s   0073    
+*Ṣ   1E62 [latin capital letter S with dot below]   
+*ṣ   1E63 [latin small letter s with dot below]   
+*** Indic transliteration   
+*T   0054    
+*t   0074    
+*Ṭ   1E6C [latin capital letter T with dot below]   
+*ṭ   1E6D [latin small letter t with dot below]   
+*** Indic transliteration   
+*U   0055 
+*u   0075 
+*V   0056 
+*v   0076 
+*W   0057 
+*w   0077 
+*X   0058 
+*x   0078 
+*Y   0059 
+*y   0079 
+*Z   005A    
+*z   007A    
+*Ẓ   1E92 [latin capital letter Z with dot below]   
+*ẓ   1E93 [latin small letter z with dot below]   
+*** Indic transliteration   
+*Ɛ   0190 (latin capital letter open E = latin capital letter epsilon)
+*** African
+*ε   025B (latin small letter open e = latin small letter epsilon)
+*** lower-mid front unrounded vowel
+
+''Il serait à prevoir aussi bien des signes qui, bien que déconseillés par les séminaires de l’INALCO, ont été utilisés quand même par nombre d’usagers, par exemple :''
+
+*Ț   0162 (latin capital letter T with cedilla)
+*ţ   0163 (latin small letter t with cedilla)
+
+
 [[Taggayt:agemmay]]
 
 [[en:Berber Latin alphabet]]
