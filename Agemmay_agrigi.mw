@@ -10,327 +10,241 @@ Agemmay agrigi yettwura seg uzelmaḍ ɣer uyeffus. Yettubeddel geddac tikkwal u
 
 Ṭṭabla deg ukessar tesskan isekkilen n ugemmay agrigi atrar, mkul asekkil yesɛa aẓari-is deg ugemmay afiniqi.
 
-{| border="1" cellpadding="3" cellspacing="0" style="border-collapse: collapse;text-align:center"
-! rowspan="2" style="background:#ccf;" | Asekkil
-! colspan="4" style="background:#ccf;" | Isem
-! colspan="2" style="background:#ccf;" | Imesli
-! rowspan="2" style="background:#ccf;" | Aẓar-is seg<br />[[Agemmay afiniqi|ugemmay afiniqi]]
-! colspan="2" style="background:#ccf;" | S [[agemmay alatini|ugemmay alatini]]
-! rowspan="2" style="background:#ccf;" | Azal
+{| border="2" cellpadding="4" cellspacing="0" style="font-size: 120%; color: blue; border-collapse: collapse;border: 1px solid #1e90ff; border-left: 6px solid #99CCCC;border-right: 6px solid #99CCCC;border-top: 6px solid #99CCCC;border-bottom: 6px solid #99CCCC;" align="center"
 |-
-! style="background:#ccffff;" | Agrigi<br />aqbur
-! style="background:#ccffff;" | Medieval<br />Greek<br />(polytonic)
-! style="background:#ccffff;" | Agrigi<br />atrar
-! style="background:#ccffff;" | English
-! style="background:#ccffff;" | Classical<br />Ancient<br />Greek
-! style="background:#ccffff;" | Agrigi<br />atrar
-! style="background:#ccffff;" | Agrigi<br />aqbur
-! style="background:#ccffff;" | Agrigi<br />atrar
+!Asekkil
+!Asekkil
+!Agrigi aqbur
+!Agrigi atrar
+!Tagrigit taqburt
+|Azal
 |-
-|style="font-size:133%;"|Α α
-| colspan="2" | ἄλφα
-| άλφα
-| [[Alpha (letter)|Alpha]]
-| {{IPA|[a] [aː]}}
-| {{IPA|[a]}}
-| [[Image:phoenician_aleph.png|20px|Aleph]] [[Aleph (letter)|Aleph]]
-| colspan="2" | a
-| 1
+|Α
+|α
+|a
+|a
+|[[alpha]]
+|1
 |-
-|style="font-size:133%;"|Β β
-| colspan="2" | βῆτα
-| βήτα
-| [[Beta (letter)|Beta]]
-| {{IPA|[b]}}
-| {{IPA|[v]}}
-| [[Image:phoenician_beth.png|20px|Beth]] [[Beth (letter)|Beth]]
-| b
-| v
-| 2
+|Β
+|β
+|b
+|v
+|[[beta]]
+|2
 |-
-|style="font-size:133%;"|Γ γ
-| colspan="2" | γάμμα
-| γάμμα<br />γάμα
-| [[Gamma (letter)|Gamma]]
-| {{IPA|[g]}}
-| {{IPA|[ɣ~ʝ]
-| [[Image:phoenician_gimel.png|20px|Gimel]] [[Gimel (letter)|Gimel]]
-| g
-| gh, g, y
-| 3
+|Γ
+|γ
+|g
+|g/j
+|[[gamma]]
+|3
 |-
-|style="font-size:133%;"|Δ δ
-| colspan="2" | δέλτα
-| δέλτα
-| [[Delta (letter)|Delta]]
-| {{IPA|[d]}}
-| {{IPA|[ð]}}
-| [[Image:phoenician_daleth.png|20px|Daleth]] [[Daleth]]
-| d
-| d, dh
-| 4
+|Δ
+|δ
+|d
+|d
+|[[delta]]
+|4
 |-
-|style="font-size:133%;"|Ε ε
-| εἶ
-| έ ψιλόν
-| έψιλον
-| [[Epsilon]]
-| colspan="2" | {{IPA|[e]}}
-| [[Image:phoenician_he.png|20px|He]] [[He (letter)|He]]
-| colspan="2" | e
-| 5
+|Ε
+|ε
+|e
+|e
+|[[epsilon]]
+|5
 |-
-|style="font-size:133%;"|Ζ ζ
-| colspan="2" | ζήτα
-| ζήτα
-| [[Zeta (letter)|Zeta]]
-| {{IPA|[zd]}}<br/>([[Zeta (asekkil)#Imesli|neɣ {{IPA|[dz]}}?]])<br/>Syen {{IPA|[zː]}}
-| {{IPA|[z]}}
-| [[Image:phoenician_zayin.png|20px|Zayin]] [[Zayin]]
-| colspan="2" | z
-| 7
+|Ϝ
+|ϝ
+|w
+|v
+|[[digamma]]
+|6
 |-
-|style="font-size:133%;"|Η η
-| colspan="2" | ἦτα
-| ήτα
-| [[Eta (letter)|Eta]]
-| {{IPA|[ɛː]}}
-| {{IPA|[i]}}
-| [[Image:phoenician_heth.png|20px|Heth]] [[Heth (letter)|Heth]]
-| e, ē
-| i
-| 8
+|Ϛ
+|ϛ
+|st
+|st
+|[[stigma]]
+|6
 |-
-|style="font-size:133%;"|Θ θ
-| colspan="2" | θῆτα
-| θήτα
-| [[Theta (letter)|Theta]]
-| {{IPA|[tʰ]}}
-| {{IPA|[θ]}}
-| [[Image:phoenician_teth.png|20px|Teth]] [[Teth]]
-| colspan="2" | th
-| 9
+|Ζ
+|ζ
+|z
+|z
+|[[zeta]]
+|7
 |-
-|style="font-size:133%;"|Ι ι
-| colspan="2" | ἰῶτα
-| ιώτα<br />γιώτα
-| [[Iota (letter)|Iota]]
-| {{IPA|[i] [iː]}}
-| {{IPA|[i]}}, {{IPA|[j]}}
-| [[Image:phoenician_yodh.png|20px|Yodh]] [[Yodh]]
-| colspan="2" | i
-| 10
+|Η
+|η
+|e
+|i
+|[[eta]]
+|8
 |-
-|style="font-size:133%;"|Κ κ
-| colspan="2" | κάππα
-| κάππα<br />κάπα
-| [[Kappa (letter)|Kappa]]
-| {{IPA|[k]}}
-| {{IPA|[k~c]}}
-| [[Image:phoenician_kaph.png|20px|Kaph]] [[Kaph]]
-| colspan="2" | k
-| 20
+|Ͱ
+|ͱ
+|h
+|h
+|[[heta]]
+|8
 |-
-|style="font-size:133%;"|Λ λ
-| λάβδα
-| λάμβδα
-| λάμδα<br />λάμβδα
-| [[Lambda (letter)|Lambda]]
-| colspan="2" | {{IPA|[l]}}
-| [[Image:phoenician_lamedh.png|20px|Lamedh]] [[Lamedh]]
-| colspan="2" | l
-| 30
+|Θ
+|θ
+|th
+|th
+|[[theta]]
+|9
 |-
-|style="font-size:133%;"|Μ μ
-| colspan="2" | μῦ
-| μι<br />μυ
-| [[Mu (letter)|Mu]]
-| colspan="2" | {{IPA|[m]}}
-| [[Image:phoenician_mem.png|20px|Mem]] [[Mem]]
-| colspan="2" | m
-| 40
+|Ι
+|ι
+|i
+|i
+|[[iota]]
+|10
 |-
-|style="font-size:133%;"|Ν ν
-| colspan="2" | νῦ
-| νι<br />νυ
-| [[Nu (letter)|Nu]]
-| colspan="2" | {{IPA|[n]}}
-| [[Image:phoenician_nun.png|20px|Nun]] [[Nun (letter)|Nun]]
-| colspan="2" | n
-| 50
+|J
+|ȷ
+|j
+|j
+|[[jot]]
+|10
 |-
-|style="font-size:133%;"|Ξ ξ
-| ξεῖ
-| ξῖ
-| ξι
-| [[Xi (letter)|Xi]]
-| colspan="2" | {{IPA|[ks]}}
-| [[Image:phoenician_samekh.png|20px|Samekh]] [[Samekh]]
-| x
-| x, ks
-| 60
+|Κ
+|κ
+|k
+|k
+|[[kappa]]
+|20
 |-
-|style="font-size:133%;"|Ο ο
-| οὖ
-| ὂ μικρόν
-| όμικρον
-| [[Omicron]]
-| colspan="2" | {{IPA|[o]}}
-| [[Image:phoenician_ayin.png|20px|Ayin]] [[Ayin|'Ayin]]
-| colspan="2" | o
-| 70
+|Λ
+|λ
+|l
+|l
+|[[lambda]]
+|30
 |-
-|style="font-size:133%;"|Π π
-| πεῖ
-| πῖ
-| πι
-| [[Pi (letter)|Pi]]
-| colspan="2" | {{IPA|[p]}}
-| [[Image:phoenician_pe.png|20px|Pe]] [[Pe (letter)|Pe]]
-| colspan="2" | p
-| 80
+|Μ
+|μ
+|m
+|m
+|[[mi]]
+|40
 |-
-|style="font-size:133%;"|Ρ ρ
-| colspan="2" | ῥῶ
-| ρω
-| [[Rho (letter)|Rho]]
-| {{IPA|[r]}}, {{IPA|[r̥]}}
-| {{IPA|[r]}}
-| [[Image:phoenician_res.png|20px|Res]] [[Resh]]
-| r (ῥ: rh)
-| r
-| 100
+|Ν
+|ν
+|n
+|n
+|[[ni]]
+|50
 |-
-| <span style="font-size:133%;">Σ σ<br />ς</span> (final)
-| colspan="2" | σῖγμα
-| σίγμα
-| [[Sigma (letter)|Sigma]]
-| colspan="2" | {{IPA|[s]}}
-| [[Image:phoenician_sin.png|20px|Sin]] [[Shin (letter)|Shin]]
-| colspan="2" | s
-| 200
+|Ξ
+|ξ
+|ks/x
+|x
+|[[xi]]
+|60
 |-
-|style="font-size:133%;"|Τ τ
-| colspan="2" | ταῦ
-| ταυ
-| [[Tau (letter)|Tau]]
-| colspan="2" | {{IPA|[t]}}
-| [[Image:phoenician_taw.png|20px|Taw]] [[Taw (letter)|Taw]]
-| colspan="2" | t
-| 300
+|Ο
+|ο
+|o
+|o
+|[[omikron]]
+|70
 |-
-|style="font-size:133%;"|Υ υ
-| ὗ
-| ὓ ψιλόν
-| ύψιλον
-| [[Upsilon (letter)|Upsilon]]
-| {{IPA|[y] [yː]<br />(earlier [u] [uː])}}
-| {{IPA|[i]}}
-| [[Image:phoenician_waw.png|20px|Waw]] [[Waw (letter)|Waw]]
-| u, y
-| y, v, f
-| 400
+|Π
+|π
+|p
+|p
+|[[pi]]
+|80
 |-
-|style="font-size:133%;"|Φ φ
-| φεῖ
-| φῖ
-| φι
-| [[Phi (letter)|Phi]]
-| {{IPA|[pʰ]}}
-| {{IPA|[f]}}
-| rowspan="3" | Ur nessin ara<br /> ansi d-yekka
-| ph
-| f
-| 500
+|Ϻ
+|ϻ
+|s
+|s
+|[[san]]
+|90
 |-
-|style="font-size:133%;"|Χ χ
-| χεῖ
-| χῖ
-| χι
-| [[Chi (letter)|Chi]]
-| {{IPA|[kʰ]}}
-| {{IPA|[x~ç]}}
-| ch
-| ch, kh
-| 600
+|Ϸ
+|ϸ
+|sh
+|sh
+|[[sho]]
+|90
 |-
-|style="font-size:133%;"|Ψ ψ
-| ψεῖ
-| ψῖ
-| ψι
-| [[Psi (letter)|Psi]]
-| colspan="2" | {{IPA|[ps]}}
-| colspan="2" | ps
-| 700
+|Ϙ
+|ϙ
+|q
+|q
+|[[qoppa]]
+|90
 |-
-|style="font-size:133%;"|Ω ω
-| ὦ
-| ὦ μέγα
-| ωμέγα
-| [[Omega]]
-| {{IPA|[ɔː]}}
-| {{IPA|[o]}}
-| [[Image:phoenician_ayin.png|20px|Ayin]] [[Ayin|'Ayin]]
-| o, ō
-| o
-| 800
+|Ρ
+|ρ
+|r
+|r
+|[[rho]]
+|100
+|-
+|Σ
+|σ, ς
+|s
+|s
+|[[sigma]]
+|200
+|-
+|Τ
+|τ
+|t
+|t
+|[[tau]]
+|300
+|-
+|Υ
+|υ
+|y
+|y
+|[[ypsilon]]
+|400
+|-
+|Φ
+|φ
+|f
+|f
+|[[phi]]
+|500
+|-
+|Χ
+|χ
+|h
+|kh
+|[[khi]]
+|600
+|-
+|Ψ
+|ψ
+|ps
+|ps
+|[[psi]]
+|700
+|-
+|Ω
+|ω
+|o
+|o
+|[[omega]]
+|800
+|-
+|Ϡ
+|ϡ
+|ss
+|ss
+|[[sampi]]
+|900
 |}
 
-
-Deg ukessar, isekkilen i yemmuten.
-
-{| border="1" cellpadding="3" cellspacing="0" style="border-collapse: collapse;text-align:center"
-! rowspan="2" style="background:#ccf;" | Asekkil
-! colspan="3" style="background:#ccf;" | Isem
-! rowspan="2" style="background:#ccf;" | Imesli
-! rowspan="2" style="background:#ccf;" | Aẓar-is seg<br />[[Agemmay afiniqi|ugemmay afiniqi]]
-! rowspan="2" style="background:#ccf;" | S [[agemmay alatini|ugemmay alatini]]
-! rowspan="2" style="background:#ccf;" | Azal
-|-
-! style="background:#ccffff;" | Tagrigit<br />taqburt<br />
-! style="background:#ccffff;" | Later<br />Greek<br />(polytonic)
-! style="background:#ccffff;" | English
-|-
-| [[Image:Digamma_uc_lc.svg|25px]]
-| ϝαῦ ?
-| δίγαμμα
-| [[Digamma (letter)|Digamma]]
-| ahat {{IPA|[w]}}
-| [[Image:phoenician_waw.png|20px|Waw]] [[Waw (letter)|Waw]]
-| w
-| 6
-|-
-| [[Image:Greek_alphabet_san.png|40px]]
-| [[Image:Greek_alphabet_san_lowercase.png|15px]]άν ?
-| σάν
-| [[San (letter)|San]]
-| {{IPA|[s]}}
-| [[Image:phoenician_sade.png|20px|Sade]] [[Tsade]] (position)<br />[[Image:phoenician_sin.png|20px|Sin]] [[Shin (letter)|Shin]] (name)
-| s
-|
-|-
-| [[Image:Greek alphabet qoppa.png|40px]]
-| ϙόππα ?
-| κόππα
-| [[Qoppa (letter)|Qoppa]]
-| {{IPA|[q]}}
-| [[Image:phoenician_qof.png|20px|Qoph]] [[Qoph]]
-| q
-| 90
-|-
-| [[Image:Greek alphabet sampi.png|40px]]
-| Ur nessin ara
-| σαμπῖ
-| [[Sampi (letter)|Sampi]]
-| {{IPA|[sː]}} neɣ {{IPA|[ks]}}, neɣ {{IPA|[ts]}} 
-| ahat seg [[Image:phoenician_sade.png|20px|Sade]] [[Tsade]]
-| ss neɣ –
-| 900
-|}
-
-
-
-
+*[http://unicode.org/charts/PDF/U0370.pdf Unicode 5.1] Agemmay agrigi
 [[Taggayt:Agemmay]]
 
 [[af:Griekse alfabet]]
