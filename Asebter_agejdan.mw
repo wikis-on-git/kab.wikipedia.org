@@ -1,100 +1,137 @@
-<!-- Beginning of header section -->
-{{Banner}}
-
-{| width="100%"
+{| style="margin:4px 0px 0px 0px; width:100%; background:none;"
+|class="MainPageBG" style="width:100%; border:1px solid #C7D0F8; background:#F2F5FD; vertical-align:top; color:#000; -moz-border-radius:4px"|
+{| cellpadding="2" cellspacing="5" style="vertical-align:top; background:#F2F5FD; color:#000; width:100%;"
 |-
-|style="vertical-align:top" |
-<div style="margin: 0 10px 10px 0; border: 1px solid #9999c0; padding: 0em 1em 0.1em 1em; background-color: #f8f8ff; ">
-
-== Imagraden ==
-
-{{WikiFeaturedArticle}}
-
-<div style="font-size:0.8em;text-align:right;">[[Talɣa:WikiFeaturedArticle|[beddel]]]</div>
-</div>
-
-<div style="margin: 0 10px 10px 0; border: 1px solid #9999c0; padding: 0em 1em 0.1em 1em; background-color:#f4ece0; ">
-
-== [[Wikipedia:Tajmaɛt|Tajmaɛt]] ==
-[[Image:SiMohand.jpg|60px|left]]
-[[Wikipedia:Tajmaɛt|Ruḥ-en]] m'ara tebɣuḍ at-temmeslayeḍ af tuddsa n Tasanayt ! <br style="clear:left"/>
-</div>
-
-<div style="margin: 0 10px 10px 0; border: 1px solid #9999c0; padding: 0em 1em 0.1em 1em; background-color: #f8f8ff; ">
-
-== Imaynuten ==
-[[Tugna:Pervez Musharraf 2004.jpg|90px|left]]
-[[Tugna:Pijin2008.gif|90px|right]]  
-**[[18 ɣuct]] [[2008]], [[Pakistan]], Aselway n tamurt n Pakistan [[Pervez Mucarraf]] ydimisyuni f tiwura ines.
-
-**[[8 ɣuct]] [[2008]] [[Uraren ulempiyen]] n'unebdu ḍrant g tamurt n [[Ccinwa]], amsudeb n tazunzut yella g [[Pekin]] 
-
-<br style="clear:left"/>
-</div>
-== Tugna yelhan ==
-
-{{Talɣa:WikiFeaturedPicture}}
-<div style="font-size:0.8em;text-align:right;">[[Talɣa:WikiFeaturedPicture|[beddel]]]</div>
-</div>
-
-<div style="margin: 0 10px 10px 0; border: 1px solid #9999c0; padding: 0em 1em 1em 1em; background-color:#f8f8ff; ">
-
-==Tafat f ...==
-
-*[[Gutenberg]] [[Tizumag]] [[Lili Bonic]]
-*[[Aya Sofya]]
-
-==Tugna n uggur==
-
-[[Tugna:galata.jpg|left|200px]]
-
-Azadab n [[Galata]], ysulitid amesgad [[Udayen|Uday]] akken ad ɛessen ma llan kra yserɣiyen neɣ times g temdint n [[Taqeṣṭenṭinit|Konstantinopolis]] n zik , neɣ [[Sṭambul]] n tura.
-<br /><br /><br /><br /><br /><br /><br /><br /><br />
-
-
-== Imagraden i nebɣa a nernu ==
-*'''[[Taẓuri]] : '''[[Michelangelo]] ([[:fr:Michelangelo|fr]]) &middot; [[Pablo Picasso]] ([[:fr:Pablo Picasso|en]]) &middot; [[Rembrandt]] ([[:fr:Rembrandt|fr]])&middot; 
-*'''[[Tasekla]] : '''[[William Shakespeare]] ([[:fr:William Shakespeare|fr]]) &middot; [[Homer]] ([[:fr:Homer|fr]]) 
-*'''[[Timetti]] : '''[[Tawacult]] ([[:fr:famille|fr]]) &middot; [[Jjwağ]] ([[:fr:Mariage|fr]]) &middot; [[Agdud]] ([[:fr:peuple|fr]])&middot; 
-== Imagraden yelhan ==
-* '''[[Addal]] :''' [[Zineddin Lyazid Zidan]] &middot; [[JSK]] &middot; 
-* '''[[Ccna]] :''' [[Lwennas Meɛṭub]] &middot; [[Sliman Ɛazem]] &middot; [[Crif Xeddam]]  &middot; [[Lunis At Mengellat]] &middot; 
-* '''[[Ddin]] :''' [[Ɛisa]] &middot; [[Musa]] &middot; [[Leqran]] &middot; 
-* '''[[Tarakalt]] :''' [[Tafriqt]] &middot; [[Tamurt n Leqbayel]] &middot; [[Singapur]] &middot; 
-</div>
-
-<div style="margin: 0 10px 10px 0;  border: 1px solid #9999c0; padding: 0em 1em 0.1em 1em; background-color:#efefdf;">
-
-== Yessetma-s n Wikipedia ==
-
-{{WikipediaSister}}
-<div style="font-size:0.8em;text-align:right;">[[Talɣa:WikipediaSister|[beddel]]]</div>
-</div>
-
-| width="40%" style="vertical-align:top" |
-
-<div style="margin: 0 10px 10px 0; border:1px solid #9999c0; padding: 0em 1em 0.1em 1em; background-color:#dfefdf; ">[[Tugna:Nuvola_gaim.svg|30px|right]]
-
-== I don't speak Kabyle! / Je ne parle pas kabyle ==  
-
-[[ Wikipedia:Tanmahelt|Tanmahelt ''(Embassy / Ambassade)'']] . [http://meta.wikimedia.org/wiki/Wikipedia_Embassy Wikimedia Embassy]
-</div>
-
-<div style="margin:0 10px 10px 0; border:1px solid #9999c0; padding: 0em 1em 0.1em 1em; background-color:#dfdfef; align:left;">
-
-== Tasanayt ==
- 
-<div style="font-size:small">{{Tasanayt}}</div>
-<div style="font-size:0.8em;text-align:right;">[[Talɣa:Tasanayt|[beddel]]]</div>
-</div>
-
-<div style="margin: 0 10px 10px 0; border:1px solid #9999c0; padding: 0em 1em 0.1em 1em; background-color:#dfdfdf; ">
-
-== Wikipedia s tutlayin tiyaḍ ==
-
-{{Wikipedialang}}
-<div style="font-size:0.8em;text-align:right;">[[Talɣa:Wikipedialang|[beddel]]]</div>
-</div>
+|    
+<!-------------------------------------------
+--- BARRA SUPERIOR (TEXTO IZQUIERDA) --------
+-------------------------------------------->
+{| style="width:60%; border:solid 0px; background:none;"
+|style="width:60%; text-align:center; white-space:nowrap; color:#000;"|
+<div style="font-size:162%; border:none; margin:0; padding:.1em; color:#000;">Anṣuf yes-wen ar [[Wikipedia]] s [[taqbaylit|teqbaylit]],</div>
+<div style="top:+0.2em; font-size:100%;">Tasanayt tilellit, [[Yal yiwen yezmer a tt-ibeddel]].</div>
+<div class="plainlinks" id="articlecount" style="width:100%; text-align:center; font-size:100%;"> </div>
+|}<!-----------------------------------------
+--- BARRA SUPERIOR (TEXTO DERECHA) ----------
+-------------------------------------------->
+|style="width:40%; font-size:100%; color:#000; text-align:right;"|
+{{CURRENTTIME}} [[Tiempo universal coordinado|UTC]] </br>[[{{CURRENTDAYNAME}}]], [[{{CURRENTDAY}} {{CURRENTMONTHNAME}}]]  [[{{CURRENTYEAR}}]].</br>
+Llan [[Special:Statistics|'''{{NUMBEROFARTICLES}}''']] [[Special:AllPages|imagraden]] [[taqbaylit|s teqbaylit]] nebɣa [[Amik anaru amagrad yelhan ?|kter]] !
 |}
-{{MainPageInterwikis}}
-__NOTOC__ __NOEDITSECTION__
+
+|-
+|}<!-----------------------------------------
+--- PARTICIPACIÓN Y COMUNIDAD ---------------
+-------------------------------------------->
+{|style="margin:4px 0px 0px 0px; background:none;"
+|class="MainPageBG" style="width:60%; border:1px solid #DDDDF7; background:#F7F7FF; vertical-align:center; color:#000; -moz-border-radius:4px"|
+
+{| cellpadding="1" style="float:center;height:16ex;width:49%;background:none;padding:0;font-size: 0.9em;"
+|style="padding-right: 5px" | [[Tugna:Format-justify-left.svg‎ |15px]]
+|style="padding-right: 15px" | [[Uslig:Allpages|'''Imagraden''']]
+|style="padding-right: 5px" | [[Tugna:X-directory-normal-drag-accept.svg‎ |20px]]
+|style="padding-right: 15px" | [[Uslig:Categories|'''Taggayin''']]
+|style="padding-right: 5px" | [[Tugna:Portal.svg‎ |20px]]
+|style="padding-right: 15px" | [[Awwur:Tussna|'''Iwwuren''']] 
+|-
+|style="padding-right: 5px" | [[Tugna:Nuvola_apps_localeSLO.png|15px]]
+|style="padding-right: 15px" | [[:Taggayt:Timetti|Timetti]]
+|style="padding-right: 5px" | [[Tugna:Nuvola apps kdmconfig.png|15px]]
+|style="padding-right: 15px" | [[:Taggayt:Tameddurt|Tameddurt]]
+|style="padding-right: 5px" | [[Tugna:Nuvola apps kcoloredit.png|15px]]
+|style="padding-right: 15px" | [[:Taggayt:Taẓuri|Taẓuri]]
+|style="padding-right: 15px" | 
+|-
+|style="padding-right: 5px" | [[Tugna:Nuvola philosophy.png|16px]]
+|style="padding-right: 15px" | [[:Taggayt:Tafelsuft|Tafelsuft]] 
+|style="padding-right: 5px" | [[Tugna:Nuvola apps edu mathematics.png|15px]]
+|style="padding-right: 15px" | [[:Taggayt:Tusnakt|Tusnakt]]
+|style="padding-right: 5px" | [[Tugna:Museum btn.png|15px]]
+|style="padding-right: 15px" | [[:Taggayt:Amezruy|Amezruy]]
+|-
+|style="padding-right: 5px" | [[Tugna:Gnome-globe.svg|15px]]
+|style="padding-right: 15px" | [[:Taggayt:Tarakalt|Tarakalt]]
+|style="padding-right: 5px" | [[Tugna:Nuvola apps kcmsystem.png|15px]]
+|style="padding-right: 15px" | [[:Taggayt:Teknoloji|Teknoloji]] 
+|style="padding-right: 5px" | [[Tugna:Nuvola apps kalzium.png|15px]]
+|style="padding-right: 15px" | [[:Taggayt:Tussna|Tussna]]
+
+|}
+<!-----------------------------------------
+--- XLEQ AMAGRAD AMAYNUT-------------------
+-------------------------------------------->
+|style="border:1px solid transparent"|
+|class="MainPageBG" style="width:40%; border:1px solid #CCF7CC; background:#EEFFEE; vertical-align:top; -moz-border-radius:4px"|
+{|width="100%" cellpadding="2" cellspacing="5" style="vertical-align:top; background:#EEFFEE;"
+|-
+| width="100%" style="padding-top:2px;font-size:100%" align="center" | 
+[[Tugna:Nuvola_apps_ksig.png|45px|left]]
+<div style="float:right;width:80%;padding:0.2em">
+<inputbox>
+ type=create
+ bgcolor=
+ break=no
+ width=19
+ default=Amagrad amaynut
+</inputbox></div><br style="clear:both"/>
+''D acu-t? Amek? atg...''  '''[[Tallat:Agbur|Ẓer dagi]]'''</div>
+
+|-
+|}
+|}<!-----------------------------------------
+--- BARRA DE CONTENIDOS IZQUIERDA -----------
+-------------------------------------------->
+{|style="margin:4px 0px 0px 0px; background:none;"
+|class="MainPageBG" style="width:60%; border:1px solid #cedff2; background:#ffffff; vertical-align:top; color:#000; -moz-border-radius:4px"|
+{|width="100%" cellpadding="2" cellspacing="5" style="vertical-align:top; background:#ffffff;"
+! <div style="float:right; margin:2px 2px 0px 0px;">[[Tugna:Wikibar2.png]]</div><h2 style="margin:0; background:#E6ECFF; font-size:100%; font-weight:bold; border:1px solid #cccccc; text-align:left; color:#000; padding:0.2em 0.4em; -moz-border-radius:6px">[[Tugna:Nuvola filesystems services.png|20px]] [[Wikipedia:Imagraden ifernen|Amagrad ufrin]]</h2>
+|-
+|style="color:#000; font-size:100%;"| {{Amgrad ufrin}}
+|-
+! <div style="float:right; margin:2px 2px 0px 0px;">[[Tugna:Wikibar2.png]]</div><h2 style="margin:0; background:#F0E6FF; font-size:100%; font-weight:bold; border:1px solid #cccccc; text-align:left; color:#000; padding:0.2em 0.4em; -moz-border-radius:6px">[[Tugna:Artículo bueno.svg|20px]] [[Wikipedia:Imagraden yelhan|Amagrad yelhan]]</h2>
+|-
+|style="color:#000; font-size:100%; padding:5px; padding-top:10px; padding-bottom:10px"| {{Amagrad yelhan}}
+|-
+! <div style="float:right; margin:2px 2px 0px 0px;">[[Tugna:Wikibar2.png]]</div><h2 style="margin:0; background:#FFE6F9; font-size:100%; font-weight:bold; border:1px solid #cccccc; text-align:left; color:#000; padding:0.2em 0.4em; -moz-border-radius:6px">[[Tugna:Emblem-pictures.svg|20px]] [[Wikipedia:Tugna n'ass|Tugna n'ass-a]]</h2>
+|-
+|style="color:#000; font-size:100%;"| {{Tugna}}
+|-
+! <div style="float:right; margin:2px 2px 0px 0px;">[[Tugna:Wikibar2.png]]</div><h2 style="margin:0; background:#FFEBE6; font-size:100%; font-weight:bold; border:1px solid #cccccc; text-align:left; color:#000; padding:0.2em 0.4em; -moz-border-radius:6px">[[Tugna:Gnome globe current event.svg|20px]] [[Portal:Isallen|Isallen]]</h2>
+|-
+|style="color:#000; font-size:100%;"| {{Isallen}}
+|-
+! <div style="float:right; margin:2px 2px 0px 0px;">[[Tugna:Wikibar2.png]]</div><h2 style="margin:0; background:#FFF5E6; font-size:100%; font-weight:bold; border:1px solid #cccccc; text-align:left; color:#000; padding:0.2em 0.4em; -moz-border-radius:6px">[[Tugna:Dates.png|20px]] [[Wikipedia:Awitay|Ass yecban ass-a ...]]</h2>
+|-
+|style="color:#000; font-size:100%;"| {{Awitay - {{CURRENTDAY}} di {{CURRENTMONTHNAME}}}}
+|-
+! <div style="float:right; margin:2px 2px 0px 0px;">[[Tugna:Wikibar2.png]]</div><h2 style="margin:0; background:#FFFCE6; font-size:100%; font-weight:bold; border:1px solid #cccccc; text-align:left; color:#000; padding:0.2em 0.4em; -moz-border-radius:6px">[[Tugna:Nuvola apps filetypes.svg|20px]] [[Wikipedia:Ma teẓrid|Ma teẓrid...?]]</h2>
+|-
+|style="color:#000; font-size:100%;"| {{Ma tezrid}}
+|-
+|}
+|style="border:1px solid transparent"|<!-----
+---------------------------------------------
+--- BARRA DE CONhTENIDOS DERECHA -------------
+-------------------------------------------->
+|class="MainPageBG" style="width:40%; border:1px solid #cef2e0; background:#f5faff; vertical-align:top; -moz-border-radius:4px"|
+{| width="100%" cellpadding="2" cellspacing="5" style="vertical-align:top; background:#f5faff;"
+! <h2 style="margin:0; background:#F9F9F3; font-size:100%; font-weight:bold; border:1px solid #E8DDC9; text-align:left; color:#000; padding:0.2em 0.4em; -moz-border-radius:4px">[[Wikipedia:Awal umɛin|Awal umɛin]]</h2>
+|-
+|style="color:#000; padding-left: 5px; padding-right: 5px;"| {{Awal}}
+|-
+! <h2 style="margin:0; background:#F9F9F3; font-size:100%; font-weight:bold; border:1px solid #E8DDC9; text-align:left; color:#000; padding:0.2em 0.4em; -moz-border-radius:4px">[[Wikipedia:Tasanayt|Tasanayt]]</h2>
+|-
+|style="color:#000; padding-left: 5px; padding-right: 5px;"| {{Tasanayt 2}}
+|-
+! <h2 style="margin:0; background:#F9F9F3; font-size:100%; font-weight:bold; border:1px solid #E8DDC9; text-align:left; color:#000; padding:0.2em 0.4em; -moz-border-radius:4px">Asenfar n twacult n Wiki</h2>
+|-
+|style="color:#000; padding-left: 5px; padding-right: 5px;"| {{yessetmas n Wikipedia}}
+|-
+! <h2 style="margin:0; background:#F9F9F3; font-size:100%; font-weight:bold; border:1px solid #E8DDC9; text-align:left; color:#000; padding:0.2em 0.4em; -moz-border-radius:4px">Wikipedia s tutlayin tiyaḍ</h2>
+|-
+|style="color:#000; padding-left: 5px; padding-right: 5px;"| {{Wikipedialang}}
+|-
+|}
+|}
+{{Portada:Interwikis}}
+__NOTOC__
