@@ -83,7 +83,12 @@ Llan [[Special:Statistics|'''{{NUMBEROFARTICLES}}''']] [[Special:AllPages|imagra
 -------------------------------------------->
 {|style="margin:4px 0px 0px 0px; background:none;"
 |class="MainPageBG" style="width:60%; border:1px solid #cedff2; background:#ffffff; vertical-align:top; color:#000; -moz-border-radius:4px"|
+
 {|width="100%" cellpadding="2" cellspacing="5" style="vertical-align:top; background:#ffffff;"
+! <div style="float:right; margin:2px 2px 0px 0px;">[[Tugna:Wikibar2.png]]</div><h2 style="margin:0; background:#E6ECFF; font-size:100%; font-weight:bold; border:1px solid #cccccc; text-align:left; color:#000; padding:0.2em 0.4em; -moz-border-radius:6px">[[Tugna:Gaim send-im.svg|20px]] [[Wikipedia:Tajmaɛt|Tajmaɛt]]</h2>
+|-
+|style="color:#000; font-size:100%;"| Amkan i neḥḥder af tsanayt.
+|-
 ! <div style="float:right; margin:2px 2px 0px 0px;">[[Tugna:Wikibar2.png]]</div><h2 style="margin:0; background:#E6ECFF; font-size:100%; font-weight:bold; border:1px solid #cccccc; text-align:left; color:#000; padding:0.2em 0.4em; -moz-border-radius:6px">[[Tugna:Nuvola filesystems services.png|20px]] [[Wikipedia:Imagraden ifernen|Amagrad ufrin]]</h2>
 |-
 |style="color:#000; font-size:100%;"| {{Amagrad ufrin}}
