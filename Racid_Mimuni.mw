@@ -1,4 +1,14 @@
-==Azeṭṭa Asenselkim:==
-'''Azeṭṭa Asenselkim''' d taggayt n ttawilat i yettwaqnen i wessiweḍ n tilɣa (informations).
-[[Image:Pkuczynski RJ-45 patchcord.jpg|thumb|[[imaqqanen]] [[RJ-45]] ittwaxdamen i waken ad qnen gar izeḍwa isenselkamen s [[Ethernet]].]]
-nezmzr ad neger asidmer(comparaison) gar azeṭṭa asenselkim d tacbegt n ṣyaḍa
+===Azeṭṭa asenselkim :===
+Azeṭṭa asenselkim d taggayt n ttawilat i ttwacudden gar-asen i wesseweḍ n tilγa (informations). Tikerrist d ixef (taggara) n tuqqna (connexion), i yezmren ad tili d timlilit n waṭas n tuqqniwin (aselkim, ameglay (routeur), asagglalaf (concentrateur), asenfal (commutateur)).
+Akken I tebbγu tili tatiknulujit n izeḍwa, tezegga tettwaqdec  tamuγli tusriwt (vue matricielle) deg tmusni n uzeṭṭa.
+Ttawilat n uzeṭṭa asenselkim:
+Ttawilat n uzeṭṭa zemren ad ilin d : izelman (cables) ideg leḥun timula n trisiti, lahwa neγ ilem (vide) anda leḥunt teyyugin n ṛadyu (ondes radio),  Idedan (fibres optiques) I tawaḍen tayyugin n tafat (ondes lumineuses).
+*Izeḍwa s tinelwa (reseau filaires) seqdacen ineggafen (protocoles) i d-yekkan si tezeγt ethernet (standard ethernet) :
+•	10Base5 : Agatu azdigellusan (cable coaxial) azuran.
+•	10Base2 :Agatu azdigllusan arqiqan.
+•	10Base-T :
+•	100Base-T :
+•	1000Base-T :
+•	10GBase-T :
+*Aṭas n yilugan i d-ttmalen amek ileḥu azeṭṭa s tkatin (reseau hertiziens),amedya ilugan Wi-Fi (IEEE802.11).
+* Trisiti I yessawaḍen tilγa (CPL:courants porteurs en ligne) deq uzeṭṭa n trisiti adiqan (réseau électrique local).
