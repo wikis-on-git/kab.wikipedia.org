@@ -1,10 +1,10 @@
-[[Image:Latin alphabet world distribution.png|thumb|right|350px|Timura isseqdacen agemmay alatini]]
+[[Tugna:Latin alphabet world distribution.png|thumb|right|350px|Timura isseqdacen agemmay alatini]]
 
 '''Agemmay alatini''' d agemmay yettuseqdac di tira n waṭas n tutlayin. Yekka-d aẓar-is seg [[Agemmay itruski|ugemmay itruski]].
 
 Agemmay alatini yettwura seg uzelmaḍ ɣer ayfus , yesεa 26 [[Asekkil|isekkilen]], aṭas n umsasa (adaptations) n ugemmay alatini di tutlayin tiyaḍ (am [[taqbaylit]]) sεan ugar n 26 isekkilen.
 
-==Amezruy==
+== Amezruy ==
 Agemmay alatini amezwaru ɣur-s 23 isekkilen, umbeεd rnan-as 3 wiyaḍ: J, U, W.
 
 {| border="1" cellpadding="2" cellspacing="0" style="margin:0.7em 0.7em 0.7em 0.7em;border:1px solid #AAAAAA;background:#F9F9F9;border-collapse:collapse;font-size:95%;text-align:center;" 
@@ -30,7 +30,7 @@ Agemmay alatini amezwaru ɣur-s 23 isekkilen, umbeεd rnan-as 3 wiyaḍ: J, U, W
 | /oː/ || /peː/ || /kʷuː/ || /er/ || /es/ || /teː/ || /uː/ || /eks/ || /iː 'graika/ || /'zeːta/ 
 |}
 
-==Agemmay alatini ameqqran ==
+== Agemmay alatini ameqqran ==
 Agemmay alatini d agemmay iwumi yesεan kter isekkilen ger igemmayen, Ṭṭabla deg ukessar seg Unicode 5.0 (Tasiwelt taneggarut).
 
 {| border="1" cellpadding="2" cellspacing="0" style="border-collapse:collapse"
@@ -38,16 +38,16 @@ Agemmay alatini d agemmay iwumi yesεan kter isekkilen ger igemmayen, Ṭṭabla
 !width="4%"|U+!!width="6%"|0!!width="6%"|1!!width="6%"|2!!width="6%"|3!!width="6%"|4!!width="6%"|5!!width="6%"|6!!width="6%"|7!!width="6%"|8!!width="6%"|9!!width="6%"|A!!width="6%"|B!!width="6%"|C!!width="6%"|D!!width="6%"|E!!width="6%"|F
 |----- align="center" style="background:#cfc"
 !style="background:#fff"|0040
-|&#64;||[[A]]||[[B]]||[[C]]||[[D]]||[[E]]||[[F]]||[[G]]||[[H]]||[[I]]||[[J]]||[[K]]||[[L]]||[[M]]||[[N]]||[[O]]
+|@||[[A]]||[[B]]||[[C]]||[[D]]||[[E]]||[[F]]||[[G]]||[[H]]||[[I]]||[[J]]||[[K]]||[[L]]||[[M]]||[[N]]||[[O]]
 |----- align="center" style="background:#cfc"
 !style="background:#fff"|0050
-|[[P]]||[[Q]]||[[R]]||[[S]]||[[T]]||[[U]]||[[V]]||[[W]]||[[X]]||[[Y]]||[[Z]]||&#91;||&#92;||&#93;||&#94;||&#95;
+|[[P]]||[[Q]]||[[R]]||[[S]]||[[T]]||[[U]]||[[V]]||[[W]]||[[X]]||[[Y]]||[[Z]]||&#91;||\||&#93;||^||_
 |----- align="center" style="background:#cfc"
 !style="background:#fff"|0060
-|&#96;||[[a]]||[[b]]||[[c]]||[[d]]||[[e]]||[[f]]||[[g]]||[[h]]||[[i]]||[[j]]||[[k]]||[[l]]||[[m]]||[[n]]||[[o]]
+|`||[[a]]||[[b]]||[[c]]||[[d]]||[[e]]||[[f]]||[[g]]||[[h]]||[[i]]||[[j]]||[[k]]||[[l]]||[[m]]||[[n]]||[[o]]
 |----- align="center" style="background:#cfc"
 !style="background:#fff"|0070
-|[[p]]||[[q]]||[[r]]||[[s]]||[[t]]||[[u]]||[[v]]||[[w]]||[[x]]||[[y]]||[[z]]||&#123;||&#124;||&#125;||&#126;||style="font-size:75%"|DEL
+|[[p]]||[[q]]||[[r]]||[[s]]||[[t]]||[[u]]||[[v]]||[[w]]||[[x]]||[[y]]||[[z]]||{||&#124;||}||~||style="font-size:75%"|DEL
 |----- align="center" style="background:#cfc"
 !style="background:#fff"|00C0
 |[[À]]||[[Á]]||[[Â]]||[[Ã]]||[[Ä]]||[[Å]]||[[Æ]]||[[Ç]]||[[È]]||[[É]]||[[Ê]]||[[Ë]]||[[Ì]]||[[Í]]||[[Î]]||[[Ï]]
@@ -290,8 +290,7 @@ Agemmay alatini d agemmay iwumi yesεan kter isekkilen ger igemmayen, Ṭṭabla
 |[[ｐ]]||[[ｑ]]||[[ｒ]]||[[ｓ]]||[[ｔ]]||[[ｕ]]||[[ｖ]]||[[ｗ]]||[[ｘ]]||[[ｙ]]||[[ｚ]]||｛||｜||｝||～||style="background:#885"|｟
 |}
 
-
-[[Taggayt:agemmay]]
+[[Taggayt:Agemmay]]
 
 [[af:Latynse alfabet]]
 [[als:Lateinisches Alphabet]]
@@ -340,6 +339,7 @@ Agemmay alatini d agemmay iwumi yesεan kter isekkilen ger igemmayen, Ṭṭabla
 [[it:Alfabeto latino]]
 [[iu:ᐃᓕᓴᐅᑎᒃ/ilisautik]]
 [[ja:ラテン文字]]
+[[jbo:latmo lerfu]]
 [[jv:Aksara Latin]]
 [[ka:ლათინური დამწერლობა]]
 [[ko:로마자]]
