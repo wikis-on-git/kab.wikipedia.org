@@ -1,57 +1,66 @@
 '''Agemmay aɛebri''' d agemmay yettuseqdac di tira n tutlayt [[taɛebrit]]. Agemmay aɛebri d agemmay [[abjed]] am [[agemmay aɛrab]] neɣ [[agemmay alibi]] ([[Tifinaɣ]] n zik), ur yesɛi ara tiɣra.
 
-Yekka-d aẓar-is seg [[Agemmay arami|ugemmay arami]]. 
+Yekka-d aẓar-is seg [[Agemmay arami|ugemmay arami]].
+
+I kull asekkil llan asusru aṭas. Llan asusru n tɛebrit n zik d ususru n ddin d ususeu n tɛebrit n tura. I tudayt te[[sfaradi]]t d tudayt t[[ackenazi]]t llan asusru imeẓli.
+
 {| class="wikitable"
-! Asekkil
-! isem
-! Asusru n zik
-! Asusru n tura
+!rowspan=2| Asekkil
+!rowspan=2| isem
+!rowspan=2| Asusru n zik
+!colspan=2| Asusru n tura
+!colspan=2| Asusru n ddin
 |-
-| א || Alef || ' (am hamza deg [[taɛrabt|teɛrabt]]) || '
+! [[Ackenazim]]
+! [[Sfaradim]]
+! [[Ackenazim]]
+! [[Sfaradim]]
 |-
-| ב || Beyt || b am b deg ''bibb'' (neɣ ḇ am b deg ''baba'' deffir n tiɣra) || b,v
+| א || Alef || ' (am hamza deg [[taɛrabt|teɛrabt]]) ||colspan=4| '
 |-
-| ג || Gimel || g ( neɣ ɣ deffir n tiɣra) || g
+| ב || Beyt || b am b deg ''bibb'' (neɣ ḇ am b deg ''baba'' deffir n tiɣra) ||colspan=3| b,v || b am b deg ''bibb'' (neɣ ḇ am b deg ''baba'' deffir n tiɣra)
 |-
-| ד || Dalet || d am d deg ''taddart'' (neɣ ḏ am d deg ''drus'' deffir n tiɣra) || d am deg ''taddart''
+| ג || Gimel || g ( neɣ ɣ deffir n tiɣra) ||colspan=4| g
 |-
-| ה || Hey || h || h
+| ד || Dalet || d am d deg ''taddart'' (neɣ ḏ am d deg ''drus'' deffir n tiɣra) ||colspan=4| d am deg ''taddart''
 |-
-| ו || Waw || w || v
+| ה || Hey || h ||colspan=4| h
 |-
-| ז || Zayin || z || z
+| ו || Waw || w ||colspan=4| v
 |-
-| ח || Ḥeyt || ḥ || x
+| ז || Zayin || z ||colspan=4| z
 |-
-| ט || Ṭeyt || ṭ || t am deg ntu
+| ח || Ḥeyt || ḥ || x || ḥ || x || ḥ
 |-
-| י || Yod/Yud || y || y
+| ט || Ṭeyt || ṭ ||colspan=4| t am deg ntu
 |-
-| ך כ || Kaf || k ( neɣ x deffir n tiɣra) || k, x
+| י || Yod/Yud || y ||colspan=4| y
 |-
-| ל || Lamed || l || l
+| ך כ || Kaf || k ( neɣ x deffir n tiɣra) ||colspan=4| k, x
 |-
-| ם מ || Meym || m || m
+| ל || Lamed || l ||colspan=4| l
 |-
-| ן נ || Nun || n || n
+| ם מ || Meym || m ||colspan=4| m
 |-
-| ס || Samex || s || s
+| ן נ || Nun || n ||colspan=4| n
 |-
-| ע || Ɛayin || ɛ || '
+| ס || Samex || s ||colspan=4| s
 |-
-| ף פ || Pey || p (neɣ f deffir n tiɣra) || p, f
+| ע || Ɛayin || ɛ || ' || ɛ neɣ ' || ' || ɛ
 |-
-| ץ צ || Ṣadi/Ṣadiq || ṣ || ts
+| ף פ || Pey || p (neɣ f deffir n tiɣra) ||colspan=4| p, f
 |-
-| ק || Quf/Qof || q || k
+| ץ צ || Ṣadi/Ṣadiq || ṣ ||colspan=3| ts || ṣ
 |-
-| ר || Reyc || r || r
+| ק || Quf/Qof || q ||colspan=3| k || k neɣ q
 |-
-| ש || Cin || c || c
+| ר || Reyc || r || ɣ || r || ɣ neɣ r || r
 |-
-| ש || Sin || s || s
+| ש || Cin || c ||colspan=4| c
 |-
-| ת || Taw || t am t deg ''ntu'' (neɣ ṯ am t deg ''tala'' deffir n tiɣra) || t
+| ש || Sin || s ||colspan=4| s
+|-
+| ת || Taw || t am t deg ''ntu'' (neɣ ṯ am t deg ''tala'' deffir n tiɣra) ||colspan=4| t
 |}
 
 [[Taggayt:Agemmay]]
