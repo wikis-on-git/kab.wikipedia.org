@@ -1,3 +1,60 @@
+'''Agemmay alatini n tmaziɣt''' d amsasa n [[Agemmay alatini|ugemmay alatini]] i tutlayin [[tamaziɣt|timaziɣin]].
+'''NB''': Zik nesseqdec "ṛ", "ț", "ʐ", maca mači tura (Kamal naït zerrad, tajerrumt tatrart n teqbaylit).
+{| align="center" border="1" cellspacing="0" cellpadding="8" bgcolor="#EFEFEF" style="font-size:20px; text-align:center;"
+|-
+| [[A]] || [[Ɛ]] || [[B]] || [[C]] || [[Č]] || [[D]] || [[Ḍ]] || [[E]] || [[F]] || [[G]] || [[Ǧ]] || [[H]] || [[Ḥ]] 
+|-
+| [[I]] || [[J]] || [[K]] || [[L]] || [[M]] || [[N]] || [[O]] || [[P]] || [[Q]] || [[Ɣ]] || [[R]] || [[S]] || [[Ṣ]] 
+|-
+| [[T]] || [[Ṭ]] || [[U]] || [[V]] || [[W]] || [[X]] || [[Y]] || [[Z]] || [[Ẓ]]
+|}
 
 
-Agemmay alitiniw kan! Anefem-agh seg yineqqidhen-a d icappunen!
+{| align="center" border="1" cellspacing="0" cellpadding="8" bgcolor="#EFEFEF" style="font-size:20px; text-align:center;"
+|-
+| [[a]] || [[ɛ]] || [[b]] || [[c]] || [[č]] || [[d]] || [[ḍ]] || [[e]] || [[f]] || [[g]] || [[ǧ]] || [[h]] || [[ḥ]] 
+|-
+| [[i]] || [[j]] || [[k]] || [[l]] || [[m]] || [[n]] || [[o]] || [[p]] || [[q]] || [[ɣ]] || [[r]] ||  [[s]] || [[ṣ]]
+|-
+| [[t]] || [[ṭ]] || [[u]] || [[v]] || [[w]] || [[x]] || [[y]] || [[z]] || [[ẓ]]
+|}
+
+==Unicode==
+
+*A   0190 (latin capital letter open E = latin capital letter epsilon)
+*a   025B (latin small letter open e = latin small letter epsilon)
+** African
+*** lower-mid front unrounded vowel
+*Tc   010C (latin capital letter C with caron)
+*tc   010D (latin small letter c with caron)
+** Czech, Slovak, Slovenian, and many other languages
+*Dh   1E0C (latin capital letter D with dot below)
+*dh   1E0D (latin small letter d with dot below)
+** Indic transliteration
+*Dj   01E6 (latin capital letter G with caron)
+*dj   01E7 (latin small letter g with caron)
+** Skolt Sámi
+*H'   1E24 [latin capital letter H with dot below]
+*h'   1E25 [latin small letter h with dot below]
+** Indic transliteration
+*Gh   0194 (latin capital letter gamma)
+*gh   0263 (latin small letter gamma)
+** African
+*** voiced velar fricative
+*Sz   1E62 [latin capital letter S with dot below]   
+*sz   1E63 [latin small letter s with dot below]   
+** Indic transliteration   
+*Dt   1E6C [latin capital letter T with dot below]   
+*dt   1E6D [latin small letter t with dot below]   
+** Indic transliteration   
+*Zs   1E92 [latin capital letter Z with dot below]   
+*zs   1E93 [latin small letter z with dot below]   
+** Indic transliteration   
+
+
+[[Taggayt:agemmay]]
+
+[[en:Berber Latin alphabet]]
+[[fr:Alphabet berbère]]
+[[nl:Berber Latijnse alfabet]]
+[[no:Det berbiske latinske alfabetet]]
