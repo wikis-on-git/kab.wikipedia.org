@@ -1,22 +1,45 @@
-<div style="font-family:Arial Unicode MS, Tahoma;">
-<table border="1" cellpadding="2" cellspacing="0" align="right" style="margin-left:0.5em;" width="300px">
-<caption><font size="-0">'''Bundesrepublik Deutschland'''</font></caption>
-<tr><td style="background:#efefef;" align" colspan="2">
-<table border="0" " cellspacing="0">
-<tr><td align="center" width="140px">[[Tugna:Flag of Germany.svg|125px]]</td>
-<td align="center" width="140px">[[Tugna:Coat of Arms of Germany.svg|125px]]</td></tr>
-</table></td></tr>
-<tr><td align=center colspan=2>[[Tugna:EU location GER.png|250px]]</td></tr>
-<tr><td>[[Tutlayt tunṣibt]] </td><td>[[Talalmanist]]</td></tr>
-<tr><td>[[Tutlayin nniḍen]] </td><td> 
-<tr><td>[[Tamanaɣt]] </td><td>[[Berlin]]</td></tr>
-<tr><td>[[Bundespräsident]]</td><td>[[Christian Wulff]]</td></tr>
-<tr><td>[[Bundeskanzlerin]]</td><td>[[Angela Merkel]]</td></tr>
-<tr><td>[[Tajumma]]</td><td> 357 093 km²</td></tr> 
-<tr><td>[[Imezdaɣ]]<br />&nbsp;- ([[2007]]) <br />&nbsp;- [[Imezdaɣ deg km²]]</td><td>
-<br /> 82 438 000 <br /> 230/km²; </td></tr>
-</table>
-[[Tugna:Deutschland politisch bunt.png|300px|right]]
+{{Infobox Tamurt
+ | isem_adigan              = Die Bundesrepublik Deutschland
+ | asusru                   = De-Bundesrepublik Deutschland.ogg
+ | tutlayt                  = de
+ | isem_aqvayli             = Tagduda "Fédérale" n Lalman
+ | n                        = n
+ | tugna_asenjaq            = Flag of Germany.svg
+ | azday_asenjaq            = Asenjaq n Lalman
+ | tugna_blason             = Coat of Arms of Germany.svg
+ | azday_blason             = Azamul n Lalman
+ | tugna_takarḍa            = EU location GER.png
+ | tanfalit                 = Einigkeit und Recht und Freiheit <br />(Aferdis, azref d tilelli)
+ | anaw_tutlayin            = [[tutlayt tunṣibt]]
+ | tutlayin                 = [[Talalmanist]]
+ | tamaneɣt                 = [[Berlin]]
+ | imsidag_tamaneɣt         = 52° 31' N, 13° 25' E
+ | azday_timdinin           = Timdinin n Lalman
+ | azwel_tamdint_ugaren     = Tamdint ugaren
+ | tamdint_ugaren           = [[Berlin]]
+ | anaw_anavaḍ              = [[Tagduda]] [[Awanak fédéré|fédéral]]
+ | izwal_iɣellaten          = [[Aselway fédéral (Lalman)|Aselway fédéral]]<br /> - [[Chancelier fédéral (Lalman)|Chancelier fédéral]]
+ | isemawen_iɣellaten       = [[Horst Seehofer|Horst Seehofer (imedzi)]]<br />[[Angela Merkel]]
+ | tajumma_adras            = 63
+ | tajumma_taɣrudt          = {{formatnum:357027}}
+ | afmiḍi_aman              = 2,18 %
+ | imezdaɣ_adras            = 13 
+ | imezdaɣ_taɣrudt          = {{formatnum:82531671}}
+ | imzedaɣ_aseggwas         = 2006
+ | taneẓẓi                  = 231
+ | anaw_azarug              = Tadukli<br /> - Asnulfu RFA<br /> - Asnulfu RDA<br /> - Tadukli nniḍen
+ | tamurt_azarug            = [[Aɣan n Verdun]] ([[843]])
+ | azmez_azarug             = [[18 yennayer]] [[1871]]<br />[[23 mayyu]] [[1949]]<br />[[7 tuber]] [[1949]]<br />[[3 tuber]] [[1990]]
+ | isem_imezdaɣen           = Ilalmanen
+ | aqariḍ                   = [[Euro]]
+ | tangalt_aqariḍ           = EUR
+ | iẓḍi_usrag               = +1 ([[asrag n anebdu|anebdu]] +2)
+ | imseɣret_aɣelnaw         = Tamejrut tis kṛaḍ n [[Das Lied der Deutschen]]
+ | taɣult_internet          = .de
+ | iso3166-1                = DEU, DE
+ | tasarut_tilifun          = 49
+ | tuddsiwin_tigraɣlanin    = [[Tuddsiwin n Amedhel dɣa d Taneflit Adamsan|TATA]], [[Tuddsiwin Tameḍlant n Tanezzawt|TTT]], [[Tuddsiwin n Aɣan Atlantik Agafa|TAAA]], [[Tadukli n Turuft|TT]]
+ }}
 
 Tamurt n Lalman, tezga-d g umenzaw n [[Turuft]] (Europa) g tamas tasamart, tekcem g [[Tadukli n tmura n turuft]] (UE). Tutlayt tunṣibt ines d Talalmanist.
 
