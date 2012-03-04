@@ -38,3 +38,165 @@ Di twala agi, [[John Knoll]] iṛuḥ ar [[Silicon Valley]] iwakken ad isnat ahi
 ==Aglam==
 
 Photoshop isɛa amasal n ufaylu n yiman is (Asiɣzef: psd) ayen iɣ yettaǧǧan an ḥrez ticriḥin n usenfar id iselɣen tugna iwakken ad ttwasqedcet subrez. Ahil yettaǧǧa daɣan aseqdac ad ikter u ad isifeḍ ifuyla tugniwin deg imusal yettwasnen s waṭas am (Asiɣzef : gif, jpg, tif, png, etc.).
+
+== Taneflit ==
+{| cellpadding="5" class="wikitable"
+! colspan="5" | Versions successives depuis 1990
+|-
+! Lsem
+! Tiɣeṛɣeṛt
+! isem n telgalt
+! Azmez n uzenzi
+! Iveddilen igejdayen
+|-
+| 1.0
+| Mac OS
+|
+| février 1990
+|
+|-
+| 2.0
+| Mac OS
+| ''Fast Eddy''
+| juin 1991
+| Tracés
+|-
+| 2.0.1
+| Mac OS
+|
+| janvier 1992
+|
+|-
+| rowspan=2 | 2.5
+| Mac OS
+| ''Merlin (photoshop)''
+| rowspan=2 | novembre 1992
+| rowspan=2 |
+|-
+| Windows
+| ''Brimstone''
+|
+|-
+| 2.5.1
+| Mac OS
+|
+| 1993
+|
+|-
+| rowspan=2 | 3.0
+| Mac OS
+| ''Tiger Mountain''
+| septembre 1994
+| rowspan=2 |Palettes à onglets, calques
+|-
+| Windows, IRIX
+|
+| novembre 1994
+|-
+| 4.0
+| Mac OS, Windows
+| ''Big Electric Cat''
+| novembre 1996
+| Calques de réglage, texte éditable (auparavant, le texte était immédiatement « rastérisé »)
+|-
+| 4.0.1
+| Mac OS, Windows
+|
+| août 1997
+|
+|-
+| 5.0
+| Mac OS, Windows
+| ''Strange Cargo''
+| mai 1998
+| Niveaux d’annulation (palette d’historique), colorimétrie
+|-
+| 5.0.1
+| Mac OS, Windows
+|
+| 1999
+|
+|-
+| 5.5
+| Mac OS, Windows
+|
+| février 1999
+| Extraction, tracés vectoriels, export optimisé vers le Web
+|-
+| 6.0
+| Mac OS, Windows
+| ''Venus in Furs''
+| septembre 2000
+| Filtre Fluidité (''liquify'')
+|-
+| 6.1
+| Mac OS, Windows
+|
+| mars 2001
+|
+|-
+| 7.0
+| Mac OS, Windows
+| ''Liquid Sky''
+| mars 2001
+| Texte totalement vectoriel, outil correcteur, nouveau moteur de rendu
+|-
+| 7.0.1
+| Mac OS, Windows
+|
+| août 2002
+| Caméra RAW 1.x (''plugin'' optionnel)
+|-
+| CS (8.0)
+| Mac OS, Windows
+| ''Dark Matter''
+| octobre 2003
+| Caméra RAW 2.x, outil densité, {{lang|en|''Match Colour command''}}, filtre « flou d’objectif », histogramme en temps réel, détection et refus d’imprimer les images scannées issues de différents billets de banque
+|-
+| CS2 (9.0)
+| Mac OS, Windows
+| ''Space Monkey''
+| avril 2005
+| Caméra RAW 3.x, {{lang|en|''Smart Objects''}}, {{lang|en|''Image Warp''}}, outil correcteur, réduction d’yeux rouges, filtre de correction d’objectifs, {{lang|en|''Smart Sharpen''}}, {{lang|en|''Vanishing Point''}}, support du [[Imagerie à grande gamme dynamique|HDRI]]
+|-
+| CS3 (10.0)
+| Mac OS, Windows
+| ''Red Pill''
+| fin mars 2007<br />La version étendue ajoute des outils pour l’animation et de mesures spécialement dédiés au monde scientifique.
+|
+* Support natif pour les plates-formes Macintosh à base d’Intel
+* Refonte de l’interface d’utilisateur
+* Modifications de la Caméra RAW
+* Outil de sélection rapide
+* Alignement automatique
+* Optimisation pour les cartes graphiques mobiles
+* Lancement plus rapide
+* Importation de vidéos
+* Fusion des outils d'Image Ready dans Photoshop : Animation et Optimisation des images pour le web
+|-
+| CS4 (11.0)
+| Mac OS, Windows
+| ''Stonehenge''
+| fin octobre 2008
+| 
+* Fonctions de peinture et de compositing 3D
+* Panneau de réglage pour l'image
+* Panneau de réglage masques
+* Rotation fluide de l'espace de travail
+* Mise à l'échelle adaptée au contenu
+* Le choix des fichiers ouverts s'effectue par des onglets.
+|-
+| CS5 (12.0)
+| Mac OS, Windows
+| ''White Rabbit''
+| 12 avril 2010<ref name="date">[http://cs5launch.adobe.com/fr/ Compte à rebours sur Adobe Creative Suite 5]</ref>
+|
+* Content-Aware Fill: permet de supprimer simplement certains éléments d'une photo.
+* Amélioration de la sélection des zones floues (cheveux, poils, etc)
+* Puppet warp: déformation précise des éléments d'une photo
+* HDR: Traitement HDR (high Dynamic Range) amélioré 
+* Gestion de fichiers intégrée à Photoshop grâce à Mini Bridge
+* Adobe Repoussé: Extrusion 3D
+* Amélioration du traitement des objets 3D et des textures.
+* Camera RAW 6: version améliorée du traitement des fichiers RAW
+|}
