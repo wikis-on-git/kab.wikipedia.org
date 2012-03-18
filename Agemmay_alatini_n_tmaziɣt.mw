@@ -1,5 +1,6 @@
 {{Alɣu|''Amagrad agi, i tmeslay af agemmay amaziɣ alatin. I agemmay amaziɣ aqbur, ẓeṛ [[Tifinaɣ]].''}}
 
+==Amaziɣ n ugafa==
 
 '''Agemmay amaziɣ alatin''' yefsa ɣef [[Agemmay alatini|ugemmay alatin]]. I umaziɣ n ugafa (Merruk d Lezzayer], agemmay amaziɣ alatin i seqdec 23 isekkilen ilatinen imɣulen d 10 isekkilen nniḍen n ugemmay alatin.
 
@@ -53,6 +54,98 @@ Agemmay amaziɣ alatin i seqdec abaεda i tirawt n amzun akk tileqmant n tutlayt
 *zs   1E93 [latin small letter z with dot below]   
 ** Indic transliteration   
 
+==Isekkilen imɣulen==
+Tira: I ubeqqeḍ n isekkilen s Tifinaɣ, zdem afaylu agi : [http://www.ircam.ma/documents/policesclavierunicode/tifinaghe-Ircam-unicode.ttf ircam.ma], dɣa ḥrez it ddaw "C:\windows\fonts" (beddel "C" s usekkil n uẓar ma [[Windows]] ur yeserkeb ara deg uḍebsi C).
+
+{| class="wikitable"
+| Asekkil || [[Tifinagh]] (IRCAM) || Prononciation
+|-
+| [[A (asekkil)|A]] || ⴰ || ''a'' am deg talanglizt b'''a'''d
+|-
+| [[B (asekkil)|B]] || ⴱ || b/p/v
+|-
+| [[C (asekkil)|C]] || ⵛ || ch
+|-
+| [[D (asekkil)|D]] || ⴷ || ''d''
+|-
+| [[E (asekkil)|E]] || ⴻ || ''a'' awezzlan am deg talalmanit m'''a'''chen
+|-
+| [[F (asekkil)|F]] || ⴼ || f
+|-
+| [[G (asekkil)|G]] || ⴳ || gu
+|-
+| [[H (asekkil)|H]] || ⵀ || ''h'' am deg talanglizt '''h'''ello
+|-
+| [[I (asekkil)|I]] || ⵉ || i
+|-
+| [[J (asekkil)|J]] || ⵊ || j
+|-
+| [[K (asekkil)|K]] || ⴽ || k
+|-
+| [[L (asekkil)|L]] || ⵍ || l
+|-
+| [[M (asekkil)|M]] || ⵎ || m
+|-
+| [[N (asekkil)|N]] || ⵏ || n
+|-
+| [[Q (asekkil)|Q]] || ⵇ || 
+|-
+| [[R (asekkil)|R]] || ⵔ || ''r''
+|-
+| [[S (asekkil)|S]] || ⵙ || s
+|-
+| [[T (asekkil)|T]] || ⵜ || ''t''
+|-
+| [[U (asekkil)|U]] || ⵓ || ou
+|-
+| [[W (asekkil)|W]] || ⵡ || w
+|-
+| [[X (asekkil)|X]] || ⵅ || am [[jota]] n tespenyult naɣ ''ch'' am deg talalmanit ma'''ch'''en)
+|-
+| [[Y (asekkil)|Y]] || ⵢ || y
+|-
+| [[Z (asekkil)|Z]] || ⵣ || z
+|}
+
+==Nniḍen==
+<div style="font-family:Arial Unicode MS, Tahoma">
+{| class="wikitable"
+| asekkil || Unicode ||| Tifinaɣ (IRCAM)  || Asusru 
+|-
+| [[č]] || 010C/010D || ⵛ || tch
+|-
+| [[ḍ]] || 1E0C/1E0D || ⴹ || ''d'' [[Targalt ufaɣ|ufaɣ]]
+|-
+| [[ǧ]] || 01E6/01E7 || ⴵ *|| dj
+|-
+| [[ḥ]] || 1E24/1E25 || ⵃ || am deg taɛrabt mu'''ḥ'''ammed
+|-
+| [[J]] || 1E62/1E63 ||ⵋ || ''j'' 
+|-
+| [[ṣ]] || 1E62/1E63 || ⵚ || ''s'' ufaɣ
+|-
+| [[ṭ]] || 1E6C/1E6D || ⵟ || ''t'' ufaɣ
+|-
+| [[ẓ]] || 1E92/1E93 || ⵥ || ''z'' ufaɣ
+|-
+| [[ɛ]] || 0190/025B || ⵄ || 
+|-
+| [[ɣ]] || 0194/0263 || ⵖ || ''r'' am deg taṛumit pa'''r'''isien
+|}
+</div>
+(*) [[Agraw Imaziɣen]]
+
+==Isilen nniḍen==
+
+*tt=ts
+*zz=dz
+
+==Adlesumuɣ==
+
+* ''Grammaire moderne du kabyle, Tajerrumt tatrart n Teqbaylit''. Éditions Karthala, [[2001]], {{ISBN|2-84586-172-9}}
+
+==Ẓeṛ daɣen==
+* [[Tifinaɣ]]
 
 [[Taggayt:agemmay]]
 
