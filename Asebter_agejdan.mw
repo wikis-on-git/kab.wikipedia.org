@@ -37,7 +37,7 @@
 | {{Amager/Akatar
 |azwel   = Tawlaft n ass
 |tugna   =  HSBild.svg
-|agbur = {{Wikipedia:Tawlaft n ass/{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}}}
+|agbur = {{Wikipedia:Tawlaft n ass/{{CURRENTDAY}} {{lcfirst:{{CURRENTMONTHNAME}}}} {{CURRENTYEAR}}}}
 |azday    = {{clr}} {{nobr|[[Wikipedia:Tawlaft n ass/{{CURRENTMONTHNAME}} {{CURRENTYEAR}}|Aɣbaṛ]] •}} [[Wikipedia:Tawlaft n ass|Ẓeṛ tugniwin]] <br/> [[:Commons:Commons:Tugniwin n taɣara|Tugniwin n taɣara ɣef Wikimédia Commons]]
 |id = Tawlaftnass
 }}
