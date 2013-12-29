@@ -1,25 +1,88 @@
-<div style="font-family:Arial Unicode MS, Tahoma;">
-<table border="1" cellpadding="2" cellspacing="0" align="right" style="margin-left:0.5em;" width="300px">
-<caption><font size="-0">'''United Kingdom of Great Britain
-and Northern Ireland'''</font></caption>
-<tr><td style="background:#efefef;" align" colspan="2">
-<table border="0" " cellspacing="0">
-<tr><td align="center" width="140px">[[Tugna:Flag of the United Kingdom.svg|125px]]</td>
-<td align="center" width="140px">[[Tugna:Royal Coat of Arms of the United Kingdom.svg|125px]]</td></tr>
-</table></td></tr>
-<tr><td align=center colspan=2>[[Tugna:EU location UK.png|250px]]</td></tr>
-<tr><td>[[Tutlayt tunṣibt]] </td><td>[[Taglizit]]</td></tr>
-<tr><td>[[Tutlayin nniḍen]] </td><td> 
-<tr><td>[[Tamanaɣt]] </td><td>[[London]]</td></tr>
-<tr><td>[[Agellid]]</td><td>[[Elizabeth II]]</td></tr>
-<tr><td>[[aneɣlaf amezwaru]]</td><td>[[David Cameron]]</td></tr>
-<tr><td>[[Tajumma]]</td><td> 244,820 km²</td></tr> 
-<tr><td>[[Imezdaɣ]]<br />&nbsp;- ([[2007]]) <br />&nbsp;- [[Imezdaɣ deg km²]]</td><td>
-<br /> 60,776,238 <br /> 243/km²; </td></tr>
-</table>
+{{Infobox Tamurt
+| isem_aqbayli               = Tagelda Yeddukklen
+| isem_adigan                = United Kingdom
+| asusru                     = United States Navy Band - God Save the Queen.ogg
+| tutlayt                    = en
+| isem                       = Langliz
+| tugna_asenjaq              = Flag of the United Kingdom.svg
+| azday_asenjaq              = Asenjaq n Langliz
+| tugna_ablasun              = Royal Coat of Arms of the United Kingdom.svg
+| azday_ablasun              = Azamul n Langliz
+| azday_ablasun              = Armoiries n Langliz
+| tugna_takarḍa              = EU-United Kingdom.svg
+| tanfalit                   = Ṛebbi d uzref inu
+| tawsit_tutlayin            = [[Tutlayt tunṣibt]]
+| tutlayin                   = [[Tanglizit]] (taɣelnawt)<br />[[Tagalit]] (tunṣibt deg [[Tamurt n Wales|tamurt n Wales]])<br />[[Tagaelit tikusit|Tikusit]] (tunṣibt deg [[Tikust]])<ref>{{en}} Angus Macleod, ''Gaelic given official status'' (22 yebrir 2005) ''[[The Times]]'', London, {{ɣaṛ uqqin|url=http://www.timesonline.co.uk/tol/news/uk/article384045.ece}}, assefqed ass n 2 ɣuct 2007.</ref><br />[[Taskuts]] (deg Tikust)<br />[[Takurnikt]] (deg Kurnway)<br />[[Tirlandit]] (deg [[Irland n Ugafa]])<br />Tajiryat (deg Jersey)<ref>Deg Tagelda Yeddukklen, kra n tutlayin nniḍen uɣalent d tunṣibin am[[Tutlayin n aẓiyen|tutlayin n aẓiyen]]. Deg yal tutlayin agi, isem unṣib n Tagelda Yeddukklen d :
+* <small>[[Tagalit]] : ''Teyrnas Unedig Prydain Fawr a Gogledd Iwerddon''
+* <small>[[Tikust]] : ''An Rìoghachd Aonaichte na Breatainn Mhòr agus Eirinn a Tuath''
+* <small>[[Tirlandit]] : ''Ríocht Aontaithe na Breataine Móire agus Tuaisceart na hÉireann''
+* <small>[[Taskuts]] : ''Unitit Kinrick o Great Breetain an Northren Ireland''
+* <small>[[Takurnikt]] : ''An Rywvaneth Unys a Vreten Veur hag Iwerdhon Glédh''</ref>
+| tamaneɣt                   = [[London]]
+| imsidag_tamaneɣt           = 51°30′ N 0°7′ W|
+| azday_timdinin             = Umuɣ n timdinin n Tagelda Yeddukklen
+| azwel_tamdint_ugaren_tiyaḍ = Tamdint ugaren tiyaḍ
+| tamdint_ugaren_tiyaḍ       = [[London]]
+| tawsit_anabaḍ              = [[Tagelda tawamnit]]
+| izwal_imḍebbren            = [[Umuɣ n igelliden ibriṭaniyen|Tagellidt]]
+| izwal_imḍebbren2           = [[Aneɣlaf amezwaru n Tagelda Yeddukklen|Aneɣlaf amezwaru]]
+| izwal_imḍebbren3           = [[Aselway n Taxxamt n timdinin (Tagelda Yeddukklen)|Aselway n Taxxamt n timdinin]]
+| izwal_imḍebbren4           = [[Lord Speaker]]
+| izwal_imḍebbren5           = [[Aɣella n Taxxamt n Lords]]
+| isemawen_imḍebbren         = [[Élisabeth II n Tagelda Yeddukklen|Élisabeth II]]
+| isemawen_imḍebbren2        = [[David Cameron]]
+| isemawen_imḍebbren3        = [[John Bercow]]
+| isemawen_imḍebbren4        = [[Frances D'Souza]]
+| isemawen_imḍebbren5        = [[Thomas Galbraith]]
+| tajumma_asertatu           = 76
+| tajumma_taɣrudt            = 242 821
+| afmiḍi_aman                = 1,3 %
+| amezdaɣ_asertatu           = 22
+| amezdaɣ_aɣrud              = {{aferdis|63181775}}<ref>{{en}}[http://www.ons.gov.uk/ons/guide-method/census/2011/uk-census/index.html Office for National Statistics]</ref>
+| amezdaɣ_aseggwas           = 2011
+| igrawen_iran               = 87,1 % [[Amellal (alsan)|Imellalen]]<br /> 7,0 % [[Asyan (alsan)|Isyanyen]] <br /> 3,0 % [[Aberkan (alsan)|Iberkanen]]<br /> 2,0 % [[Ixelḍen]]<br />  0,9 % Nniḍen<ref name="Census2011">{{en}} {{Azday web|url=http://www.ons.gov.uk/ons/rel/census/2011-census/key-statistics-and-quick-statistics-for-local-authorities-in-the-united-kingdom---part-1/rft-ks201uk.xls|titre=United Kingdom population by ethnic group|site=Office for National Statistics |azmez=27 meɣres 2011|ameskar=United Kingdom Census 2011|Assefqed ass n=23 tuber 2013|format=XLS}}</ref>
+| igrawen_iran_aseggwas      = 
+| taneẓẓi                    = 260
+| tamurt_azarug              = 
+| azmez_assileɣ              = {{azmez|12|yebrir|1922}}
+| tawsit_assileɣ             = [[Amtawa Angliz-Irlandi]]
+| tawsit_assileɣ2            = 
+| azmez_assileɣ2             = 
+| tawsit_assileɣ3            = 
+| azmez_assileɣ3             = 
+| tawsit_assileɣ4            = 
+| azmez_assileɣ4             = 
+| isem_umezdaɣ               = Ibriṭaniyen
+| PIBPPA_aseggwas            = 2009
+| PIB_PPA                    = $2 139 imelyaṛen<ref>[[Afaris agensi amsari|PIB]] s [[tulut n tazmert n timesɣiwt]], di leḥsab n [[Ider n uqariḍ agraɣlan]] (FMI).</ref>
+| PIBPPA_asertatu            = {{wis6}}
+| PIB_aseggwas               = 2011
+| PIB                        = $2 480 imelyaṛen<ref>PIB nominal, di leḥsab n [[Ider n uqariḍ agraɣlan]] (FMI).</ref>
+| PIB_asertatu               = {{wis7}}
+| IDH_aseggwas               = 2010
+| IDH                        = {{augmentation}} 0,849<ref>{{fr}} {{Azday web|url=http://hdr.undp.org/en/media/HDR_2010_FR_Tables.pdf|titre=Rapport sur le développement humain 2010 des Nations Unies. Tableau 1 p. 167|aseggwas=2010}}{{pdf}}</ref>
+| IDH_taggayt                = aɛlayan aṭas
+| IDH_asertatu               = {{wis26}}
+| aqariḍ                     = [[Pound sterling]]
+| angal_aqariḍ               = GBP
+| iẓḍi_usrag                 = + 0 ([[asrag n unebdu|anebdu]] + 1)
+| imseɣret_aɣelnaw           = [[God save the Queen]]<br />(de facto)
+| taɣult_internet            = .uk
+| iso3166-1                  = GBR, GB
+| tasarutt_tasawlant         = 44
+| tuddsiwin                  = 
+}}
+
 '''Legliz''', s [[Taglizit|teglizit]] '''United Kingdom''' ("Tagelda Yedduklen"), d tamurt tigzirt d-yezgan di Turuft, deg-s 4 tgeldiwin yedduklen : ''England'' ("Legliz" n tidett), ''Wales'', ''Scotland'' (tigeldwin agi d ''Great Britain'', "Britanya tameqqrant" di 3 yid-sent) rnu-asen''Northern Ireland'' ("[[Irland]] n Ugafa").
 
+
+
+{{DEFAULTSORT:Tagelda Yeddukklen}}
+[[Taggayt:Tagelda Yeddukklen| ]]
 [[Taggayt:Timura n Turuft]]
 
-{{Link FA|ta}}
-{{Link FA|yi}}
+{{Lien AdQ|es}}
+{{Lien AdQ|gv}}
+{{Lien AdQ|ta}}
+{{Lien AdQ|yi}}
+{{Lien AdQ|tt}}
