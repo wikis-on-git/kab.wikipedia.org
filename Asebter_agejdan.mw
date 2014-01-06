@@ -1,95 +1,88 @@
-<div id="mf-blog" title="Wikipidya Aqbayli">
-<div id="amager_azwel">{{Amager/Azwel}}</div>
-<!--     AGBUR        -->
+<div id="accueil_titre">{{Amager/Azwel}}</div>
+<!-- CONTENU -->
 {| style="margin-top:10px; background:none;"
 | style="width:65%; border:1px solid #a7d7f9; vertical-align:top; color:#000; padding: 0px 10px 10px 0px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px;" |
 {| cellpadding="2" cellspacing="5" style="width:100%; vertical-align:top; background:transparent;"
-
-
-{| style="margin:4px 0px 0px 0px; width:100%; background:none;"
-|class="MainPageBG" style="width:100%; border:1px solid #C7D0F8; background:#F2F5FD; vertical-align:top; color:#000; -moz-border-radius:4px"|
-{| cellpadding="2" cellspacing="5" style="vertical-align:top; background:#F2F5FD; color:#000; width:100%;"
-|-
-|    
-<!-------------------------------------------
---- BARRA SUPERIOR (TEXTO IZQUIERDA) --------
--------------------------------------------->
-
-<!-----------------------------------------
---- XLEQ AMAGRAD AMAYNUT-------------------
--------------------------------------------->
-|}<!-----------------------------------------
---- BARRA DE CONTENIDOS IZQUIERDA -----------
--------------------------------------------->
-{|style="margin:4px 0px 0px 0px; background:none;"
-|class="MainPageBG" style="width:60%; border:1px solid #cedff2; background:#ffffff; vertical-align:top; color:#000; -moz-border-radius:4px"|
-
-{|width="100%" cellpadding="2" cellspacing="5" style="vertical-align:top; background:#ffffff;"
-! <div style="float:right; margin:2px 2px 0px 0px;">[[Tugna:Wikibar2.png]]</div><h2 style="margin:0; background:#E6ECFF; font-size:100%; font-weight:bold; border:1px solid #cccccc; text-align:left; color:#000; padding:0.2em 0.4em; -moz-border-radius:6px">[[Tugna:Nuvola filesystems services.png|20px]] [[Wikipedia:Imagraden ifernen|Amagrad ufrin]]</h2>
-|-
-|style="color:#000; font-size:100%;"| {{Amagrad ufrin}}
-|-
-! <div style="float:right; margin:2px 2px 0px 0px;">[[Tugna:Wikibar2.png]]</div><h2 style="margin:0; background:#F0E6FF; font-size:100%; font-weight:bold; border:1px solid #cccccc; text-align:left; color:#000; padding:0.2em 0.4em; -moz-border-radius:6px">[[Tugna:Artículo bueno.svg|20px]] [[Wikipedia:Imagraden yelhan|Amagrad yelhan]]</h2>
-|-
-|style="color:#000; font-size:100%; padding:5px; padding-top:10px; padding-bottom:10px"| {{Amagrad yelhan}}
-|-
-! <div style="float:right; margin:2px 2px 0px 0px;">[[Tugna:Wikibar2.png]]</div><h2 style="margin:0; background:#FFE6F9; font-size:100%; font-weight:bold; border:1px solid #cccccc; text-align:left; color:#000; padding:0.2em 0.4em; -moz-border-radius:6px">
-|-
+<!-- =============== LUMIERE SUR =============== -->
 | {{Amager/Akatar
-|azwel   = Tawlaft n ass
-|tugna   =  HSBild.svg
-|agbur = {{Wikipedia:Tawlaft n ass/{{CURRENTDAY}} {{lcfirst:{{CURRENTMONTHNAME}}}} {{CURRENTYEAR}}}}
-|azday    = {{clr}} {{nobr|[[Wikipedia:Tawlaft n ass/{{CURRENTMONTHNAME}} {{CURRENTYEAR}}|Aɣbaṛ]] •}} [[Wikipedia:Tawlaft n ass|Ẓeṛ tugniwin]] <br/> [[:Commons:Commons:Tugniwin n taɣara|Tugniwin n taɣara ɣef Wikimédia Commons]]
-|id = Tawlaftnass
+|azwel   = Tafat ɣef
+|id      = accueil-lumieresur
+|tugna   = HSutvald2.svg
+|agbur = <div id="mf-lumieresur" title="Tafat ɣef">{{Tafat ɣef/Ass-agi}}</div>
+|lien = {{nobr|[[Wikipedia:Igburen n taɣara|Igburen n taɣara]] •}} {{nobr|[[Wikipedia:Igburen yelhan|Igburen yelhan]] •}} {{nobr|[[Wikipedia:Tafrant|Tafrant]]}}  • [[Wikipedia:Tafat ɣef|Ahil]]
+|orange = oLumiereSur
 }}
-|-
-! <div style="float:right; margin:2px 2px 0px 0px;">[[Tugna:Wikibar2.png]]</div><h2 style="margin:0; background:#FFEBE6; font-size:100%; font-weight:bold; border:1px solid #cccccc; text-align:left; color:#000; padding:0.2em 0.4em; -moz-border-radius:6px">[[Tugna:Gnome globe current event.svg|20px]] [[Portal:Isallen|Isallen]]</h2>
-|-
-|style="color:#000; font-size:100%;"| {{Isallen}}
-|-
-! <div style="float:right; margin:2px 2px 0px 0px;">[[Tugna:Wikibar2.png]]</div><h2 style="margin:0; background:#FFF5E6; font-size:100%; font-weight:bold; border:1px solid #cccccc; text-align:left; color:#000; padding:0.2em 0.4em; -moz-border-radius:6px">[[Tugna:Dates.png|20px]] [[Wikipedia:Awitay|Ass yecban ass-a ...]]</h2>
-|-
-|style="color:#000; font-size:100%;"| {{Awitay - {{CURRENTMONTHNAME}}}}
-|-
-! <div style="float:right; margin:2px 2px 0px 0px;">[[Tugna:Wikibar2.png]]</div><h2 style="margin:0; background:#FFFCE6; font-size:100%; font-weight:bold; border:1px solid #cccccc; text-align:left; color:#000; padding:0.2em 0.4em; -moz-border-radius:6px">[[Tugna:Nuvola apps filetypes.svg|20px]] [[Wikipedia:Ma teẓrid|Ma teẓrid...?]]</h2>
-|-
-|style="color:#000; font-size:100%;"| {{Ma tezrid}}
-|-
-! <div style="float:right; margin:2px 2px 0px 0px;">[[Tugna:Wikibar2.png]]</div><h2 style="margin:0; background:#FFFCE6; font-size:100%; font-weight:bold; border:1px solid #cccccc; text-align:left; color:#000; padding:0.2em 0.4em; -moz-border-radius:6px">[[Tugna:Udem.jpg|20px]] [[Wikipedia:tameddurt|Udem n waggur]]</h2>
-|-
-|style="color:#000; font-size:100%;"| {{Udem n waggur n {{CURRENTMONTHNAME}}}}
-|-
+<!-- =============== ACTUALITES ET EVENEMENTS =============== -->
+| {{Amager/Akatar
+|azwel   = Isalen d tidyanin
+|id      = accueil-actualite
+|tugna   = Datum{{LOCALDAY2}}.svg
+|agbur = <div id="mf-actualite" title="Isalen d tidyanin">{{Amager tamirt}}</div>
+|lien    = {{nobr|[[{{MONTHNAMEMAJ|{{CURRENTMONTH}}}} {{CURRENTYEAR}}]] •}} {{nobr|[[{{CURRENTDAY}}{{#ifeq:{{CURRENTDAY}}|1|er|}} {{CURRENTMONTHNAME}}|Izemzan n wass-a]] •}} <span class="js-no-interprojets">[[:n:Amager|Wikinews]]</span> • [[Talɣa:Amager tamirt|Beddel]]
+}}
+<!-- =============== LE SAVIEZ-VOUS ? =============== -->
+| {{Amager/Akatar
+|azwel   = Teḥṣiḍ ?
+|tugna   = HSVissteduatt.svg
+|agbur = <div id="mf-SaviezVous" title="Teḥṣiḍ ?">{{Wikipedia:Teḥṣiḍ ?}}</div>
+|lien    = {{nobr|[[Wikipedia:Teḥṣiḍ ?/Aɣbaṛ|Aɣbaṛ]] •}} [[Wikipedia:Teḥṣiḍ ?|Beddel]]
+|id = SaviezVous
+}}
+<!-- =============== IMAGE DU JOUR =============== -->
+| {{Amager/Akatar
+|azwel   = Tawlaft n wass-a
+|tugna   =  HSBild.svg
+|agbur = {{Wikipedia:Tawlaft n wass-a/{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}}}
+|lien    = {{clr}} {{nobr|[[Wikipedia:Tawlaft n wass-a/{{CURRENTMONTHNAME}} {{CURRENTYEAR}}|Aɣbaṛ]] •}} [[Wikipedia:Tawlaft n wass-a|Zeṛ tiwlafin]] <br/> <span class="js-no-interprojets">[[:Commons:Commons:Images de qualité|Tiwlafin n taɣara ɣef Wikimedia Commons]]</span>
+|id = ImageDuJour
+}}
+<!-- =============== FIN COLONNE DE GAUCHE =============== -->
 |}
-|style="border:1px solid transparent"|<!-----
----------------------------------------------
---- BARRA DE CONTENIDOS DERECHA -------------
--------------------------------------------->
-|class="MainPageBG" style="width:40%; border:1px solid #cef2e0; background:#f5faff; vertical-align:top; -moz-border-radius:4px"|
-{| width="100%" cellpadding="2" cellspacing="5" style="vertical-align:top; background:#f5faff;"
-! <h2 style="margin:0; background:#F9F9F3; font-size:100%; font-weight:bold; border:1px solid #E8DDC9; text-align:left; color:#000; padding:0.2em 0.4em; -moz-border-radius:4px">[[Tugna:Nuvola apps gaim.png|22px]] [[Wikipedia:Tajmaɛt|Tajmaɛt]]</h2>
-|-
-|style="color:#000; font-size:100%;"| Amkan deg i nettmeslay ɣef tsanayt.
-|-
-! <h2 style="margin:0; background:#F9F9F3; font-size:100%; font-weight:bold; border:1px solid #E8DDC9; text-align:left; color:#000; padding:0.2em 0.4em; -moz-border-radius:4px">[[Wikipedia:Awal umɛin|Awal umɛin]]</h2>
-|-
-|style="color:#000; padding-left: 5px; padding-right: 5px;"| {{Awal}}
-|-
-! <h2 style="margin:0; background:#F9F9F3; font-size:100%; font-weight:bold; border:1px solid #E8DDC9; text-align:left; color:#000; padding:0.2em 0.4em; -moz-border-radius:4px">[[Wikipedia:Tasanayt|Tasanayt]]</h2>
-|-
-|style="color:#000; padding-left: 5px; padding-right: 5px;"| {{Tasanayt 2}}
-|-
-! <h2 style="margin:0; background:#F9F9F3; font-size:100%; font-weight:bold; border:1px solid #E8DDC9; text-align:left; color:#000; padding:0.2em 0.4em; -moz-border-radius:4px">Asenfar n twacult n Wiki</h2>
-|-
-|style="color:#000; padding-left: 5px; padding-right: 5px;"| {{yessetmas n Wikipedia}}
-|-
-! <h2 style="margin:0; background:#F9F9F3; font-size:100%; font-weight:bold; border:1px solid #E8DDC9; text-align:left; color:#000; padding:0.2em 0.4em; -moz-border-radius:4px">Wikipedia s tutlayin tiyaḍ</h2>
-|-
-|style="color:#000; padding-left: 5px; padding-right: 5px;"| {{Wikipedialang}}
-|-
+|<!-- ESPACE ENTRE LES 2 COLONNES -->  style="border:5px solid transparent;" |
+<!-- =============== COLONNE DE DROITE =============== -->
+| style="width:35%; border:1px solid #a7d7f9; background:#f5faff; vertical-align:top; padding: 0px 10px 10px 0px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px;"|
+{| id="mp-right" cellpadding="2" cellspacing="5" style="width:100%; vertical-align:top; background:#f5faff; background:transparent;  text-align: left;"
+<!-- =============== PRESENTATION =============== -->
+| {{Amager/Akatar2
+| tugna   = W-circle.svg
+| azwel   = Tazwart
+| agbur = {{Amager/Tazwart}}
+}}
+<!-- =============== PARTICIPATION =============== -->
+| {{Amager/Akatar2
+| tugna   = Text-x-generic with pencil-2.svg
+| azwel   = Aṭekki
+| agbur = {{Amager/Aṭekki}}
+}}
+<!-- =============== COMMUNAUTE =============== -->
+| {{Amager/Akatar2
+| tugna   = HSSamarbete.svg
+| azwel   = Tajmaɛt
+| agbur =  {{Amager/Tajmaɛt}} 
+}}
+<!-- =============== PROJETS FRERES =============== -->
+| {{Amager/Akatar2
+| tugna   = Wikimedia-logo-circle.svg
+| azwel   = {{nobr|Isenfaren aytmaten}}
+| agbur = {{clr}} {{Amager/Isenfaren aytmaten2}}
+}}
 |}
 |}
-__NOTOC__<!-- -->__NOEDITSECTION__<!--
 
-Umuɣ n warim (20) imeqranen n ger-wiki
+<!-- =============== PIED DE PAGE =============== -->
+{| style="margin:0 0 0 0; background:none; width:100%; margin-top:12px; background:transparent;"
+| style="width:100%; border:1px solid #a7d7f9; vertical-align:top; color:#000; padding: 0px 0px 0px 0px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px;" |
+{| width="100%" style=" padding:0px; margin-top:0px; margin-bottom:0px; background:transparent;"
+|-
+| align=center |[[Wikipedia:Icaɣliyen imuta|Wikipedia ur d yeḍmen ara agbur id yessuffeɣen d-agi]].<br /><small>[[Wikimedia Foundation]] d imefki n tnezduɣt, ur tetili ara d tamasayt n tuccḍiwin i tzemreḍ ad afeḍ ɣef usmel agi.<br /> Yal amaẓrag d-amasay n ittekkiyen ines.</small>
+|}
+|}
+{{Amager/Anermis}}
+<!--
+pas de menu, pas de « modifier » à chaque section.
 
---></div>
+-->__NOTOC__<!-- -->__NOEDITSECTION__<!--
+
+Umuɣ n 20 interwikis imeqqwṛanen ugar wiyeḍ nniḍen
+
+-->{{noexternallanglinks}}[[ca:]] [[cs:]] [[de:]] [[en:]] [[es:]] [[fi:]] [[hu:]] [[it:]] [[ja:]] [[ko:]] [[nl:]] [[pl:]] [[pt:]] [[no:]] [[ro:]] [[ru:]] [[sv:]] [[tr:]] [[uk:]] [[zh:]]
