@@ -1,28 +1,84 @@
-<table border="1" cellpadding="2" cellspacing="0" align="right" style="margin-left:0.5em;" width="300px">
-<caption><font size="-0">'''Ityupya'''</font></caption>
-<tr><td style="background:#efefef;" align" colspan="2">
-<table border="0" " cellspacing="0">
-</table></td></tr>
-<tr><td>[[Asenǧaq]] </td><td>[[Tugna:Flag of Ethiopia.svg|thumbnail|center]]
-<tr><td>[[Azamul]] </td><td>[[Tugna:Coat of arms of Ethiopia.svg|thumbnail|center]]
-<tr><td>[[Tutlayt tunṣibt]] </td><td>[[Tamharikt]]</td></tr>
-<tr><td>[[Tutlayin nniḍen]] </td><td> [[Urumu]] - [[Tigrinya]] - [[Sumali]] - [[Sidama]]- [[Gwaraginya]]
-<tr><td>[[Tamanaɣt]] </td><td>[[Addis Abeba]]</td></tr>
-<tr><td>[[Timdinin Timuqranin]] </td><td>[[Addis-Abeba]] - [[Diri Dawa]] - [[Harar]]- [[Naẓret]]</td></tr>
-<tr><td>[[Talɣa n Awanek]] </td><td>[[Tagduda]]</td></tr>
-<tr><td>[[Aselway]]</td><td>[[Girma Wolde-Giorgis]]</td></tr>
-<tr><td>[[Aneɣlaf Amezwaru]]</td><td>[[Haile Mariam Dessalegn]]</td></tr>
-<tr><td>[[Tajumma]]</td><td> 1 127 127 km²</td></tr> 
-<tr><td>[[Ajjed]]</td><td> Inselmen 33% 
-Ineṣriyen 60%
-Wiyaḍ 7% </td></tr> 
-<tr><td>[[Aɣrud]]</td><td> 90 873 739 Imezdaɣ </td></tr> 
-<tr><td>[[Tanezzi]]</td><td> 78/km² </td></tr> 
-<tr><td>[[Aqarid]]</td><td> [[Birr]] </td></tr>
-<tr><td>[[Imseɣret Taɣelnawt]]</td><td> [[Wedefit Gesgeshi Woude Enat Ityopya]] </td></tr>
-<tr><td>[[Taɣult n Internet]]</td><td> .Et</td></tr>
-<tr><td>[[Amemmal n Tilifun]]</td><td> +251 </td></tr>
-
+{{Infobox Tamurt
+| isem_aqbayli					= Tagduda tafidiṛalit tamagdayt n Ityupya
+| isem_adigan					= 
+| tutlayt						= 
+| asusru1						= 
+| isem_adigan1					= {{lang|rtl|am|የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ}}
+| isem_adigan2					= {{lang|rtl|am|YeItyopya Fédéralawi Dimokrasiyawi Ripeblik}}
+| isem_adigan3					= 
+| isem_adigan4					= 
+| isem_adigan5					= 
+| tutlayt1						= am
+| tutlayt2						= am
+| tutlayt3						= 
+| tutlayt4						= 
+| tutlayt5						= 
+| asusru1						= Ye Ityopya Federalawi Dimokrasiyawi Ripeblik.ogg
+| asusru2						= 
+| asusru3						= 
+| asusru4						= 
+| asusru5						= 
+| isem							= 
+| de							= 
+| tugna_asenjaq					= Flag of Ethiopia.svg
+| iri_asenjaq					= 
+| azday_asenjaq					= Asenǧaq n Ityupya
+| tugna_ablasun					= Coat_of_arms_of_Ethiopia.svg
+| azday_ablasun					= Armoiries n Ityupya
+| tugna_takarḍa					= Ethiopia (Africa orthographic projection).svg
+| tanfalit						= 
+| tutlayin_tunṣibin				= 
+| tawsit_tutlayin				= 
+| tutlayin						= ''Ulac''<ref>Seg 1994, Ityupya ur tesɛa ara tutlayt tunṣibt : akkw tutlayin n Ityupya ttwaɛqilent sɣur Awanak, ɣef leḥsab n umagrad 5 n tamenḍawt n Ityupya.</ref><br /> [[Tamharikt]] d tutlayt n umahil n unabaḍ afidiṛali.
+| tamaneɣt						= [[Addis-Abeba]]
+| imsidag_tamaneɣt				= {{coord|9|01|N|38|44|E|type:city}}
+| azday_timdinin				= [[Timdinin n Ityupya]]
+| azwel_tamdint_ugaren_tiyaḍ	= Tamdint ugarentiyaḍ
+| tamdint_ugaren_tiyaḍ			= [[Addis-Abeba]]
+| tawsit_anabaḍ					= [[Tagduda]] [[Awanak afidiṛali|tafidiṛalit]]
+| azwel_imḍebber				= [[Aselway n Ityupya|Aselway]]
+| isem_imḍebber					= [[Mulatu Teshome]]
+| azwel_imḍebber2				= [[Aneɣlaf amezwaru n Ityupya|Aneɣlaf amezwaru]]
+| isem_imḍebber2				= [[Haile Mariam Dessalegn]]
+| tajumma_asertatu				= 27
+| tajumma_taɣrudt				= 1 127 127
+| afmiḍi_aman					= 0,7 %
+| amezdaɣ_asertatu				= 13
+| amezdaɣ_aɣrud					= 90 873 739
+| amezdaɣ_aseggwas				= 2011
+| igrawen_iran					= 
+| igrawen_iran_aseggwas			= 
+| tawsit_azarug					= 
+| tamurt_azarug					= 
+| azmez_azarug					= 
+| tawsit_assileɣ				= [[D'mt|Tagelda n D'mt]]
+| azmez_assileɣ					= {{wisVIII}} uq. S-Ɛ
+| tawsit_assileɣ2				= 
+| azmez_assileɣ2				= 
+| isem_umezdaɣ					= Ityupyien, Tityupyin
+| PIBPPA_aseggwas				= 2012
+| PIB_PPA						= 103,1 imelyaṛen n $
+| PIBPPA_asertatu				= {{wis77}}
+| PIB_aseggwas					= 2012
+| PIB							= 40,05 imelyaṛen n $ 
+| PIB_asertatu					= {{wis81}}
+| PIB_HAB						= 
+| PIBHAB_aseggwas				= 
+| PIBHAB_asertatu				= 
+| IDH_aseggwas					= 2013
+| IDH							= {{augmentation}} 0,396
+| IDH_taggayt					= Uḍɛif
+| IDH_asertatu					= {{wis}}173
+| aqariḍ						= [[Birr n Ityupya|Birr]]
+| angal_aqariḍ					= ETB
+| iẓḍi_usrag					= +3
+| imseɣret_aɣelnaw				= [[Wedefit Gesgeshi Woude Enat Ityopya]]
+| taɣult_internet				= .et
+| iso3166-1						= ETH, ET
+| tasarutt_tasawlant			= 251
+| tuddsiwin						= [[Adabu ageranabḍan i taneflit|IGAD]], [[Tadukli tafriqit|UA]], [[Tuddsa n Iɣlanen Yeddukklen|ONU]]
+| p1							=[[Tugna:Flag of Ethiopia (1991-1996).svg|20px|Anabaḍ n tukkit n Ityopya]] [[Anabaḍ n tukkit n Ityopya]]
+}}
 '''Ityupya''' d tamurt n Tefriqt Tagmuḍant. Tajumma-nnes 1.104.300 km2 (ikilumitren imkuẓen). Zedɣen-tt 85.237.338 n yimezdaɣen (Ityupiyen). Tamaneɣt-nnes d [[Addis Abeba]]. 
 
 
