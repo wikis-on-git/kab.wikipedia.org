@@ -8,7 +8,7 @@
 |image_coat                  = Coat of arms of Canada.svg
 |symbol_type                 = Royal coat of arms
 |national_motto              = {{lang|la|''[[A Mari Usque Ad Mare]]''}}{{spaces|2}}<small>([[Latin]])<br />"[[From Sea to Sea]]"</small>
-|national_anthem             = "[[O Canada]]"
+|national_anthem             = 
 |royal_anthem                = "[[God Save the Queen]]"
 |image_map                   = Canada (orthographic projection).svg
 |map_width                   = 220px
@@ -36,7 +36,7 @@
 |established_date2           = December 11, 1931
 |established_event3          = [[Canada Act 1982|Canada Act]]
 |established_date3           = April 17, 1982
-|area_km2                    = 9,984,670
+|area_km2                    = 
 |area_sq_mi                  = 3,854,085 <!--Do not remove per [[WP:MOSNUM]]-->
 |area_rank                   = 2nd
 |area_magnitude              = 1 E12
@@ -71,9 +71,9 @@
 |HDI_category                = <font color="#009900">high</font>
 |Gini                        = 32.1 (2005)<ref name="cia_factbook"/>
 |currency                    = [[Canadian dollar|Dollar]] ($)
-|currency_code               = CAD
+|currency_code               = 
 |time_zone                   = 
-|utc_offset                  = −3.5 to −8
+|utc_offset                  = 
 |time_zone_DST               =
 |utc_offset_DST              = −2.5 to −7
 |date_format                 = dd-mm-yyyy, mm-dd-yyyy, ''and'' yyyy-mm-dd ([[Common Era|CE]])
@@ -81,6 +81,87 @@
 |cctld                       = [[.ca]]
 |calling_code                = 1
 |footnotes                   = <big>'''[[Portal:Canada|Canada portal]]'''</big>
+}}
+
+{{Infobox Tamurt
+| isem_aqbayli               = Kanada
+| isem_adigan                = Canada
+| tutlayt                    = Tanglizt, Tafrensist
+| asusru                     = 
+| isem_adigan1               = 
+| isem_adigan2               = 
+| isem_adigan3               = 
+| isem_adigan4               = 
+| isem_adigan5               = 
+| tutlayt1                   = [[Tanglizt]]
+| tutlayt2                   = [[Tafrensist]]
+| tutlayt3                   = 
+| tutlayt4                   = 
+| tutlayt5                   = 
+| asusru1                    = 
+| asusru2                    = 
+| asusru3                    = 
+| asusru4                    = 
+| asusru5                    = 
+| isem                       = 
+| de                         = 
+| tugna_asenjaq              = 
+| iri_asenjaq                = 
+| azday_asenjaq              = 
+| tugna_ablasun              = 
+| azday_ablasun              = 
+| tugna_takarḍa              = 
+| tanfalit                   = ''A mari usque ad mare''
+| tutlayin_tunṣibin          = [[Tanglizt]], [[Tafrensist]]
+| tawsit_tutlayin            = [[Tindurufiyin]]
+| tutlayin                   = 
+| tamaneɣt                   = [[Ottawa]]
+| imsidag_tamaneɣt           = 
+| azday_timdinin             = 
+| azwel_tamdint_ugaren_tiyaḍ = 
+| tamdint_ugaren_tiyaḍ       = [[Toronto]], [[Montreal]], [[Vancouver]]
+| tawsit_anabaḍ              = [[Tagelda]]
+| azwel_imḍebber             = [[Tageldit]]
+| isem_imḍebber              = [[Elizabeth II]]
+| azwel_imḍebber2            = Aneɣlaf Amezwaru
+| isem_imḍebber2             = [[Stephan Harper]]
+| tajumma_asertatu           = 
+| tajumma_taɣrudt            = 9,984,670
+| afmiḍi_aman                = 8,62 %
+| amezdaɣ_asertatu           = 35
+| amezdaɣ_aɣrud              = 35,540,419
+| amezdaɣ_aseggwas           = [[2013]]
+| igrawen_iran               = 
+| igrawen_iran_aseggwas      = 
+| tawsit_azarug              = 
+| tamurt_azarug              = 
+| azmez_azarug               = 
+| tawsit_assileɣ             = 
+| azmez_assileɣ              = 
+| tawsit_assileɣ2            = 
+| azmez_assileɣ2             = 
+| isem_umezdaɣ               = 
+| PIBPPA_aseggwas            = 
+| PIB_PPA                    = 
+| PIBPPA_asertatu            = 
+| PIB_aseggwas               = 
+| PIB                        = 
+| PIB_asertatu               = 
+| PIB_HAB                    = 
+| PIBHAB_aseggwas            = 
+| PIBHAB_asertatu            = 
+| IDH_aseggwas               = 
+| IDH                        = 
+| IDH_taggayt                = 
+| IDH_asertatu               = 
+| aqariḍ                     = Adular Akanadi
+| angal_aqariḍ               = CAD
+| iẓḍi_usrag                 = [[UTC−03:30|-3:30]] ar [[UTC−08:00|-8]]
+| imseɣret_aɣelnaw           = [[O Canada]]
+| taɣult_internet            = [[.ca]]
+| iso3166-1                  = 
+| tasarutt_tasawlant         = 
+| tuddsiwin                  = 
 }}
 
 '''Kanada''' ({{IPA-en|ˈkænədə}}) d tamurt d-yezgan degugafa n [[Tamrikt|Temrikt]], unagraw Ataltik deg usamar ar Ugaraw Amlwi deg usamar ar ugafa deg ugaraw Atlantik. D tamurt tameqqrant akk tiss snat dg umaḍal.
