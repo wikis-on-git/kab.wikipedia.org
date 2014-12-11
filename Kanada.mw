@@ -1,92 +1,8 @@
 
-
-{{dablink|For other uses of "Canada" or "Canadian", see [[Canada (disambiguation)]] and [[Canadian (disambiguation)]].}}
-{{Infobox Country
-|isem anasli                 = Canada
-|isem seqdacen               = Canada
-|tugna n usendjaq            = Flag_of_Canada.svg
-|image_coat                  = Coat of arms of Canada.svg
-|symbol_type                 = Royal coat of arms
-|national_motto              = {{lang|la|''[[A Mari Usque Ad Mare]]''}}{{spaces|2}}<small>([[Latin]])<br />"[[From Sea to Sea]]"</small>
-|national_anthem             = 
-|royal_anthem                = "[[God Save the Queen]]"
-|image_map                   = Canada (orthographic projection).svg
-|map_width                   = 220px
-|tamanaght                   = [[Ottawa]]
-|latd                        = 45 |latm=24 |latNS=N |longd=75 |longm=40 |longEW=W
-|tamdint tameqrant           = [[Toronto]]
-|ethnic_groups = [[European ethnic groups|European]] 80% ([[English Canadians|English]], [[French Canadian|French]], [[Scottish Canadians|Scottish]], [[Irish Canadians|Irish]], [[German Canadians|German]], others), 3.8% [[Aboriginal peoples in Canada|Aboriginal]], 16.2% Others.<ref>{{cite web|url=https://www.cia.gov/library/publications/the-world-factbook/print/ca.html|title=World Factbook Demographics}}</ref><ref>{{cite web|url=http://www12.statcan.ca/english/census06/data/highlights/ethnic/pages/Page.cfm?Lang=E&Geo=PR&Code=01&Data=Count&Table=2&StartRec=1&Sort=3&Display=All&CSDFilter=5000|title=Canada's official demographic groups}}</ref>
-|official_languages          = [[Canadian English|English]] and [[Canadian French|French]]
-|regional_languages          = [[Inuktitut]], [[Inuinnaqtun]], [[Cree language|Cree]], {{nowrap|[[Dene Suline language|Dëne Sųłiné]]}}, [[Gwich’in language|Gwich’in]], [[Inuvialuktun]], [[Slavey language|Slavey]] and {{nowrap|[[Dogrib language|Tłįchǫ Yatiì]]}}<ref>{{cite web|url=http://www.justice.gov.nt.ca/PDF/ACTS/Official_Languages.pdf|format=PDF|title=Official Languages Act|work=Revised Statutes of NWT, 1988|publisher=Department of Justice, Northwest Territories|accessdate=2008-11-08|archiveurl=http://web.archive.org/web/20050408070402/http://www.justice.gov.nt.ca/PDF/ACTS/Official_Languages.pdf|archivedate=2005-04-08}}</ref>
-|demonym                     = [[Demographics of Canada|Canadian]]
-|government_type             = [[Federalism|Federal]] [[parliamentary system|parliamentary democracy]] and [[constitutional monarchy]]
-|leader_title1               = [[Monarchy of Canada|Monarch]]
-|leader_name1                = [[Elizabeth II of the United Kingdom|HM Queen Elizabeth II]]
-|leader_title2               = [[Governor General of Canada|Governor General]]
-|leader_name2                = [[Michaëlle Jean]]
-|leader_title3               = [[Prime Minister of Canada|Prime Minister]]
-|leader_name3                = [[Stephen Harper]]
-|legislature                 = [[Parliament of Canada|Parliament]]
-|upper_house                 = [[Senate of Canada|Senate]]
-|lower_house                 = [[Canadian House of Commons|House of Commons]]
-|sovereignty_type            = [[Canadian Confederation|Establishment]]
-|established_event1          = [[British North America Acts]]
-|established_date1           = July 1, 1867
-|established_event2          = [[Statute of Westminster 1931|Statute of Westminster]]
-|established_date2           = December 11, 1931
-|established_event3          = [[Canada Act 1982|Canada Act]]
-|established_date3           = April 17, 1982
-|area_km2                    = 
-|area_sq_mi                  = 3,854,085 <!--Do not remove per [[WP:MOSNUM]]-->
-|area_rank                   = 2nd
-|area_magnitude              = 1 E12
-|percent_water               = 8.92 (891,163&nbsp;km²/344,080&nbsp;mi²)
-|population_estimate         = {{formatnum:{{CanPopCommas}} }}  <ref>{{cite web
-|url                         = http://www.statcan.ca/english/edu/clock/population.htm
-|title                       = Canada's population clock
-|publisher                   = Statistics Canada
-<!-- this automatically updates ONCE per day at 00:00 UTC & rounds to nearest hundred—an estimate with any more sig figs can only be either false precision or extremely temporary -- Please do not change formula without discussing on talk page -->
-}}
-</ref>
-|population_estimate_year    = {{CURRENTYEAR}}
-|population_estimate_rank    = 36th
-|population_census           = 31,612,897
-|population_census_year      = 2006
-|population_density_km2      = 3.2
-|population_density_sq_mi    = 8.3 <!--Do not remove per [[WP:MOSNUM]]-->
-|population_density_rank     = 219th
-|GDP_PPP_year                = 2007
-|GDP_PPP                     = $1.269 trillion<ref name="imf2">{{cite web|url=http://www.imf.org/external/pubs/ft/weo/2008/02/weodata/weorept.aspx?sy=2004&ey=2008&scsm=1&ssd=1&sort=country&ds=.&br=1&c=156&s=NGDPD%2CNGDPDPC%2CPPPGDP%2CPPPPC%2CLP&grp=0&a=&pr.x=70&pr.y=3 |title=Canada|publisher=International Monetary Fund|accessdate=2008-10-09}}</ref>
-|GDP_PPP_rank                = 13th
-|GDP_PPP_per_capita          = $38,613<ref name="imf2"/>
-|GDP_PPP_per_capita_rank     = 12th
-|GDP_nominal                 = $1.436 trillion<ref name="imf2"/>
-|GDP_nominal_rank            = 9th
-|GDP_nominal_year            = 2007
-|GDP_nominal_per_capita      = $43,674<ref name="imf2"/>
-|GDP_nominal_per_capita_rank = 14th
-|HDI_year                    = 2006
-|HDI                         = {{increase}} 0.967
-|HDI_rank                    = 3rd
-|HDI_category                = <font color="#009900">high</font>
-|Gini                        = 32.1 (2005)<ref name="cia_factbook"/>
-|currency                    = [[Canadian dollar|Dollar]] ($)
-|currency_code               = 
-|time_zone                   = 
-|utc_offset                  = 
-|time_zone_DST               =
-|utc_offset_DST              = −2.5 to −7
-|date_format                 = dd-mm-yyyy, mm-dd-yyyy, ''and'' yyyy-mm-dd ([[Common Era|CE]])
-|drives_on                   = Right
-|cctld                       = [[.ca]]
-|calling_code                = 1
-|footnotes                   = <big>'''[[Portal:Canada|Canada portal]]'''</big>
-}}
-
 {{Infobox Tamurt
 | isem_aqbayli               = Kanada
-| isem_adigan                = '''Canada'''
-| tutlayt                    = [[Tafrensist]], [[Tinglizt]]
+| isem_adigan                = 
+| tutlayt                    = 
 | asusru                     = 
 | isem_adigan1               = 
 | isem_adigan2               = 
@@ -103,7 +19,7 @@
 | asusru3                    = 
 | asusru4                    = 
 | asusru5                    = 
-| isem                       = 
+| isem                       = Kanada
 | de                         = 
 | tugna_asenjaq              = Flag of Canada.svg
 | iri_asenjaq                = 
