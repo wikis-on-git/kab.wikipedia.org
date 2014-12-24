@@ -25,8 +25,8 @@
 | taẓunt3                       = 
 | isem n taẓunt4                = 
 | taẓunt4                       = 
-| azwel adabu                   = 
-| adabu                         = 
+| azwel adabu                   = Tawsit n tadɣarit
+| adabu                         = City
 | lmanda adabu                  = 
 | azwel adabu2                  = 
 | adabu2                        = 
@@ -37,14 +37,14 @@
 | azwel adabu4                  = 
 | adabu4                        = 
 | lmanda adabu4                 = 
-| amɣiwan                       = 
-| lmanda amɣiwan                = 
+| amɣiwan                       = [[Bill de Blasio]] ([[Akabar amagdu (Iwunak Yeddukklen)|D]])
+| lmanda amɣiwan                = 2014-2018
 | anebdad                       = 
 | lmanda anebdad                = 
 | anebbaḍ                       = 
 | lmanda anebbaḍ                = 
-| isem n angal n tesreqqest     = 
-| cp                            = 
+| isem n angal n tesreqqest     = [[ZIP code|ZIP code(s)]]
+| cp                            = 100xx–104xx, 11004–05, 111xx–114xx, 116xx
 | isem n angal1                 = 
 | angal1                        = 
 | isem n angal2                 = 
@@ -52,16 +52,16 @@
 | isem n angal3                 = 
 | angal3                        = 
 | gentilé                       = 
-| isem_amez                     = 
-| amezdaɣ                       = 
-| aseggwas_amez                 = 
+| isem_amez                     = New Yorker
+| amezdaɣ                       = 8405837
+| aseggwas_amez                 = 2013
 | amezdaɣ tizmilin              = 
 | isem_amez taẓunt a            = 
-| amezdaɣ taẓunt a              = 
-| aseggwas_amez taẓunt a        = 
+| amezdaɣ taẓunt a              = 19949502
+| aseggwas_amez taẓunt a        = 2013
 | isem_amez taẓunt b            = 
-| amezdaɣ taẓunt b              = 
-| aseggwas_amez taẓunt b        = 
+| amezdaɣ taẓunt b              = 23484225
+| aseggwas_amez taẓunt b        = 2013
 | isem divers démographie       = 
 | divers démographie            = 
 | isem divers démographie2      = 
@@ -70,7 +70,7 @@
 | longitude                     = 
 | coord azwel                   = 
 | type coord                    = 
-| altitude                      = 
+| altitude                      = 10
 | alt mini                      = 
 | alt maxi                      = 
 | tajumma                       = 
@@ -87,10 +87,10 @@
 | divers                        = 
 | isem divers2                  = 
 | divers2                       = 
-| isem divers3                  = 
+| isem divers3                  = Devise(s)
 | divers3                       = 
-| isem divers4                  = 
-| divers4                       = 
+| isem divers4                  = Surisem(s)
+| divers4                       = "[[Big Apple]]" "Taṭṭeffaḥt Tameqqrant"
 | takarḍa                       = 
 | géolocdual                    = 
 | type                          = 
@@ -114,7 +114,7 @@
 | source2                       = 
 | source3                       = 
 | source4                       = 
-| talɣa                         = 
+| talɣa                         = Infobox Tamdint n Iwunak Yeddukklen
 }}
 
 [[File:NYC Montage 2011.jpg|thumb|NYC Montage 2011]]
