@@ -41,13 +41,13 @@
 | isemawen_imḍebbren         = 
 | izwal_imḍebbren2           = 
 | isemawen_imḍebbren2        = 
-| tajumma_asertatu           = 
-| tajumma_taɣrudt            = 
-| afmiḍi_aman                = 
-| amezdaɣ_asertatu           = 
-| amezdaɣ_aɣrud              = 
-| amezdaɣ_aseggwas           = 
-| taneẓẓi                                        = 
+| tajumma_asertatu           = 114
+| tajumma_taɣrudt            = 82&nbsp;880
+| afmiḍi_aman                = Ulac
+| amezdaɣ_asertatu           = 115
+| amezdaɣ_aɣrud              = 8 264 070<ref name="UAE" />
+| amezdaɣ_aseggwas           = 2010
+| taneẓẓi                                        = 100
 | igrawen_iran               = 
 | igrawen_iran_aseggwas      = 
 | tawsit_azarug              = 
@@ -57,16 +57,16 @@
 | azmez_assileɣ              = 
 | tawsit_assileɣ2            = 
 | azmez_assileɣ2             = 
-| isem_umezdaɣ               = 
+| isem_umezdaɣ               = Amirati, Tamiratit
 | PIBPPA_aseggwas            = 
 | PIB_PPA                    = 
 | PIBPPA_asertatu            = 
-| PIB_aseggwas               = 
-| PIB                        = 
-| PIB_asertatu               = 
-| PIB_HAB                    = 
-| PIBHAB_aseggwas            = 
-| PIBHAB_asertatu            = 
+| PIB_aseggwas               = 2013
+| PIB                        = {{formatnum:63181}} $ <ref name="FMI">[[Fonds monétaire international]], World Economic Outlook Database - [http://www.imf.org/external/pubs/ft/weo/2014/02/weodata/index.aspx Données pour l'année 2013.]</ref>
+| PIB_asertatu               = {{7e}}
+| PIB_HAB                    = {{formatnum:44552}} $ <ref name="FMI"></ref>
+| PIBHAB_aseggwas            = 2013
+| PIBHAB_asertatu            = {{19e}}
 | IDH_aseggwas               = 
 | IDH                        = 
 | IDH_taggayt                = 
@@ -75,8 +75,8 @@
 | angal_aqariḍ               = AED
 | iẓḍi_usrag                 = +4
 | imseɣret_aɣelnaw           = 
-| taɣult_internet            = 
-| iso3166-1                  = AE
+| taɣult_internet            =[[.ae]] ,[[.emarat]]
+| iso3166-1                  = AE, ARE
 | tasarutt_tasawlant         = +971
 | tuddsiwin                  = 
 }}
