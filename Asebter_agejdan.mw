@@ -14,7 +14,7 @@
 }}
 <!-- =============== ACTUALITES ET EVENEMENTS =============== -->
 | {{Amager/Akatar
-|azwel   = Isalen d tidyanin
+|azwel   = Isalen d tedyanin
 |id      = accueil-actualite
 |tugna   = Datum{{LOCALDAY2}}.svg
 |agbur = <div id="mf-actualite" title="Isalen d tidyanin">{{Amager tamirt}}</div>
@@ -22,7 +22,7 @@
 }}
 <!-- =============== LE SAVIEZ-VOUS ? =============== -->
 | {{Amager/Akatar
-|azwel   = Teḥṣiḍ ?
+|azwel   = Tezriḍ ?
 |tugna   = HSVissteduatt.svg
 |agbur = <div id="mf-SaviezVous" title="Teḥṣiḍ ?">{{Wikipedia:Teḥṣiḍ ?}}</div>
 |lien    = {{nobr|[[Wikipedia:Teḥṣiḍ ?/Aɣbaṛ|Aɣbaṛ]] •}} [[Wikipedia:Teḥṣiḍ ?|Beddel]]
