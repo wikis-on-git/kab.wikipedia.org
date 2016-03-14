@@ -12,15 +12,6 @@
 |lien = {{nobr|[[Wikipedia:Igburen n taɣara|Igburen n taɣara]] •}} {{nobr|[[Wikipedia:Igburen yelhan|Igburen yelhan]] •}} {{nobr|[[Wikipedia:Tafrant|Tafrant]]}}  • [[Wikipedia:Tafat ɣef|Ahil]]
 |orange = oLumiereSur
 }}
-<!-- ===================== POTD ===================== -->
-| {{Main Frame/1
- | color   = Blue
- | title   = Image du jour
- | icon    = HSBild.svg
- | id      = ImageDuJour
- | content = <div id="mf-POTD">{{:Main_Page/potd|float=center|lang=fr}}</div>
- | link    = [[File:Feed-icon.svg|16px|link=]] '''<span class="plainlinks">[//commons.wikimedia.org/w/api.php?action=featuredfeed&feed=potd&feedformat=rss&language=fr Flux RSS]</span>'''{{·}} [[File:Featured envelope.svg|20px|link=]] '''<span class="plainlinks">[http://lists.wikimedia.org/mailman/listinfo/daily-image-l Par courriel]</span>'''{{·}} '''[[Commons:Image du jour|''Images des jours'' précédents]]'''
-}}
 <!-- =============== ACTUALITES ET EVENEMENTS =============== -->
 | {{Amager/Akatar
 |azwel   = Isalen d tedyanin
