@@ -17,23 +17,23 @@
 |azwel   = Isalen d tedyanin
 |id      = accueil-actualite
 |tugna   = Datum{{LOCALDAY2}}.svg
-|agbur = <div id="mf-actualite" title="Isalen d tidyanin">{{Amager tamirt}}</div>
+|agbur = <div id="mf-actualite" title="Isalen d tedyanin">{{Amager tamirt}}</div>
 |lien    = {{nobr|[[{{MONTHNAMEMAJ|{{CURRENTMONTH}}}} {{CURRENTYEAR}}]] •}} {{nobr|[[{{CURRENTDAY}}{{#ifeq:{{CURRENTDAY}}|1|er|}} {{CURRENTMONTHNAME}}|Izemzan n wass-a]] •}} <span class="js-no-interprojets">[[:n:Amager|Wikinews]]</span> • [[Talɣa:Amager tamirt|Beddel]]
 }}
 <!-- =============== LE SAVIEZ-VOUS ? =============== -->
 | {{Amager/Akatar
 |azwel   = Tezriḍ ?
 |tugna   = HSVissteduatt.svg
-|agbur = <div id="mf-SaviezVous" title="Teḥṣiḍ ?">{{Wikipedia:Teḥṣiḍ ?}}</div>
+|agbur = <div id="mf-SaviezVous" title="Tezriḍ ?">{{Wikipedia:Teḥṣiḍ ?}}</div>
 |lien    = {{nobr|[[Wikipedia:Teḥṣiḍ ?/Aɣbaṛ|Aɣbaṛ]] •}} [[Wikipedia:Teḥṣiḍ ?|Beddel]]
 |id = SaviezVous
 }}
 <!-- =============== IMAGE DU JOUR =============== -->
 | {{Amager/Akatar
-|azwel   = Tawlaft n wass-a
+|azwel   = Tawlaft n wass
 |tugna   =  HSBild.svg
 |agbur = {{Wikipedia:Tawlaft n wass-a/{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}}}
-|lien    = {{clr}} {{nobr|[[Wikipedia:Tawlaft n wass-a/{{CURRENTMONTHNAME}} {{CURRENTYEAR}}|Aɣbaṛ]] •}} [[Wikipedia:Tawlaft n wass-a|Zeṛ tiwlafin]] <br/> <span class="js-no-interprojets">[[:Commons:Commons:Images de qualité|Tiwlafin n taɣara ɣef Wikimedia Commons]]</span>
+|lien    = {{clr}} {{nobr|[[Wikipedia:Tawlaft n wass/{{CURRENTMONTHNAME}} {{CURRENTYEAR}}|Aɣbaṛ]] •}} [[Wikipedia:Tawlaft n wass-a|Zeṛ tiwlafin]] <br/> <span class="js-no-interprojets">[[:Commons:Commons:Images de qualité|Tiwlafin n taɣara ɣef Wikimedia Commons]]</span>
 |id = ImageDuJour
 }}
 <!-- =============== FIN COLONNE DE GAUCHE =============== -->
