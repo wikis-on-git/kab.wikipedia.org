@@ -8,7 +8,7 @@
 |azwel   = Amagrad n wass
 |id      = accueil-lumieresur
 |tugna   = HSutvald2.svg
-|agbur = <div id="mf-lumieresur" title="Tafat ɣef">{{Tafat ɣef/Ass-agi}}</div>
+|agbur = <div id="mf-lumieresur" title="Amagrad n wass">{{Tafat ɣef/Ass-agi}}</div>
 |lien = {{nobr|[[Wikipedia:Igburen n taɣara|Igburen n taɣara]] •}} {{nobr|[[Wikipedia:Igburen yelhan|Igburen yelhan]] •}} {{nobr|[[Wikipedia:Tafrant|Tafrant]]}}  • [[Wikipedia:Tafat ɣef|Ahil]]
 |orange = oLumiereSur
 }}
@@ -17,7 +17,7 @@
 |azwel   = Tugna n wass
 |id = ImageDuJour
 |tugna   =  HSBild.svg
-|agbur = {{Wikipedia:Tawlaft n wass-a/{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}}}
+|agbur = <div id="ImageDuJour" title="Tugna n wass">{{Wikipedia:Tawlaft n wass-a/{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}}}
 |lien    = {{clr}} {{nobr|[[Wikipedia:Tawlaft n wass/{{CURRENTMONTHNAME}} {{CURRENTYEAR}}|Aɣbaṛ]] •}} [[Wikipedia:Tawlaft n wass-a|Zeṛ tiwlafin]] <br/> <span class="js-no-interprojets">[[:Commons:Commons:Images de qualité|Tiwlafin n taɣara ɣef Wikimedia Commons]]</span>
 }}
 <!-- =============== LE SAVIEZ-VOUS ? =============== -->
