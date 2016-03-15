@@ -5,7 +5,7 @@
 {| cellpadding="2" cellspacing="5" style="width:100%; vertical-align:top; background:transparent;"
 <!-- =============== LUMIERE SUR =============== -->
 | {{Amager/Akatar
-|azwel   = Tafat ɣef
+|azwel   = Amagrad n wass
 |id      = accueil-lumieresur
 |tugna   = HSutvald2.svg
 |agbur = <div id="mf-lumieresur" title="Tafat ɣef">{{Tafat ɣef/Ass-agi}}</div>
@@ -14,7 +14,7 @@
 }}
 <!-- =============== IMAGE DU JOUR =============== -->
 | {{Amager/Akatar
-|azwel   = Tawlaft n wass
+|azwel   = Tugna n wass
 |id = ImageDuJour
 |tugna   =  HSBild.svg
 |agbur = {{Wikipedia:Tawlaft n wass-a/{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}}}
