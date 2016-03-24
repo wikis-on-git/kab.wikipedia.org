@@ -1,35 +1,89 @@
-<table border="1" cellpadding="2" cellspacing="0" align="right" style="margin-left:0.5em;" width="300px">
-<caption><font size="-0">'''Burkina Fasu'''</font></caption>
-<tr><td style="background:#efefef;" align" colspan="2">
-<table border="0" " cellspacing="0">
-</table></td></tr>
-<tr><td>[[Tutlayt tunṣibt]] </td><td>[[Tafransist]]</td></tr>
-<tr><td>[[Tutlayin nniḍen]] </td><td> [[Muri]] - [[San]] - [[Fulfudi]] - [[Dagara]]- [[Dyula]]
-<tr><td>[[Tamanaɣt]] </td><td>[[Wagadugu]]</td></tr>
-<tr><td>[[Timdinin Timuqranin]] </td><td>[[Wagadugu]] - [[Bubu-Dyulasu]] - [[Kudugu]]</td></tr>
-<tr><td>[[Talɣa n Awanek]] </td><td>[[Tagduda]]</td></tr>
-<tr><td>[[Aselway]]</td><td>[[Blaise Compaoré]]</td></tr>
-<tr><td>[[Aneɣlaf Amezwaru]]</td><td>[[Luc-Adolphe Tiao]]</td></tr>
-<tr><td>[[Tajumma]]</td><td> 274 200 km²</td></tr> 
-<tr><td>[[Azarug]]</td><td> ɣef Fransa 5 ɣuct 1960 </td></tr> 
-<tr><td>[[Aɣrud]]</td><td> 16 241 811 Imezdaɣ </td></tr> 
-<tr><td>[[Tanezzi]]</td><td> 59/km² </td></tr> 
-<tr><td>[[Ajjed]]</td><td> inselmen 50%
-ineṣriyen 20%
-iruḥaniyen 30% </td></tr> 
-<tr><td>[[Aqarid]]</td><td> [[Franc CFA]] </td></tr>
-<tr><td>[[Imseɣret Taɣelnawt]]</td><td> [[Ditanyé]] </td></tr>
-<tr><td>[[Taɣult n Internet]]</td><td> .Bf</td></tr>
-<tr><td>[[Amemmal n Tilifun]]</td><td> +226 </td></tr>
+{{Infobox Tamurt
+| isem_aqbayli               = Tagduda Taɛrabt Tasurit 
+| isem_adigan                = الجمهوريّة العربيّة السّوريّة
+| tutlayt                    = ar
+| asusru                     = 
+| isem_adigan1               = Al-Jumhūriyyah al-‘Arabīyyah as-Sūriyyah
+| isem_adigan2               = 
+| isem_adigan3               = 
+| isem_adigan4               = 
+| isem_adigan5               = 
+| tutlayt1                   = ar
+| tutlayt2                   = 
+| tutlayt3                   = 
+| tutlayt4                   = 
+| tutlayt5                   = 
+| asusru1                    = 
+| asusru2                    = 
+| asusru3                    = 
+| asusru4                    = 
+| asusru5                    = 
+| isem                       = 
+| de                         = 
+| tugna_asenjaq              = Flag of Syria.svg
+| iri_asenjaq                = 
+| azday_asenjaq              = Takbabt n Surya
+| tugna_ablasun              = Coat of arms of Syria.svg
+| azday_ablasun              = Azamul n Surya
+| tugna_takarḍa              = Syria (orthographic projection).svg
+| tanfalit                   = [[Taɛrabt]] : Waḥda, Ḥuriyya, Ictirakiyya<br />[[Taqbaylit]] : Tadukli, Tilleli, Tamenla 
+| tawsit_tutlayin            = Tutlayt tunṣibt
+| tutlayin                   = [[Taɛrabt]]
+| tamaneɣt                   = [[Dimecq]]
+| imsidag_tamaneɣt           = {{coord|33|31|32|N|36|18|52|E|type:city_scale:50000}}
+| azday_timdinin             = Timdinin n Surya
+| azwel_tamdint_ugaren_tiyaḍ = Tamdint ugaren tiyaḍ
+| tamdint_ugaren_tiyaḍ       = [[Ḥaleb]]
+| tawsit_anabaḍ              = [[Tagduda]]
+| aɛqal                      =
+| tanegmit                   =
+| izwal_imḍebbren            = [[Umuɣ n yiselwayen n Surya|Aselway]]
+| isemawen_imḍebbren         = [[Baccar Al-Asad]]
+| izwal_imḍebbren2           = 
+| isemawen_imḍebbren2        = 
+| tajumma_asertatu           = 86
+| tajumma_taɣrudt            = 185180
+| afmiḍi_aman                = 0,06 %
+| amezdaɣ_asertatu           = 51
+| amezdaɣ_aɣrud              = {{formatnum:22399300}}<ref>[https://www.google.fr/publicdata/explore?ds=d5bncppjof8f9_&met_y=sp_pop_totl&hl=fr&dl=fr&idim=country:SYR:IRQ:LBY Données de la Banque mondiale.]</ref>
+| amezdaɣ_aseggwas           = 2012
+| taneẓẓi                                        = 120
+| igrawen_iran               = 
+| igrawen_iran_aseggwas      = 
+| tawsit_azarug              = 
+| tamurt_azarug              = Seg [[Fransa]]
+| azmez_azarug               = {{azmez|17|Yebrir|1946}}
+| tawsit_assileɣ             = 
+| azmez_assileɣ              = 
+| tawsit_assileɣ2            = 
+| azmez_assileɣ2             = 
+| isem_umezdaɣ               = Asuri, Tasurit 
+| PIBPPA_aseggwas            = 
+| PIB_PPA                    = 
+| PIBPPA_asertatu            = 
+| PIB_aseggwas               = 2010
+| PIB                        = 59,147,033,452 $
+| PIB_asertatu               = 
+| PIB_HAB                    = 
+| PIBHAB_aseggwas            = 
+| PIBHAB_asertatu            = 
+| IDH_aseggwas               = 2015
+| IDH                        = {{anqas}} 0.343<ref name="HDI">{{cite web |url=http://www.unrwa.org/userfiles/2013071244355.pdf |title=2014 Human Development Report Summary |date=2014 |accessdate=25 September 2014 |publisher=United Nations Development Programme | pages= 21–25}}</ref>
+| IDH_taggayt                = Adda
+| IDH_asertatu               = 166
+| aqariḍ                     =  [[Taliratt Tasurit]]
+| angal_aqariḍ               = SYP
+| iẓḍi_usrag                 = +2
+| imseɣret_aɣelnaw           = [[Humat ad-Diyar]]
+| taɣult_internet            = [[.sy]]
+| iso3166-1                  = SYR, SY
+| tasarutt_tasawlant         = 963
+| tuddsiwin                  = 
+}}
 
 
-Burkina fasu d tamurt id yezgan deg umalu n lber n tefriqt zint-as-d setta n tmura ,seg ugafa mali ,seg usamer niǧer ,seg unẓul tugu,binin,ɣana,kut divwar.
+[[Image:Syria in its region (claimed).svg|thumb|]]
+Tamurt n '''Surya''' tezga-d g wenẓul ataram n [[Asya]] , isem-is unṣib d ''Tigduda Taɛrabt n Surya'' (s [[taɛrabt|teɛrabt]] الجمهورية العربية السورية) tamanaɣt ines [[Dimacq]] . tutlayt-is tunsibt d [[taɛrabt]].
 
-== Amezruy ==
-
-Burkina fasu (vulta taɛlayant) tella d amur deg tgelda n Mali tineslemt, sakin  tuɣal d amur deg tgelda n sanfi , sakin teqqel d tagelda n vulta uqbel amnekcem afransi deg useggas 1896,tewwi timunent ines deg useggas 1960.
-
-[[Taggayt:Timura n Tefriqt]]
-
-
-[[Taggayt:Timura n Ddunit]]
+[[Taggayt:Timura n Asya]]
+[[Taggayt:Surya|*]]
