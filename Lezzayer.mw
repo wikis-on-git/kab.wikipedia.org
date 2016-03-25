@@ -1,49 +1,58 @@
-
-{| border=1 align=right cellpadding=4 cellspacing=0 style="margin: 0 0 1em 1em; background: #f9f9f9; border: 1px #aaa solid;  border-collapse: collapse; font-size: 95%;" width=300
-|+'''Tagduda Tadzayrit Tamagdayt Taɣerfant'''''ⵟⴰⴳⴷⵓⴷⴰ ⵜⴰⵎⴻⴳⴷⴰⵢⵜ ⵜⴰⵖⴻⵔⴼⴰⵏⵜ ⵜⴰⵣⵣⴰⵢⵔⵉⵜ''  
-
-'''الجمهورية الجزائرية الديمقراطية الشعبية''' 
-|-
-| align="center" colspan=2 |
-{| border="0"
-|-
-| align="right" width="140px" | [[Image:Flag of Algeria.svg|125px|center|Asenǧaq n Dzayer]]
-| align="center" width="140px" | 
-|-
-| align="center" width="140px" | <small>[[Asenǧaq n Dzayer|Asenǧaq]]</small>
-| align="center" width="140px" | <small>[[Emblem of Dzayer|Emblem]]</small>
-|}
-|-
-| align=center  colspan=2 style="background:#ffffff;" | [[Image:LocationAlgeria.png|250px|Location of Dzayer in Green]]
-|-
-| align=center  colspan=2 style="background:#ffffff;" | [[Image:LocationAlgeria.svg|250px|Location of Dzayer in Red]]
-|-
-| '''[[Tutlayt Tunṣibt|Tutlayin tunṣibin]]''' || [[Tamaziɣt]], [[Taɛrabt]] 
-|-
-| '''[[Tutlayt taɣelnawt]]''' || [[Tamaziɣt]]
-|-
-| '''[[Tutlayin nniḍen]]''' || [[Tutlayin timaziɣin|Tutlayin timaziɣin]] - [[Tarumit|Tarumit]] - [[Taɛrabt n lezzayer]]
-|-
-| '''[[Tamanaɣt]]''' || [[Dzayer (Tamanaɣt)|Dzayer (Tamanaɣt)]]
-|-
-| '''[[Aselway]]''' || [[Ɛebdelɛaziz Butefliqa]]
-|-
-| '''[[Aneɣlaf amenzu]]''' || [[Ɛebdelmalek Sellal]]
-|-
-|Tilas ||{{Tunes}} [[Tunes]] <br />{{Libya}} [[Libya]] <br />{{Nijer}} [[Nijir]] <br />{{Mali}} [[Mali]]<br /> {{Ameṛṛuk}} [[Ameṛṛuk]] <br />{{tamuritanit}} [[Muriṭanya]]
-|-
-| '''[[Tajumma]]''' || 2,381,740 km²
-|-
-| '''[[Imezdaɣ]]<br>&nbsp;- ([[2002]]) <br>&nbsp;- [[Imezdaɣ|Imezdaɣ deg km²]]''' || 
-<br> 32,818,500 <br> 13.3/km²; 
-|-
-| align=center  colspan=2 style="background:#ffffff;" | [[Image:Algeria map-FR.png|250px|center|Carte de l’Algérie << Map of Dzayer >>]]
-|-
-| Tasarut n Tilifun||+213
-|-
-|Tasarut n internet|| .dz
-|}
-
+{{Infobox Tamurt
+|tiɣmi= 66CCA5
+|isem= Tagduda Tadzayrit Tamagdayt Taɣerfant
+|isem adigan= ⵟⴰⴳⴷⵓⴷⴰ ⵜⴰⵎⴻⴳⴷⴰⵢⵜ ⵜⴰⵖⴻⵔⴼⴰⵏⵜ ⵜⴰⵣⵣⴰⵢⵔⵉⵜ
+|tutlayt isem adigan= BER
+|isem adigan 2= الجمهورية الجزائرية الديمقراطية الشعبية
+|tutlayt isem adigan 2= AR
+|isem adigan 3= République Algérienne Démocratique et Populaire
+|tutlayt isem adigan 3= FR
+|asenjaq= Flag of Algeria.svg
+|lqedd asenjaq= 200
+|azday asenjaq= Asenjaq n Dzayer
+|ablasun= Seal of Algeria.svg
+|lqedd ablasun= 180
+|azday ablasun= Ablasun n Dzayer
+|takarḍa= Algeria (orthographic projection).svg
+|lqedd takarḍa= 
+|azday takarḍa= Dzayer di tkarḍa n ddunit
+|tilisa1= Tunes
+|tilisa2= Libya
+|tilisa3= Mali
+|tilisa4= Niǧer
+|tilisa5= Tamuriṭanit
+|tilisa6= Aneẓruf Utrim
+|tilisa7= Lmeṛṛuk
+|tanfalit= بالشعب و للشعب
+|tanfalit s Teqbaylit= G ugdud ɣer ugdud
+|imseɣret= Qassaman
+|talɣa n uwanak= Tagduda
+|aselway= Ɛebdelɛaziz Butefliqa
+|aneɣlaf amenzu= Ɛebdelmalek Sellal
+|tutlayin tunṣibin= Taɛrabt<br>Tamaziɣt
+|tutlayin niḍen= Taɛrabt n Dzayer<br>Tutlayin Timaziɣin<br>Tafransist
+|tamanaɣt= Dzayer Tamanaɣt
+|imsidag tamanaɣt= 36°46' N, 03°03' E
+|tamdint tameqqrant= Dzayer Tamanaɣt
+|tajumma= {{formatnum:2381741}} km<sup>2</sup> (tis 10)
+|tajumma s waman= NC
+|iẓdi n usrag= UTC +1
+|isem n umezdaɣ= Adzayri, Tadzayrit
+|imezdaɣ= {{formatnum:40400000}} (tis 33)
+|taneẓẓi= 16 imezdaɣ/{{km2}}
+|wid ur nxeddem ara= {{Talit n diri}} 10.6%<br>+7.84%
+|aqariḍ= Adinar Adzayri
+|angal aqariḍ= DZD
+|azemz n uzarug= 5 juillet 1962
+|azarug si= Fransa
+|asdukkel= 
+|angal ISO 1= DZA
+|angal ISO 2= DZ
+|taɣult n internet= .dz
+|tasarut n tilifun= +213
+|tuddsiwin= ONU (8 Tubeṛ 1962)
+|tamawt= Amḍan n imezdaɣ, taneẓẓi ak d wid ur nxeddem ara n useggas 2014
+}}
 
 '''Dzayer''' (izwel unṣib: '''Tagduda Tadzayrit Tamagdayt Taɣerfant''') neɣ '''Lzzayer''' neɣ '''Taziri'''. Tezga-d tamurt n Dzayer g [[Tafriqt ugafa]], nettat d tamurt i meqqren g tajumma ines g yal amenẓaw n [[tafriqt]] (deg asmi tevḍa tamurt n [[Sudan]] ɣaf sin), zgan-d g tilisa ines s ugafa [[ilel agrakal]], s ugafamalu [[Tunes]], s umalu [[Libya]], s unzulamalu [[Nijir]], s unzulataram [[Mali]] akk d [[Muriṭanya]], ma s tama utaram tella tamurt n [[Umeṛṛuk]].
 
