@@ -17,7 +17,7 @@
 |azwel   = Tugna n wass
 |id = ImageDuJour
 |tugna   =  HSBild.svg
-|agbur = <div id="mf-POTD" title="Tugna n wass">{{Wikipedia:Tugna n wass/{{CURRENTDAY}} {{LOWERCASEMONTH}} {{CURRENTYEAR}}}}
+|agbur = <div id="mf-POTD" title="Tugna n wass">{{Wikipedia:Tugna n wass/{{CURRENTDAY}} {{LOWERCASEMONTH}} {{CURRENTYEAR}}|float=center}}
 |lien    = {{clr}} {{nobr|[[Wikipedia:Tawlaft n wass/{{CURRENTMONTHNAME}} {{CURRENTYEAR}}|Aɣbaṛ]] •}} [[Wikipedia:Tawlaft n wass-a|Zeṛ tiwlafin]] <br/> <span class="js-no-interprojets">[[:Commons:Commons:Images de qualité|Tiwlafin n taɣara ɣef Wikimedia Commons]]</span>
 }}
 <!-- =============== LE SAVIEZ-VOUS ? =============== -->
