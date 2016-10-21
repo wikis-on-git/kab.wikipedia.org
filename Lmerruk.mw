@@ -7,8 +7,8 @@
  | tutlayt isem adigan 2 = AR
  | isem adigan 3 = Royaume du Maroc
  | tutlayt isem adigan 3 = FR
- | isem adigan 4 = 
- | tutlayt isem adigan 4 = 
+ | isem adigan 4 = Kingdom of Morocco 
+ | tutlayt isem adigan 4 = En
  | isem adigan 5 = 
  | tutlayt isem adigan 5 = 
  | asenjaq = Flag of Morocco.svg
