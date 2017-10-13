@@ -1,0 +1,45 @@
+== CLDR, d acu-t? ==
+
+CLDR (wali asenfaṛ [http://cldr.unicode.org/ CLDR] deg usmel unṣib n [http://www.unicode.org/ UNICODE] ), axefwal n Common Local Data Repository, d asenfaṛ n ukunsurṣyum UNICODE i d-yettmuddun lsas n usali n iseɣzanen akken ad izmiren ad sferken akk tutlayin n umaḍal. Isefka-agi ad ten-sqedcen deqs n imaẓragen deg usideg n ifecka-nsen. CLDR yegber deqs n yeḥricen:
+
+* Tineɣrufin icudden ar tutlayt i umasal akked tesleṭ: Azemz, akud, iẓdiyen usrigen, imḍanen akked izamulen n tedrimin
+
+* Tasuqilt n yismawen: Tutlayin, inagrawen n tira, timura, timnaḍin, tidrimin, talliyin, ayyuren, ussan, talliyin n wussan, izḍiyen usrigen, timdinin akked tayunin n wakud.
+ 
+* Tutlayt akked telɣut n unagraw n tira: isekkilen yettwaseqdacen; talɣa n usget; tuzzuft; aseqdec n usekkil ameqqran; ilugan n usmizzwer & anadi; tanila n tira; ilugan n useskel; ilugan n ususru n imḍanen; ilugan n tubḍin n uḍris ar wawra, awalen neɣ tifyar. 
+
+* Talɣut ɣef tmurt: aseqdec n tutlayt, talɣut n tedrimt, awitay akked umsadi n umalas, akked tingalin n tiliɣri
+
+* Ayen-nniden : Asefrek n tengalin ISO & BCP 47, Tineɣrufin n inasiwen
+ 
+<ref>Tasidegt n tulayt n teqbaylit tekker yakan deg UNICODE. Ugar n isallen, ddu ar usebter-nneɣ adigan CLDR Aqbaylit anida ara tafem akk iḥricen-agi, neɣ srid ar usmel Web n CLDR [http://st.unicode.org/cldr-apps/v#/kab/ dagi]</ref>
+
+== Amawal ==
+
+# Asefrek:gestion
+# Talɣa:forme
+# Amasal: format
+# Ilugan: règles
+# Asusru: prononciation
+# Tanila: direction
+# Asenfaṛ: projet
+# Axefwal: Acronyme
+# Tangalt: Code
+# Tiliɣri: Téléphone
+# Talɣut: Information
+# Taneɣruft: Modèle
+# Anasiw: clavier
+# Akunṣursium: consortium
+# Asmizzwer: Tri
+# Izdi usrig: Fuseau horaire
+# Asideg : Localisation
+# Aseskel: translittération
+# Akud: temps
+# Azemz: Date
+# Tubḍin: Segmentation
+# Tifyar: Phrases
+# Awra: graphème
+# Amsaḍi: Convention
+# Amalas: Semaine
+# Tasleṭ: Analyse
+# Imiḍanen: nombres
