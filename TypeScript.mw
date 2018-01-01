@@ -10,6 +10,8 @@ G JavaScript ulac Ttipaj, seddaw egzampl anda la fonction ''addition'' teqbel ku
     }
 </syntaxhighlight>
 
+addition(3, 2) ad yefk 5, addition(3, 'toto') ad yefk '3toto'.
+
 S TypeScrit, nezmer ad nerna les Types akken ur nezmir ad nɛeddi ala ''number'' :
 
 <syntaxhighlight lang=typescript>
@@ -17,5 +19,7 @@ S TypeScrit, nezmer ad nerna les Types akken ur nezmir ad nɛeddi ala ''number''
         return x + y;
     }
 </syntaxhighlight>
+
+Win yesseqdacen addition s Typscript ur yezmir ara ad yessawel addition(3, 'toto').
 
 [[Taggayt:Timeslayin n usihel]]
