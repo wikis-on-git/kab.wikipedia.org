@@ -1,4 +1,4 @@
-phpPHP (PHP Hypertext Preprocessor) d yiwet tmeslayt n usihel n yiskripten, d ahil ilelli (”Open Source” am Linux neɣ Firefox), yelha i usnulfu n yismal Web ismussanen.
+phpPHP (PHP Hypertext Preprocessor) d yiwet [[tameslayt n usihel|tmeslayt n usihel]] n yiskripten, d ahil ilelli (”Open Source” am Linux neɣ Firefox), yelha i usnulfu n yismal Web ismussanen.
 
 Afaylu PHP yesɛa aseɣzif “php”, amedya “afaylu_php.php”. Seddaw-a, d yiwen umedya n uskript php:
 <?php
@@ -37,3 +37,5 @@ print (’Azul fell-awen’);
 Tura, amur ameqqran n yismal tteddun s PHP (akk d Apache d MySQL), am usmel-a akk d yismal merra ay yetteddun s Wordpress.
 
 Ugar isalen deg usmel http://www.php.net
+
+[[Taggayt:Timeslayin n usihel]]
