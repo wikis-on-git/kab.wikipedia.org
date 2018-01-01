@@ -4,8 +4,8 @@
 ===Ttipaj===
 G Javascript ulac Ttipaj, seddaw egzampl anda la fonction ''addition'' teqbel kulci (''number'', ''string''...etc.) :
 
-<syntaxhighlight lang=typescript>
-    function addition(x, y){
+<syntaxhighlight lang=javascript>
+    function addition(x, y) {
         return x + y;
     }
 </syntaxhighlight>
