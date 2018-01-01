@@ -2,7 +2,7 @@
 
 == TypeScript vs Javascript== 
 ===Ttipaj===
-G JavaScript ulac Ttipaj, seddaw egzampl anda la fonction ''addition'' teqbel kulci (''number'', ''string''...etc.) :
+G JavaScript ulac Ttipaj, seddaw egzampl anda la fonction ''addition'' tqebbel kulci (''number'', ''string''...etc.) :
 
 <syntaxhighlight lang=javascript>
     function addition(x, y) {
