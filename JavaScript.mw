@@ -1,0 +1,10 @@
+'''JavaScript''' d [[tameslayt n usihel]] mebla compilation i tt-yesnulfan [[Brendan Eich]] ([[Netscape]]). JavaScript yeddu ala g lBrowser lameɛna tura nezmer ad t-nesseqdac g lBackend s [[Node.js]].
+
+== Hello world == 
+
+<syntaxhighlight lang=javascript>
+console.log("Hello World!");
+</syntaxhighlight>
+
+
+[[Taggayt:Timeslayin n usihel]]
