@@ -1,64 +1,51 @@
-{{Infobox
-| isem_aqbayli               = Tagduda n Kulumbya
-| isem_adigan                = República de Colombia
-| tutlayt                    = es
-| asusru                     = República de Colombia.ogg
+{{Infobox Tamurt
 
-| isem_adigan1               = 
-| isem_adigan2               = 
-| isem_adigan3               = 
-| isem_adigan4               = 
-| isem_adigan5               = 
-| tutlayt1                   = 
-| tutlayt2                   = 
-| tutlayt3                   = 
-| tutlayt4                   = 
-| tutlayt5                   = 
-| asusru1                    = 
-| asusru2                    = 
-| asusru3                    = 
-| asusru4                    = 
-| asusru5                    = 
-| isem                       = 
+| isem adigan                = República de Colombia
+| tutlayt isem adigan        = ES
+| isem adigan 2              = Tagduda n Kulumbya
+| tutlayt isem adigan 2       = TAQ
+| asusru                     = República de Colombia.ogg
 | de                         = 
-| tugna_asenjaq              = Flag of Colombia.svg
+| asenjaq              = Flag of Colombia.svg
 | iri_asenjaq                = 
-| azday_asenjaq              = Takbabt n Kulumbya
-| tugna_ablasun              = Coat of arms of Colombia.svg
-| azday_ablasun              = Ablasun n Kulumbya
-| tugna_takarḍa              = COL orthographic (San Andrés and Providencia special).svg
+| azday asenjaq              = Anay n Kulumbya
+| ablasun              = Coat of arms of Colombia.svg
+| azday ablasun              = Ablasun n Kulumbya
+| takarḍa              = COL orthographic (San Andrés and Providencia special).svg
 | tanfalit                   = Libertad y Orden (Tileli akked Niḍam)
+|talɣa n uwanak              = Tagduda
 | tawsit_tutlayin            = [[Tutlayt tunṣibt]]
-| tutlayin                   = [[Taspenyulit]]
-| tamaneɣt                   = Buguṭa [[Bogota]]
-| imsidag_tamaneɣt           = {{coord|4.610|-74.082|type:city|format=dms|display=inline}}
-| azday_timdinin             = Timdinin n Kulumbya
+| tutlayin tunṣibin=         = [[Taspanyulit]]
+| tamanaɣt                   = Buguṭa [[Bogota]]
+| imsidag tamanaɣt           = {{coord|4.610|-74.082|type:city|format=dms|display=inline}}
+| azday timdinin             = Timdinin n Kulumbya
 | azwel_tamdint_ugaren_tiyaḍ = Tamdint yugaren tiyaḍ
-| tamdint_ugaren_tiyaḍ       = [[Bogota]]
-| tawsit_anabaḍ              = [[Tagduda]] s [[Anhil aselwayan|wenhil aselwayan]]
+| tiɣremt tameqqrant= [[Bogota]]
+| tawsit anabaḍ              = [[Tagduda]] s [[Anhil aselwayan|wenhil aselwayan]]
 | aɛqal                      =
 | tanegmit                   =
 | izwal_imḍebbren            = [[Umuɣ n yiselwayen n Kulumbya|Aselway]]
-| isemawen_imḍebbren         = [[Juan Manuel Santos]]
+| aselway         = [[Juan Manuel Santos]]
 | izwal_imḍebbren2           = [[Umuɣ n yenmuzal n uselway n Kulumbya|Amnazul n uselway]]
 | isemawen_imḍebbren2        = [[German Vargas Lleras]]
+|iẓdi n usrag= COT ''UTC-5''
 | tajumma_asertatu           = 25
 | tajumma_taɣrudt            = 1141748
 | afmiḍi_aman                = 8,8 %
 | amezdaɣ_asertatu           = 28
-| amezdaɣ_aɣrud              = 47847177 (estimation)<ref name="index">[http://www.dane.gov.co/reloj/reloj_animado.php Contador de Poblacion], (Asebtar yettemmẓer deg 31 tuber n 2014)</ref>
+| imezdaɣ              = 47847177 (estimation)<ref name="index">[http://www.dane.gov.co/reloj/reloj_animado.php Contador de Poblacion], (Asebtar yettemmẓer deg 31 tuber n 2014)</ref>
 | amezdaɣ_aseggwas           = 2012
-| taneẓẓi                                        = 40
+| taneẓẓi                    = 40 imezdaɣ/{{km2}}
 | igrawen_iran               = 
 | igrawen_iran_aseggwas      = 
 | tawsit_azarug              = 
-| tamurt_azarug              = si [[Spanya]]
-| azmez_azarug               = [[20 yunyu]] n [[1810]]
+| azarug si=[[Spanya]]
+| azemz n uzarug             = [[20 yunyu]] n [[1810]]
 | tawsit_assileɣ             = 
 | azmez_assileɣ              = 
 | tawsit_assileɣ2            = 
 | azmez_assileɣ2             = 
-| isem_umezdaɣ               = Akulumbyanu, Takulmbyanut
+| isem n umezdaɣ               = Akulumbyanu, Takulmbyanut
 | PIBPPA_aseggwas            = 
 | PIB_PPA                    = 
 | PIBPPA_asertatu            = 
@@ -73,12 +60,12 @@
 | IDH_taggayt                = Aɛlay
 | IDH_asertatu               = 87
 | aqariḍ                     = [[Peso akulumbyanu]] 
-| angal_aqariḍ               = COP
+| angal aqariḍ               = COP
 | iẓḍi_usrag                 = -5
 | imseɣret_aɣelnaw           = 
-| taɣult_internet            = [[.co]]
+| taɣult n Internet            = [[.co]]
 | iso3166-1                  = COL, CO
-| tasarutt_tasawlant         = 57
+| tasarut n tilifun         = +57
 | tuddsiwin                  =
 }}
 
