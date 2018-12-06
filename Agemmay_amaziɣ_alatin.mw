@@ -8,7 +8,7 @@ Agemmay Amaziɣ Alatin isseqdec abaɛda i tirawt n amzun akk tileqmant n tutlayt
 
 '''NB''': Zik nesseqdec "ṛ", "ț", "ʐ", maca mači tura (Kamal Naït-Zerrad, Tajerrumt Tatrart n Teqbaylit).
 
-:{| class="wikitable" style="text-align:center"
+{| class="wikitable" style="margin-left: auto; margin-right: auto; border: none;"
 |bgcolor="#EFEFEF" colspan="34"| '''34 n isekkilen n ugemmay n tutlayt Tamaziɣt'''
 |- style="font-size:120%" class="Unicode"
 |width="3%"|[[A]]||width="3%"|[[B]]||width="3%"|[[C]]||width="3%"|[[Č]]||width="3%"|[[D]]||width="3%"|[[Ḍ]]||width="3%"|[[E]]||width="3%"|[[Ɛ]]||width="3%"|[[F]]||width="3%"|[[G]]||width="3%"|[[Ǧ]]||width="3%"|[[Ɣ]]||width="3%"|[[H]]||width="3%"|[[Ḥ]]||width="3%"|[[I]]||width="3%"|[[J]]||width="3%"|[[K]]||width="3%"|[[L]]||width="3%"|[[M]]||width="3%"|[[N]]||width="3%"|[[Q]]||width="3%"|[[R]]||width="3%"|[[Ř]]||width="3%"|[[Ṛ]]||width="3%"|[[S]]||width="3%"|[[Ṣ]]||width="3%"|[[T]]||width="3%"|[[Ṭ]]||width="3%"|[[U]]||width="3%"|[[W]]||width="3%"|[[X]]||width="3%"|[[Y]]||width="3%"|[[Z]]||width="3%"|[[Ẓ]]
@@ -54,7 +54,7 @@ Agemmay Amaziɣ Alatin isseqdec abaɛda i tirawt n amzun akk tileqmant n tutlayt
 Tira: I ubeqqeḍ n isekkilen s Tifinaɣ, zdem afaylu agi : [http://www.ircam.ma/documents/policesclavierunicode/tifinaghe-Ircam-unicode.ttf ircam.ma], dɣa ḥrez it ddaw "C:\windows\fonts" (beddel "C" s usekkil n uẓar ma [[Windows]] ur yeserkeb ara deg uḍebsi C).
 
 {| class="wikitable"
-| Asekkil || [[Tifinagh]] (IRCAM) || Prononciation
+! Asekkil !! [[Tifinagh]] (IRCAM) !! Prononciation
 |-
 | [[A (asekkil)|A]] || ⴰ || ''a'' am deg talanglizt b'''a'''d
 |-
@@ -106,7 +106,7 @@ Tira: I ubeqqeḍ n isekkilen s Tifinaɣ, zdem afaylu agi : [http://www.ircam.ma
 ==Nniḍen==
 <div style="font-family:Arial Unicode MS, Tahoma">
 {| class="wikitable"
-| asekkil || Unicode ||| Tifinaɣ (IRCAM)  || Asusru 
+! asekkil !! Unicode !! Tifinaɣ (IRCAM) !! Asusru 
 |-
 | [[č]] || 010C/010D || ⵛ || tch
 |-
