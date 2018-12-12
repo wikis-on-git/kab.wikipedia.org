@@ -26,8 +26,21 @@
 ''' PASCAL''' d isem n yiwet tmeslayt n usihel teffeɣ-d ger useggas 1967 d 1971 sɣur Niklaus Wirth. Yefka-yas isem-ayi ilmen-d umussnaw ameqqran [[Blaise Pascal]] (1623-1662). Tameslay PASCAL tettwassen aṭas seg wasmi i d-teffeɣ i lɣaci tameslayt n Turbo pascal deg useggas 1984, sɣur Borland International, imi wwḍen azal n umeliyun i yettuzenzen seg-s.
 
 PASCAL daɣen yemmug-d i tusnakt, yelha nezzeh i yinelmaden ussananen n tesdawit.
+
+==Amedya==
+Hat ɣur-wen umedya n usihel s tutlayt Pascal : 
+<source lang="pascal">
+program azul;
+uses wincrt;
+var
+begin
+writeln('Azul fell-awen');
+end.
+</source>
+
 == Tamselyut ==
 * [http://www.imyura.net/Timenza/tabid/57/articleType/ArticleView/articleId/142/Awal-ef-uselkim-su-Y-At-Yiil.aspx www.imyura.net]
+
 
 [[Taggayt:Timeslayin n usihel]]
 
