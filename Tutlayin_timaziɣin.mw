@@ -1,42 +1,51 @@
-{{Infobox Langue|isem=Tamaziɣt|isemtadra=
-|tamurt=
-|tamnatt=[[Tafriqt ugafa]]
-|amsiwel= 46 ugendid 
-|rang=
-|tawanesnit=VSO / SVO
-|couleurfamille=yellow
-|couleurfond=#FEFEC2
-|tawacult=
-- [[Tutlayin tifrusyawiyin]]
-:- '''[[Tamaziɣt]]'''
-|tutlayt tunṣibt=
-|agraw=
-|iso1=
+{{Infobox language family
+|name=Tamaziɣt
+|altname=ⵜⴰⵎⴰⵣⵉⵖⵜ
+|ethnicity=[[Imaziɣen]]
+|region=[[Tafriqt n umalu]]
+|familycolor=Afro-asiatic
+|protoname=[[Tutlayt Proto-Tamaziɣt|Proto-Tamaziɣt]]
+|child1=[[Tutlayin timaziɣin n umalu|Tamaziɣt n umalu]]
+|child2=[[Tutlayin timaziɣin tiɣerbiyin|Tamaziɣt taɣerbit]]
+|child3=[[Tutlayin n ttwareg|Ttwareg]]
+|child4=[[Tutlayin timaziɣin ticerqiyin|Tamaziɣt tacerqit]]
+|child5=''[[Tutlayt tanumidit|Tanumidit]]'' †
+|child6=''[[Tutlayt tagwancet|Tagwancet]]'' †
 |iso2=ber
-|iso3=[http://www.sil.org/iso639-3/documentation.asp?id=ber ber] ('''en''')
-|sil=KYL
+|iso5=ber
+|glotto=berb1260
+|glottorefname=Berber
+|map=Map_of_Berber_Languages_2018.png
+|mapcaption=Tutlayin timaziɣin:<br/>{{col-begin}}{{col-break}}
+'''Tamaziɣt n umalu'''
+
+''Taqbaylit''
+{{legend|#BA68C8| [[Tutlayt taqbaylit|Taqbaylit]]}}
+
+''Atlas''
+{{legend|#E53935|[[Tamaziɣt (Amerruk)]] (Tamaziɣt)}}
+{{legend|#F06292|[[Tutlayt Tacelḥit|Tacelḥit]]}}
+{{legend|#AD1457|[[Sanhaja de Srair language|Senhaja de Srair]] & [[Ghomara language|Ghomara]]}}
+
+''Taznast''
+{{legend|#F57F17|[[Tutlayt tarifit|Tarifit]] (Tmaziɣt)}}
+{{legend|#FBC02D|[[Ait Seghrouchen Berber|Ayt Seghrouchen]] & [[Eastern Middle Atlas Berber|Ayt Warayn]]}}
+{{legend|#E65100|[[Tutlayt tacenwit|Tacenwit]]}}
+{{legend|#FF5722|[[Tutlayt tacawit|Tacawit]]}}
+{{legend|#FFFF00|Nniḍen ([[Mzab–Wargla languages|Mzab-Wargla]], [[East Zenati languages|Taznast tacerqit]])}}
+{{col-break}}
+'''Tamaziɣt taɣerbit'''
+{{legend|#546E7A|[[Tutlayt taẓnagt|Taẓnagt]] (Tuḍḍungiyya)}}
+
+'''Tamaziɣt tacerqit'''
+{{legend|#00E676|[[Tutlayin timaziɣin ticerqiyin|Tamaziɣt tacerqit]] (Siwi, Tanfusit, Sokna, Ghadamès, Awjila)}}
+
+'''Ttwareg'''
+{{legend|#5C6BC0|[[Tutlayin n ttwareg|Ttwareg]] (Tamaceq)}}
+
+{{col-end}}
 }}
 
-
-
-{| valign="top" style="float: right;margin-left:1em;margin-bototm:1em;border: 1px solid #AAAAAA; background: #F9F9F9;clear: right"
-| colspan=2 style="text-align:center"|[[Tugna:berbers.png|250px|Tutlayin timaziɣin deg Tafriqt ugafa]]
-Tutlayin timaziɣin<br />
-deg [[Tafriqt ugafa]].
-|-
-| <span style="background-color:#24DAEF;border:1px solid black"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> [[Tacelḥit]]
-| <span style="background-color:#ED4CF3;border:1px solid black"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> [[Tazayant]]
-|-
-| <span style="background-color:#FFFF74;border:1px solid black"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> [[Tarifit]]
-| <span style="background-color:#E985A1;border:1px solid black"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> [[tacenwit|Tacenwit]]
-|-
-| <span style="background-color:#E40C0C;border:1px solid black"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> [[Taqbaylit]]
-| <span style="background-color:#20D40C;border:1px solid black"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> [[Tacawit]]
-|-
-| <span style="background-color:#0006A3;border:1px solid black"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> [[Touaregs|Imuhaghen]]
-| <span style="background-color:#FF6600;border:1px solid black"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> [[Taseḥrawit]]
-|-
-|}
 '''Tutlayin timaziɣin''' neɣ '''Tamaziɣt''' d tutlayin i ttmeslayen [[Imaziɣen|Yimaziɣen]] di [[Tafriqt ugafa|Tefriqt Tagafayt]]. Tamaziɣt tusa-d seg [[Tutlayin tifrusyawiyin]].
 
 == Askelu n tmaziɣt ==
@@ -62,7 +71,6 @@ deg [[Tafriqt ugafa]].
          └─────o <big>[[Taẓnagt]]</big>
          └─────o <big>[[Tamseɣlalt]]</big>
 
-[[file:The Berber language as spoken in North Africa.png|thumb|350px|left|Mani ssawalen yimezdaɣ tutlayt Tamaziɣt di Tamazɣa.]]
 
 {{Tamaziɣt}}
 
