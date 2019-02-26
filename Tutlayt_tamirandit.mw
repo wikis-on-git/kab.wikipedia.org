@@ -1,23 +1,27 @@
-{{Infobox Langue|isem=Tamirandit|isemtadra=
-|tamurt=[[Portugal]]
-|tamnatt=[[Alto Trás-os-Montes]]
-|amsiwel=10 000-15 000
-|rang=
-|tawanesnit=VSO
-|couleurfamille=yellow
-|couleurfond=#FEFEC2
-|tawacult=
-*tutlayin indo-européennes 
-:*tutlayin romanes 
-::*tutlayin ibéro-romanes 
-:::*asturien 
-::::*tamirandit
-|tutlayt tunṣibt=Miranda de l Douro
-|agraw=Anstituto de la Lhengua Mirandesa
-|iso1=
-|iso2=$
-|iso3=$
-|sil=
+{{Infobox language
+|name=Tamirandit
+|nativename=''Mirandés''
+|states= [[Portugal]]
+|region=Northeast ([[Miranda do Douro]], [[Sendim]], [[Vimioso]] and [[Mogadouro]])
+|speakers=15,000
+|date=2000
+|ref=e18
+|speakers2=(10,000 sseqdacen-tt mkull ass, 5,000 asmi uɣalen ɣer tmurt. 2,000 deg Sendim Vila.)<ref name="E18 Eth">{{E18|mwl}}</ref>
+|familycolor=Indo-European
+|fam2=[[Italic languages|Italic]]
+|fam3=[[Romance languages|Romance]]
+|fam4=[[Western Romance languages|Western]]
+|fam5=[[Ibero-Romance languages|Ibero-Romance]]
+|fam6=[[West Iberian languages|West Iberian]]
+|fam7=[[Astur-Leonese languages|Astur-Leonese]]
+|iso2=mwl
+|iso3=mwl
+|glotto=mira1251
+|glottorefname=Mirandese
+|lingua=51-AAA-cb
+|map=Locator map of Miranda do Douro.svg
+|mapcaption=LAmkan n temdint n [[Miranda do Douro]]
+|notice=IPA
 }}
 
 '''Tamirandit'''
