@@ -1,14 +1,20 @@
-{{FrenchTaxobox tazzwara | aɣersiw | ''Tapirus kabomani'' || <!-- insérer une légende descriptive de l'image --> }}
-{{FrenchTaxobox | astirf | Chordata }}
-{{FrenchTaxobox | adu-astirf | Vertebrata }}
-{{FrenchTaxobox | asmil | Mammalia }}
-{{FrenchTaxobox | adu-asmil | Theria }}
-{{FrenchTaxobox | zdar-asmil | Eutheria }}
-{{FrenchTaxobox | ammizwer | Perissodactyla }}
-{{FrenchTaxobox | tawacult | Tapiridae }}
-{{FrenchTaxobox | ṣṣenf | Tapirus }}
-{{FrenchTaxobox taxon | aɣersiw | talmest | Tapirus kabomani | Cozzuol ''et al.'' (2013) }}
-{{FrenchTaxobox UICN | DD |  }}
-{{FrenchTaxobox taggara}}
+{{Taxobox
+| status = NE
+| status_system = IUCN3.1
+| regnum = [[Animalia]]
+| phylum = [[Chordata]]
+| classis = [[Mammalia]]
+| ordo = [[Perissodactyla]]
+| familia = [[Tapiridae]]
+| genus = ''[[Tapirus]]''
+| species = '''''T. kabomani'''''
+| binomial = ''Tapirus kabomani''
+| binomial_authority = Cozzuol, Clozato, Holanda, Rodrigues, Nienow, de Thoisy, Redondo & Santos, 2013
+| range_map = Tapirus_kabomani_Range_Map.png
+| range_map_caption = Areas in which ''T. kabomani'' is known to occur
+}}
 
 '''''Tapirus kabomani''''' (semman-as daɣen « Atapir amecṭuḥ aberkan ») d yiwet n semmus tilmas n [[atapir|utapir]] deg tamussni n talsa dɣa d tamecṭuht ugaren tiyaḍ nniḍen. Tettidir deg [[Tamrikt n Wenẓul]] s tuget deg tawennaḍt n [[Tiẓgi n Amazuniya]], tagrut ines teffeɣ-d deg useggwas 2013<ref name="JM2013">Mario Cozzuol, Camila Clozato, Elizete Holanda, Flávio Rodrigues, Samuel Nienow, Benoit de Thoisy, Rodrigo Redondo, d Fabrício Santos. ''[http://www.bioone.org/doi/abs/10.1644/12-MAMM-A-169.1 A new species of tapir from the Amazon]'' deg ''Journal of Mammalogy'' {{Uṭṭun|94}} (6), 1331-1345, 2013.</ref>{{,}}<ref name="Libé">[http://www.liberation.fr/sciences/2013/12/20/une-nouvelle-espece-de-tapir-decouverte-dans-la-foret-amazonienne_967710 ''Une nouvelle espèce de tapir découverte dans la forêt amazonienne''] sɣur Virginie Ballet deg ''[[Libération (journal)|Libération]]'' n 20 dujamber 2013.</ref>.
+
+== Tiwelhiwin ==
+{{refs}}
