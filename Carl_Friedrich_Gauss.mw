@@ -1,29 +1,4 @@
-{{Infobox
-|bodystyle   = width:20em;
-|name        = Infobox/doc
-|title       = Carl Friedrich Gauss
-|titlestyle  = background:#ccf
-|headerstyle = 
-|labelstyle  = width:33%
-|datastyle   = 
-|image        = [[File:Carl_Friedrich_Gauss.jpg|200px|alt=Example alt text]]
-|caption      = Carl Friedrich Gauss
-|label1  = Isem tlalit
-|data1   = Carl Friedrich Gauß
-|label2  = Talalit
-|data2   = 30 [[Yebrir]] 1777, Brunswick
-|label3  = Lmut
-|data3   = 23 [[Fuṛaṛ]] 1855, Guttingen
-|label4  = asadur
-|data4   = Amusnak, Amesnallum, Amussnagamaw
-|label6  = agerdas
-|data6   = Tasdawit n Göttingen	
-|label7  = amsun
-|data7   = Leqdic-is ɣef [[Tasnakt|Tesnakt]] d [[Tasengama|Tsengama]] 
-|label8  = arazen
-|data8   = [[Tazalɣi Copley]]<br />[[Araz Lalande]]
-}}
-
+{{Infobox biography}}
 
 '''Carl Friedrich Gauss''' neɣ Kaɣl Fxedxic Gawss s teqbaylit; yettwanṭaq {{Asusru|De-carlfriedrichgauss.ogg}}, ilul ass n 30 [[Yebrir]] aseggas n 1777 di Brunswick, yemmut ass n 23 di [[Fuṛaṛ]] useggas n 1855 di Guttingen. Yella d amusnak ameqqran, d amesnallum u d amussnagamaw. Yesɛa tasmedna tameqrant, yebwid tummutin yesɛan azal s waṭas di tusniwin agi i d-nebder (nuder) qqaren-as ''Ageldun n tusnakt'', d yiwen seg imusnaken imeqqranen n yal akud.
 
