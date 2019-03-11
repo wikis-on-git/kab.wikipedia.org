@@ -1,29 +1,4 @@
-{{Infobox
-|bodystyle   = width:20em;
-|name        = Infobox/doc
-|title       = Albert Einstein
-|titlestyle  = background:#ccf
-|headerstyle = 
-|labelstyle  = width:33%
-|datastyle   = 
-
-|image        = [[File:Albert Einstein Head.jpg|200px|alt=Example alt text]]
-|caption      = Albert Einstein aseggas 1947
-|label1  = Taɣlent
-|data1   = d almani (1879–1896 d 1919–1933)<br />d aswisi (1901–1955)<br />d utrici (1911–1912)<br />d amarikani (1940–1955)<br />''yella anda yedder mebla taɣlent, yella anda yesɛa snat tɣelnin''
-|label3  = Talalit
-|data3   = {{azmez|14|Meɣres|1879}}, Ulm, [[Lalman]]
-|label4  = Lmut
-|data4   = {{azmez|18|Yebrir|1955}}, Princeton (New Jersey), [[Marikan]]
-|label5  = asadur
-|data5   = Amussnagamaw
-|label6  = agerdas
-|data6   = Aɣerbaz aget-atiknit n Zurix	
-|label7  = amsun
-|data7   = Leqdic-is ɣer timmaseɣt, ɣef tagant n tafat, daɣen ɣef wayen yella beṛṛa n [[Tasengama|Tsengama]]  
-|label8  = arazen
-|data8   = [[Arraz Nobel n Tsengama]] (1921)<br />[[Tazalɣi Copley]] (1925)<br />[[Tazalɣi Max Planck]] (1929)
-}}
+{{Infobox biography}}
 
 ''Albert Einstein'' d-ussnan asengam amezray yellan di tazwara d-almani, sinna mebla tamurt (1896), d-aswisit (1901), sinna di tagara yarna-d taɣlent tamarikanit (1940). Ilul ass n {{azmez|14|Meɣres|1879}} di temdint n Ulm, Wutemberg, yemmut ass n {{azmez|18|Yebrir|1955}} di Prinston, New Jersey.
 
