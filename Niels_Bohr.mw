@@ -1,28 +1,4 @@
-{{Infobox
-|bodystyle   = width:20em;
-|name        = Infobox/doc
-|title       = Niels Bohr
-|titlestyle  = background:#ccf
-|headerstyle = 
-|labelstyle  = width:33%
-|datastyle   = 
-|image        = [[File:Niels Bohr.jpg|200px|alt=Example alt text]]
-|caption      = Niels Bohr 
-|label2  = Talalit
-|data2   = 8 [[Tuber]] 1885, Kopenhagen (Kupenhag), [[Danmark]]
-|label3  = Lmut
-|data3   = 18 [[Wamber]] 1962, Kopenhagen (Kupenhag), [[Danmark]]
-|label4  = asadur
-|data4   = Amussnagamaw
-|label5  = tasudut
-|data5   = Taseddawit n Cambridge (Kambriǧ)<br />Taseddawit n Manchester (Mančester)<br />Taseddawit n Kopenhagen (Kupenhag)
-|label6  = agerdas
-|data6   = Taseddawit n Copenhague(Kupenhag)
-|label7  = amsun
-|data7   = Amudem n Bohr<br />Amenzay n tnemmadut
-|label8  = arazen
-|data8   = [[Araz Nobel n ]] (1922)<br /> [[Tazalɣi Planck]] (1930)
-}}
+{{infobox biography}}
 
 '''Niels Bohr''' d amussnagamaw (physicien) adanmarki, ittwassen ɣef leqdic-is di tussnagama tanaɛurt (nucléaire) d ubelkim (atome).
 
