@@ -1,32 +1,4 @@
-{{Infobox
-|bodystyle   = width:20em;
-|name        = Infobox/doc
-|title       = Lalla Faḍma n Sumer
-|titlestyle  = background:#ccf
-|headerstyle = 
-|labelstyle  = width:33%
-|datastyle   = 
-
-|image        = [[File:Portrait-Fatma_N%27Soumer.jpg|200px|alt=Example alt text]]
-|caption      = Lalla Faḍma n Sumer
-|label1  = Isem nniḍen 
-|data1   = Faḍma Nat Si Ḥmed U Meẓian
-|label2  = Taselfast
-|data2   = [[Jeanne d'Arc]] n [[Ǧerǧer]]<ref>{{Ouvrage |auteur=|titre=Afrique-Asie, Numéros 390 à 401|éditeur= Société d'Éditions Afrique, Asie, Amérique Latine|lieu= |année=1987|présentation en ligne={{Google Livres|YqDjAAAAMAAJ|page=26|surligne=Jeanne+d%27Arc}}}}</ref>
-|label3  = Talalit
-|data3   = 1830, [[Werja]], [[At Bu Yusef]]
-|label4  = Lmut
-|data4   = 1863 (33 iseggasen)
-|label5  = Taɣawalt
-|data5   = Azbu aqbayli mgal tihawt n Fransa.
-|label6  = Iseggwasen n umeẓlu	
-|data6   = 1850 – 1857
-|label7  = Ccwal
-|data7   = Imenɣiyen n [[Tamurt n Iqbayliyen|Tmurt Taqbaylit]] mgal tikra tiṛumiyin
-|label8  = tidyanin n imrigen
-|data8   = Imenɣi n [[Asif n Sabaw|Wasif n Sabaw]]
-}}
-
+{{Infobox biography}}
 
 Lalla '''Faḍma n Sumer''' d tameṭṭut [[Taqbaylit]] ikecmen deg umezruy n tmurt s ibeddi-is deg wudem n wemnekcan afransis aseggas [[1857]]. Lalla Faḍma tlul deg useggas 1830 deg taddart n [[Werja]] di Lɛarc [[At Bu Yusef]], di [[Tmurt n Leqbayel]], temmut aseggas 1863, di temɛemmert n At Sliman.
 
