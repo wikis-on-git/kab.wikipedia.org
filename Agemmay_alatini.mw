@@ -1,19 +1,16 @@
-{{Infobox Anagraw n tirawt
-| isem=Talatinit
-| tugna=Latin alphabet.png
-| aglam=Amedya n tirawt s ugemmay alatini
-| tawsit=[[Agemmay]]
-| tutlayin=[[Talatinit]] d [[tutlayin romanes]] ; aṭas tutlayin tuṛufiyin ; [[Asṛummen (tirawt)|asṛummen]] yezmer i aqrib akkw tutlayin.
-| tanila=Azelmaḍ ar uyeffus
-| tallit=~ 700 uq. S.Ɛ. ar tura
-| fam1=[[Agemmay ajerraḍ|Protocananéen]]
-| fam2=[[Agemmay afniqi|Afniqi]]
-| fam3=[[Agemmay agrigi|Agrigi]]
-| fam4=[[Agemmay atruski|Atruski]]
-| iqriben=[[Agemmay Syrilik|Syrilik]], [[Agemmay aqebṭi|aqebṭi]], [[Agemmay aṛmini|aṛmini]], [[Agemmay aruni|aruni]]
-| isuddimen=Aṭas
-| unicode=Aṭas iḥderan, ula d [[Tadabut n isekkilen Unicode/U0000|U+0000–U+007F]]
-| iso15924=Latn 
+{{Infobox writing system
+| name = Alatini
+| type = [[Agemmay]]
+| languages = {{hlist|list_style=line-height:1.3em; |[[Latin language|Latin]] |[[Romance languages|Romance]] |[[Germanic languages|Germanic]] |[[Celtic languages|Celtic]] |[[Baltic languages|Baltic]] |some [[Slavic languages]] |some [[Turkic languages]] |some [[Uralic languages]] |some [[Caucasic languages]] |some [[Niger–Congo languages]], some [[Nilo-Saharan languages]], some [[Afroasiatic languages]], [[Austronesian languages|Austronesian]] and [[Austroasiatic languages]]}}
+| time = {{nowrap|[[Circa|c.]] 700 BC – {{smaller|present}}}}
+| fam1= [[Egyptian hieroglyphs]] | fam2= [[Proto-Sinaitic alphabet]] | fam3= [[Agemmay afniqi|Afniqi]]  |fam4=[[Agemmay agrigi|Agrigi]] |fam5=[[Old Italic script]]
+| children = {{longitem|Numerous [[Latin alphabets]]; also more divergent derivations such as [[Osage alphabet|Osage]]}}
+| sisters = {{hlist|list_style=line-height:1.3em; |[[Cyrillic script|Cyrillic]] |[[Coptic alphabet|Coptic]] |[[Armenian alphabet|Armenian]] |[[Georgian alphabet|Georgian]] |[[Runic alphabet|Runic (Futhark)]]}}
+| sample = Calligraphy.malmesbury.bible.arp.jpg
+| imagesize = 200px
+| unicode = ''see [[Latin characters in Unicode]]''
+| iso15924=Latn
+| IPAChartEng= 1
 }}
 
 [[Tugna:Latin alphabet world distribution.png|thumb|right|350px|Timura isseqdacen agemmay alatini]]
