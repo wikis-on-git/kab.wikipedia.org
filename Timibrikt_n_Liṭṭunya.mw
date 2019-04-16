@@ -1,13 +1,17 @@
-{{Infobox Iri 
- | charte       = azegraw
- | isem          = Timibrikt n Liṭṭunya
- | tugna        = Latvijas brūnā govs ganībās.JPG
- | aglam      = 
- | taneṣlit      = {{Liṭṭunya}}
- | tanezwit    = Taɣelnawt
- | tiddi       = Ttawil
- | taqendurt         = Ttwazdi tazegwaɣt ar timibrikt
- | asseqdec  = I uyefki
+{{Infobox
+| abovestyle = background-color: pink;
+| above = Timibrikt n Liṭṭunya
+| data1 =[[Image:Latvijas brūnā govs ganībās.JPG|250px]]
+| label2 = Taneṣlit
+| data2 = {{Liṭṭunya}}
+| label3 = Tanezwit
+| data3 = Taɣelnawt
+| label4 = tiddi
+| data4  = Ttawil
+| label5 = Taqendurt 
+| data5 = Ttwazdi tazegwaɣt ar timibrikt
+| label6 = asseqdec
+| data6 = I uyefki
 }}
 
 '''Timibrikt n Liṭṭunya''' d iri azegraw [[Liṭṭunya|aliṭṭuni]]. Isem-is agraɣlan d '''{{lang|en|latvian brown}}''' dɣa isem-is [[aliṭṭuni]] d '''{{lang|lv|Latvijas brūnā}}''' neɣ ''buraïa latviskaïa'' s [[tarusit|trusit]].
