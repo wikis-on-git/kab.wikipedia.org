@@ -1,30 +1,24 @@
-{{Infobox Aseɣẓan
- | ini tanaka            = <!-- pour adapter la couleur de la boîte au logo -->
- | isem d logo           = 
- | isem                  = Adobe Photoshop
- | logo                  = [[Tugna:Photoshop_CC_icon.png|100px]]
- | tugna                 = 
- | aglam                 = Logo n Photoshop
- | aneflay               = [[Adobe Systems]]
- | lqem aneggaru         = CS5.5 (12.1)
- | azmez n lqem amzewaru = {{Azmez|3|mayyu|2011}}
- | lqem aneggaru         = 
- | azmez n lqem aneggaru = 
- | lqem amahlan          = 
- | azmez n lqem amahlan  = 
- | tameslayt n usihel    = C++
- | tawennaṭ              = [[Microsoft Windows|Windows]], [[Mac OS X]]
- | tutlayt               = [[Agetutlayt]]
- | anaw                  = [[Unuɣ s uselkim]] (DAO)
- | turagt                = [[aseɣẓan amli|Amli]]
- | asmel web             = [http://www.adobe.com/fr/products/photoshop.html/ www.adobe.com]
+{{Infobox software
+| name = Adobe Photoshop
+| logo = Adobe Photoshop CC icon.svg
+| author = [[Thomas Knoll]]<br />[[John Knoll]]
+| developer = [[Adobe Inc.]]
+| released = {{Start date and age|1990|02|19}}
+| operating system =[[Windows 10]] version 1709 Fall Creators and above and [[macOS]] 10.12 Sierra and later<ref>{{cite web|title=Photoshop system requirements|url=https://helpx.adobe.com/photoshop/system-requirements.html|publisher=Adobe Inc.|accessdate=January 10, 2019}}</ref>
+| platform = [[X64]]
+| language = English (United States), English (United Kingdom), Arabic, Chinese Simplified, Chinese Traditional, Czech, Danish, Dutch, Finnish, French, German, Hebrew, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian, Spanish, Swedish, Romanian, Turkish and Ukrainian
+| language count = 26
+| language footnote = <ref name=PhotoshopLanguages>{{cite web|url=https://www.adobe.com/products/photoshop/tech-specs.html |title=language versions &#124; Adobe Photoshop CS6 |publisher=Adobe.com |date= |accessdate=February 29, 2012}}</ref>
+| genre = [[Raster graphics editor]]
+| license = [[Trialware]], [[Software as a service|SaaS]]
+| website = {{URL|https://www.adobe.com/products/photoshop.html}}
 }}
 
-'''Photoshop''' d-aseɣẓan n-uveddel d-useqdec n [[Tugna|tugniwin]], d wunuɣ yullen s-uselkim '''(DAO)''' id ẓreg [[Adobe]]. Ittwaseqdac s waṭas iw sker n tfarut tumḍint, maca daɣen iw suffaɣ n tugniwin timaynutin.
+'''Photoshop''' d aseɣẓan n ubeddel d useqdec n [[Tugna|tugniwin]], d wunuɣ yullen s-uselkim '''(DAO)''' id ẓreg [[Adobe]]. Ittwaseqdac s waṭas iw sker n tfarut tumḍint, maca daɣen iw suffaɣ n tugniwin timaynutin.
 
-Photoshop d-aseɣẓan ig sseqdacen tugniwin tusriwin ([[Bitmap]]) acku tugniwin agi gant am iẓiki n-irden iwumi neqqar [[Pixel]]:aferdis n tugna.
+Photoshop d aseɣẓan ig sseqdacen tugniwin tusriwin ([[Bitmap]]) acku tugniwin agi gant am iẓiki n-irden iwumi neqqar [[Pixel]]:aferdis n tugna.
 
-Photoshop yuɣal isɛa azal ameqṛan ger isenselkimen acku yesɛa aṭas n testayin tinezmarin, ifecka udlifen lɛali, tura iɣarvazen yesselmaden aseqdec n-useɣẓan n photoshop ufrarend s waṭas, garasen iɣarvazen imeqṛanen, asuday n "Les Beaux Arts" d tifurra n merru.
+Photoshop yuɣal yesɛa azal ameqqṛan ger isenselkimen acku yesɛa aṭas n testayin tinezmarin, ifecka udlifen lɛali, tura iɣarvazen yesselmaden aseqdec n-useɣẓan n photoshop ufrarend s waṭas, garasen iɣarvazen imeqṛanen, asuday n "Les Beaux Arts" d tifurra n merru.
 
 Adobe tesnefli aseɣẓan photoshop i Microsoft Windows d Mac OS kan, maca lqem CS4 yezmer ad yettuselkem di [[Linux]] s Wine.
 
@@ -36,7 +30,7 @@ Di twala agi, [[John Knoll]] iṛuḥ ar [[Silicon Valley]] iwakken ad isnat ahi
 
 ==Aglam==
 
-Photoshop isɛa amasal n ufaylu n yiman is (Asiɣzef: psd) ayen iɣ yettaǧǧan an ḥrez ticriḥin n usenfar id iselɣen tugna iwakken ad twasqedcent subrez. Ahil yettaǧǧa daɣan aseqdac ad ikter u ad isifeḍ ifuyla tugniwin deg imusal yettwasnen s waṭas am (Asiɣzef : gif, jpg, tif, png, etc.).
+Photoshop yesɛa amasal n ufaylu n yiman is (Asiɣzef: psd) ayen iɣ yettaǧǧan an ḥrez ticriḥin n usenfar id iselɣen tugna iwakken ad twasqedcent subrez. Ahil yettaǧǧa daɣan aseqdac ad ikter u ad isifeḍ ifuyla tugniwin deg imusal yettwasnen s waṭas am (Asiɣzef : gif, jpg, tif, png, etc.).
 
 == Taneflit ==
 {| cellpadding="5" class="wikitable"
