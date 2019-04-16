@@ -1,22 +1,20 @@
-{{Infobox Aseɣẓan
- | ini tanaka            = <!-- pour adapter la couleur de la boîte au logo -->
- | isem d logo           = 
- | isem                  = Adobe After Effects
- | logo                  = [[Tugna:Adobe After Effects CC icon.svg|100px|]]
- | tugna                 = 
- | aglam                 = Logo n After effects
- | aneflay               = [[Adobe Systems]]
- | azmez n lqem amzewaru = {{Azmez|3|mayyu|2011}}
- | lqem aneggaru         = CS6 11 mayu 2012
- | azmez n lqem aneggaru = 
- | lqem amahlan          = 
- | azmez n lqem amahlan  = 
- | tameslayt n usihel    = C++
- | tawennaṭ              = [[Microsoft Windows|Windows]], [[Mac OS X]]
- | tutlayt               = [[Agetutlayt]]
- | anaw                  = Taẓrigt uvidyu
- | turagt                = [[aseɣẓan amli|Amli]]
- | asmel web             = http://www.adobe.com/AfterEffects
+{{Infobox software
+| name = 
+| logo = Adobe After Effects CC icon.svg
+| author = [[Company of Science and Art]]
+| developer = {{plainlist|
+* CoSA (1992-1993)
+* Aldus (1993-1994)
+* [[Adobe Systems]] (1994-present)
+}}
+| released = {{start date and age|1993|1}}
+| latest release version = CC 2019 (16.0.1.48)
+| latest release date = {{Start date and age|2018|12|10}}
+| programming language = [[C++]]{{Citation needed|date=May 2016}}
+| operating system = [[Windows 10]] (x64 only) v1703 and later, [[macOS]] 10.12 Sierra or later
+| genre = [[Visual effects]], [[Motion graphics]], [[Compositing]], [[Computer animation]]
+| license = [[Trialware]], [[software as a service]] (SaaS)
+| website = {{URL|https://www.adobe.com/products/aftereffects}}
 }}
 
 '''After Effects''' d-[[aseɣẓan]] n-usudes id ẓreg [[Adobe]]. Ittaǧǧa aseqdac ad ismentel (créer) [[asemdu ameẓli|isemda imeẓliyen]] d-imrayen udlifen i yal tannalt seg yal tawsit taɣbalut. Tẓa ileqman id yefɣen seg-s ar assa, taneggarut seg-sent d Adobe After Effects CS5.5 v11.5.
