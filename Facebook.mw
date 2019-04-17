@@ -1,20 +1,25 @@
-{{Infobox Asmel web
- | isem                         = Facebook
- | tugna                        = Facebook.svg
- | aglam                       = Logo n Facebook
- | url                         = [https://facebook.com/ facebook.com/]
- | tanfalit                      = {{lang|en|Facebook is a social utility that connects you with the people around you. }}
- | adellel                   = 
- | anaw                        = [[Azeṭṭa n tmetti]]
- | tutlayt                      = 78 tutlayin
- | tiggezt                    = tlaq
- | asutel                   = [[Palo Alto]], [[Kalifurnya]], [[Marikan]]
- | anemhal                    = [[Mark Zuckerberg]] ([[Président-directeur général|PDG]])<br />[[Sheryl Sandberg]]
- | amli                       = [[Facebook Inc.]]
- | amsumar                      = 
- | awel                   = {{azmez|4|fuṛaṛ|2004}}
- | armud               = [[Internet]]
- | asmel                  = 
+{{Infobox 
+|abovestyle = background-color: transparent;
+| above = Facebook
+| data1 =[[Image: Facebook.svg|250px]]
+| label2 = Tansa url
+| data2 = [https://facebook.com/ facebook.com/]
+| label3 = Anaw
+| data3 = [[Azeṭṭa n tmetti]]
+| label4 = Tutlayt
+| data4 = 78 tutlayin
+| label5 = Tiggezt
+| data5 = tlaq
+| label6 = Asutel
+| data6 = [[Palo Alto]], [[Kalifurnya]], [[Marikan]]
+| label7 = Anemhal
+| data7 = [[Mark Zuckerberg]] ([[Président-directeur général|PDG]])<br />[[Sheryl Sandberg]]
+| label8 = Amli
+| data8 = [[Facebook Inc.]]
+| label9 = Azmez n awel	
+| data9 = {{azmez|4|fuṛaṛ|2004}}
+| label10 = Agazam n urmud
+| data10 = [[Internet]]
 }}
 
 
