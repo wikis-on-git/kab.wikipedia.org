@@ -1,29 +1,28 @@
-{{Infobox Arrum asenselkim
-| isem			 = Aḍebsi aquran
-| tugna 		 = Hard disk platter reflection.jpg
-| aglam          	 = Aḍebsi aquran IBM yeldin.
-| azmez n timkeccemt     = 13 ctamber 1956
-| amsnulfu        	 = [[Reynold Johnson]]
-| uqqin        		 = Asenqad
-| uqqin sur    		 =
-* Agrudem PATA (IDE)
-* Agrudem SATA
-* Agrudem SCSI
-* Agrudem SAS
-| abellez isem   	 = Segmentation du marché
-| abellez       	 =
+{{Infobox 
+|abovestyle = background-color: transparent;
+| above =  Aḍebsi aquran
+| data1 = [[Image:Hard disk platter reflection.jpg|250px]]
+| data2 = Aḍebsi aquran IBM yeldin.
+| label3 = Azmez n timkeccemt	
+| data3 = [[Azeṭṭa n tmetti]]
+| label4 = Asnulfu sɣur	
+| data4 = [[Reynold Johnson]]
+| label5 = Segmentation du marché	
+| data5 =
 * Aselkim n umahil
 * Aziraz
 * Taṛmist
 * Amsuder
 * Nniḍen
-| imeɣrafen          =
+| label6 = Imeɣrafen unnimen
+| data6 = 
 * [[Hitachi]]
 * [[Samsung Electronics|Samsung]]
 * [[Seagate Technology|Seagate]]
 * [[Toshiba]]
-* [[Western Digital]] 
+* [[Western Digital]]
 }}
+
 [[Tugna:Hard drive-fr.svg|thumb|Azenziɣ n uḍebsi aquran IDE.]]
 
 
