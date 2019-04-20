@@ -1,3 +1,39 @@
+{{Infobox programming language
+| name = C#
+| logo = [[File:C Sharp wordmark.svg|150px]]
+| paradigm = [[Structured programming|Structured]], [[Imperative programming|imperative]], [[Object-oriented programming|object-oriented]], [[Event-driven programming|event-driven]], [[The Task-based Asynchronous Pattern|task-driven]], [[Functional programming|functional]], [[Generic programming|generic]], [[Reflective programming|reflective]], [[Concurrent computing|concurrent]]
+| family = [[List of C-family programming languages|C]]
+| year = 2000<ref>https://www.infoq.com/minibooks/emag-c-sharp-preview</ref>
+| designer = [[Microsoft]]
+| developer = Microsoft
+| latest release version = 7.3<ref>https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-7-3</ref>
+| latest release date = {{start date and age|2018|05|07}}
+| latest preview version = 8.0<ref>{{cite web|title=What's new in C# 8.0|url=https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-8|website=Microsoft Docs|publisher=Microsoft|access-date=2019-04-13}}</ref>
+| latest preview date = 
+| typing = [[Static typing|static]], [[Dynamic typing|dynamic]],<ref name="dynamic" /> [[Type system#Strong and weak typing|strong]], [[Type system#Safely and unsafely typed systems|safe]], [[Nominative type system|nominative]], [[Type inference|partially inferred]]
+| implementations = [[Microsoft Visual C Sharp|Visual C#]], [[.NET Framework]], [[Mono (software)|Mono]], [[.NET Core]], [[DotGNU|DotGNU (discontinued)]], [[Universal Windows Platform]]
+| dialects = [[Cω]], [[Spec Sharp|Spec#]], [[Polyphonic C Sharp|Polyphonic C#]], [http://ecsharp.net Enhanced C#]
+| influenced_by = [[C++]],<ref name="influenced by CPP" /> [[Cω]], [[Eiffel (programming language)|Eiffel]], [[F Sharp (programming language)|F#]],{{efn|for async}}, [[Haskell (programming language)|Haskell]], [[Icon (programming language)|Icon]], [[J Sharp|J#]], [[Visual J++|J++]], [[Java (programming language)|Java]],<ref name="influenced by CPP" /> [[ML (programming language)|ML]], [[Modula-3]], [[Object Pascal]],<ref name="influenced by op" /> [[Rust (programming language)|Rust]], [[Visual Basic|VB]]
+| influenced = [[Chapel (programming language)|Chapel]],<ref name="chplspec">{{cite web|title=Chapel spec (Acknowlegements)|url=http://chapel.cray.com/spec/spec-0.98.pdf|date=2015-10-01|accessdate=2016-01-14|publisher=Cray Inc}}</ref>, [[Clojure]],<ref>{{cite web |url=http://www.codequarterly.com/2011/rich-hickey|archive-url=https://web.archive.org/web/20170111184835/http://www.codequarterly.com/2011/rich-hickey|dead-url=yes|archive-date=2017-01-11|title=Rich Hickey Q&A by Michael Fogus|access-date=2017-01-11}}</ref> [[Crystal (programming language)|Crystal]],<ref name="rel_0.18.0">
+  {{cite web
+  | url   = http://crystal-lang.org/2016/06/14/crystal-0.18.0-released.html#comment-2732771703
+  | title = Crystal 0.18.0 released!
+  | last  = Borenszweig
+  | first = Ary
+  | quote = It's heavily inspired by Ruby, and other languages (like C#, Go and Python).
+  }}
+</ref> [[D (programming language)|D]], [[J Sharp|J#]], [[Dart (programming language)|Dart]],<ref>{{cite web|title=Web Languages and VMs: Fast Code is Always in Fashion. (V8, Dart) - Google I/O 2013|url=https://www.youtube.com/watch?v=huawCRlo9H4&t=30m10s|publisher=[[Google]]|accessdate=22 December 2013}}</ref> [[F Sharp (programming language)|F#]], [[Hack (programming language)|Hack]], [[Java (programming language)|Java]],<ref>Java 5.0 added several new language features (the [[foreach loop|enhanced for loop]], [[Object type (object-oriented programming)#Autoboxing|autoboxing]], [[variadic function|varargs]] and [[Java annotation|annotations]]), after they were introduced in the similar (and competing) C# language [http://www.barrycornelius.com/papers/java5/] [http://www.levenez.com/lang/]</ref><ref name="influenced" /> [[Kotlin (programming language)|Kotlin]], [[Monkey (programming language)|Monkey]], [[Nemerle]], [[Oxygene (programming language)|Oxygene]], [[Ring (programming language)|Ring]],<ref name="Ring programming language and other languages">{{cite web |url=http://ring-lang.sourceforge.net/doc1.6/introduction.html#ring-and-other-languages |title=Ring programming language and other languages  |author=Ring Team |date=5 December 2017 |work=ring-lang.net |publisher=[[ring-lang]]}}</ref> [[Rust (programming language)|Rust]], [[Swift (programming language)|Swift]],<ref name="lattner2014">{{cite web|url=http://nondot.org/sabre/|title=Chris Lattner's Homepage|last=Lattner|first=Chris|date=2014-06-03|accessdate=2014-06-03|publisher=Chris Lattner|quote=The Swift language is the product of tireless effort from a team of language experts, documentation gurus, compiler optimization ninjas, and an incredibly important internal dogfooding group who provided feedback to help refine and battle-test ideas. Of course, it also greatly benefited from the experiences hard-won by many other languages in the field, drawing ideas from Objective-C, Rust, Haskell, Ruby, Python, CLU, and far too many others to list.}}</ref> [[Vala (programming language)|Vala]], [[TypeScript]]
+| platform = [[Common Language Infrastructure]]
+| license = [[Roslyn (compiler)|Roslyn]] compiler: [[Apache License|Apache License 2.0]]<ref>https://github.com/dotnet/roslyn/blob/1ff27b046b5c03abb38bfeda44eb82da0b8df9de/License.txt</ref><br/>
+[[.NET Core|.NET Core CLR]]: [[MIT License|MIT/X11]]<ref>https://github.com/dotnet/coreclr/blob/master/LICENSE.TXT</ref><br/>
+
+[[Mono (software)|Mono]] compiler: dual [[GPLv3]] and MIT/X11<br/>
+[[DotGNU]]: dual [[GPL]] and [[LGPL]]
+| file_ext = <code>.cs</code>
+| website = {{URL|https://docs.microsoft.com/dotnet/csharp/language-reference/}}
+| wikibooks = C Sharp Programming
+| versions = See [[#Versions|§ Versions]]
+}}
 '''C Sharp''' neɣ '''C#''' d [[tameslayt n usihel]] sɣur [[Microsoft]]. Designer n tameslayt-agi isem-is [[Anders Hejlsberg]].
 
 == Amezruy == 
