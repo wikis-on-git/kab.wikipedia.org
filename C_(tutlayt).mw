@@ -26,4 +26,29 @@
 == Tamselyut ==
 * [http://www.imyura.net/Timenza/tabid/57/articleType/ArticleView/articleId/142/Awal-ef-uselkim-su-Y-At-Yiil.aspx www.imyura.net]
 
+== References ==
+{{Reflist|refs=
+<ref name="k&r1e">{{cite book |last1=Kernighan |first1=Brian W. |authorlink1=Brian Kernighan |last2=Ritchie |first2=Dennis M. |authorlink2=Dennis Ritchie | title=The C Programming Language | edition=1st |publisher=[[Prentice Hall]] |date=February 1978 |location=[[Englewood Cliffs, NJ]] |isbn=978-0-13-110163-0|title-link=The C Programming Language (book) }} </ref>
+<ref name="k&r2e">{{cite book |last1=Kernighan |first1=Brian W. |authorlink1=Brian Kernighan |last2=Ritchie |first2=Dennis M. |authorlink2=Dennis Ritchie |title=The C Programming Language | edition=2nd |publisher=[[Prentice Hall]] |date=March 1988 |location=[[Englewood Cliffs, NJ]] |isbn=978-0-13-110362-7|title-link=The C Programming Language (book) }}</ref>
+<ref name="dottcl_2">{{harvtxt|Ritchie|1993}}: "Thompson had made a brief attempt to produce a system coded in an early version of C—before structures—in 1972, but gave up the effort."</ref>
+<ref name="dottcl">{{harvtxt|Ritchie|1993}}: "The scheme of type composition adopted by C owes considerable debt to Algol 68, although it did not, perhaps, emerge in a form that Algol's adherents would approve of."</ref>
+<ref name="AutoTX-2">{{cite web |url=http://www.langpop.com/ |title=Programming Language Popularity |year=2009 |accessdate=16 January 2009 |deadurl=yes |archiveurl=https://web.archive.org/web/20071213213827/http://www.langpop.com/ |archivedate=13 December 2007 |df= }}</ref>
+<ref name="AutoTX-3">{{cite web |url=http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html | title=TIOBE Programming Community Index |year=2009 |accessdate=6 May 2009}}</ref>
+<ref name="AutoTX-4">{{cite web |url=http://www.stroustrup.com/hopl2.pdf |title=A History of C++: 1979−1991 |first=Bjarne |last=Stroustrup |authorlink=Bjarne Stroustrup |year=1993 |accessdate=9 June 2011}}</ref>
+<ref name="AutoTX-5">{{cite web |title=JTC1/SC22/WG14&nbsp;– C |url=http://www.open-std.org/jtc1/sc22/wg14/ |work=Home page |publisher=ISO/IEC |accessdate=2 June 2011}}</ref>
+<ref name="AutoTX-6">{{cite web |title=TR 18037: Embedded C |url=http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1169.pdf|publisher=ISO / IEC |accessdate=26 July 2011}}</ref>
+<ref name="h&s5e">{{cite book |last1=Harbison |first1=Samuel P. |last2=Steele |first2=Guy L. |authorlink2=Guy L. Steele, Jr. |title=C: A Reference Manual |edition=5th |publisher=[[Prentice Hall]] |year=2002 |location=[[Englewood Cliffs, NJ]] |isbn=978-0-13-089592-9}} Contains a [[Backus-Naur form|BNF]] grammar for C.</ref>
+<ref name="AutoTX-7">[http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1548.pdf ISO/IEC 9899:201x (ISO C11) Committee Draft]</ref>
+<ref name="AutoTX-8">{{cite web |url=http://www.cs.ucr.edu/~nxiao/cs10/errors.htm |title=10 Common Programming Mistakes in C++ |publisher=Cs.ucr.edu |accessdate=26 June 2009 }}</ref>
+<ref name="AutoTX-9">{{cite book |title=C and the 8051 |edition=3rd |last=Schultz |first=Thomas |year=2004 |publisher=PageFree Publishing Inc. |location=Otsego, MI |isbn=978-1-58961-237-2 |page=20 |url= https://books.google.com/?id=rI0c8kWbxooC&pg=PT47#v=onepage  |accessdate=10 February 2012}}</ref>
+<ref name="AutoTX-10">For example, gcc provides _FORTIFY_SOURCE. {{cite web|url=http://fedoraproject.org/wiki/Security/Features |title=Security Features: Compile Time Buffer Checks (FORTIFY_SOURCE) |publisher=fedoraproject.org |accessdate=2012-08-05}}</ref>
+<ref name="Raymond1996">{{cite book |last=Raymond |first=Eric S. |authorlink=Eric S. Raymond |title=The New Hacker's Dictionary |edition=3rd |url=https://books.google.com/books?id=g80P_4v4QbIC&pg=PA432 |accessdate=5 August 2012 |date=11 October 1996 |publisher=MIT Press |isbn=978-0-262-68092-9 |page=432}}</ref>
+<ref name="AutoTX-11">{{cite book |title=Dr. Dobb's Sourcebook |publisher=Miller Freeman, Inc. |date=November–December 1995 |location=U.S.A.}}</ref>
+<ref name="AutoTX-12">{{cite web |url=http://www.linuxjournal.com/article/6863 |publisher=linuxjournal.com |title=Using C for CGI Programming |accessdate=4 January 2010 |date=1 March 2005}}</ref>
+<ref name="cfaq623">{{cite web | url=http://www.c-faq.com/aryptr/arraynels.html | title=comp.lang.c Frequently Asked Questions 6.23 | accessdate=March 6, 2013 | author=Summit, Steve}}</ref>
+<ref name="cfaq728">{{cite web | url=http://www.c-faq.com/malloc/sizeof.html | title=comp.lang.c Frequently Asked Questions 7.28 | accessdate=March 6, 2013 | author=Summit, Steve}}</ref>
+<ref name="chistory">{{harvtxt|Ritchie|1993}}</ref>
+}}
+
+
 [[Taggayt:Timeslayin n usihel]]
