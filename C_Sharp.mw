@@ -72,4 +72,16 @@ class Program
 }
 </syntaxhighlight>
 
+
+{{Reflist|30em|refs=
+
+<ref name="dynamic">{{cite web |url = http://code.msdn.microsoft.com/csharpfuture/Release/ProjectReleases.aspx?ReleaseId=1686 |title = New features in C# 4.0 |first = Mads |last = Torgersen |date = October 27, 2008 |publisher = [[Microsoft]] |accessdate  = October 28, 2008 }}</ref>
+
+<ref name="influenced by CPP">{{cite journal |last = Naugler |first = David |date=May 2007 |title       = C# 2.0 for C++ and Java programmer: conference workshop |journal = Journal of Computing Sciences in Colleges |volume = 22 |issue = 5 |quote = Although C# has been strongly influenced by Java it has also been strongly influenced by C++ and is best viewed as a descendant of both C++ and Java.}}</ref>
+
+<ref name="influenced by op">{{cite web |url = http://www.computerworld.com.au/article/261958/a-z_programming_languages_c_/?pp=7 |title = The A-Z of Programming Languages: C# |date = October 1, 2008 |publisher = [[Computerworld]] |first = Naomi |last = Hamilton |accessdate  = February 12, 2010 |quote = We all stand on the shoulders of giants here and every language builds on what went before it so we owe a lot to C, C++, Java, Delphi, all of these other things that came before us. ([[Anders Hejlsberg]]) }}</ref>
+
+<ref name="influenced">{{cite web |url = http://www.barrycornelius.com/papers/java5/onefile/ |title = Java 5 catches up with C# |date = December 1, 2005 |publisher  = [[University of Oxford]] Computing Services |first = Barry |last = Cornelius |accessdate = June 18, 2014 |quote = In my opinion, it is C# that has caused these radical changes to the Java language. ([[Barry Cornelius]]) }}</ref>
+}}
+
 [[Taggayt:Timeslayin n usihel]]
