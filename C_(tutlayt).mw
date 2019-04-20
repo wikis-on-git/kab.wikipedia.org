@@ -1,26 +1,24 @@
-{{Infobox Tutlayt n usihel
- | ini tankult                    = <!-- pour adapter la couleur de la boîte au alugu -->
- | isem                           = C
- | alugu                          = 
- | amɣawal                        = [[Asihel anaḍ|anaḍ]],[[Asihel yerran ɣer tsekkirt|tasekkirt]], [[Asihel s temṣukt|tamṣukt]]
- | aseggwas                       = [[1972]]
- | ameskar                        = [[Dennis Ritchie]]
- | aneflay                        = [[Dennis Ritchie]],  [[Bell Labs]]
- | azmez n lqem amezwaru          = 
- | lqem aneggaru urkid            = 
- | azmez n lqem aneggaru urkid    = 
- | lqem aneggaru anaẓi            = 
- | azmez n lqem aneggaru anaẓi    = 
- | ṣṣenf                          = [[Ṣṣenf udmis|Udmis]], [[Ṣṣenf uḍɛif|uḍɛif]]
- | iẓẓa                           = [[GNU Compiler Collection|GCC]], [[Visual C++|MSVC]], [[Turbo C|Borland C]], [[Clang]], [[Watcom C compiler|Watcom C]]
- | ilugan                         = ANSI X3.159-1989 (ANSI C, C89)<br>ISO/CEI 9899:1990 (C90)<br>ISO/CEI 9899:1999 (C99)<br>ISO/IEC 9899:2011 (C11)
- | tantaliyin                     = 
- | tazrirt sɣur                   = [[B (tutlayt)|B]] ([[Combined Programming Language|CPL]], [[BCPL]]), [[ALGOL|ALGOL 60]], [[Lisp]]
- | tazrirt i                      = [[awk]], [[C shell|csh]], [[C++]], [[C Sharp|C#]], [[Objective C]], [[D (tutlayt)|D]], [[Concurrent C]], [[Java (tutlayt)|Java]], [[JavaScript]], [[PHP]], [[Perl (tutlayt)|Perl]]
- | anagraw n wammud               = 
- | turagt                         = 
- | asmel web                      = 
- | azmez n umucceḍ                = 
+{{Infobox programming language
+| name = C
+| logo = File:The C Programming Language logo.svg
+| logo size = 140px
+| logo alt = Text in light blue serif capital letters on white background and very large light blue sans-serif letter C.
+| logo caption = ''[[The C Programming Language]]''<ref name="k&r1e" /> (often referred to as "K&R"), the seminal book on C
+| paradigm = [[Imperative programming|Imperative]] ([[Procedural programming|procedural]]), [[structured programming|structured]]
+| designer = [[Dennis Ritchie]]
+| developer = [[Dennis Ritchie]] & [[Bell Labs]] (creators); ANSI X3J11 ([[ANSI C]]); {{nobr|ISO/IEC JTC1/SC22/WG14}} (ISO C)
+| latest release version = [[C18 (C standard revision)|C18]]
+| latest release date = {{start date and age|2018|06}}
+| typing = [[Type system|Static]], [[Weak typing|weak]], [[manifest typing|manifest]], [[Nominal type system|nominal]]
+| implementations = K&R, [[GNU Compiler Collection|GCC]], [[Clang]], {{nowrap|[[Intel C++ Compiler|Intel C]],}} [[Microsoft Visual C++]], {{nowrap|[[Watcom C/C++ compiler|Watcom C]]}}
+| dialects = [[Cyclone (programming language)|Cyclone]], [[Unified Parallel C]], [[Split-C]], [[Cilk]], [[C*]]
+| influenced = [[:Category:C programming language family|Numerous]]: [[AMPL]], [[AWK]], [[C shell|csh]], [[C++]], [[C--]], [[C Sharp (programming language)|C#]], [[Objective-C]], [[D (programming language)|D]], [[Go (programming language)|Go]], [[Java (programming language)|Java]], [[JavaScript]], [[Julia (programming language)|Julia]], [[Limbo (programming language)|Limbo]], [[LPC (programming language)|LPC]], [[Perl]], [[PHP]], [[Pike (programming language)|Pike]], [[Processing (programming language)|Processing]], [[Python (programming language)|Python]], [[Ring (programming language)|Ring]],<ref name="Ring language and other languages">{{cite web |url=http://ring-lang.sourceforge.net/doc1.6/introduction.html#ring-and-other-languages |title=Ring language and other languages  |author=Ring Team |date=5 December 2017 |work=ring-lang.net |publisher=[[ring-lang]]}}</ref> [[Rust (programming language)|Rust]], [[Seed7]], [[Vala (programming language)|Vala]], [[Verilog]] (HDL),<ref name="vinsp">{{cite web|title=Verilog HDL (and C)|url=http://cs.anu.edu.au/courses/ENGN3213/lectures/lecture6_VERILOG_2010.pdf|date=2010-06-03|accessdate=2013-08-19|publisher=The Research School of Computer Science at the Australian National University|quote=1980s: ; Verilog first introduced ; Verilog inspired by the C programming language|deadurl=yes|archiveurl=https://web.archive.org/web/20131106064022/http://cs.anu.edu.au/courses/ENGN3213/lectures/lecture6_VERILOG_2010.pdf|archivedate=2013-11-06|df=}}</ref> [[Nim (programming language)|Nim]]
+| operating system = [[Cross-platform]]
+| year = 1972<ref name="dottcl_2" />
+| turing-complete = Yes
+| influenced_by = [[B (programming language)|B]] ([[BCPL]], [[CPL (programming language)|CPL]]), [[ALGOL 68]],<ref name="dottcl" /> [[Assembly language|Assembly]], [[PL/I]], [[FORTRAN]]
+| file ext = {{Mono|.c}}, {{Mono|.h}}
+| wikibooks = C Programming
 }}
 
 '''LANGAGE C''', D tameslayt i d-ilulen deg useggas 1972, sɣur umussnaw Denis Rithie. Deg tazwara, timeslayin-a mmugent-d i useqdec n uselkim (ileḥḥun s [[UNIX]]); maca, deg useggas 1989, yuɣ abrid n useqdec s wahil, yuɣal am wid neẓra yakan.
