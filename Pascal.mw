@@ -1,26 +1,31 @@
-{{Infobox Tutlayt n usihel
- | ini tankult                    = <!-- pour adapter la couleur de la boîte au alugu -->
- | isem                           = Pascal
- | alugu                          = 
- | amɣawal                        = [[Asihel awsiyan]], [[Asihel yuɣden ɣer tɣawsa|taɣawsa]], [[Asihel yerran ɣer tsekkirt|tasekkirt]], [[Asihel anaḍ|anaḍ]]
- | aseggwas                       = [[1970]]
- | ameskar                        = [[Niklaus Wirth]]
- | aneflay                        = 
- | azmez n lqem amezwaru          = 
- | lqem aneggaru urkid            = 
- | azmez n lqem aneggaru urkid    = 
- | lqem aneggaru anaẓi            = 
- | azmez n lqem aneggaru anaẓi    = 
- | ṣṣenf                          = [[Ṣṣenf udmis|udmis]], [[Taɣellist n ṣṣenf|Ulkin]], [[Anagraw isman n leṣnaf|isman]]
- | iẓẓa                           = [[Control Data 6600|CDC 6000]], [[PASCAL-P]], [[PDP-11]], [[PDP-10]], [[IBM 360 d 370|IBM System/370]], [[Hewlett-Packard|HP]], [[GNU Pascal]], [[Embarcadero Delphi|Delphi]], [[Free Pascal]], [[Lazarus]]
- | ilugan                         = 
- | tantaliyin                     = ISO Pascal, UCSD Pascal, [[Turbo Pascal]], Apple Pascal, [[Embarcadero Delphi|Delphi]], [[Free Pascal]]
- | tazrirt sɣur                   = [[Algol (tutlayt)|Algol]], [[Fortran]]
- | tazrirt i                      = [[Ada (tutlayt)|Ada]], [[Modula-2]], [[Modula-3]], [[Oberon (tutlayt)|Oberon]]
- | anagraw n wammud               = 
- | turagt                         = 
- | asmel web                      = 
- | azmez n umucceḍ                = 
+{{Infobox programming language
+| name = Pascal
+| logo = 
+| paradigm = {{hlist |[[Imperative programming|Imperative]] |[[Structured programming|Structured]]}}
+| typing = {{hlist |[[Static typing|Static]] |[[Strong and weak typing|Strong]] |[[type system#Type safety and memory safety|Safe]]}}
+| implementations = {{hlist |[[CDC 6000]] | |[[Delphi (programming language)|Embarcadero Delphi]] |[[ICT 1900 series|ICL 1900]] |[[Pascal-P]] |[[PDP-11]] |[[PDP-10]] |[[IBM System/370]] |[[HP Pascal]] |[[Free Pascal]] |[[GNU Pascal]]}}
+| dialects = {{hlist |[[Delphi (programming language)|Delphi]] |[[Turbo Pascal]] |[[UCSD Pascal]]}}
+| year = {{Start date and age|1970}}
+| designer = [[Niklaus Wirth]]
+| latest release version = | latest release date = 
+| influenced_by = [[ALGOL W]]
+| influenced = {{startflatlist}}
+* [[Ada (programming language)|Ada]]
+* [[Component Pascal]]
+* [[Go (programming language)|Go]]
+* [[Java (programming language)|Java]]<ref>"We looked very carefully at Delphi [[Object Pascal]] and built a working prototype of bound method references in order to understand their interaction with the Java programming language and its APIs&nbsp;... Our conclusion was that bound method references are unnecessary and detrimental to the language. This decision was made in consultation with Borland International, who had previous experience with bound method references in Delphi [[Object Pascal]]." (from [http://java.sun.com/docs/white/delegates.html About Microsoft's "Delegates"] {{webarchive|url=https://web.archive.org/web/20120627043929/http://java.sun.com/docs/white/delegates.html |date=2012-06-27 }} at java.sun.com.</ref><ref>{{cite web |url=http://www.fscript.org/prof/javapassport.pdf |quote=The project went ahead under the name "green" and the language was based on an old model of [[UCSD Pascal]], which makes it possible to generate interpretive code |title=History of Java |work=Java Application Servers Report |author=TechMetrix Research |year=1999 |deadurl=yes |archiveurl=https://web.archive.org/web/20101229090912/http://www.fscript.org/prof/javapassport.pdf |archivedate=2010-12-29 |df= }}</ref><ref>{{cite web|url=http://queue.acm.org/detail.cfm?id=1017013|title=A Conversation with James Gosling - ACM Queue|publisher=|accessdate=11 August 2015|deadurl=no|archiveurl=https://web.archive.org/web/20150716194245/http://queue.acm.org/detail.cfm?id=1017013|archivedate=16 July 2015|df=}}</ref>
+* [[Modula]]{{\}}[[Modula-2|-2]]{{\}}[[Modula-3|-3]]
+* [[Oberon (programming language)|Oberon]]{{\}}[[Oberon-2 (programming language)|-2]]
+* [[Object Pascal]]
+* [[Oxygene (programming language)|Oxygene]]
+* [[Seed7]]
+* [[VHDL]]
+* [[Structured text]]
+{{endflatlist}}
+| operating_system = 
+| license = 
+| file ext = <code>.pp</code>, <code>.pas</code>, <code>.inc</code>,
+| website = 
 }}
 
 ''' PASCAL''' d isem n yiwet tmeslayt n usihel teffeɣ-d ger useggas 1967 d 1971 sɣur Niklaus Wirth. Yefka-yas isem-ayi ilmen-d umussnaw ameqqran [[Blaise Pascal]] (1623-1662). Tameslay PASCAL tettwassen aṭas seg wasmi i d-teffeɣ i lɣaci tameslayt n Turbo pascal deg useggas 1984, sɣur Borland International, imi wwḍen azal n umeliyun i yettuzenzen seg-s.
