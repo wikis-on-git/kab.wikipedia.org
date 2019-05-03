@@ -5,7 +5,7 @@
  | tutlayt isem adigan = AM
  | isem adigan 2 
  | tutlayt isem adigan 2 = 
- | isem adigan 3 = c
+ | isem adigan 3 = 
  | tutlayt isem adigan 3 = 
  | isem adigan 4 =
  | tutlayt isem adigan 4 = 
