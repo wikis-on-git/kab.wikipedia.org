@@ -20,10 +20,9 @@
 }}
 <!-- =============== LE SAVIEZ-VOUS ? =============== -->
 | {{Amager/Akatar
-|azwel   = Tezriḍ ?
+|azwel   = {{CURRENTDAY}} {{CURRENTMONTHNAME}}
 |tugna   = HSVissteduatt.svg
-|agbur = <div id="mf-SaviezVous" title="Tezriḍ ?">{{Wikipedia:Teḥṣiḍ ?}}</div>
-|lien    = {{nobr|[[Wikipedia:Teḥṣiḍ ?/Aɣbaṛ|Aɣbaṛ]] •}} [[Wikipedia:Teḥṣiḍ ?|Beddel]]
+|agbur = <div id="mf-SaviezVous" title="Tezriḍ ?">__NOTOC__{{Homepage/this day/{{CURRENTMONTH}} {{CURRENTDAY}} }}</div>
 |id = SaviezVous
 }}
 <!-- =============== FIN COLONNE DE GAUCHE =============== -->
