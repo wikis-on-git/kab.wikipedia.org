@@ -22,7 +22,7 @@
 | {{Amager/Akatar
 |azwel   = {{CURRENTDAY}} {{CURRENTMONTHNAME}}
 |tugna   = HSVissteduatt.svg
-|agbur = <div id="mf-SaviezVous" title="Tezriḍ ?">__NOTOC__{{Homepage/this day}}</div>
+|agbur = <div id="mf-SaviezVous" title="{{CURRENTDAY}} {{CURRENTMONTHNAME}}">__NOTOC__{{Homepage/this day}}</div>
 |id = SaviezVous
 }}
 <!-- =============== FIN COLONNE DE GAUCHE =============== -->
