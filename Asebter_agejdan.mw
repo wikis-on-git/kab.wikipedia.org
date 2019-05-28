@@ -18,10 +18,10 @@
 |tugna   =  HSBild.svg
 |agbur = <div id="mf-POTD" title="Tugna n wass">{{Homepage/featured picture}}
 }}
-<!-- =============== LE SAVIEZ-VOUS ? =============== -->
+<!-- =============== This day =============== -->
 | {{Amager/Akatar
 |azwel   = {{CURRENTDAY}} {{CURRENTMONTHNAME}}
-|tugna   = HSVissteduatt.svg
+|tugna   = HSDagensdatum.svg
 |agbur = <div id="mf-SaviezVous" title="{{CURRENTDAY}} {{CURRENTMONTHNAME}}">__NOTOC__{{Homepage/this day}}</div>
 |id = SaviezVous
 }}
