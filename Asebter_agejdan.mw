@@ -8,7 +8,7 @@
 |azwel   = Amagrad n wass
 |id      = accueil-lumieresur
 |tugna   = HSutvald2.svg
-|agbur = <div id="mf-lumieresur" title="Amagrad n wass">{{Homepage/featured article}}</div>
+|agbur = <div id="mf-lumieresur" title="Amagrad n wass">{{Wikipedia:Homepage/featured article}}</div>
 |orange = oLumiereSur
 }}
 <!-- =============== IMAGE DU JOUR =============== -->
@@ -22,7 +22,7 @@
 | {{Amager/Akatar
 |azwel   = {{CURRENTDAY}} {{CURRENTMONTHNAME}}
 |tugna   = HSDagensdatum.svg
-|agbur = <div id="mf-SaviezVous" title="{{CURRENTDAY}} {{CURRENTMONTHNAME}}">__NOTOC__{{Homepage/this day}}</div>
+|agbur = <div id="mf-SaviezVous" title="{{CURRENTDAY}} {{CURRENTMONTHNAME}}">__NOTOC__{{Wikipedia:Homepage/this day}}</div>
 |id = SaviezVous
 }}
 <!-- =============== FIN COLONNE DE GAUCHE =============== -->
