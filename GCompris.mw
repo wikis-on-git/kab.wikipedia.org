@@ -1,3 +1,37 @@
+{{Infobox software
+| name                   = 
+| title                  = GCompris
+| logo                   = Gcompris logo (2016).svg
+| logo caption           = 
+| logo_size              = 
+| logo_alt               = 
+| screenshot             = Gcompris 0.61 screenshot.png
+| caption                = 
+| screenshot_size        = 300px
+| screenshot_alt         = 
+| collapsible            = 
+| author                 = Bruno Coudoin 
+| developer              = Timothée Giet, Johny ([[Software maintainer|maintainer]])
+| released               = {{Start date and age|2000}}
+| repo                   = {{URL|https://cgit.kde.org/gcompris.git/}}
+| discontinued           = 
+| latest release version = 0.96
+| latest release date    = {{Start date and age|2019|3|3|df=yes}}<ref>{{cite web|url=https://gcompris.net/index-en.html#2019-03-03|title=Latest news|accessdate=4 March 2019|at=§ Release GCompris 0.96}}</ref>
+| latest preview version = 
+| latest preview date    = <!-- {{Start date and age|YYYY|MM|DD|df=yes/no}} -->
+| status                 = active
+| programming language   = {{ubl|legacy: [[C (programming language)|C]] [[Python (programming language)|Python]]|current: [[C++]], [[Qt Meta Language|QML]]}}
+| operating system       = [[Android (operating system)|Android]], [[iOS]], [[Linux]], [[macOS]], [[Microsoft Windows]]
+| platform               = {{ubl|legacy: [[GTK+]]|current: [[Qt (software)|Qt]]}}
+| size                   = 
+| language               = more than 50 languages
+| language count         = <!-- DO NOT include this parameter unless you know what it does -->
+| language footnote      = 
+| genre                  = [[Educational entertainment]], [[Educational software]]
+| license                = [[GNU General Public License]]
+| website                = {{URL|gcompris.net}}
+}}
+
 '''GCompris''' d yiwen useɣẓan n usegmi ay yesɛan aṭas yiqeddicen i warrac ger 2 d 10 n yiseggasen.
 
 Iqeddiccen-is tikwal d iwuraren, maca yalas d usegmisnen. Ad d-tafem iqeddicen deg yiḥricen yetteddun :
