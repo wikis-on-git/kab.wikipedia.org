@@ -13,14 +13,14 @@
 |dependencies   = {{Collapsible list
 |list_style     = text-align:left;
 |title          = External (1)
-| 1 =  {{flag|Saint Helena, Ascension and Tristan da Cunha}}
+| 1 =  {{flagcountry|Saint Helena, Ascension and Tristan da Cunha}}
 }}
 {{Collapsible list
 |list_style     = text-align:left;
 |title          = Internal (6)
-| 1 = {{flag|Canary Islands}} | 2 = {{flag|Ceuta}}
-| 3 = {{flag|Madeira}} | 4 = {{flag|Mayotte}}
-| 5 = {{flag|Melilla}} | 6 = {{flag|Réunion}}
+| 1 = {{flagcountry|Canary Islands}} | 2 = {{flagcountry|Ceuta}}
+| 3 = {{flagcountry|Madeira}} | 4 = {{flagcountry|Mayotte}}
+| 5 = {{flagcountry|Melilla}} | 6 = {{flagcountry|Réunion}}
 }}
 |languages      = [[Languages of Africa|1250–3000 native languages]]
 |time           = [[UTC-1]] to [[UTC+4]]
