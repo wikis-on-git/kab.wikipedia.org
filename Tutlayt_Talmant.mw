@@ -29,25 +29,25 @@
 | nation = {{Collapsible list
                   | titlestyle=font-weight:normal; background:transparent; text-align:left;
                   | title=[[List of territorial entities where German is an official language|6 countries]]
-                  |{{flag|Austria}}
-                  |{{flag|Belgium}}
-                  |{{flag|Germany}}
-                  |{{flag|Liechtenstein}}
-                  |{{flag|Luxembourg}}
-                  |{{flag|Switzerland}}
+                  |{{flagcountry|Austria}}
+                  |{{flagcountry|Belgium}}
+                  |{{flagcountry|Germany}}
+                  |{{flagcountry|Liechtenstein}}
+                  |{{flagcountry|Luxembourg}}
+                  |{{flagcountry|Switzerland}}
                  }}<br /><!--SOURCES FOR EACH COUNTRY ARE REFERENCED IN THE LINKED SUB-ARTICLE-->
                  {{Collapsible list
                   | titlestyle=font-weight:normal; background:transparent; text-align:left;
                   | title=[[List of territorial entities where German is an official language|3 dependencies]]
                   |[[File:Flag of South Tyrol.svg|24px]] [[South Tyrol]] ([[Italy]])
-                  |{{flagicon|Poland}} [[Bilingual communes in Poland#Polish/German|31 gminas]] in [[Poland]] <small>([[Opole Voivodeship]] and [[Silesia Voivodeship]])</small>
-                  |{{flagicon|Brazil}} [[Brazilian German|9 municipalities]] in [[Brazil]]
+                  |{{flagcountry|Poland}} [[Bilingual communes in Poland#Polish/German|31 gminas]] in [[Poland]] <small>([[Opole Voivodeship]] and [[Silesia Voivodeship]])</small>
+                  |{{flagcountry|Brazil}} [[Brazilian German|9 municipalities]] in [[Brazil]]
                  }}
 <br />[[List of territorial entities where German is an official language#International institutions|Several international institutions]]
 | minority = <!--DO NOT ADD COUNTRIES/DEPENDENCIES BEFORE CONSULTING THE TALK PAGE AND CITING DEFINITE SOURCES!-->{{Collapsible list
                   | titlestyle=font-weight:normal; background:transparent; text-align:left;
                   | title=[[List of territorial entities where German is an official language#Other legal statuses|11 countries<br /><small>(minority/national language)</small>]]
-                  |{{flag|Czech Republic}}<br />{{flag|Denmark}} <small>([[Region of Southern Denmark|Syddanmark]])</small><br />{{flag|Hungary}}<br />{{flag|Italy}}<br />{{Flag|Kazakhstan}}<br />{{flag|Namibia}}<br />{{flag|Poland}}<br />{{flag|Romania}}<br />{{flag|Russia}} <small>([[Azovo German National District]])</small><br />{{flag|Slovakia}}<br />{{flag|Ukraine}}
+                  |{{flagcountry|Czech Republic}}<br />{{flagcountry|Denmark}} <small>([[Region of Southern Denmark|Syddanmark]])</small><br />{{flagcountry|Hungary}}<br />{{flagcountry|Italy}}<br />{{Flag|Kazakhstan}}<br />{{flagcountry|Namibia}}<br />{{flagcountry|Poland}}<br />{{flagcountry|Romania}}<br />{{flagcountry|Russia}} <small>([[Azovo German National District]])</small><br />{{flagcountry|Slovakia}}<br />{{flagcountry|Ukraine}}
                  }}
 | agency = ''No official regulation'' <br />
 (German orthography regulated by the [[Council for German Orthography]]<ref>{{cite web|url=http://rechtschreibrat.ids-mannheim.de/rat/ |title=Rat für deutsche Rechtschreibung – Über den Rat |publisher=Rechtschreibrat.ids-mannheim.de |date= |accessdate=11 October 2010}}</ref>).
