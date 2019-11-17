@@ -32,37 +32,32 @@ Photoshop yesɛa amasal n ufaylu n yiman-is (Asiɣzef: psd) ayen i ɣ-yettaǧǧa
 
 == Taneflit ==
 {| cellpadding="5" class="wikitable"
-! colspan="5" | Ileqman id imseḍfaṛen si 1990
+! colspan="4" | Ileqman id imseḍfaṛen si 1990
 |-
 ! Lqem
 ! Tiɣeṛɣeṛt
 ! isem n telgalt
 ! Azmez n uzenzi
-! abeddel agejday
 |-
 | 1.0
 | Mac OS
 |
 | fuṛaṛ 1990
-|
 |-
 | 2.0
 | Mac OS
 | ''Fast Eddy''
 | yunyu 1991
-| Ijeṛḍan
 |-
 | 2.0.1
 | Mac OS
 |
 | yennayer 1992
-|
 |-
 | rowspan=2 | 2.5
 | Mac OS
 | ''Merlin (photoshop)''
 | rowspan=2 | wamber 1992
-| rowspan=2 |
 |-
 | Windows
 | ''Brimstone''
@@ -72,7 +67,6 @@ Photoshop yesɛa amasal n ufaylu n yiman-is (Asiɣzef: psd) ayen i ɣ-yettaǧǧa
 | Mac OS
 |
 | 1993
-|
 |-
 | rowspan=2 | 3.0
 | Mac OS
@@ -81,114 +75,77 @@ Photoshop yesɛa amasal n ufaylu n yiman-is (Asiɣzef: psd) ayen i ɣ-yettaǧǧa
 |-
 | Windows, IRIX
 |
-| wanber 1994
+| wamber 1994
 |-
 | 4.0
 | Mac OS, Windows
 | ''Big Electric Cat''
-| wanber 1996
-| Calques de réglage, texte éditable (auparavant, le texte était immédiatement « rastérisé »)
+| wamber 1996
 |-
 | 4.0.1
 | Mac OS, Windows
 |
 | ɣuct 1997
-|
 |-
 | 5.0
 | Mac OS, Windows
 | ''Strange Cargo''
 | mayu 1998
-| Niveaux d’annulation (palette d’historique), colorimétrie
 |-
 | 5.0.1
 | Mac OS, Windows
 |
 | 1999
-|
 |-
 | 5.5
 | Mac OS, Windows
 |
 | fuṛaṛ 1999
-| Extraction, tracés vectoriels, export optimisé vers le Web
 |-
 | 6.0
 | Mac OS, Windows
 | ''Venus in Furs''
 | ctember 2000
-| Filtre Fluidité (''liquify'')
 |-
 | 6.1
 | Mac OS, Windows
 |
 | meɣṛes 2001
-|
 |-
 | 7.0
 | Mac OS, Windows
 | ''Liquid Sky''
 | meɣṛes 2001
-| Texte totalement vectoriel, outil correcteur, nouveau moteur de rendu
 |-
 | 7.0.1
 | Mac OS, Windows
 |
 | ɣuct 2002
-| Caméra RAW 1.x (''plugin'' optionnel)
 |-
 | CS (8.0)
 | Mac OS, Windows
 | ''Dark Matter''
 | tuber 2003
-| Caméra RAW 2.x, outil densité, {{lang|en|''Match Colour command''}}, filtre « flou d’objectif », histogramme en temps réel, détection et refus d’imprimer les images scannées issues de différents billets de banque
 |-
 | CS2 (9.0)
 | Mac OS, Windows
 | ''Space Monkey''
 | yebrir 2005
-| Caméra RAW 3.x, {{lang|en|''Smart Objects''}}, {{lang|en|''Image Warp''}}, outil correcteur, réduction d’yeux rouges, filtre de correction d’objectifs, {{lang|en|''Smart Sharpen''}}, {{lang|en|''Vanishing Point''}}, support du [[Imagerie à grande gamme dynamique|HDRI]]
 |-
 | CS3 (10.0)
 | Mac OS, Windows
 | ''Red Pill''
-| tagara meɣṛes 2007<br />La version étendue ajoute des outils pour l’animation et de mesures spécialement dédiés au monde scientifique.
-|
-* Support natif pour les plates-formes Macintosh à base d’Intel
-* Refonte de l’interface d’utilisateur
-* Modifications de la Caméra RAW
-* Outil de sélection rapide
-* Alignement automatique
-* Optimisation pour les cartes graphiques mobiles
-* Lancement plus rapide
-* Importation de vidéos
-* Fusion des outils d'Image Ready dans Photoshop : Animation et Optimisation des images pour le web
+| tagara meɣṛes 2007
 |-
 | CS4 (11.0)
 | Mac OS, Windows
 | ''Stonehenge''
 | taggara n tuber 2008
-| 
-* Fonctions de peinture et de compositing 3D
-* Panneau de réglage pour l'image
-* Panneau de réglage masques
-* Rotation fluide de l'espace de travail
-* Mise à l'échelle adaptée au contenu
-* Le choix des fichiers ouverts s'effectue par des onglets.
 |-
 | CS5 (12.0)
 | Mac OS, Windows
 | ''White Rabbit''
 | 12 yebrir 2010
-|
-* Content-Aware Fill: permet de supprimer simplement certains éléments d'une photo.
-* Amélioration de la sélection des zones floues (cheveux, poils, etc)
-* Puppet warp: déformation précise des éléments d'une photo
-* HDR: Traitement HDR (high Dynamic Range) amélioré 
-* Gestion de fichiers intégrée à Photoshop grâce à Mini Bridge
-* Adobe Repoussé: Extrusion 3D
-* Amélioration du traitement des objets 3D et des textures.
-* Camera RAW 6: version améliorée du traitement des fichiers RAW
 |}
 
 == Tamselyut ==
