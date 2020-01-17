@@ -1,9 +1,9 @@
 {{Databox}}
-'''TypeScript''' d [[tameslayt n usihel]] sufella n [[JavaScript]] i tt-yesnulfan [[Anders Hejlsberg]] ([[Microsoft]]). Beɛd la compilation TypeScript yettuɣal Javascript g lBrowser.
+'''TypeScript''' d [[tutlayt n usihel]] sufella n [[JavaScript]] i tt-yesnulfan [[Anders Hejlsberg]] ([[Microsoft]]). Beɛd la compilation TypeScript yettuɣal Javascript deg yiminig.
 
 == TypeScript vs Javascript== 
 ===Ttipaj===
-G JavaScript ulac Ttipaj, seddaw egzampl anda la fonction ''addition'' tqebbel kulci (''number'', ''string''...etc.) :
+Deg JavaScript ulac Ttipaj, seddaw egzampl anda la tawuri ''addition'' tqebbel kulci (''number'', ''string''...etc.) :
 
 <syntaxhighlight lang=javascript>
     function addition(x, y) {
