@@ -101,6 +101,38 @@ Yettwasnirem-d waṭṭan n Covid-19 i tikkelt tamezwarut deg temdint n [[Wuhan]
 == Tawenɣa ==
 [[Tugna:COVID-19-outbreak-timeline.gif|thumb|400px|[[Tagertilt]] n twenɣa i tmura n umadal tesskanay-d tignatin n [[igim|yigimen]] yettwasentmen s Covid-19 seg 12 yennayer ar 29 fuṛaṛ]]
 
+
+'''Amdan n yigimen<br />{{Farbindex|FFA500|Deg umadal}} {{Farbindex|D2691E|G Ccinwa}}<br /><small>Alammi d 18 meɣres 2020 </small>'''<br />S unect n isefka n tuddsa tamadlant n tdawsa
+{{Graph:Chart
+  |height = 
+  |width = 680
+  |xAxisTitle = Datum des WHO-Berichts
+  |xType=date
+  |yType=integer
+  |xAxisFormat=%d.%m.
+  |xAxisAngle = -45
+  |yAxisTitle = Fälle
+  |yAxisMin = 0
+  |yGrid =
+  |type = area
+  |interpolate=monotone
+  |x = <!--Januar -->2020/1/21, 2020/1/22, 2020/1/23, 2020/1/24, 2020/1/25, 2020/1/26, 2020/1/27, 2020/1/28, 2020/1/29, 2020/1/30, 2020/1/31,
+       <!--Februar-->2020/2/1, 2020/2/2, 2020/2/3, 2020/2/4, 2020/2/5, 2020/2/6, 2020/2/7, 2020/2/8, 2020/2/9, 2020/2/10, 2020/2/11, 2020/2/12, 2020/2/13, 2020/2/14, 2020/2/15, 2020/2/16, 2020/2/17, 2020/2/18, 2020/2/19, 2020/2/20, 2020/2/21, 2020/2/22, 2020/2/23, 2020/2/24, 2020/2/25, 2020/2/26, 2020/2/27, 2020/2/28, 2020/2/29,
+       <!--März   -->2020/3/1, 2020/3/2, 2020/3/3, 2020/3/4, 2020/3/5, 2020/3/6, 2020/3/7, 2020/3/8, 2020/03/09, 2020/03/10, 2020/03/11, 2020/03/12, 2020/03/13, 2020/03/14, 2020/03/15, 2020/03/16, 2020/03/17, 2020/03/18
+  |y1Title = Infizierte weltweit
+  |y1 = <!--Januar -->282, 314, 581, 846, 1320, 2014, 2798, 4593, 6065, 7818, 9826,
+        <!--Februar-->11953, 14557, 17391, 20630, 24554, 28276, 31481, 34886, 37558, 40554, 43103, 45171, 60329, 64437, 67102, 69267, 71429, 73332, 75204, 75748, 76769, 77794, 78811, 79331, 80239, 81109, 82294, 83652, 85403,
+        <!--März   -->87137, 88948, 90807, 93090, 95333, 98192, 101927, 105586, 109578, 113702, 118326, 125048, 132758, 142539, 153517, 167515, 179112, 191127
+  |y2Title = Infizierte in China
+  |y2 =<!--Januar -->278, 309, 573, 834, 1294, 1982, 2757, 4530, 5989, 7728, 9711,
+       <!--Februar-->11811, 14401, 17228, 20461, 24352, 28049, 31195, 34582, 37234, 40217, 42690, 44712, 59864, 63914, 66558, 68566, 70615, 72506, 74257, 74651, 75543, 76366, 77016, 77234, 77749, 78159, 78598, 78927, 79355,
+       <!--März   -->79929, 80134, 80262, 80380, 80523, 80666, 80768, 80814, 80859, 80879, 80908, 80932, 80942, 80971, 80995, 81018, 81049, 81116
+       <!-- CHINA OHNE TAIWAN/TAIPEI ! Daten zu Taiwan unter https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd -->
+   <!--Bitte Vergleich mit den Tabellen unten! Hier müssen dieselben Zahlen stehen, das ist dieselbe Quelle! -->
+  |colors = #FFA500, #D2691E
+  }}
+</div>
+
 == Iskanen d izmal ==
 Wid ig yuɣ waṭṭan-a yezmer Ur d-tbanayen ara fellasen yiskanen seg 7 ar 14 n wussan imezwura akken i zemren ad sneflin iskanen ilektuyen am [[tusut]], [[tawla]], [[bungaf]] yakk d [[atmelli|utmelli]] (ɛeyyu)
 
