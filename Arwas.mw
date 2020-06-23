@@ -10,6 +10,36 @@ arwas d [[tasakrart]] yettenfufuden deg taɣult hrawen s waṭas tzerri (tettεd
 [[Tuddsa tamadlant n tdawsa]] tebṭa tallust n welfay n yirwasen s usesmel n sdis (6) n isurifen, i wakken ad teglem tamhalt s wacu i yettenṭaṭ uvirus n [[tussit]] amaynu acku tella d [[aṭṭan]] yuɣ kra kan n medden sin akin yuɣal d arwas, Dɣa anecta yettili-d yakk d ivirusen yettaɣen adɣa [[aɣersiw|iɣersiwen]] anda deg kra n tegnatin [[igem|yettenṭaṭ]] ɣer yimdanen sin akin ad tas tallit anda ara ad yettenṭaṭ seg wemdan ɣer wemdan nniden, w ad yuɣal y[[igem]]-nni deg taggara n webrid mi ara ad yenfufed s waṭas ar werwas yerna ur tettili ara tezmert ara ad tisbedden (ad tisḥebsen).<br/>
 Kra n w[[aṭṭan]] seg waṭṭanen ur yettwameggzen ara d akken-it d arwas s usrag n wenfufed-is meqqren d [[tinɣi]]-ynes i waṭas n medden, maca yettwasesmel d arwas acku yettenṭaṭ seg wemdan ɣer wemdan
 
+== Taggaẓt ==
+<div style="float:left;">
+<div class="hintergrundfarbe1" style="border: 1px solid darkgray; margin-bottom: 1em; margin-left: 2em; margin-top: 0.5em; padding: 5px; text-align: center;">
+'''{{Farbindex|333333|Mmuten}} d{{Farbindex|008000|Teddun ad jjin}} s umata {{Farbindex|FF8C00|Udnen}} (Deg umadal)<br /><small>s unect n isefka n Johns Hopkins University</small>'''<ref>''CSSE COVID-19 Dataset: Time series summary (csse_covid_19_time_series).'' In: Taseddawit n  Johns Hopkins Center for Systems Science and Engineering: ''2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE''. Abgerufen am 19. März 2020. {{Webarchive|url=https://web.archive.org/web/20200319005548/https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data |date=19 meɣres 2020}}</ref>
+{{Graph:Chart
+  |height = 
+  |width = 500
+  |xAxisTitle = azmez (22 yennayer alamma  d 18 meɣres 2020)
+  |xType=date
+  |yType=integer
+  |xAxisFormat=%d.%m.
+  |xAxisAngle = -45
+  |yAxisTitle = Tagnit
+  |yAxisMin = 0
+  |yGrid =
+  |type = stackedarea
+  |interpolate=monotone
+<!--BITTE KEINE DATEN DIREKT VOM DASHBOARD EINTRAGEN! Der Einzelnachweis sind die Zeitreihen: https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series-->
+  |x = 2020/1/22, 2020/1/23, 2020/1/24, 2020/1/25, 2020/1/26, 2020/1/27, 2020/1/28, 2020/1/29, 2020/1/30, 2020/1/31, 2020/2/1, 2020/2/2, 2020/2/3, 2020/2/4, 2020/2/5, 2020/2/6, 2020/2/7, 2020/2/8, 2020/2/9, 2020/2/10, 2020/2/11, 2020/2/12, 2020/2/13, 2020/2/14, 2020/2/15, 2020/2/16, 2020/2/17, 2020/2/18, 2020/2/19, 2020/2/20, 2020/2/21, 2020/2/22, 2020/2/23, 2020/2/24, 2020/2/25, 2020/2/26, 2020/2/27, 2020/2/28, 2020/2/29, 2020/3/1, 2020/3/2, 2020/3/3, 2020/3/4, 2020/3/5, 2020/3/6, 2020/3/7, 2020/3/8, 2020/03/09, 2020/03/10, 2020/03/11, 2020/03/12, 2020/03/13, 2020/03/14, 2020/03/15, 2020/03/16, 2020/03/17, 2020/03/18
+  |y1Title = Infizierte <!--aus technischen Gründen (gestapeltes Diagram) müssen hier die Gesamtfälle minus Tote und minus Genesene als Zahl eingetragen werden, der Graph soll aber die Gesamtfälle ungestapelt anzeigen, da alles andere WP:TF wäre -->
+  |y1 = 510, 605, 879, 1353, 2010, 2784, 5340, 5907, 7920, 9492, 11495, 15953, 18832, 22548, 25947, 28696, 31661, 33698, 36000, 37803, 39006, 38953, 52702, 57304, 57969, 58589, 58807, 58777, 57396, 55773, 55682, 53235, 53102, 51712, 49800, 48241, 46663, 44537, 43288, 42657, 41619, 41452, 40696, 40738, 42459, 43905, 45299, 47079, 49926, 54247, 55299, 69538, 77651, 84972, 96313, 108397, 122970
+  |y2Title = Genesene
+  |y2 = 28, 30, 36, 39, 52, 61, 107, 126, 143, 222, 284, 472, 623, 852, 1124, 1487, 2011, 2616, 3244, 3946, 4683, 5150, 6295, 8058, 9395, 10865, 12583, 14352, 16121, 18177, 18890, 22886, 23394, 25227, 27905, 30384, 33277, 36711, 39782, 42716, 45602, 48228, 51170, 53796, 55865, 58358, 60694, 62494, 64404, 67003, 68324, 70251, 72624, 76034, 78088, 80840, 83207
+  |y3Title = Tote
+  |y3 = 17, 18, 26, 42, 56, 82, 131, 133, 171, 213, 259, 362, 426, 492, 564, 634, 719, 806, 906, 1013, 1113, 1118, 1371, 1523, 1666, 1770, 1868, 2007, 2122, 2247, 2251, 2458, 2469, 2629, 2708, 2770, 2814, 2872, 2941, 2996, 3085, 3160, 3254, 3348, 3460, 3558, 3802, 3988, 4262, 4615, 4720, 5404, 5819, 6440, 7126, 7905, 8733
+  |colors = #FF8C00, #008000, #333333
+  }}
+</div>
+</div>
+
 == Irwasen imiranen (n tura) ==
 '''Covid-19''' </br>
 '''Aṭṭan n Coronavirus 2019''' (s [[asegzel (tutlayt)|usegzel]]: '''covid-19'''<ref>{{Cite report|url=https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200211-sitrep-22-ncov.pdf|title=Novel Coronavirus (2019-nCoV): situation report, 22|last=|first=|date=February 11, 2020|publisher=[[Tuddsa tamadlant n tdawsa]]|issue=|doi=|volume=|pmid=|access-date=|vauthors=((World Health Organization))|year=| akala n ufaylu = https://web.archive.org/web/20200213033639/https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200211-sitrep-22-ncov.pdf | azmez n ufaylu = 13 fuṛaṛ 2020 }}</ref>) akken yettwassnen daɣen s yisem n '''waṭṭan amesgunef amekruz yeqqnen ar Coronavirus amsetrar 2019''', iga d [[aṭṭan amesgunef]] [[aṭṭan aɣersaw|aɣersaw n usagma]] ixeddem-it-id [[SARS-CoV-2]]
