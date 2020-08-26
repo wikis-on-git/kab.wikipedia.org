@@ -93,20 +93,59 @@
 #*Assufeɣ  :Abdelaziz Oussaih
 #*Afares   :Ayouz Vision.
 
-#2008 	Film	TAWRIRT LHNA réalisé par Rachid Boulmazghi/Production Imas Vision.
-#2008 	Film	SWINGM réalisé par Abdellah Ferkous/Production nasscom
-#2008 	Film	LAAFIT OUMDDOUZ réalisé par Abdelaziz Oussaih/Production Ayouz Vision.
-#2008 	Film	TINIGUIT réalisé par Abdelaziz Oussaih / Production SNRT/Faouzi Vision.
-#2007 	Film	AFOUKKO SOUHOUKKO réalisé par Abdelaziz Oussaih/Production Ayouz Vision.
-#2007 	Film	TAMAZIRT OUFELLA (35 mm) réalisé par Med Marnich/Production Mzouda Vision.
-#2007	Film	TAREQ MON FRERE réalisé par Abdellah Elabdaoui/Production Alin'production/SNRT.
-#2007	Film	ILLIS N LWAZIR réalisé par Abdelaziz Oussaih/Production Ayouz Vision .
-#2007	Film	TALLOUHT N LWALIDAYN réalisé par Abdelaziz Oussaih Production Ayouz Vision.
-#2007 	Film	ANARUZ réalisé par Abdellah El abdaoui/Production Alin’production/SNRT.
-#2006 	Film	LHILT TOUF LAAR réalisé par Abdelaziz Oussaih/Production Ayouz Vision.
-#2006 	Film	IGOUDAR réalisé par Abdellah Elyazani/Production Alin’production/SNRT.
-#2006 	Film	HOUTI HOUTA réalisé par Nassim Abassi/Production Alin’production/SNRT.
-#2006 	Film	ARWASS ALHM réalisé par Abdelaziz Oussaih/Production Ayouz Vision.
+#2008 	TAWRIRT LHNA 
+#*Assufeɣ : Rachid Boulmazghi
+#*Afares : Imas Vision.
+
+#2008 	SWINGM
+#*Assufeɣ :   Abdellah Ferkous
+#*Afares : nasscom
+
+#2008 	LAAFIT OUMDDOUZ 
+#*Assufeɣ :  Abdelaziz Oussaih
+#*Afares :  Ayouz Vision.
+
+#2008 	TINIGUIT 
+#*Assufeɣ :   Abdelaziz Oussaih 
+#*Afares :  SNRT/Faouzi Vision.
+
+#2007 	AFOUKKO SOUHOUKKO 
+#*Assufeɣ :   Abdelaziz Oussaih
+#*Afares : Ayouz Vision.
+
+#2007 	TAMAZIRT OUFELLA 
+#*Assufeɣ : Med Marnich
+#*Afares : Mzouda Vision.
+
+#2007	TAREQ MON FRERE
+#*Assufeɣ : Abdellah Elabdaoui
+#*Afares : Alin'production/SNRT.
+
+#2007	ILLIS N LWAZIR 
+#*Assufeɣ : Abdelaziz Oussaih
+#*Afares : Ayouz Vision .
+
+#2007	TALLOUHT N LWALIDAYN #*Assufeɣ : Abdelaziz Oussaih #*Afares : Ayouz Vision.
+
+#2007 	ANARUZ
+#*Assufeɣ :  Abdellah El abdaoui
+#*Afares : Alin’production/SNRT.
+
+#2006 	LHILT TOUF LAAR 
+#*Assufeɣ : Abdelaziz Oussaih
+#*Afares : Ayouz Vision.
+
+#2006 	IGOUDAR
+#*Assufeɣ : Abdellah Elyazani
+#*Afares : Alin’production/SNRT.
+
+#2006 	HOUTI HOUTA 
+#*Assufeɣ :  Nassim Abassi
+#*Afares : Alin’production/SNRT.
+
+#2006 	ARWASS ALHM 
+#*Assufeɣ : Abdelaziz Oussaih
+#*Afares : Ayouz Vision.
 
 #2006	OUR IFFOUGH OMYA 
 #*Assufeɣ : Abdelaziz Oussaih
@@ -169,7 +208,7 @@
 
 #1999 	RAN KOULLO DOUNIT 
 #*Assufeɣ : Fatima Ali Boubakdi
-Afares : Warda Production.
+#*Afares : Warda Production.
 
 #1998 	AJMIL LGHRD 
 #*Assufeɣ :  Ahmed Baddouj
@@ -177,7 +216,7 @@ Afares : Warda Production.
 
 #1997	TIYITI NWADAN
 #*Assufeɣ : Ahmed Baddouj
-Afares : Warda Production.
+#*Afares : Warda Production.
 
 #1995 	TAGODI
 #*Assufeɣ : Ahmed Baddouj
