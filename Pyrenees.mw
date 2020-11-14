@@ -1,22 +1,4 @@
-{{Infobox mountain
-|name=The Pyrenees Mountains
-|other_name= <!-- {{lang-es|Pirineos}}<br />{{lang-fr|Pyrénées}}<br />{{lang-ca|Pirineus}}<br />{{lang-an|Pirineus}}<br />{{lang-oc|Pirenèus}}<br />{{lang-eu|Pirinioak, Auñamendiak}} -->
-|etymology=Semman-as ɣef [[Pyrene (mythology)|Pyrene]]
-|photo=Central pyrenees.jpg
-|photo_caption= <!-- Central Pyrenees -->
-|country = [[Spanya]]
-|country1 = [[Fransa]]
-|country2 = [[Andorra]]
-|geology= granite, gneiss, limestone
-|period=Paleozoic | period1 = Mesozoic
-|area_km2= | length_km=491 | length_orientation=
-|width_km= | width_orientation=
-|highest=[[Aneto]]
-|elevation_m=3404
-|range_coordinates = {{coord|42|40|N|1|00|E|region:ES|format=dms|display=inline,title}}
-|coordinates = {{coord|42|37|56|N|00|39|28|E|region:ES|format=dms|display=inline}}
-|map_image=Pyrenees topographic map-en.svg | map_caption=Topographic map
-}}
+{{Databox}}
 '''Pyrenees''' d [[azrar n idurar]] i d-yezgan gar [[Fransa]] ed [[Spanya|Spanya]]. [[Isek]] yeflalin yakk deg idurar ayyi n d [[Adrar n Aneto]] (3404 m).
 
 
