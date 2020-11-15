@@ -1,0 +1,24 @@
+[[Tugna|Tawinest1.png|thumb|Aqqaṛ, Akdu, Taseɣleyt, Tawinest]]
+'''Aqqaṛ''' d azgen n [[akdu|wekdu]] n [[tawinest|twinest]] neɣ [[tasegla|tsegla]] neɣ n [[aglay (tusnakt)|uglay]]. Aqqaṛ yegda amaccaq yebṭan gar n wammas n twinest ( neɣ tsegla neɣ n uglay) de yal agaz deg tlisa n telɣa. 
+
+Aqqaṛ yegda [[taseɣleyt]] yebṭa ɣef 2 [[Pi]] ( <math>r = \frac{c}{2\pi}</math> ).
+
+== Aqqaṛ n twinest ==
+Assaɣ gar n waqqaṛ <math>R</math> d tseɣleyt <math>L</math> n twinest d: <math>R=\frac L{2\pi}</math>.[[File:Sinilause1.jpg|thumb]]
+
+I usiden n waqqaṛ <math>R</math> i twinest i yekkan ɣef 3 n wagazen <math>A,B,C</math> nezmer ad nessemres taftart-a :
+<center>
+<math>R=\frac a{2\sin\alpha}</math>,
+neɣ <math>a</math> est la longueur <math>BC</math> et <math>\alpha</math> akat n [[tiɣmert|tɣmert]] <math>\widehat{BAC}</math> .
+</center>
+
+Ma ttwanefken 3 n wazagen s yimsidag-nsen <math> (x_1,y_1) </math>, <math> (x_2,y_2) </math> d <math> (x_3,y_3) </math>, nezmer daɣen ad nessemres taftart-a (voir [[asaduf n uwsi]] et [[Tajumma n ukeṛdis]]) :
+
+{{Pad|<math>R={\frac {\sqrt{ \left(  \left(x_2-x_1\right)^2+ \left(y_2-y_1\right)^2\right)  \left(  \left(x_2-x_3\right)^2+ \left(y_2-y_3\right) ^2\right)  \left( \left(x_3-x_1\right)^2+ \left(y_3-y_1\right)^2\right)} }{ 2 \left|x_1y_2+x_2y_3+x_3y_1-x_1y_3-x_2y_1-x_3y_2\right| }}</math>.}}
+== Aqqaṛ n uglay == 
+
+== Aqqaṛ n [[Azunglay|uzunglay]] ==
+
+== Ẓeṛ daɣen ==
+[[Taggayt:Tusnakt]] 
+[[Taggayt:Tiwinas]]
