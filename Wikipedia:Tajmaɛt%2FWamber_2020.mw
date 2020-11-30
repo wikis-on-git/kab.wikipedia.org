@@ -1,0 +1,57 @@
+== Wiki of functions naming contest - Round 2 ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+{{int:Hello}}.
+Reminder: Please help to choose the name for the new Wikimedia wiki project - the library of functions. The finalist vote starts today. The finalists for the name are: <span lang="en" dir="ltr" class="mw-content-ltr">Wikicode, Wikicodex, Wikifunctions, Wikifusion, Wikilambda, Wikimedia Functions</span>. If you would like to participate, then '''[[m:Special:MyLanguage/Abstract Wikipedia/Wiki of functions naming contest/Names|please learn more and vote now]]''' at Meta-wiki.
+{{Int:Feedback-thanks-title}} --[[m:User:Quiddity (WMF)|Quiddity (WMF)]]
+</div> 5 Wamber 2020 à 22:10 (UTC)
+<!-- Message envoyé par User:Quiddity (WMF)@metawiki en utilisant la liste à https://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=20564572 -->
+
+== La consultation des souhaits de la communauté pour 2021 ==
+
+[[File:Magic Wand Icon 229981 Color Flipped.svg|thumb|48px]]
+La '''[[m:Special:MyLanguage/Community Wishlist Survey 2021|consultation des souhaits de la communauté pour 2021]]''' a débuté ! Cette consultation est le moment où les communautés décident de ce sur quoi l’équipe [[m:Community Tech|Technologies communautaires]] devrait travailler l’année suivante. Nous encourageons chacun à soumettre ses propositions jusqu’à la date limite le '''{{#time:j xg|2020-11-30|{{PAGELANGUAGE}}}}''', ou à commenter les propositions des autres pour les rendre meilleures. Les communautés voteront pour les propositions entre le {{#time:j xg|2020-12-08|{{PAGELANGUAGE}}}} et le {{#time:j xg|2020-12-21|{{PAGELANGUAGE}}}}.
+
+L’équipe Technologies communautaires se concentre sur les outils pour les contributeurs expérimentés de Wikimédia. Vous pouvez écrire vos propositions dans n’importe quelle langue, nous les traduirons pour vous. Merci, nous avons hâte de les recevoir !
+
+[[m:user:SGrabarczuk (WMF)|SGrabarczuk (WMF)]] 20 Wamber 2020 à 05:02 (UTC)
+<!-- Message envoyé par User:SGrabarczuk (WMF)@metawiki en utilisant la liste à https://meta.wikimedia.org/w/index.php?title=User:SGrabarczuk_(WMF)/sandbox/MM/Francophones&oldid=20689614 -->
+
+== Global bot policy proposal: invitation to a Meta discussion ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+{{int:hello}}!
+
+I apologize for sending a message in English. {{int:please-translate}}. According to [[:m:Bot_policy/Implementation#Where_it_is_policy|the list]], your wiki project currently is opted in to the [[:m:Bot_policy#Global_bots|global bot policy]]. Under this policy, bots that fix double redirects or maintain interwiki links are allowed to operate under a global bot flag that is assigned directly by the stewards.
+
+As the Wikimedia projects developed, the need for the current global bot policy decreased, and in the past years, no bots were appointed via that policy. That is mainly given Wikidata were estabilished in 2013, and it is no longer necessary to have dozens of bots that maintain interwiki links.
+
+A [[:m:Requests for comment/Refine global bot policy|proposal]] was made at Meta-Wiki, which proposes that the stewards will be authorized to determine whether an uncontroversial task may be assigned a global bot flag. The stewards already assign permissions that are more impactful on many wikis, namely, [[:m:GS|global sysops]] and [[:m:GR|global renamers]], and I do not think that trust should be an issue. The stewards will assign the permission only to time-proven bots that are already approved at a number of projects, like [[:m:User:ListeriaBot|ListeriaBot]].
+
+By this message, I would like to invite you to comment [[:m:Requests for comment/Refine global bot policy|in the global RFC]], to voice your opinion about this matter.
+
+Thank you for your time.
+
+Best regards,<br />
+[[User:Martin Urbanec|Martin Urbanec]] ([[:m:User talk:Martin Urbanec|{{int:Talkpagelinktext}}]]) 24 Wamber 2020 à 11:49 (UTC)
+</div>
+<!-- Message envoyé par User:Martin Urbanec@metawiki en utilisant la liste à https://meta.wikimedia.org/w/index.php?title=User:Martin_Urbanec/sand&oldid=20709229 -->
+
+== Wikidata descriptions changes to be included more often in Recent Changes and Watchlist ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+''Sorry for sending this message in English. Translations are available on [[m:Special:MyLanguage/Announcements/Announcement Wikidata descriptions in watchlist|this page]]. Feel free to translate it in more languages!''
+
+As you may know, you can include changes coming from Wikidata in your Watchlist and Recent Changes ([[Special:Preferences#mw-prefsection-watchlist|in your preferences]]). Until now, this feature didn’t always include changes made on Wikidata descriptions due to the way Wikidata tracks the data used in a given article.
+
+Starting on December 3rd, the Watchlist and Recent Changes will include changes on the descriptions of Wikidata Items that are used in the pages that you watch. This will only include descriptions in the language of your wiki to make sure that you’re only seeing changes that are relevant to your wiki.
+
+This improvement was requested by many users from different projects. We hope that it can help you monitor the changes on Wikidata descriptions that affect your wiki and participate in the effort of improving the data quality on Wikidata for all Wikimedia wikis and beyond.
+
+Note: if you didn’t use the Wikidata watchlist integration feature for a long time, feel free to give it another chance! The feature has been improved since the beginning and the content it displays is more precise and useful than at the beginning of the feature in 2015.
+
+If you encounter any issue or want to provide feedback, feel free to use [[Phab:T191831|this Phabricator ticket]]. Thanks!
+
+[[:d:User:Lea Lacroix (WMDE)|Lea Lacroix (WMDE)]] 30 Wamber 2020 à 14:39 (UTC)
+</div>
+<!-- Message envoyé par User:Lea Lacroix (WMDE)@metawiki en utilisant la liste à https://meta.wikimedia.org/w/index.php?title=User:Lea_Lacroix_(WMDE)/wikis&oldid=20728482 -->
