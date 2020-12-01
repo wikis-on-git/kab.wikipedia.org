@@ -1,0 +1,1 @@
+{{#invoke:Wikidata|claim|item={{{1|}}}|formatting=table|property=P150|qualifier=P150|colformat1=raw|rowformat= {{space|{{{space|0}}}}}• '''$0'''{{((}}Autoarticle city/children3{{!}}$1{{))}}|separator=<br/>}}
