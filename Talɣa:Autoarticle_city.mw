@@ -1,0 +1,18 @@
+<includeonly>
+'''{{PAGENAMEBASE}}''' d {{#invoke:Wikidata|claim|item={{{item|}}}|property=P31|list=false}} deg tmurt n {{#invoke:Wikidata|claim|item={{{item|}}}|property=P17}}{{#if:{{#Property:P1705|from={{{item|}}}}}|&nbsp;(s yisem aneṣli: {{#Property:P1705|from={{{item|}}}}})}}{{#ifeq:{{#Property:P17|from={{{item|}}}}}|{{#Property:P131|from={{{item|}}}}}||, tettiki deg {{#invoke:Wikidata|claim|item={{{item|}}}|formatting=table|property=P131|qualifier=P131/P131|qualifier2=P131/P17|case0=annexed|colformat1=raw|colformat2=raw|rowformat=$0{{((}}Autoarticle city/parent2{{!}}$1{{!}}$2{{))}}|list=false}}}}.{{#if:{{#Property:P1082|from={{{item|}}}}}|&nbsp;Zedɣen-tt {{#property:P1082|from={{{item|}}}}} n yimezdaɣen.}}{{#if:{{#Property:P2046|from={{{item|}}}}}|&nbsp;Ma d tajumma-ines tesɛa azal n {{#invoke:Wikidata|claim|item={{{item|}}}|property=P2046|list=false|formatting=unitcode}}.}}{{#if:{{#Property:P36|from={{{item|}}}}}|&nbsp;[[Tamanaɣt]] ines d tamdint n {{#invoke:Wikidata|claim|item={{{item|}}}|property=P36|case=annexed}}.}}{{#ifexpr: {{#invoke:Wikidata|numStatements|item={{{item|}}}|P150}} > 0 |{{#ifexpr: {{#invoke:Wikidata|numStatements|item={{{item|}}}|P150}} = 1 |&nbsp;{{#invoke:Wikidata|claim|item={{{item|}}}|property=P31|list=false|formatting=ucfirst}}-a tesɛa ala yiwet n {{#switch:{{#invoke:Wikidata|claim|item={{{item|}}}|property=P31|formatting=raw|list=false}}
+|Q2989398 = taddart
+|Q2614970 = tɣiwant
+|Q240601 = [[Tidayriwin n Lezzayer|tdayra]] 
+|default = {{#invoke:Wikidata|claim|item={{{item|}}}|formatting=table|property=P150|qualifier=P150/P31|rowformat=$1|list=false|sorting=-1|tablesort=-1}}
+}}: {{#invoke:Wikidata|claim|item={{{item|}}}|formatting=table|property=P150|rowformat=$0}}.|&nbsp;{{#invoke:Wikidata|claim|item={{{item|}}}|property=P31|list=false|formatting=ucfirst}}-a tebḍa ɣef {{#invoke:Wikidata|numStatements|item={{{item|}}}|P150}} n {{#switch:{{#invoke:Wikidata|claim|item={{{item|}}}|property=P31|formatting=raw|list=false}}
+|Q2989398 = tuddar
+|Q2614970 = tɣiwanin
+|Q240601 = [[Tidayriwin n Lezzayer|tdayriwin]] 
+|default = yeḥricen{{#invoke:Wikidata|claim|item={{{item|}}}|formatting=table|property=P150|qualifier=P150/P31|rowformat=&nbsp;($1)|list=false|sorting=-1|tablesort=-1}}
+}}:
+
+{{#invoke:Wikidata|claim|item={{{item|}}}|formatting=table|property=P150|qualifier=P150|colformat1=raw|rowformat=* '''$0'''{{((}}Autoarticle city/children3{{!}}$1{{))}}|separator=<br/>}} }} }}
+
+
+[[Category:{{#invoke:Wikidata|claim|item={{{item|}}}|property=P131|formatting=label|editicon=false|list=false}}]]
+</includeonly><noinclude>[[Taggayt:Talɣiwin n Wikipedia]]</noinclude>
