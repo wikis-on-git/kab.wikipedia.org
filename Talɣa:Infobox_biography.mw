@@ -1,0 +1,175 @@
+<includeonly>{{Infobox
+| abovestyle = background-color: lightsteelblue
+| aboveclass = hd
+| headerstyle = background-color: lightsteelblue
+| above =  <span style="float:left;">[[image:Simpleicons Interface user-outline.svg|20px|link=]]</span> {{PAGENAME}}
+| image = {{#if:{{#Property:P10|from={{{item|}}}}}|{{#invoke:Wikidata | claim | property=P10|formatting=[[File:$1|260px]]|list=false}}|{{#invoke:Wikidata | claim | property=P18|formatting=[[File:$1|260px]]|value={{{image|}}}|list=false}}}}{{#invoke:Wikidata | claim | property=P2096|formatting=<br/> $1|list=false}}
+| caption = {{#invoke:Wikidata|claim|property=P18|qualifier=P2096|list=lang|value={{{caption|}}}|rowformat=$1}}
+| image2 = {{#invoke:Wikidata | claim |property=P990|formatting=[[File:$1|260px]]|list=false}}
+| caption2 = <small>{{Infobox biography/localize|Voice}}</small>
+
+<!--- 
+THIS FIRST ROW INSERTS THE POSITIONS HELD BY THE PERSON. 
+--->
+
+| data1= {{#if:{{#Property:P39|from={{{item|}}}}}|{{#invoke:Wikidata |claim |formatting=table |property=P39 |qualifier=P580| qualifier2=P582 |qualifier3=P1365 |qualifier4=P1366 |qualifier5=P768 |qualifier6=P1545 |qualifier7=P2715 |qualifier8=P94 |qualifier9=P708|rowformat= {{Infobox biography/position|$8 $6 $0}} <br />$1 $2 $3 $4 $5 $9 $7 |rowsubformat1 = $1&nbsp;- | rowsubformat3=<br />&larr; $3 | rowsubformat4=- $4 &rarr; | rowsubformat5=<br /><small>District: $5</small> | rowsubformat7=<br /><small>Election: $7</small> | rowsubformat6=$6. | rowsubformat8={{#invoke:InfoboxImage|InfoboxImage|image=$8 |size=25px|sizedefault=frameless |upright=3|suppressplaceholder=yes}}<br /> | rowsubformat9=<br />Dioceses: $9|tablesort=1|sorting=-1}}}} 
+
+<!--- FIRST BLOCK: LIFE --->
+| header2 = {{Infobox biography/localize|Life}}
+| label3 = {{Infobox biography/localize|Full name}}
+| data3 = {{#invoke:Wikidata|claim|property=P1477|formatting=text}}
+| label4 = {{Infobox biography/localize|Birth}}
+| data4 = {{#if:{{#Property:P19|from={{{item|}}}}}|{{#invoke:Wikidata | claim | property=P19|formatting = internallink}},&nbsp;}}{{{date of birth|{{#invoke:Wikidata | claim | property=P569|list=false}}}}}{{#if:{{#Property:P570|from={{{item|}}}}}||{{#invoke:Wikidata|yearsOld|formatting=&nbsp;($1 {{Infobox biography/localize|years}})}}}}
+| label5 = {{Infobox biography/localize|Nationality}}
+| data5 = {{#invoke:Wikidata | claim | property=P27|formatting = internallink|separator=<br />|conjunction=<br />|value={{{nationality|}}}}}
+| label6 = {{Infobox biography/localize|Residence}}
+| data6 = {{#invoke:Wikidata | claim | property=P551|formatting = internallink|separator=<br />|conjunction=<br />}}
+| label7 = {{Infobox biography/localize|Ethnic group}}
+| data7 = {{#invoke:Wikidata | claim | property=P172|formatting = internallink|separator=<br />|conjunction=<br />}}
+| label8 = {{Infobox biography/localize|First language}}
+| data8 = {{#invoke:Wikidata | claim | property=P103|formatting = internallink|separator=<br />|conjunction=<br />}}
+| label9 = {{Infobox biography/localize|Death}}
+| data9 = {{#if:{{#Property:P20|from={{{item|}}}}}|{{#invoke:Wikidata | claim | property=P20|formatting = internallink}},&nbsp;}}{{{date of death|{{#invoke:Wikidata | claim | property=P570|list=false}}}}}{{#if:{{#Property:P569}}||{{#invoke:Wikidata|yearsOld|formatting=($1 years)}}}}
+| label10 = {{Infobox biography/localize|Place of internment}}
+| data10 = {{#invoke:Wikidata | claim | property=P119|formatting = internallink|separator=<br />|conjunction=<br />}}
+| label11 = {{Infobox biography/localize|Manner of death}}
+| data11 = {{#invoke:Wikidata | claim | property=P1196|formatting = internallink|separator=<br />|conjunction=<br />|case=singular}}{{#if:{{#Property:P509|from={{{item|}}}}}|&nbsp;({{#invoke:Wikidata | claim | property=P509|formatting = internallink|separator=<br />|conjunction=<br />|case=singular}})}}
+| label12 = {{Infobox biography/localize|Killed by}}
+| data12 = {{#invoke:Wikidata | claim | property=P157|formatting = internallink|separator=<br />|conjunction=<br />}}
+
+<!--- FAMILY BLOCK --->
+| header20 = {{#if:{{#Property:P22|from={{{item|}}}}}{{#Property:P25|from={{{item|}}}}}{{#Property:P26|from={{{item|}}}}}{{#Property:P451|from={{{item|}}}}}{{#Property:P40|from={{{item|}}}}}{{#Property:P3373|from={{{item|}}}}}{{#Property:P1038|from={{{item|}}}}}|{{Infobox biography/localize|Family}}}}
+| label21 = {{Infobox biography/localize|Father}}
+| data21 = {{#if:{{#Property:P22|from={{{item|}}}}}|[[{{#Property:P22|from={{{item|}}}}}]]}}
+| label22 = {{Infobox biography/localize|Mother}}
+| data22 = {{#if:{{#Property:P25|from={{{item|}}}}}|[[{{#Property:P25|from={{{item|}}}}}]]}}
+| label23 = {{Infobox biography/localize|Spouse(s)}}
+| data23 = {{#ifeq:{{#Property:P26|from={{{item|}}}}}|no value|Not married|{{#invoke:Wikidata | claim | property=P26|qualifier=P580|qualifier2=P582|formatting = table|rowformat = $0 $1 $2|rowsubformat1=<small>&nbsp;($1 -|rowsubformat2=&nbsp;$2)</small>|tablesort=1|colformat0=internallink}}}}
+| label24 = {{Infobox biography/localize|Couple(s)}}
+| data24 = {{#invoke:Wikidata | claim | property=P451|formatting = internallink|separator=<br />|conjunction=<br />}}
+| label25 = {{Infobox biography/localize|Children}}
+| data25 = {{#if:{{#Property:P40|from={{{item|}}}}}|{{collapsible list|title=view|{{#invoke:Wikidata | claim | property=P40|formatting = internallink|separator=<br />|conjunction=<br />}}}}}}
+| label26 = {{Infobox biography/localize|Siblings}}
+| data26 = {{#if:{{#Property:P3373|from={{{item|}}}}}|{{collapsible list|title=view|{{#invoke:Wikidata | claim | property=P3373|formatting = internallink|separator=<br />|conjunction=<br />}}}}}}
+| label27 = {{Infobox biography/localize|Family}}
+| data27 = {{#if:{{#Property:P1038|from={{{item|}}}}}|{{collapsible list|title=view|{{#invoke:Wikidata | claim | property=P1038|qualifier=P1039|formatting = table|rowformat $0 $1|rowsubformat1=<small>$1</small>|colformat0=internallink}}}}}}
+| label28 = {{Infobox biography/localize|Tribe}}
+| data28 = {{#invoke:Wikidata | claim | property=P53|formatting = internallink|separator=<br />|conjunction=<br />}}
+
+<!--- EDUCATION BLOCK --->
+| header30 = {{#if:{{#property:P69|from={{{item|}}}}}{{#property:P512|from={{{item|}}}}}{{#property:P184|from={{{item|}}}}}{{#property:P185|from={{{item|}}}}}{{#property:P1412|from={{{item|}}}}}|{{Infobox biography/localize|Education}}}}
+| label31 = {{Infobox biography/localize|Alma mater}}
+| data31 = {{#invoke:Wikidata | claim | property=P69|formatting = table|qualifier=P580|qualifier2=P582|qualifier3=P512|qualifier4=P812|rowformat = $0 $1 $2 $3 $4|rowsubformat1 =<br /><small>($1 -</small>|rowsubformat2=<small>$2)</small>|rowsubformat3 = <small>$3</small>|rowsubformat4 =<small>: $4</small>|tablesort=1}}
+| label32 = {{Infobox biography/localize|Education level}}
+| data32 = {{#invoke:Wikidata | claim | property=P512|formatting = internallink|case=singular|separator=<br />|conjunction=<br />}}
+| label33 = {{Infobox biography/localize|Thesis}}
+| data33 = {{#if:{{#Property:P1026|from={{{item|}}}}}|''{{#invoke:Wikidata | claim | property=P1476|item={{#invoke:Wikidata | claim | property=P1026|formatting = raw}}|formatting=text}}''}}
+| label34 = {{Infobox biography/localize|Thesis director}}
+| data34 = {{#invoke:Wikidata | claim | property=P184|formatting = internallink|separator=<br />|conjunction=<br />}}
+| label35 = {{Infobox biography/localize|Doctoral students}}
+| data35 = {{#invoke:Wikidata | claim | property=P185|formatting = internallink|separator=<br />|conjunction=<br />}}
+| label36 = {{Infobox biography/localize|Languages}}
+| data36 = {{#invoke:Wikidata | claim | property=P1412|formatting = internallink|separator=<br />|conjunction=<br />}}
+| label37 = {{Infobox biography/localize|Teachers}}
+| data37 = {{#invoke:Wikidata | claim | property=P1066|formatting = internallink|separator=<br />|conjunction=<br />}}
+| label38 = {{Infobox biography/localize|Students}}
+| data38 = {{collapsible list|title=view|{{#invoke:Wikidata | claim | property=P802|formatting = internallink|separator=<br />|conjunction=<br />}}}}
+
+<!--- OCCUPATION --->
+| header39 = {{Infobox biography/localize|Occupation}}
+| label40 = {{Infobox biography/localize|Occupation}}
+| data40 = {{#invoke:Wikidata | claim | property=P106|formatting = internallink}}
+
+<!--- SPORTS: You will need the subtemplates in :eu:Biografia infotaula automatikoa/kirola for the parameters of each sport --->
+| data41 = {{#if:{{#Property:P641|from={{{item|}}}}}|{{Infobox biography/sport|{{#invoke:Wikidata | claim | property=P641|formatting = raw}} }}}}
+| data42 = {{collapsible list|title={{Infobox biography/localize|Participant of}}|<!-- JUST COPY THE CONTENT FROM eu:Biografia infotaula automatikoa/kirola/domina-->{{Infobox biography/sport/medal| {{#invoke:Wikidata |claim |formatting=table |property=P1344 |qualifier=P166| qualifier2=P1352|rowformat=$1$0 $2|rowsubformat2=($2.)}} }} }}
+| data43 = {{collapsible list|title=Winner of|{{#invoke:Wikidata | claim | property=P1346|formatting = internallink|separator=<br />|conjunction=<br />}} }}
+| label44 = {{Infobox biography/localize|Position or speciality}}
+| data44 = {{#invoke:Wikidata | claim | property=P413|formatting = internallink|separator=<br />|conjunction=<br />}}
+| label45 = {{Infobox biography/localize|Sport-number}}
+| data45 = {{#invoke:Wikidata | claim | property=P1618|formatting = internallink|separator=<br />|conjunction=<br />}}
+| label48 = {{Infobox biography/localize|Weight}}
+| data48 = {{#invoke:Wikidata | claim | property=P2067|formatting=unitcode}}
+| label49 = {{Infobox biography/localize|Height}}
+| data49 = {{#invoke:Wikidata | claim | property=P2048|formatting=unitcode}}
+
+<!--- GENERAL OCCUPATION --->
+| label50 = {{Infobox biography/localize|Workplace}} 
+| data50 = {{#invoke:Wikidata | claim | property=P937|formatting = internallink}}
+| label51 = {{Infobox biography/localize|Employers}} 
+| data51 = {{#invoke:Wikidata |claim |property=P108| qualifier=P580| qualifier2=P582|formatting = table|rowformat = $0 $1 $2|rowsubformat1=<small>&nbsp;($1 -</small>|rowsubformat2=<small>&nbsp;$2</small>)|tablesort=1}}
+| label52 = {{Infobox biography/localize|Important works}} 
+| data52 = {{#if:{{#Property:P800|from={{{item|}}}}}|''{{#invoke:Wikidata | claim | property=P800|formatting = internallink|separator=<br />|conjunction=<br />}}''}}
+<!--- You can copy the template missing (sub-item image) from eu:Azpi-item_irudia --->
+| label53 = {{Infobox biography/localize|Prizes}}  
+| data53 = {{collapsible list|title={{Infobox biography/localize|see}}|{{#invoke:Wikidata | claim | property=P166 |qualifier=P585| qualifier2=P1027 |qualifier3=P1686|formatting=table
+              |rowformat = {{((}}Sub-item image{{!}}$0{{!}}P2425{{!}}40x20px{{))}} [[{{((}}#invoke:Wikibase{{!}}label{{!}}$0{{))}}]] $2 $1 $3 |rowsubformat1=<small>&nbsp;($1)</small> |rowsubformat2=: <small>$2</small>|rowsubformat3=: <small>$3</small> | colformat0=raw | colformat2=internallink| separator=<br />}}}}
+| label54 = {{Infobox biography/localize|Nominated to}}  
+| data54 = {{collapsible list|title={{Infobox biography/localize|see}}|{{delink|{{#invoke:Wikidata |claim |formatting=table |property=P1411|tablesort=1 |qualifier=P585| qualifier2=P1027 |qualifier3=P1686|rowformat=[[$0]] $2 $1 $3 |rowsubformat1=<br /><small>($1)</small> |rowsubformat2=<small>: [[$2]]</small>|rowsubformat3=<small>: [[$3]]</small>}}}}}}
+| label55 = {{Infobox biography/localize|Influenced by}}  
+| data55 = {{#invoke:Wikidata | claim | property=P737|formatting = internallink}}
+
+| label57 = {{Infobox biography/localize|Membership}}   
+| data57 = {{#invoke:Wikidata | claim | property=P463|formatting = internallink|separator=<br />|conjunction=<br />}}
+| label58 = {{Infobox biography/localize|Movement}}   
+| data58 = {{#invoke:Wikidata | claim | property=P135|formatting = internallink|case=singular|separator=<br />|conjunction=<br />}}
+| label59 = {{Infobox biography/localize|Surnames}} 
+| data59 = {{#invoke:Wikidata | claim | property=P742|formatting = label}}
+
+<!-- Music -->
+| label60 = {{Infobox biography/localize|Artistic movement}} 
+| data60 = {{#invoke:Wikidata | claim | property=P136|formatting = internallink|case=singular|separator=<br />|conjunction=<br />}}
+| label61 = {{Infobox biography/localize|Voice type}} 
+| data61 = {{#invoke:Wikidata | claim | property=P412|formatting = internallink|case=singular|separator=<br />|conjunction=<br />}}
+| label62 = [[Fach]]
+| data62 = {{#invoke:Wikidata | claim | property=P1731|formatting = internallink|separator=<br />|conjunction=<br />}}
+| label63 = {{Infobox biography/localize|Music instrument}} 
+| data63 = {{#invoke:Wikidata | claim | property=P1303|formatting = internallink|case=singular|separator=<br />|conjunction=<br />}}
+| label64 = {{Infobox biography/localize|Record label}} 
+| data64 = {{#invoke:Wikidata | claim | property=P264|formatting = internallink|separator=<br />|conjunction=<br />}}
+
+<!-- Saints -->
+| header70 = {{#if:{{#Property:P841|from={{{item|}}}}}|Feast}}
+| data71 = {{#invoke:Wikidata | claim | property=P841|formatting = internallink}}
+
+<!--- Military --->
+| header75 = {{#if:{{#Property:P241|from={{{item|}}}}}{{#Property:P607|from={{{item|}}}}}|{{Infobox biography/localize|Military service}}}}
+| label76 = {{Infobox biography/localize|Military branch}} 
+| data76 = {{#invoke:Wikidata | claim | property=P241|formatting = internallink|separator=<br />|conjunction=<br />}}
+| label77 = {{Infobox biography/localize|Degree}} 
+| data77 = {{#invoke:Wikidata | claim | property=P410|formatting = internallink|separator=<br />|conjunction=<br />}}
+| label78 =  {{Infobox biography/localize|Fought at}} 
+| data78 = {{#invoke:Wikidata | claim | property=P607|formatting = internallink|separator=<br />|conjunction=<br />}}
+
+<!-- Astronauts->
+| header80 = {{#if:{{#Property:P450}}{{#Property:P2873}}|Astronaut}}
+| label81 =  {{Infobox biography/localize|Mission(s)}} 
+| data81 = {{#invoke:Wikidata | claim | property=P450|formatting = internallink|separator=&nbsp;|conjunction=&nbsp;}}
+| label82 = {{Infobox biography/localize|Mission patch}} 
+| data82 = {{#invoke:Wikidata | claim | property=P450|formatting = table|rowformat={{((}}subitem image{{!}}$0{{!}}P154{{!}}50x50px{{))}}|colformat0=raw |separator=&nbsp;|conjunction=&nbsp;}}
+| label83 = {{Infobox biography/localize|Time at space}} 
+| data83 = {{#invoke:Wikidata | claim | property=P2873|formatting = unit}}
+
+<!--- BELIEVINGS --->
+| header90 = {{#if:{{#Property:P140|from={{{item|}}}}}{{#Property:P102|from={{{item|}}}}}{{#Property:P611|from={{{item|}}}}}|{{Infobox biography/localize|Belief}} }}
+| label91 = {{Infobox biography/localize|Religion}}
+| data91 = {{#invoke:Wikidata | claim | property=P140|formatting = internallink|separator=<br />|conjunction=<br />}}
+| label92 = {{Infobox biography/localize|Religious-order}}
+| data92 = {{#invoke:Wikidata | claim | property=P611|formatting = internallink|separator=<br />|conjunction=<br />}}
+| label93 = {{Infobox biography/localize|Political parties}}
+| data93 = {{#invoke:Wikidata | claim | property=P102|formatting = internallink|separator=<br />|conjunction=<br />}}
+
+<!-- SIGNATURE AND LINKS -->
+|label97 = [[IMDb]]
+|data97 = {{#invoke:Wikidata | claim | property=P345|formatting = [http://www.imdb.com/name/$1 $1]}}
+|data98 = {{#invoke:Wikidata | claim | property=P856|formatting = weblink}}
+|data99 = {{#invoke:Wikidata | claim | property=P109|formatting = [[File:$1|200px]]|list=false}}
+}}</includeonly><noinclude>
+Template localization:
+*[[Template:Infobox biography/localize]].
+*[[Template:Infobox biography/sport/basketball/localize]].
+*[[Template:Infobox biography/sport/football/localize]].
+*[[Template:Infobox biography/sport/tennis/localize]].
+*[[Template:Infobox biography/sport/athletics/localize]]
+
+</noinclude>
