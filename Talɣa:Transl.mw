@@ -1,0 +1,9 @@
+<includeonly>{{#invoke:Lang|transl}}</includeonly><noinclude>
+{{Tumlin}}
+<templatedata>
+{
+	"params": {},
+	"description": "Marks text as a transliteration from one writing system to another. Either language code or script code must be set.",
+	"format": "inline"
+}
+</templatedata></noinclude>
