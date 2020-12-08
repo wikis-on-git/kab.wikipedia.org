@@ -1,4 +1,4 @@
-<includeonly>{{Infobox language/content
+<includeonly>{{Infobox language
 | name = {{{name|{{PAGENAMEBASE}}}}}
 | nativename = {{Coalesce|{{{nativename}}}|{{#invoke:Wikidata|claim|property=P1705|formatting=text|separator=&nbsp;—&nbsp;|conjunction=&nbsp;—&nbsp;|item={{{item|}}}}} }}
 | familycolor = {{Coalesce|{{{familycolor}}}|{{#invoke:Wikidata|getParentValues|property=P279|rowformat=$1|sorting=-1|uptolinkid=Q25268 Q721612 Q37845 Q32940 Q33199 Q49228 Q33311 Q25946 Q25946 Q33322 Q19860 Q33614 Q26986 Q33838 Q33705 Q33909 Q236425 Q34228 Q45961 Q34171 Q34113 Q34073 Q33612 Q34090 Q33750 Q34230 Q11263525 Q27969 Q34070|last_only=true|formatting=raw|editicon=false}} }}
