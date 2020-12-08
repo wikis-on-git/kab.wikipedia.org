@@ -29,7 +29,7 @@ THIS FIRST ROW INSERTS THE POSITIONS HELD BY THE PERSON.
 | label8 = {{Infobox biography/localize|First language}}
 | data8 = {{#invoke:Wikidata | claim | property=P103|formatting = internallink|separator=<br />|conjunction=<br />}}
 | label9 = {{Infobox biography/localize|Death}}
-| data9 = {{#if:{{#Property:P20|from={{{item|}}}}}|{{#invoke:Wikidata | claim | property=P20|formatting = internallink}},&nbsp;}}{{{date of death|{{#invoke:Wikidata | claim | property=P570|list=false}}}}}{{#if:{{#Property:P569}}||{{#invoke:Wikidata|yearsOld|formatting=($1 years)}}}}
+| data9 = {{#if:{{#Property:P20|from={{{item|}}}}}|{{#invoke:Wikidata | claim | property=P20|formatting = internallink}},&nbsp;}}{{{date of death|{{#invoke:Wikidata | claim | property=P570|list=false}}}}}{{#if:{{#Property:P569|from={{{item|}}}}}||{{#invoke:Wikidata|yearsOld|formatting=($1 years)}}}}
 | label10 = {{Infobox biography/localize|Place of internment}}
 | data10 = {{#invoke:Wikidata | claim | property=P119|formatting = internallink|separator=<br />|conjunction=<br />}}
 | label11 = {{Infobox biography/localize|Manner of death}}
