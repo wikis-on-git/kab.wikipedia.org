@@ -23,6 +23,7 @@
 | event = {{Infobox event}}
 | grapheme = {{Infobox grapheme}}
 | astronomical object = {{Infobox astronomical object}}
+| entity not found = {{Infobox entity not found}}
 <!-- Infobox programming language -->
 <!-- Infobox software -->
 | #default = {{Databox generic}} [[Category:Articles using generic infobox]]
