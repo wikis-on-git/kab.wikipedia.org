@@ -16,7 +16,7 @@
 | hydrography = {{Infobox physical geography|category=hydrography}}
 | software = {{Infobox software}}
 | disease = {{Infobox medical condition}}
-| website = {{Infobox website}}
+| website = {{Infobox website|item={{{1|}}}}}
 | school | organization = {{Infobox organization}}
 | building = {{Infobox building}}
 | chemical = {{Infobox chemical|item={{{1|}}}}}
