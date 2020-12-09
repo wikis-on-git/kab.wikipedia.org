@@ -11,9 +11,9 @@
 | album | tv | book | intellectual work = {{Infobox intellectual work|item={{{1|}}}}} 
 | script = {{Databox writing system}} 
 | religion = {{Infobox religion}}
-| physical geography = {{Infobox physical geography}} 
-| orography = {{Infobox physical geography|category=orography}}
-| hydrography = {{Infobox physical geography|category=hydrography}}
+| physical geography = {{Infobox physical geography|item={{{1|}}}}} 
+| orography = {{Infobox physical geography|category=orography|item={{{1|}}}}}
+| hydrography = {{Infobox physical geography|category=hydrography|item={{{1|}}}}}
 | software = {{Infobox software}}
 | disease = {{Infobox medical condition|item={{{1|}}}}}
 | website = {{Infobox website|item={{{1|}}}}}
