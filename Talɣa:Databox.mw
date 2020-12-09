@@ -9,7 +9,7 @@
 | city = {{Infobox city|item={{{1|}}}}}
 | musical band = {{Infobox musical artist}} 
 | album | tv | book | intellectual work = {{Infobox intellectual work|item={{{1|}}}}} 
-| script = {{Databox writing system}} 
+| script = {{Databox writing system|item={{{1|}}}}} 
 | religion = {{Infobox religion|item={{{1|}}}}}
 | physical geography = {{Infobox physical geography|item={{{1|}}}}} 
 | orography = {{Infobox physical geography|category=orography|item={{{1|}}}}}
