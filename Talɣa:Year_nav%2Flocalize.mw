@@ -1,0 +1,18 @@
+{{#switch:{{{1}}}
+|Type = {{GetLabelFix|Q21146257}}
+|Named after = {{GetLabelFix|P138}}
+|Other calendars = Other calendars
+|Gregorian = {{GetLabelFix|Q12138}}
+|Islamic = {{GetLabelFix|Q28892|linked=true}}
+|Chinese = {{GetLabelFix|Q134032|linked=true}}
+|Hebrew =  {{GetLabelFix|Q44722|linked=true}}
+|Hindu =  {{GetLabelFix|Q190552|linked=true}} 
+|Persian = {{GetLabelFix|Q950135|linked=true}} 
+|Armenian = {{GetLabelFix|Q28251|linked=true}} 
+|Runic =  {{GetLabelFix|Q947787|linked=true}}
+|ab urbe condita = {{GetLabelFix|Q26805|linked=true}}
+|Centuries = Leqrun
+|Decades = Tiɛcertin
+|Years = Iseggasen
+| #default = {{{1}}}
+}}
