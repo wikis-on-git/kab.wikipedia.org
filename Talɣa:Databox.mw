@@ -1,4 +1,5 @@
 {{#switch:{{#invoke:Categorizer|find|item={{{1|}}}}}
+| entity not found = {{Infobox entity not found}}
 | language = {{Databox language}}
 | language family = {{Databox language family}}
 | human = {{Infobox biography|item={{{1|}}}}}
@@ -23,7 +24,6 @@
 | event = {{Infobox event}}
 | grapheme = {{Infobox grapheme}}
 | astronomical object = {{Infobox astronomical object}}
-| entity not found = {{Infobox entity not found}}
 <!-- Infobox programming language -->
 <!-- Infobox software -->
 | #default = {{Databox generic}} [[Category:Articles using generic infobox]]
