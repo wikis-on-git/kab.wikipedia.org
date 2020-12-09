@@ -1,0 +1,231 @@
+<includeonly>{{Infobox
+| abovestyle = background-color: #F5F5DC
+| headerstyle = background-color: #F5F5DC
+| italic-title = {{{italic-title|}}}
+| above = ''{{{name|{{PAGENAME}}}}}''
+| subheader = {{{original name|}}}
+| image = {{#invoke:Wikidata|claim|property=P154|formatting=[[File:$1|260px]]|value={{{image|}}}|list=false}}
+| image2 = {{#if:{{{image|}}}|[[File:{{{image}}}|260px]]|{{#if:{{#Property:P10|from={{{item|}}}}}|{{#invoke:Wikidata | claim | property=P10|formatting=[[File:$1|260px]]|list=false}}|{{#invoke:Wikidata | claim | property=P18|formatting=[[File:$1|260px]]|list=false}}}}}}
+| image3 = {{#if:{{{audio|}}}|[[File:{{{audio|}}}|285px]]|{{#invoke:Wikidata | claim | property=P51|formatting=[[File:$1|280px]]}}}}
+| caption2= {{{audio description|}}}
+| header1 = {{#if:{{#Property:P175|from={{{item|}}}}}|{{#invoke:Wikidata | claim | property=P175|formatting=internallink|case=genitiboa}} {{#invoke:Wikidata | claim | property=P31|formatting=internallink|case=singular}}|{{Infobox intellectual work/localize|Origin}}}}
+| label2 = {{Infobox intellectual work/localize|Creator}}
+| data2 = {{#invoke:Wikidata | claim | property=P170|formatting=internallink|item={{{item|}}}}}
+| label3 = {{Infobox intellectual work/localize|Author}}
+| data3 = {{#invoke:Wikidata | claim | property=P50|formatting=internallink|item={{{item|}}}}}
+| label4 = {{Infobox intellectual work/localize|Year of creation}}
+| data4 = {{#invoke:Wikidata | claim | property=P571|formatting=Y|list=false|item={{{item|}}}}}
+| label5 = {{Infobox intellectual work/localize|Publication date}}
+| data5 = {{#if:{{#Property:P577|from={{{item|}}}}}|{{#invoke:Wikidata | claim | property=P577|formatting=Y|list=false}}}}
+| label6 = {{Infobox intellectual work/localize|Release date}}
+| data6 = {{#if:{{#Property:P1191|from={{{item|}}}}}|{{Start date|{{#invoke:Wikidata | claim | property=P1191|formatting=Y|list=false}}|{{#invoke:Wikidata | claim | property=P1191|formatting=n|list=false}}|{{#invoke:Wikidata | claim | property=P1191|formatting=j|list=false}}}}}}
+| label7 = {{Infobox intellectual work/localize|Original name}}
+| data7 = {{#if:{{#property:P1476|from={{{item|}}}}}|''{{#invoke:Wikidata | claim | property=P1476|formatting=label|item={{{item|}}}}}''}}
+| label8 = {{Infobox intellectual work/localize|Movement}}
+| data8 = {{#invoke:Wikidata | claim | property=P135|formatting=internallink|conjunction=<br />|separator=<br />|case=singular|item={{{item|}}}}}
+| label9 = {{Infobox intellectual work/localize|Original language}}
+| data9 = {{#invoke:Wikidata | claim | property=P364|formatting=internallink|conjunction=<br />|separator=<br />|case=singular|item={{{item|}}}}}
+| label10 = {{Infobox intellectual work/localize|Country of origin}}
+| data10 = {{#invoke:Wikidata | claim | property=P495|formatting=internallink|item={{{item|}}}|value={{{country|}}}}}
+| label11 = {{Infobox intellectual work/localize|Made in}}
+| data11 = {{#invoke:Wikidata | claim | property=P1071|formatting=internallink|item={{{item|}}}}}
+| label12 = {{Infobox intellectual work/localize|Commissioner}}
+| data12 = {{#invoke:Wikidata | claim | property=P88|formatting=internallink|item={{{item|}}}}}
+| label13 = {{Infobox intellectual work/localize|Place of discovery}}
+| data13 = {{#invoke:Wikidata | claim | property=P189|formatting=internallink|item={{{item|}}}}}
+| label14 = {{Infobox intellectual work/localize|Date of discovery}}
+| data14 = {{#if:{{#Property:P575|from={{{item|}}}}}|{{Start date|{{#invoke:Wikidata | claim | property=P575|formatting=Y|list=false|item={{{item|}}}}}|{{#invoke:Wikidata | claim | property=P575|formatting=m|list=false|item={{{item|}}}}}|{{#invoke:Wikidata | claim | property=P575|formatting=j|list=false|item={{{item|}}}}}}}}}
+| label15 = {{Infobox intellectual work/localize|Illustrator}}
+| data15 = {{#invoke:Wikidata | claim | property=P110|formatting=internallink|value={{{illustrator|}}}}}
+| label16 = {{Infobox intellectual work/localize|Publisher}}
+| data16 = {{#invoke:Wikidata | claim | property=P123|formatting=internallink|value={{{publisher|}}}}}
+| label17 = {{Infobox intellectual work/localize|ISBN}}
+| data17 = {{#if:{{{ISBN|}}}|[https://kab.wikipedia.org/wiki/Special:BookSources/{{{ISBN}}} {{{ISBN}}}]|{{#invoke:Wikidata | claim | property=P212|formatting=[https://kab.wikipedia.org/wiki/Special:BookSources/$1 $1]|list=false}}}}
+| label18 = {{Infobox intellectual work/localize|Online Computer Library Center}}
+| data18 = {{#if:{{{oclc|}}}|[http://worldcat.org/oclc/{{urlencode:{{{oclc}}}}} {{{oclc}}}]|{{#invoke:Wikidata | claim | property=P243|formatting= 	[http://www.worldcat.org/oclc/$1 $1]|list=false}}}}
+| label19 = {{Infobox intellectual work/localize|Pages}}
+| data19 = {{#invoke:Wikidata | claim | property=P1104|formatting=internallink|value={{{pages|}}}}}
+| label20 = {{Infobox intellectual work/localize|Seasons}}
+| data20 = {{#invoke:Wikidata | claim | property=P2437|formatting = unit}}
+| label21 = {{Infobox intellectual work/localize|Episodes}}
+| data21 = {{#invoke:Wikidata | claim | property=P1113|formatting = unit}}
+| label22 = {{Infobox intellectual work/localize|Distribution format}}
+| data22 = {{#invoke:Wikidata | claim | property=P437|formatting = internallink}}
+| label23 = {{Infobox intellectual work/localize|Latest version}}
+| data23 = {{#invoke:Wikidata | claim | property=P348|formatting = label}}
+
+
+<!--- Technical characteristics --->
+| header30 = {{Infobox intellectual work/localize|Characteristics}}
+| label31 = {{Infobox intellectual work/localize|Material}}
+| data31 = {{#invoke:Wikidata | claim | property=P186|formatting=internallink|case=singular|item={{{item|}}}}}
+| label32 = {{Infobox intellectual work/localize|Width}}
+| data32 = {{#invoke:Wikidata | claim | property=P2049|formatting=unit|item={{{item|}}}}}
+| label33 = {{Infobox intellectual work/localize|Height}}
+| data33 = {{#invoke:Wikidata | claim | property=P2048|formatting=unit|item={{{item|}}}}}
+| label34 = {{Infobox intellectual work/localize|Genre}}
+| data34 = {{#invoke:Wikidata | claim | property=P136|formatting=internallink|case=singular|item={{{item|}}}}}
+| label35 = {{Infobox intellectual work/localize|Language}}
+| data35 = {{#invoke:Wikidata | claim | property=P407|formatting=internallink|case=singular|item={{{item|}}}}}
+| label36 = {{Infobox intellectual work/localize|Duration}}
+| data36 = {{#if:{{#Property:P2047|from={{{item|}}}}}|{{#ifexpr:{{formatnum:{{#invoke:Wikidata | claim | property=P2047|formatting=label}}|R}}>200|{{#expr:floor({{formatnum:{{#invoke:Wikidata | claim | property=P2047|formatting=label}}|R}}/60)}}:{{#expr:{{formatnum:{{#invoke:Wikidata | claim | property=P2047|formatting=label}}|R}}mod60}} {{Infobox intellectual work/localize|minute}}|{{#invoke:Wikidata | claim | property=P2047|formatting=unit}}}}}}
+| data37 = {{#if:{{#Property:P658|from={{{item|}}}}}|''<ol><li>{{#invoke:Wikidata | claim | property=P658|formatting=internallink|conjunction=<br /><li>|separator=<br /><li>}}</li>''}}
+| label38 = {{Infobox intellectual work/localize|Color}}
+| data38 = {{#invoke:Wikidata | claim | property=P462|case=singular|item={{{item|}}}}}
+| label39 = {{Infobox intellectual work/localize|Recording}}
+| data39 = {{#invoke:Wikidata | claim | property=P483|formatting=internallink}}
+| label40 = {{Infobox intellectual work/localize|Record label}}
+| data40 = {{#invoke:Wikidata | claim | property=P264|formatting=internallink}}
+| label41 = {{Infobox intellectual work/localize|Parts}}
+| data41 = {{#invoke:Wikidata | claim | property=P2635|formatting=unit}}
+| label42 = {{Infobox intellectual work/localize|Tonality}}
+| data42 = {{#invoke:Wikidata | claim | property=P826|formatting=internallink}}
+| label43 = {{Infobox intellectual work/localize|Dedicated to}}
+| data43 = {{#invoke:Wikidata | claim | property=P825|formatting=internallink}}
+| label44 = {{Infobox intellectual work/localize|Minimum number of players }}
+| data44 = {{#invoke:Wikidata | claim | property=P1872|formatting=raw}}
+| label45 = {{Infobox intellectual work/localize|Game mode}}
+| data45 = {{#invoke:Wikidata | claim | property=P404|formatting=internallink}}
+| label46 = {{Infobox intellectual work/localize|Platform}}
+| data46 = {{#invoke:Wikidata | claim | property=P400|formatting=internallink}}
+| label47 = {{Infobox intellectual work/localize|Input method}}
+| data47 = {{#invoke:Wikidata | claim | property=P479|formatting=internallink}}
+| label48 = {{Infobox intellectual work/localize|Programming language}}
+| data48 = {{#invoke:Wikidata | claim | property=P277|formatting=internallink}}
+| label49 = {{Infobox intellectual work/localize|PEGI rating}}
+| data49 = {{#invoke:Wikidata | claim | property=P908|formatting = table|rowformat={{((}}Sub-item image{{!}}$0{{!}}P18{{!}}30x30px{{))}}|colformat0=raw |separator=&nbsp;|conjunction=&nbsp;}}{{#invoke:Wikidata | claim | property=P852|formatting = table|rowformat={{((}}Sub-item image{{!}}$0{{!}}P18{{!}}30x30px{{))}}|colformat0=raw |separator=&nbsp;|conjunction=&nbsp;}}{{#invoke:Wikidata | claim | property=P853|formatting = table|rowformat={{((}}Sub-item image{{!}}$0{{!}}P18{{!}}30x30px{{))}}|colformat0=raw |separator=&nbsp;|conjunction=&nbsp;}}{{#invoke:Wikidata | claim | property=P914|formatting = table|rowformat={{((}}Sub-item image{{!}}$0{{!}}P18{{!}}30x30px{{))}}|colformat0=raw |separator=&nbsp;|conjunction=&nbsp;}}
+| label50 = {{Infobox intellectual work/localize|License}}
+| data50 = {{#invoke:Wikidata | claim | property=P275|formatting=internallink}}
+
+<!--- DESCRIPTION --->
+| header51 = {{#if:{{#Property:P144|from={{{item|}}}}}{{#Property:P180|from={{{item|}}}}}{{#Property:P361|from={{{item|}}}}}{{#Property:P1257|from={{{item|}}}}}{{#Property:P737|from={{{item|}}}}}|Description}}
+| label52 = {{Infobox intellectual work/localize|Based on}}
+| data52 = {{#invoke:Wikidata | claim | property=P144|formatting=internallink|conjunction=<br />|separator=<br />|item={{{item|}}}}}
+| label53 = {{Infobox intellectual work/localize|Part of it}}
+| data53 = {{#invoke:Wikidata | claim | property=P361|formatting=internallink|conjunction=<br />|separator=<br />|item={{{item|}}}}}
+| label54 = [[Iconclass]]
+| data54 = {{#invoke:Wikidata | claim | property=P1257|formatting =[http://iconclass.org/$1 $1]|item={{{item|}}}}}
+| label55 = {{Infobox intellectual work/localize|Influenced by}}
+| data55 = {{#invoke:Wikidata | claim | property=P737|formatting=internallink|conjunction=<br />|separator=<br />|item={{{item|}}}}}
+
+<!--- LOCATION --->
+| header61 = {{#if:{{#Property:P276|from={{{item|}}}}}{{#Property:P195|from={{{item|}}}}}{{#Property:P417|from={{{item|}}}}}{{#Property:P625|from={{{item|}}}}}{{#Property:P127|from={{{item|}}}}}|{{Infobox intellectual work/localize|Location}}}}
+| label62 = {{Infobox intellectual work/localize|Place}}
+| data62 = {{#invoke:Wikidata | claim | property=P276|qualifier=P585|formatting=table|rowformat = $0 $1|rowsubformat1=<small>($1)</small>|item={{{item|}}}}}
+| label64 = {{Infobox intellectual work/localize|Collection}}
+| data64 = {{#invoke:Wikidata | claim | property=P195|formatting=internallink|item={{{item|}}}}}
+| label65 = {{Infobox intellectual work/localize|Inventory number}}
+| data65 = {{#invoke:Wikidata | claim | property=P217|formatting=label|item={{{item|}}}}}
+| label66 = {{Infobox intellectual work/localize|Filming location}}
+| data66 = {{#invoke:Wikidata | claim | property=P915|formatting=internallink|item={{{item|}}}}}
+
+| data67 = {{#invoke:Wikidata |claim |formatting=raw |property=P131|list=false}}
+| label68 = {{Infobox intellectual work/localize|Coordinates}}
+| data68 = {{#if:{{#Property:P625|from={{{item|}}}}}|{{cal coor|display=inline,title}}}}
+| data69 = {{#if:{{#Property:P625|from={{{item|}}}}}|{{Map draw|width=280|height=250|zoom=13|frameless=s|align=center|geotype2=geoshape|stroke-width2=0.5|fill2=#F5A9A9|opacity2=0.33|title2={{PAGENAME}}|image2={{#invoke:Wikidata | claim | property=P18|formatting=$1|item={{{item|}}}}}|geotype3=geomask|ids3={{#invoke:Wikidata|claim|property=P131|formatting=raw|list=false|item={{{item|}}}}}|fill-opacity3=0.33|stroke-width3=0.5|fill3=#FFFFE0|title={{PAGENAME}}|image={{#invoke:Wikidata | claim | property=P18|formatting=$1|item={{{item|}}}}}|marker-symbol={{Map draw/icon}}|marker-color=#1E90FF|latitude={{#invoke:Wikidata|claim|property=P625|formatting=latitude|item={{{item|}}}}}|longitude={{#invoke:Wikidata|claim|property=P625|formatting=longitude|item={{{item|}}}}}}}}}
+
+| label70 = {{Infobox intellectual work/localize|Owner}}
+| data70 = {{#invoke:Wikidata | claim | property=P127|formatting=internallink|item={{{item|}}}}}
+
+<!--- WORKERS --->
+| header71 = {{#if:{{#Property:P57|from={{{item|}}}}}{{#Property:P58|from={{{item|}}}}}|{{Infobox intellectual work/localize|Direction and screenplay}}}}
+| label72 = {{Infobox intellectual work/localize|Director}}
+| data72 = {{#invoke:Wikidata | claim | property=P57|formatting = internallink|separator=<br />|conjunction=<br />}}
+| label73 = {{Infobox intellectual work/localize|Screenwriter}}
+| data73 = {{#invoke:Wikidata | claim | property=P58|formatting = internallink|separator=<br />|conjunction=<br />}}
+| header74 = {{#if:{{#Property:P161|from={{{item|}}}}}|{{Infobox intellectual work/localize|Cast}}}}
+| data75 = <center>{{#invoke:Wikidata | claim | property=P161|qualifier=P453|formatting = table|rowformat= $0 $1|rowsubformat1=<small>($1)</small>}}</center>
+<!--- PRODUCTION --->
+| header76 = {{#if:{{#Property:P162|from={{{item|}}}}}{{#Property:P272|from={{{item|}}}}}{{#Property:P1431|from={{{item|}}}}}{{#Property:P1040|from={{{item|}}}}}{{#Property:P2554|from={{{item|}}}}}{{#Property:P2769|from={{{item|}}}}}{{#Property:P943|from={{{item|}}}}}{{#Property:P287|from={{{item|}}}}}|{{Infobox intellectual work/localize|Production}} }}
+| label77 = {{Infobox intellectual work/localize|Producer}}
+| data77 = {{#invoke:Wikidata | claim | property=P162|formatting = internallink|separator=<br />|conjunction=<br />}}
+| label78 = {{Infobox intellectual work/localize|Production company}}
+| data78 = {{#invoke:Wikidata | claim | property=P272|formatting = internallink|separator=<br />|conjunction=<br />}}
+| label79 = {{Infobox intellectual work/localize|Executive producer}}
+| data79 = {{#invoke:Wikidata | claim | property=P1431|formatting = internallink|separator=<br />|conjunction=<br />}}
+| label80 = {{Infobox intellectual work/localize|Film editor}}
+| data80 = {{#invoke:Wikidata | claim | property=P1040|formatting = internallink|separator=<br />|conjunction=<br />}}
+| label81 = {{Infobox intellectual work/localize|Production designer}}
+| data81 = {{#invoke:Wikidata | claim | property=P2554|formatting = internallink|separator=<br />|conjunction=<br />}}
+| label82 = {{Infobox intellectual work/localize|Budget}}
+| data82 = {{#invoke:Wikidata | claim | property=P2769|formatting = unit|separator=<br />|conjunction=<br />}}
+| label83 = {{Infobox intellectual work/localize|Lyrics by }}
+| data83 = {{#invoke:Wikidata | claim | property=P676|formatting=internallink}}
+| label84 = {{Infobox intellectual work/localize|Librettist}}
+| data84 = {{#invoke:Wikidata | claim | property=P87|formatting=internallink}}
+| label85 = {{Infobox intellectual work/localize|Programmer}}
+| data85 = {{#invoke:Wikidata | claim | property=P943|formatting=internallink}}
+| label86 = {{Infobox intellectual work/localize|Designer}}
+| data86 = {{#invoke:Wikidata | claim | property=P287|formatting=internallink}}
+
+<!--- OTHERS --->
+| header91 = {{#if:{{#Property:P86|from={{{item|}}}}}{{#Property:P1809|from={{{item|}}}}}{{#Property:P3092|from={{{item|}}}}}|{{Infobox intellectual work/localize|Other works}} }}
+| label92 = {{Infobox intellectual work/localize|Composer}}
+| data92 = {{#invoke:Wikidata | claim | property=P86|formatting = internallink|separator=<br />|conjunction=<br />}} 
+| label93 = {{Infobox intellectual work/localize|Director of photography}}
+| data93 = {{#invoke:Wikidata | claim | property=P344|formatting = internallink|separator=<br />|conjunction=<br />}} 
+| label94 = {{Infobox intellectual work/localize|Choreographer}}
+| data94 = {{#invoke:Wikidata | claim | property=P1809|formatting = internallink|separator=<br />|conjunction=<br />}} 
+| label95 = {{Infobox intellectual work/localize|Costume Designer}}
+| data95 = {{#invoke:Wikidata | claim | property=P2515|formatting = internallink|separator=<br />|conjunction=<br />}} 
+| label96 = {{Infobox intellectual work/localize|Staff}}
+| data96 = {{#invoke:Wikidata | claim | property=P3092|qualifier=P794|formatting = table|rowformat=$0 $1|rowsubformat1=<small>($1)</small>}} 
+
+| header97 = {{#if:{{#Property:P449|from={{{item|}}}}}{{#Property:P580|from={{{item|}}}}}{{#Property:P582|from={{{item|}}}}}|{{Infobox intellectual work/localize|Screening}} }}
+| label98 = {{Infobox intellectual work/localize|Original network}}
+| data98 = {{#invoke:Wikidata | claim | property=P449|formatting = internallink|separator=<br />|conjunction=<br />}} 
+| label99 = {{Infobox intellectual work/localize|Start date}}
+| data99 = {{#if:{{#Property:P580|from={{{item|}}}}}|{{Start date|{{#invoke:Wikidata | claim | property=P580|formatting=Y|list=false}}|{{#invoke:Wikidata | claim | property=P580|formatting=m|list=false}}|{{#invoke:Wikidata | claim | property=P580|formatting=j|list=false}}}}}}
+| label100 = {{Infobox intellectual work/localize|End date}}
+| data100 = {{#if:{{#Property:P582|from={{{item|}}}}}|{{Start date|{{#invoke:Wikidata | claim | property=P582|formatting=Y|list=false}}|{{#invoke:Wikidata | claim | property=P582|formatting=m|list=false}}|{{#invoke:Wikidata | claim | property=P582|formatting=j|list=false}}}}}}
+
+<!-- FICTION -->
+| header101 = {{#if:{{#Property:P840|from={{{item|}}}}}{{#Property:P674|from={{{item|}}}}}{{#Property:P2283|from={{{item|}}}}}|{{Infobox intellectual work/localize|Fiction}} }}
+| label102 = {{Infobox intellectual work/localize|Narrative location}}
+| data102 = {{#invoke:Wikidata | claim | property=P840|formatting=internallink|item={{{item|}}}}}
+| labe103 = {{Infobox intellectual work/localize|Characters}}
+| data103 = {{#if:{{#Property:P674|from={{{item|}}}}}|{{Collapsible list|title={{Infobox intellectual work/localize|See}}|{{#invoke:Wikidata | claim | property=P674|formatting=internallink|item={{{item|}}}}}}}}}
+| label104 = {{Infobox intellectual work/localize|Literary technique}}
+| data104 = {{#invoke:Wikidata | claim | property=P2283|formatting=internallink|item={{{item|}}}}}
+| label105 = {{Infobox intellectual work/localize|Fictional universe }}
+| data105 = {{#invoke:Wikidata | claim | property=P1434|formatting = internallink|item={{{item|}}}}}
+| label106 = {{Infobox intellectual work/localize|Main subject}}
+| data106 = {{#invoke:Wikidata | claim | property=P921|formatting = internallink}}
+
+<!-- HISTORY -->
+| header121 = {{#if:{{#Property:P608|from={{{item|}}}}}{{#Property:P585|from={{{item|}}}}}{{#Property:P166|from={{{item|}}}}}{{#Property:P1411|from={{{item|}}}}}|{{Infobox intellectual work/localize|History}} }}
+| label122 = {{Infobox intellectual work/localize|Exhibitions}}
+| data122 = {{#invoke:Wikidata | claim | property=P608|formatting=internallink|conjunction=<br />|separator=<br />|item={{{item|}}}}}
+| label123 = {{Infobox intellectual work/localize|Notable events}}
+| data123 = {{delink|{{#invoke:Wikidata | claim | property=P793|formatting=table|qualifier=P585|qualifier2=P642|qualifier3=P276|rowformat=$1 $0 $2 $3 |rowsubformat1=<small>$1<br /></small>|rowsubformat2=<small><br />$2</small>|rowsubformat3=<small>— $3</small>|item={{{item|}}}}}}}
+
+<!--- AWARDS --->
+| data124 = {{Collapsible list|title={{Infobox intellectual work/localize|Awards received}}|{{#invoke:Wikidata |claim |formatting=table |property=P166|tablesort=1 |qualifier=P805| qualifier2=P2453 |rowformat=$0 $1 $2|rowsubformat1=<small><br />$1</small> |rowsubformat2=<small><br />$2</small>}}}}
+| data125 = {{Collapsible list|title={{Infobox intellectual work/localize|Nominations}}|{{#invoke:Wikidata |claim |formatting=table |property=P1411|tablesort=1 |qualifier=P805| qualifier2=P2453 |rowformat=$0 $1 $2|rowsubformat1=<small><br />$1</small> |rowsubformat2=<small><br />$2</small>}}}}
+
+<!-- EXTERNAL LINKS -->
+| header131 = {{#if:{{#Property:P793|from={{{item|}}}}}{{#Property:P345|from={{{item|}}}}}{{#Property:P480|from={{{item|}}}}}{{#Property:P1258|from={{{item|}}}}}{{#Property:P1562|from={{{item|}}}}}{{#Property:P2624|from={{{item|}}}}}{{#Property:P1651|from={{{item|}}}}}|{{Infobox intellectual work/localize|External links}} }}
+| data132 = {{#invoke:Wikidata | claim | property=P856|formatting=weblink|list=false|item={{{item|}}}}}
+| data133 = {{#if:{{#Property:P345|from={{{item|}}}}}{{#Property:P480|from={{{item|}}}}}{{#Property:P1258|from={{{item|}}}}}{{#Property:P1562|from={{{item|}}}}}|{{Collapsible list|title={{Infobox intellectual work/localize|Specialized websites}}|
+{{#if:{{#Property:P345|from={{{item|}}}}}|*IMDb: {{#invoke:Wikidata | claim | property=P345|formatting = [https://tools.wmflabs.org/wikidata-externalid-url/?p=345&url_prefix=http://www.imdb.com/&id=$1 $1]}}}}
+{{#if:{{#Property:P480|from={{{item|}}}}}|*FilmAffinity: {{#invoke:Wikidata | claim | property=P480|formatting = [https://www.filmaffinity.com/en/film$1.html $1]}}}}
+{{#if:{{#Property:P1258|from={{{item|}}}}}|*RottenTomatoes: {{#invoke:Wikidata | claim | property=P1258|formatting = [https://www.rottentomatoes.com/$1 $1]}}}}
+{{#if:{{#Property:P1562|from={{{item|}}}}}|*AllMovie: {{#invoke:Wikidata | claim | property=P1562|formatting = [http://www.allmovie.com/movie/$1 $1]}}}}
+}}}}
+| label134 = {{Infobox intellectual work/localize|Lyrics}}
+| data134 = {{#invoke:Wikidata | claim | property=P2624|formatting=[http://www.metrolyrics.com/$1.html MetroLyrics]}}
+| label135 = {{Infobox intellectual work/localize|Video}}
+| data136 = {{#invoke:Wikidata | claim | property=P1651|formatting=[https://www.youtube.com/watch?v=$1 YouTube]}}
+
+<!--- CHRONOLOGY --->
+| header141 = {{#if:{{#Property:P155|from={{{item|}}}}}{{#Property:P156|from={{{item|}}}}}|{{#invoke:Wikidata | claim | property=P175|formatting=internallink|case=genitiboa}} {{Infobox intellectual work/localize|Chronology}} }}
+| data142 = {{#if:{{#Property:P155|from={{{item|}}}}}{{#Property:P156|from={{{item|}}}}}|<nowiki />
+{{{!}} style="width:100%; line-height: 1.4em; vertical-align: top"
+{{!}} style="width: 33%; padding: 0.2em 0.1em 0.2em 0; text-align: center;" {{!}} {{#if:{{#Property:P155|from={{{item|}}}}}|&larr;''{{#invoke:Wikidata | claim | property=P155|formatting=internallink}}''}}
+{{!}} style="width: 33%; padding: 0.2em 0.1em 0.2em 0.1em; text-align: center;" {{!}} ''{{PAGENAME}}''
+{{!}} style="width: 33%; padding: 0.2em 0 0.2em 0.1em; text-align: center;" {{!}} {{#if:{{#Property:P156|from={{{item|}}}}}|&rarr;''{{#invoke:Wikidata | claim | property=P156|formatting=internallink}}''}}
+{{!}}}
+}}
+}}{{Italic title}}</includeonly><noinclude>
+Template localization: [[Template:Infobox intellectual work/localize]]
+</noinclude>
