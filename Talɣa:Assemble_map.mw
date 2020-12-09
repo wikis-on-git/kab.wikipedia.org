@@ -1,26 +1,26 @@
 <includeonly><!--  Comença preparació per crear mapa
--->{{#if:{{{layer|}}}{{{lat_lon|}}}{{{lat_dec|}}}{{{serie_punts5|}}} {{{item_territori|}}} {{Wp/shi/if both|{{{item|}}}|{{#invoke:Wikidata|validProperty|P625|from={{{item|}}}}} }}<!-- si no hi ha cap dada que generi capa, saltar
+-->{{#if:{{{layer|}}}{{{lat_lon|}}}{{{lat_dec|}}}{{{serie_punts5|}}} {{{item_territori|}}} {{Wp/shi/if both|{{{item|}}}|{{#invoke:Wp/shi/Wikidata|validProperty|P625|from={{{item|}}}}} }}<!-- si no hi ha cap dada que generi capa, saltar
   -->|{{Wp/shi/map draw |frameless=s  |align= 
 <!--  geotype1 pot servir per fer un "geomask" que agafa el layout d'OSM o per fer un "page" amb un contingut data.map de commons
 ___________________________
-      -->|geotype1={{#if:{{{layer|}}}|page<!-- amb .map de commons, posa aquesta sintaxi. Cas contrari mira de muntar geomask                         -->|{{#if:{{{item|}}} {{{item_territori|}}} |geomask<!-- Si paramètre item o item_territori, posar geomask                            -->|{{#ifeq:{{#invoke:Wikibase|id}}||none|geomask}}<!-- Si ∃ a WD, posar geomask 
+      -->|geotype1={{#if:{{{layer|}}}|page<!-- amb .map de commons, posa aquesta sintaxi. Cas contrari mira de muntar geomask                         -->|{{#if:{{{item|}}} {{{item_territori|}}} |geomask<!-- Si paramètre item o item_territori, posar geomask                            -->|{{#ifeq:{{#invoke:Wp/shi/Wikibase|id}}||none|geomask}}<!-- Si ∃ a WD, posar geomask 
                 -->}} }} 
-              |commons1= {{#invoke:StringFunc|split|{{{layer|}}}|###|1}}<!-- capa provinent d'estructura .map de commons
+              |commons1= {{#invoke:Wp/shi/StringFunc|split|{{{layer|}}}|###|1}}<!-- capa provinent d'estructura .map de commons
            -->|ids1={{Wp/shi/if empty|{{{item_territori|}}} | {{{item|}}}}} | fill-opacity1=0.2
 <!--  geotype2 i 3 fan un "page" amb el 2n i 3r contingut data.map de commons, quan és multivalor
 ___________________________
-      -->|geotype2= {{#if:{{#invoke:StringFunc|split|{{{layer|}}}|###|2}}|page|none}}<!-- si hi ha 2a. forma commons, activa
-geotype=page -->|commons2= {{#invoke:StringFunc|split|{{{layer|}}}|###|2}}<!-- capa provinent d'estructura data.map de commons
-      -->|geotype3= {{#if:{{#invoke:StringFunc|split|{{{layer|}}}|###|3}}|page|none}}<!-- si hi ha 3a. forma de commons, activa
-geotype=page -->|commons3= {{#invoke:StringFunc|split|{{{layer|}}}|###|3}}<!-- capa provinent d'estructura data.map de commons
+      -->|geotype2= {{#if:{{#invoke:Wp/shi/StringFunc|split|{{{layer|}}}|###|2}}|page|none}}<!-- si hi ha 2a. forma commons, activa
+geotype=page -->|commons2= {{#invoke:Wp/shi/StringFunc|split|{{{layer|}}}|###|2}}<!-- capa provinent d'estructura data.map de commons
+      -->|geotype3= {{#if:{{#invoke:Wp/shi/StringFunc|split|{{{layer|}}}|###|3}}|page|none}}<!-- si hi ha 3a. forma de commons, activa
+geotype=page -->|commons3= {{#invoke:Wp/shi/StringFunc|split|{{{layer|}}}|###|3}}<!-- capa provinent d'estructura data.map de commons
 --><!--
       geotype4: Línia provinent d'OSM. Limitat a pont o presa.
 ___________________________
- Pont ? -->|geotype4= {{#ifeq:{{#invoke:string|find
-                                       |{{lc:{{#invoke:Wikidata|claim|property=P31 |editicon=no|lang=en}} }}|bridge}}|0<!--
-   Presa ?           -->|{{#ifeq:{{#invoke:string|find
-                                          |{{lc:{{#invoke:Wikidata|claim|property=P31 |editicon=no|lang=en}}}}|dam}}|0<!--
-   curs d'aigua / riu?  -->|{{#if:{{#invoke:Wikidata|claim|property=P31|item={{{item|}}}
+ Pont ? -->|geotype4= {{#ifeq:{{#invoke:Wp/shi/string|find
+                                       |{{lc:{{#invoke:Wp/shi/Wikidata|claim|property=P31 |editicon=no|lang=en}} }}|bridge}}|0<!--
+   Presa ?           -->|{{#ifeq:{{#invoke:Wp/shi/string|find
+                                          |{{lc:{{#invoke:Wp/shi/Wikidata|claim|property=P31 |editicon=no|lang=en}}}}|dam}}|0<!--
+   curs d'aigua / riu?  -->|{{#if:{{#invoke:Wp/shi/Wikidata|claim|property=P31|item={{{item|}}}
                                            |formatting=table|rowformat=$0 |editicon=no
                                            |whitelist0=Q355304<!-- /Q4022 Riu-->}}<!--
 
@@ -59,4 +59,4 @@ ___________________________
               |default_zoom=4 |text=
      }}<!-- FI map draw
  -->}}<!-- FI if de continguts 
---></includeonly><noinclude></noinclude>
+--></includeonly><noinclude>{{Assemble map|item=Q22796}}{{doc}}</noinclude>
