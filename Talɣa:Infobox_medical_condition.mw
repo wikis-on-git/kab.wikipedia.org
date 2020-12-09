@@ -1,0 +1,102 @@
+{{Infobox
+| abovestyle = background-color: lightgrey;
+| headerstyle= background-color: lightgrey;
+| above      = {{{name|{{{Name|<includeonly>{{PAGENAMEBASE}}</includeonly>}}}}}}
+| image        = {{#if:{{{image|}}}|[[File:{{{image|}}}|260px]]|{{#invoke:Wikidata | claim | property=P18|formatting=[[File:$1|260px]]|list=false}}}}
+{{#if:{{{footer|}}} |<center>{{{footer}}}</center>}}
+
+| header1 = {{Infobox medical condition/localize|Description}}
+| label2 = {{Infobox medical condition/localize|Type}}
+| data2 = {{#invoke:Wikidata | claim | property=P279|formatting = internallink|conjunction=<br />|separation=<br />|case=singular}}
+| label3 = {{Infobox medical condition/localize|Specialty}}
+| data3 = {{#invoke:Wikidata | claim | property=P1995|formatting = internallink|conjunction=<br />|separation=<br />|case=singular}}
+| label4 = {{Infobox medical condition/localize|Cause}}
+| data4 = {{#invoke:Wikidata | claim | property=P828|formatting = internallink|conjunction=<br />|separation=<br />|case=mugagabea}}
+| label5 = {{Infobox medical condition/localize|Symptoms}}
+| data5 = {{#invoke:Wikidata | claim | property=P780|formatting = label|conjunction=<br />|separation=<br />|case=singular}}
+| label6 = {{Infobox medical condition/localize|It causes}}
+| data6 = {{#invoke:Wikidata | claim | property=P1542|formatting = internallink|conjunction=<br />|separation=<br />|case=singular}}
+| label7 = {{Infobox medical condition/localize|Pathogen transmission process}}
+| data7 = {{#invoke:Wikidata | claim | property=P1060|formatting = internallink|conjunction=<br />|separation=<br />}}
+| label8 = {{Infobox medical condition/localize|Medical examination}}
+| data8 = {{#invoke:Wikidata | claim | property=P923|formatting = internallink|conjunction=<br />|separation=<br />}}
+| label9 = {{Infobox medical condition/localize|Age of onset}}
+| data9 = {{#invoke:Wikidata | claim | property=P2841|formatting = internallink}}
+| label10 = {{Infobox medical condition/localize|Chromosome}}
+| data10 = {{#invoke:Wikidata | claim | property=P1057|formatting = internallink}}
+| label11 = {{Infobox medical condition/localize|Genetic association}}
+| data11 = {{#invoke:Wikidata | claim | property=P2293|formatting = internallink}}
+| label12 = {{Infobox medical condition/localize|Named after}}
+| data12 = {{#invoke:Wikidata | claim | property=P138|formatting = internallink}}
+
+| header20 = {{#if:{{#Property:P2176|from={{{item|}}}}}|{{Infobox medical condition/localize|Treatment}}}}
+| label21 = {{Infobox medical condition/localize|Medications that can be used}}
+| data21 = {{#invoke:Wikidata | claim | property=P2176|formatting = internallink}}
+
+| header30 = {{Infobox medical condition/localize|Identifiers}}
+| label31     = {{Infobox medical condition/localize|ICD}}-{{Infobox medical condition/localize|ICD-10-CM}}
+| data31      = {{{ICD10|{{#invoke:Wikidata | claim | property=P4229|formatting = [http://apps.who.int/classifications/icd10/browse/2010/en#/$1 $1]}}}}}
+
+| label32     = {{Infobox medical condition/localize|ICD}}-{{Infobox medical condition/localize|ICD-9-CM}}
+| data32      = {{{ICD9|{{#invoke:Wikidata | claim | property=P1692|formatting = [http://www.icd9data.com/getICD9Code.ashx?icd9=$1 $1]}}}}}
+
+| label33     = {{Infobox medical condition/localize|ICD}}-{{Infobox medical condition/localize|ICD-10}}
+| data33     = {{{ICD10|{{#invoke:Wikidata | claim | property=P494|formatting = [http://apps.who.int/classifications/icd10/browse/2010/en#/$1 $1]}}}}}
+
+| label34     = {{Infobox medical condition/localize|ICD}}-{{Infobox medical condition/localize|ICD-9}}
+| data34      = {{{ICD9|{{#invoke:Wikidata | claim | property=P493|formatting = [http://www.icd9data.com/getICD9Code.ashx?icd9=$1 $1]}}}}}
+
+| label35     = {{Infobox medical condition/localize|ICD-O}}
+| data35      = {{{ICDO|{{#invoke:Wikidata | claim | property=P563|formatting = [http://www.progenetix.org/cgi-bin/subsets.cgi?project=progenetix&subsetType=ICDM&ICDMcodes_m=$1 $1]}}}}}
+
+| label36     = [[OMIM]]
+| data36     = {{#if:{{{OMIM|}}}|[http://omim.org/entry/{{{OMIM}}} {{{OMIM}}}] {{{OMIM_mult|}}}|{{#invoke:Wikidata | claim | property=P492|formatting = [https://omim.org/entry/$1 $1]}} }}
+
+| label37     = [[Diseases Database|DiseasesDB]]
+| data37     = {{#if:{{{DiseasesDB|}}}|[http://www.diseasesdatabase.com/ddb{{{DiseasesDB}}}.htm {{{DiseasesDB}}}] {{{DiseasesDB_mult|}}}|{{#invoke:Wikidata | claim | property=P557|formatting = [http://www.diseasesdatabase.com/ddb$1.htm $1]}} }}
+
+| label38     = [[MedlinePlus]]
+| data38     = {{#if:{{{MedlinePlus|}}}|[http://www.nlm.nih.gov/medlineplus/ency/article/{{{MedlinePlus}}}.htm {{{MedlinePlus}}}]  {{{MedlinePlus_mult|}}}|{{#invoke:Wikidata | claim | property=P604|formatting = [https://www.nlm.nih.gov/medlineplus/ency/article/$1.htm $1]}} }}
+
+| label39     = [[eMedicine]]
+| data39      = {{#if:{{{eMedicineSubj|}}}|{{#ifeq:{{{eMedicineSubj|}}}|search|[http://search.medscape.com/emedicine-search?queryText={{{eMedicineTopic}}} topic list]|{{#ifeq:{{{eMedicineSubj|}}}|article|[http://emedicine.medscape.com/article/{{{eMedicineTopic}}}-overview|[http://www.emedicine.com/{{{eMedicineSubj}}}/topic{{{eMedicineTopic}}}.htm}} {{{eMedicineSubj}}}/{{{eMedicineTopic}}}]}} {{{eMedicine_mult|}}}|{{#invoke:Wikidata | claim | property=P604|formatting = [http://emedicine.medscape.com/article/$1 $1]}} }}
+
+
+
+| label40     = [[Medical Subject Headings|MeSH]]
+| data40      = {{#if:  {{{MeshID|}}}{{{MeSH|}}}{{{MeSH1|}}} | {{mesh2|{{{MeshID|{{{MeSH|{{{MeSH1}}}}}}}}}| year= {{{MeshYear|{{{MeshYear1|}}}}}} }} }}<!--
+            -->{{#if: {{{MeSH2|}}} | {{#if: {{{MeshID|}}}{{{MeSH|}}}{{{MeSH1|}}} | , }} {{mesh2|{{{MeSH2|}}}|year={{{MeshYear2|}}}}} }}<!--
+            -->{{#if: {{{MeSH3|}}} | {{#if: {{{MeshID|}}}{{{MeSH|}}}{{{MeSH1|}}}{{{MeSH2|}}} | , }} {{mesh2|{{{MeSH3|}}}|year={{{MeshYear3|}}}}} }}<!--
+            -->{{#if: {{{MeSH4|}}} | {{#if: {{{MeshID|}}}{{{MeSH|}}}{{{MeSH1|}}}{{{MeSH2|}}}{{{MeSH3|}}} | , }} {{mesh2|{{{MeSH4|}}}|year={{{MeshYear4|}}}}} }}<!--
+            -->{{#if: {{{MeSH5|}}} | {{#if: {{{MeshID|}}}{{{MeSH|}}}{{{MeSH1|}}}{{{MeSH2|}}}{{{MeSH3|}}}{{{MeSH4|}}} | , }} {{mesh2|{{{MeSH5|}}}|year={{{MeshYear5|}}}}} }}<!--
+            -->{{#if: {{{MeSH6|}}} | {{#if: {{{MeshID|}}}{{{MeSH|}}}{{{MeSH1|}}}{{{MeSH2|}}}{{{MeSH3|}}}{{{MeSH4|}}}{{{MeSH5|}}} | , }} {{mesh2|{{{MeSH6|}}}|year={{{MeshYear6|}}}}} }}<!--
+            -->{{#if: {{{MeSH7|}}} | {{#if: {{{MeshID|}}}{{{MeSH|}}}{{{MeSH1|}}}{{{MeSH2|}}}{{{MeSH3|}}}{{{MeSH4|}}}{{{MeSH5|}}}{{{MeSH6|}}} | , }} {{mesh2|{{{MeSH7|}}}|year={{{MeshYear7|}}}}} }}<!--
+            -->{{#if: {{{MeSH8|}}} | {{#if: {{{MeshID|}}}{{{MeSH|}}}{{{MeSH1|}}}{{{MeSH2|}}}{{{MeSH3|}}}{{{MeSH4|}}}{{{MeSH5|}}}{{{MeSH6|}}}{{{MeSH7|}}} | , }} {{mesh2|{{{MeSH8|}}}|year={{{MeshYear8|}}}}} }}<!--
+            -->{{#if: {{{MeSH9|}}} | {{#if: {{{MeshID|}}}{{{MeSH|}}}{{{MeSH1|}}}{{{MeSH2|}}}{{{MeSH3|}}}{{{MeSH4|}}}{{{MeSH5|}}}{{{MeSH6|}}}{{{MeSH7|}}}{{{MeSH8|}}} | , }} {{mesh2|{{{MeSH9|}}}|year={{{MeshYear9|}}}}} }}<!--
+            -->{{#if: {{{MeshName|}}} | {{#if: {{{MeshID|}}}{{{MeSH|}}}{{{MeSH1|}}}{{{MeSH2|}}}{{{MeSH3|}}}{{{MeSH4|}}}{{{MeSH5|}}}{{{MeSH6|}}}{{{MeSH7|}}}{{{MeSH8|}}}{{{MeSH9|}}} | , }} ''{{mesh2 | name = {{{MeshName}}} | number = {{{MeshNumber|}}} }}''|{{#invoke:Wikidata | claim | property=P486|formatting = [https://meshb.nlm.nih.gov/#/record/ui?ui=$1 $1]}}}}
+
+| label41     = [[GeneReviews]]
+| class41     = plainlist
+| data41     = {{#if:{{{GeneReviewsNBK|}}}{{{GeneReviewsNBK1|}}}| 
+* {{NCBIBook2|{{{GeneReviewsNBK|{{{GeneReviewsNBK1}}}}}}|{{{GeneReviewsName|{{{GeneReviewsName1|}}}}}}}}|{{#if: {{{GeneReviewsID|}}}| 
+* [http://www.ncbi.nlm.nih.gov/books/n/gene/{{{GeneReviewsID}}}/ {{#if: {{{GeneReviewsName|}}}|{{{GeneReviewsName}}}|{{{GeneReviewsID}}}}}]}}}}{{#if: {{{GeneReviewsNBK2|}}}| 
+* {{NCBIBook2|{{{GeneReviewsNBK2}}}|{{{GeneReviewsName2|}}}}}}}{{#if: {{{GeneReviewsNBK3|}}}| 
+* {{NCBIBook2|{{{GeneReviewsNBK3}}}|{{{GeneReviewsName3|}}}}}}}{{#if: {{{GeneReviewsNBK4|}}}| 
+* {{NCBIBook2|{{{GeneReviewsNBK4}}}|{{{GeneReviewsName4|}}}}}}}{{#if: {{{GeneReviewsNBK5|}}}| 
+* {{NCBIBook2|{{{GeneReviewsNBK5}}}|{{{GeneReviewsName5|}}}}}}}{{#if: {{{GeneReviewsNBK6|}}}| 
+* {{NCBIBook2|{{{GeneReviewsNBK6}}}|{{{GeneReviewsName6|}}}}}}}{{#if: {{{GeneReviewsNBK7|}}}| 
+* {{NCBIBook2|{{{GeneReviewsNBK7}}}|{{{GeneReviewsName7|}}}}}
+|{{#invoke:Wikidata | claim | property=P668|formatting = [https://www.ncbi.nlm.nih.gov/books/$1 $1]}}
+}}
+
+| label42     = [[PubMed]]
+| data42       = {{{PubMed|{{#invoke:Wikidata | claim | property=P698|formatting = [https://www.ncbi.nlm.nih.gov/pubmed/?term=$1 $1]}}}}}
+
+| label43     = [[Disease Ontology ID]]
+| data43      = {{{PubMed|{{#invoke:Wikidata | claim | property=P699|formatting = [http://disease-ontology.org/term/$1 $1]}}}}}
+
+}}<noinclude>
+Template localization:
+*[[Template:Infobox medical condition/localize]].
+{{Documentation}}
+</noinclude>
