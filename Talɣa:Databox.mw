@@ -1,0 +1,29 @@
+{{#switch:{{#invoke:Categorizer|find|item={{{1|}}}}}
+| language = {{Databox language}}
+| language family = {{Databox language family}}
+| human = {{Infobox biography|item={{{1|}}}}}
+| taxon = {{Automatic taxobox}}
+| taxon common name = {{Automatic taxobox|item={{#invoke:Wikidata|claim|property=P31|qualifier=P642|list=false|formatting=raw}}}}
+| country = {{Infobox country}}
+| city = {{Infobox city|item={{{1|}}}}} 
+| musical band = {{Infobox musical artist}} 
+| album | tv | book | intellectual work = {{Infobox intellectual work}} 
+| script = {{Databox writing system}} 
+| religion = {{Infobox religion}}
+| physical geography = {{Infobox physical geography}} 
+| orography = {{Infobox physical geography|category=orography}}
+| hydrography = {{Infobox physical geography|category=hydrography}}
+| software = {{Infobox software}}
+| disease = {{Infobox medical condition}}
+| website = {{Infobox website}}
+| school | organization = {{Infobox organization}}
+| building = {{Infobox building}}
+| chemical = {{Infobox chemical}}
+| year = {{Year nav}}
+| event = {{Infobox event}}
+| grapheme = {{Infobox grapheme}}
+| astronomical object = {{Infobox astronomical object}}
+<!-- Infobox programming language -->
+<!-- Infobox software -->
+| #default = {{Databox generic}} [[Category:Articles using generic infobox]]
+}}
