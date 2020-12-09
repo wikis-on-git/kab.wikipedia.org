@@ -1,5 +1,6 @@
 <includeonly>{{Infobox writing system
  |name={{PAGENAMEBASE}}
+ |qtype= {{#invoke:Wikidata|claim|property=P31|list=false|formatting=raw}}
  |type= {{#invoke:Wikidata|claim|property=P31|list=false}}
  |languages= {{#invoke:Wikidata|claim|property=P407}}
  |time=
