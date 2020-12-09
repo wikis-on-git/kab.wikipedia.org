@@ -4,14 +4,14 @@
 |headerstyle = background-color: #99c;
 <!-- HERE YOU CAN INSERT A FLAG TEMPLATE OR NOT, DEPENDING ON YOUR COMMUNITY GUIDELINES -->
 |subheader = 
-{{#if:{{#Property:P17}}|{{flagcountry|{{#invoke:Wikidata|claim|property=P17|list=false|lang=en|formatting=label}}}}}}
+{{#if:{{#Property:P17|from={{{item|}}}}}|{{flagcountry|{{#invoke:Wikidata|claim|property=P17|list=false|lang=en|formatting=label}}}}}}
 |image = {{#invoke:Wikidata|claim|property=P18|formatting=[[File:$1|280px]]|value={{{image|}}}|list=false}}
 |caption = {{#invoke:Wikidata|claim|property=P18|qualifier=P2096|formatting=table|value={{{caption|}}}|rowformat=$1}}
-|image2 = {{#if:{{{flag|}}}{{{coatofarms|}}}{{#Property:P41}}{{#Property:P94}}|
+|image2 = {{#if:{{{flag|}}}{{{coatofarms|}}}{{#Property:P41|from={{{item|}}}}}{{#Property:P94|from={{{item|}}}}}|
 <table style="width: 100%; border: none; font-size: 90%;">
 <tr style="vertical-align:top;">
-{{#if:{{{flag|}}}{{#Property:P41}}|<td>[[File:{{#invoke:Wikidata|claim|property=P41|formatting=raw|list=false|value={{{flag|}}} }}|120x90px]]</td>}}
-{{#if:{{{coatofarms|}}}{{#Property:P94}}|<td>[[File:{{#invoke:Wikidata|claim|property=P94|formatting=raw|list=false|value={{{coatofarms|}}}}}|75x75px]]</td>}}
+{{#if:{{{flag|}}}{{#Property:P41|from={{{item|}}}}}|<td>[[File:{{#invoke:Wikidata|claim|property=P41|formatting=raw|list=false|value={{{flag|}}} }}|120x90px]]</td>}}
+{{#if:{{{coatofarms|}}}{{#Property:P94|from={{{item|}}}}}|<td>[[File:{{#invoke:Wikidata|claim|property=P94|formatting=raw|list=false|value={{{coatofarms|}}}}}|75x75px]]</td>}}
 </tr>
 </table>
 }}
@@ -19,7 +19,7 @@
 
 <!--- WE CAN INSERT BY HAND THE COUNTRY, STATE, PROVINCE AND SUBPROVINCE WITH THEIR NAMES, IF WE WANT OR WE WANT TO GIVE BACKWARDS COMPATIBILITY TO OTHER TEMPLATE--->
 |label2 = {{{kind of country|{{Infobox city/localize|Country}} }}}
-|data2 = {{#if:{{{country|}}}{{{province|}}}|{{#if:{{{country|}}}|{{flag|{{{country}}}}}|{{flag|{{#Property:P17}} }} {{#Property:P17}} }} }}
+|data2 = {{#if:{{{country|}}}{{{province|}}}|{{#if:{{{country|}}}|{{flag|{{{country}}}}}|{{flag|{{#Property:P17|from={{{item|}}}}} }} {{#Property:P17|from={{{item|}}}}} }} }}
 |label3 = {{Infobox city/localize|State}}
 |data3 = {{#if:{{{state|}}}|{{{state}}}}}
 |label4 = {{{kind of province|{{Infobox city/localize|Province}} }}}
@@ -39,15 +39,15 @@
 |label11 = {{Infobox city/localize|Nickname}}
 |data11 = {{#if:{{{nickname|}}}|{{{nickname}}}}}
 |label12 = {{Infobox city/localize|Postal code}}
-|data12 = {{#if:{{#property:P281}}|<code>{{#invoke:Wikidata|claim|property=P281|formatting=label}}</code>}}
+|data12 = {{#if:{{#property:P281|from={{{item|}}}}}|<code>{{#invoke:Wikidata|claim|property=P281|formatting=label}}</code>}}
 
 <!--- GEOGRAPHY BLOCK. YOU CAN USE :eu:Template:cal_coor and its subtemplates for easy automatic insertion of coordinates EVERYWHERE --->
 |header20 = {{Infobox city/localize|Geography}}
-|label21 = {{#if:{{#property:P625}}|{{Infobox city/localize|Coordinates}} }}
-|data21 = {{#if:{{#property:P625}}|{{cal coor|display=inline,title|format=dms}}}}
+|label21 = {{#if:{{#property:P625|from={{{item|}}}}}|{{Infobox city/localize|Coordinates}} }}
+|data21 = {{#if:{{#property:P625|from={{{item|}}}}}|{{cal coor|display=inline,title|format=dms}}}}
 
 <!--- THIS CODE INSERTS AN AUTOMATIC LOCATION MAP. YOU WILL NEED LOCATION MAP TEMPLATES. IF YOU USE KARTOGRAPHER EXTENSION, YOU CAN MAKE IT IN OTHER WAYS --->
-|data22 = {{#if:{{#property:P625}}|
+|data22 = {{#if:{{#property:P625|from={{{item|}}}}}|
 {{#if:{{{place|}}}|{{Location map|{{{place}}}|label={{{label|{{PAGENAMEBASE}}}}}|float=center|width=280px}}
 |
 {{Location map|{{#invoke:Wikidata|claim|property=P17|list=false|lang=en|formatting=label}}|label={{{label|{{PAGENAMEBASE}}}}}|float=center|width=280px}}}}
@@ -57,7 +57,7 @@
 <!--- FOR CALCULATING AREA AND DENSITY WE USE THE CONVERT TEMPLATE AND MODULE. YOU CAN FIND THEM IN MOST WIKIPEDIAS. IT CHANGES AREAS TO SQUARE KILOMETRES INDEPENDENTLY FROM THE ORIGINAL UNIT -->
 
 |label24 = {{Infobox city/localize|Area}}
-|data24 = {{#if:{{#Property:P2046}}|{{#invoke:Wikidata|claim|item={{{item|}}}|property=P2046|list=false|formatting=unitcode}} }}
+|data24 = {{#if:{{#Property:P2046|from={{{item|}}}}}|{{#invoke:Wikidata|claim|item={{{item|}}}|property=P2046|list=false|formatting=unitcode}} }}
 |label25 = {{Infobox city/localize|Altitude}}
 |data25 = {{#invoke:Wikidata|claim|property=P2044|formatting=unitcode|value={{{altitude|}}}}}
 |label26 = {{Infobox city/localize|Borders with}}
@@ -66,7 +66,7 @@
 <!--- DEMOGRAPHY --->
 |header30 =  {{#if:{{#Property:P1082|from={{{item|}}}}}|{{Infobox city/localize|Demography}}}}
 |label31 = {{Infobox city/localize|Population}}
-|data31 = {{#if:{{{population|{{#property:P1082}}}}}<!--
+|data31 = {{#if:{{{population|{{#property:P1082|from={{{item|}}}}}}}}<!--
 ---------->|{{#invoke:Wikidata|claim|property=P1082|list=false|value={{formatnum:{{{population|}}}}}}}  {{Infobox city/localize|inhabitants}}<!--
 ----------->{{#if:{{#invoke:Wikidata|claim|property=P1082|qualifier=P585|list=false|value={{{year|}}}}}<!--
 ------------>|&nbsp;<small>({{#invoke:Wikidata|claim|property=P1082|qualifier=P585|list=false|value={{{year|}}}}})</small><!--
@@ -75,8 +75,8 @@
 |label33 = {{Infobox city/localize|Density}}
 |data33 = {{#if:{{{density|}}}
 |{{{density}}} {{Infobox city/localize|inhabitants/km²}}
-|{{#if:{{#Property:P2046}}
-|{{#if:{{#Property:P1082}}
+|{{#if:{{#Property:P2046|from={{{item|}}}}}
+|{{#if:{{#Property:P1082|from={{{item|}}}}}
 |{{formatnum:
 {{#expr:
 {{formatnum:{{#invoke:Wikidata|claim|property=P1082|formatting=label|list=false}}|R}}
@@ -90,7 +90,7 @@ round2}}
 |data35 = {{#invoke:Wikidata|claim|property=P1538|list=false}}
 
 <!--- OTHER INFORMATION-->
-|header40 = {{#if:{{#property:P473}}{{#Property:P473}}{{#Property:P190}}{{#Property:P421}}{{#Property:P571}}|{{Infobox city/localize|Other information}}}}
+|header40 = {{#if:{{#property:P473|from={{{item|}}}}}{{#Property:P473|from={{{item|}}}}}{{#Property:P190|from={{{item|}}}}}{{#Property:P421|from={{{item|}}}}}{{#Property:P571|from={{{item|}}}}}|{{Infobox city/localize|Other information}}}}
 
 |label45 = {{Infobox city/localize|Foundation}}
 |data45 = {{#invoke:Wikidata|claim|property=P571|formatting=label|value={{{foundation|}}}}}
