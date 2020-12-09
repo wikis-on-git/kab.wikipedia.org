@@ -1,0 +1,66 @@
+{{#if:{{#Property:P242|from={{{item|}}}}}
+|{{#invoke:Wikidata|claim|property=P242|formatting=[[image:$1|285px]]|list=false}}
+|{{#if:{{#invoke:Wikidata|claim|property=P885|qualifier=P625|formatting=table|rowformat=$1|colformat1=latitude}}
+|{{#if:{{#invoke:Wikidata|claim|property=P403|qualifier=P625|formatting=table|rowformat=$1|colformat1=latitude}}
+|{{Map draw
+|width=280
+|height=250
+|frameless=s
+|align=center
+|stroke-width2=0.5
+|title={{PAGENAME}}
+|image={{#invoke:Wikidata | claim | property=P18|formatting=$1|item=Q13712}}
+|marker-symbol1=marker-stroked
+|marker-symbol2=marker
+|marker-color=#1E90FF
+|coordinates1={{#invoke:Wikidata|claim|property=P885|qualifier=P625|formatting=table|rowformat=$1|colformat1=latitude}},{{#invoke:Wikidata|claim|property=P885|qualifier=P625|formatting=table|rowformat=$1|colformat1=longitude}}
+|coordinates2={{#invoke:Wikidata|claim|property=P403|qualifier=P625|formatting=table|rowformat=$1|colformat1=latitude}},{{#invoke:Wikidata|claim|property=P403|qualifier=P625|formatting=table|rowformat=$1|colformat1=longitude}}
+}}
+}}
+|{{#if:{{#invoke:Wikidata | claim |formatting = table | property=P625 |qualifier=P518 |whitelist1=Q7376362| rowformat = $0  |colformat0=latitude}}
+|{{#if:{{#invoke:Wikidata | claim |formatting = table | property=P625 |qualifier=P518 |whitelist1=Q1233637| rowformat = $0  |colformat0=latitude}}
+|{{Map draw
+|width=280
+|height=250
+|frameless=s
+|align=center
+|stroke-width2=0.5
+|title={{PAGENAME}}
+|image={{#invoke:Wikidata | claim | property=P18|formatting=$1|item=Q13712}}
+|marker-symbol1=marker-stroked
+|marker-symbol2=marker
+|marker-color=#1E90FF
+|coordinates1={{#invoke:Wikidata | claim |formatting = table | property=P625 |qualifier=P518 |whitelist1=Q7376362| rowformat = $0  |colformat0=latitude}},{{#invoke:Wikidata | claim |formatting = table | property=P625 |qualifier=P518 |whitelist1=Q7376362| rowformat = $0  |colformat0=longitude}}
+|coordinates2={{#invoke:Wikidata | claim |formatting = table | property=P625 |qualifier=P518 |whitelist1=Q1233637| rowformat = $0  |colformat0=latitude}},{{#invoke:Wikidata | claim |formatting = table | property=P625 |qualifier=P518 |whitelist1=Q1233637| rowformat = $0  |colformat0=longitude}}
+}}
+}}
+|{{#if:{{#property:P625|from={{{item|}}}}}|{{#if:{{{code2|}}}|{{Location map|{{{code2}}}|label={{{label|{{PAGENAME}}}}}|float=center|width=280px}}|{{#if:{{{location|}}}|{{Location map|{{{location}}}|label={{{label|{{PAGENAME}}}}}|float=center|width=280px}}|
+{{Map draw
+|width=280
+|height=250
+|zoom=8
+|frameless=s
+|align=center
+|geotype2=geoshape
+|stroke-width2=0.5
+|fill2=#F5A9A9
+|opacity2=0.33
+|title2={{PAGENAME}}
+|image2={{#invoke:Wikidata | claim | property=P18|formatting=$1}}
+|geotype3=geomask
+|ids3={{#invoke:Wikidata|claim|property=P131|formatting=raw|list=false}}
+|fill-opacity3=0.33|stroke-width3=0.5
+|fill3=#FFFFE0
+|title={{PAGENAME}}
+|image={{#invoke:Wikidata | claim | property=P18|formatting=$1}}
+|marker-symbol={{Map draw/icon}}
+|marker-color=#1E90FF
+|latitude={{#invoke:Wikidata|claim|property=P625|formatting=latitude|list=false}}
+|longitude={{#invoke:Wikidata|claim|property=P625|formatting=longitude|list=false}}
+}}
+}}
+}}
+}}
+}}
+}}
+}}
