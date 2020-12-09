@@ -22,7 +22,7 @@
 | chemical = {{Infobox chemical|item={{{1|}}}}}
 | year = {{Year nav}}
 | event = {{Infobox event}}
-| grapheme = {{Infobox grapheme}}
+| grapheme = {{Infobox grapheme|item={{{1|}}}}}
 | astronomical object = {{Infobox astronomical object}}
 <!-- Infobox programming language -->
 <!-- Infobox software -->
