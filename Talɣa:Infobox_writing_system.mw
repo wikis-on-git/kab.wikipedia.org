@@ -6,8 +6,8 @@
 | abovestyle =
        padding:0.25em;
     background:{{#switch:{{lc:{{{qtype|{{{type|}}}}}}}}
-                |abjad|[[abjad]]|impure abjad|impure [[abjad]]|consonantary|[[consonantary]]=palegreen
-                |alphabet|[[alphabet]]=lightblue   |abugida|[[abugida]]=navajowhite
+                |q185087|abjad|[[abjad]]|impure abjad|impure [[abjad]]|consonantary|[[consonantary]]=palegreen
+                |q9779|alphabet|[[alphabet]]=lightblue   |abugida|[[abugida]]=navajowhite
                 |syllabary|[[syllabary]]=pink      |semisyllabary|[[semisyllabary]]=magenta
                 |manual|[[manual]]=paleturquoise   |pictographic|[[pictographic]]=palegoldenrod
                 |ideographic|[[ideographic]]=gold  |logographic|[[logographic]]|[[logosyllabic]]=mistyrose
