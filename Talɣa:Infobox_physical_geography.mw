@@ -9,7 +9,7 @@
 | imagestyle  = padding: 0.2em 0.2em 0.2em 0.2em;
 | captionstyle = padding: 0.2em 0em;
 
-|above = {{{name|{{PAGENAME}}}}}
+|above = {{{name|{{PAGENAMEBASE}}}}}
 |subheader = {{#if:{{{local name|}}}|{{{local name}}}}}
 
 |image1 = {{#if:{{{image|}}}|[[Image:{{{image}}}|285px]]|{{#if:{{#Property:P10|from={{{item|}}}}}|{{#invoke:Wikidata | claim | property=P10|formatting=[[Image:$1|285px]]|list=false}}|{{#invoke:Wikidata | claim | property=P18|formatting=[[Image:$1|285px]]|list=false}}}}}}{{#invoke:Wikidata | claim | property=P2096|formatting=<br/> $1|list=false}}
