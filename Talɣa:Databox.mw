@@ -21,7 +21,7 @@
 | building = {{Infobox building}}
 | chemical = {{Infobox chemical|item={{{1|}}}}}
 | year = {{Year nav}}
-| event = {{Infobox event}}
+| event = {{Infobox event|item={{{1|}}}}}
 | grapheme = {{Infobox grapheme|item={{{1|}}}}}
 | astronomical object = {{Infobox astronomical object|item={{{1|}}}}}
 <!-- Infobox programming language -->
