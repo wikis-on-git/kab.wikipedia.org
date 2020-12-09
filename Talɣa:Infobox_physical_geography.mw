@@ -1,0 +1,107 @@
+<includeonly>{{Infobox
+| bodyclass   = vcard
+| bodystyle   = line-height:normal; width:23.5em;
+| abovestyle  = {{Infobox physical geography/color|{{{category|}}}}}
+| aboveclass  = fn org
+| headerstyle = {{Infobox physical geography/color|{{{category|}}}}}
+| labelstyle  = padding-right:1.2em; background:#eeeeee; text-align:start
+| datastyle   = padding: 0.2em 0em; vertical-align:text-top;
+| imagestyle  = padding: 0.2em 0.2em 0.2em 0.2em;
+| captionstyle = padding: 0.2em 0em;
+
+|above = {{{name|{{PAGENAME}}}}}
+|subheader = {{#if:{{{local name|}}}|{{{local name}}}}}
+
+|image1 = {{#if:{{{image|}}}|[[Image:{{{image}}}|285px]]|{{#if:{{#Property:P10|from={{{item|}}}}}|{{#invoke:Wikidata | claim | property=P10|formatting=[[Image:$1|285px]]|list=false}}|{{#invoke:Wikidata | claim | property=P18|formatting=[[Image:$1|285px]]|list=false}}}}}}{{#invoke:Wikidata | claim | property=P2096|formatting=<br/> $1|list=false}}
+|caption = {{#if:{{{caption|}}}|{{{caption}}}}}
+
+|header1 = {{#if:{{#Property:P2044|from={{{item|}}}}}{{#Property:P2620|from={{{item|}}}}}{{#Property:P625|from={{{item|}}}}}{{#Property:P2660|from={{{item|}}}}}{{#Property:P2043|from={{{item|}}}}}{{#Property:P2046|from={{{item|}}}}}{{#Property:P2049|from={{{item|}}}}}{{#Property:P138|from={{{item|}}}}}{{#Property:P2348|from={{{item|}}}}}{{#Property:P3020|from={{{item|}}}}}|{{Infobox physical geography/localize|General information}}}}
+|label2 = {{Infobox physical geography/localize|Highest point}}
+|data2 = {{#invoke:Wikidata | claim | property=P610|formatting = internallink|separator=<br />|conjunction=<br />}}
+|label3 = {{Infobox physical geography/localize|Elevation above sea level}}
+|data3 = {{#invoke:Wikidata | claim | property=P2044|formatting = unitcode|list=false}}
+|label4 = {{Infobox physical geography/localize|Topographic prominence}}
+|data4 = {{#invoke:Wikidata | claim | property=P2660|formatting = unitcode|separator=<br />|conjunction=<br />|list=false}}
+|label5 = {{Infobox physical geography/localize|Type}}
+|data5 = {{{type|}}}
+|label6 = {{Infobox physical geography/localize|Length}}
+|data6 = {{#invoke:Wikidata | claim | property=P2043|formatting = unitcode|separator=<br />|conjunction=<br />}}
+|label7 = {{Infobox physical geography/localize|Width}}
+|data7 = {{#invoke:Wikidata | claim | property=P2049|formatting = unitcode|separator=<br />|conjunction=<br />}}
+|label8 = {{Infobox physical geography/localize|Area}}
+|data8 = {{#invoke:Wikidata | claim | property=P2046|formatting = unitcode|separator=<br />|conjunction=<br />}}
+|label9 = {{Infobox physical geography/localize|Diameter}}
+|data9 = {{#invoke:Wikidata | claim | property=P2386|formatting = unitcode|separator=<br />|conjunction=<br />}}
+|label10 = {{Infobox physical geography/localize|Vertical depth}}
+|data10 = {{#invoke:Wikidata | claim | property=P4511|formatting = unitcode|separator=<br />|conjunction=<br />}}
+|label11 = {{Infobox physical geography/localize|Volume}}
+|data11 = {{#invoke:Wikidata | claim | property=P2234|formatting = unitcode|separator=<br />|conjunction=<br />}}
+|label19 = {{Infobox physical geography/localize|Named after}} 
+|data19 = {{#invoke:Wikidata | claim | property=P138|formatting = internallink|separator=<br />|conjunction=<br />}}
+
+
+|header20 = {{Infobox physical geography/localize|Geography}}
+|data21 = {{Infobox physical geography/location}}
+|label22 = {{#if:{{#property:P625|from={{{item|}}}}}|{{Infobox physical geography/localize|Geographic coordinate system}} }}
+|data22 = {{#if:{{#property:P625|from={{{item|}}}}}|{{cal coor|globe:Earth|region:{{{kodea2}}}_type:peak|display=inline,title}}}}
+
+|label24 = {{Infobox physical geography/localize|Part of}}
+|data24 = {{#invoke:Wikidata | claim | property=P361|formatting = internallink|separator=<br />|conjunction=<br />|value={{{part of|}}}}}
+|label25 = {{Infobox physical geography/localize|Mountain range}}
+|data25 = {{#invoke:Wikidata | claim | property=P4552|formatting = internallink|separator=<br />|conjunction=<br />|value={{{mountain range|}}}}}
+|label26 = {{Infobox physical geography/localize|Location}}
+|data26 = {{#invoke:Wikidata | claim | property=P276|formatting = internallink|separator=<br />|conjunction=<br />|value={{{location|}}}}}
+|label27 = {{Infobox physical geography/localize|Country}}
+|data27 = {{#invoke:Wikidata | claim | property=P17|formatting = internallink |value={{{country|}}}}}
+|label28 = {{Infobox physical geography/localize|Territory}}
+|data28 = {{#invoke:Wikidata | claim | property=P131|formatting = internallink |value={{{territory|}}}}}
+|label29 = {{Infobox physical geography/localize|Protected area}}
+|data29 = {{#invoke:Wikidata | claim | property=P3018|formatting = internallink|separator=<br />|conjunction=<br />|value={{{protected area|}}}}}
+|label30 = {{Infobox physical geography/localize|Flanked by}} 
+|data30 = {{#invoke:Wikidata | claim | property=P206|formatting = internallink|separator=<br />|conjunction=<br />|value={{{flanked by|}}}}}
+|label31 =  {{Infobox physical geography/localize|Located on terrain feature}}
+|data31 = {{#invoke:Wikidata | claim | property=P706|formatting = internallink|separator=<br />|conjunction=<br />|value={{{located on terrain feature|}}}}}
+|label32 = {{Infobox physical geography/localize|Fault}}
+|data32 = {{#invoke:Wikidata | claim | property=P5095|formatting = internallink|separator=<br />|conjunction=<br />|value={{{fault|}}}}}
+
+|header40 = {{#if:{{#property:P206|from={{{item|}}}}}{{#Property:P974|from={{{item|}}}}}{{#Property:P200|from={{{item|}}}}}{{#Property:P201|from={{{item|}}}}}{{#Property:P469|from={{{item|}}}}}{{#Property:P2225|from={{{item|}}}}}{{#Property:P3020|from={{{item|}}}}}{{#Property:P2053|from={{{item|}}}}}{{#Property:P4614|from={{{item|}}}}}{{#Property:P469|from={{{item|}}}}}|{{Infobox physical geography/localize|Hydrography}} }}
+|label41 = {{Infobox physical geography/localize|Tributary}}
+|data41 = {{#if:{{#Property:P974|from={{{item|}}}}}|{{Collapsible list|title={{Infobox physical geography/localize|see}}|{{#invoke:Wikidata | claim | property=P974|formatting = internallink|separator=<br />|conjunction=<br />|value={{{tributary|}}}}}}}}}
+|label42 = {{Infobox physical geography/localize|Lake inflows}}
+|data42 = {{#if:{{#Property:P200|from={{{item|}}}}}|{{Collapsible list|title={{Infobox physical geography/localize|see}}|{{#invoke:Wikidata | claim | property=P200|formatting = internallink|separator=<br />|conjunction=<br />|value={{{lake inflows|}}}}}}}}}
+|label43 = {{Infobox physical geography/localize|Lake outflow}}
+|data43 = {{#invoke:Wikidata | claim | property=P201|formatting = internallink|separator=<br />|conjunction=<br />|value={{{lake outflow|}}}}}
+|label44 = {{Infobox physical geography/localize|Residence time of water}}
+|data44 = {{#invoke:Wikidata | claim | property=P3020|formatting = unitcode}}
+|label45 = {{Infobox physical geography/localize|Watershed area}}
+|data45 = {{#invoke:Wikidata | claim | property=P2053|formatting = unitcode}}
+|label46 = {{Infobox physical geography/localize|Drainage basin}} 
+|data46 = {{#invoke:Wikidata | claim | property=P4614|formatting = internallink}}
+|label47 = {{Infobox physical geography/localize|Lakes}}
+|data47 = {{#invoke:Wikidata | claim | property=P469|formatting = internallink}}
+|label48 = {{Infobox physical geography/localize|Origin of the watercourse}}
+|data48 = {{#invoke:Wikidata | claim | property=P885|formatting = internallink}}
+|label49 = {{Infobox physical geography/localize|Mouth of the watercourse}}
+|data49 = {{#invoke:Wikidata | claim | property=P403|formatting = internallink}}
+
+|header50 = {{#if:{{#Property:P793|from={{{item|}}}}}{{{ohiko bidea|}}}{{{mendikat|}}}{{{luberri|}}}{{{mapa|}}}|{{Infobox physical geography/localize|Mountaineering}}}}
+|label51 = {{Infobox physical geography/localize|First ascent}}
+
+|data51 = {{#invoke:Wikidata | claim | property=P793|qualifier=P585|qualifier2=P710|formatting = $1 $2|rowsubformat2=<br />$2|value={{{first ascent|}}}}}
+
+|label53 = Mendikat
+|data53 = {{#if:{{{mendikat|}}}|[http://www.mendikat.net/monte.php?numero={{{mendikat}}} Mendikat]}}
+|label54 = Luberri
+|data54 = {{#if:{{{luberri|}}}|[http://luberri.net/node/{{{luberri}}} Luberri]}}
+
+|header60 = {{#if:{{#Property:P186|from={{{item|}}}}}{{#Property:P2348|from={{{item|}}}}}|{{Infobox physical geography/localize|Geology}} }}
+|label61 = {{Infobox physical geography/localize|Base material}}
+|data61 = {{#invoke:Wikidata | claim | property=P186|formatting = internallink|separator=<br />|conjunction=<br />}}
+|label62 = {{Infobox physical geography/localize|Geological period}}
+|data62 = {{#invoke:Wikidata | claim | property=P2348|formatting = internallink|separator=<br />|conjunction=<br />|value={{{period|}}}}}
+|label63 = {{Infobox physical geography/localize|Cause}}
+|data63 = {{#invoke:Wikidata | claim | property=P828|formatting = internallink|separator=<br />|conjunction=<br />|value={{{cause|}}}}}
+}}</includeonly>
+<noinclude>
+Template localization: [[Template:Infobox physical geography/localize]]
+</noinclude>
