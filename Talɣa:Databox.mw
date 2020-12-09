@@ -2,10 +2,10 @@
 | language = {{Databox language}}
 | language family = {{Databox language family}}
 | human = {{Infobox biography|item={{{1|}}}}}
-| taxon = {{Automatic taxobox}}
-| taxon common name = {{Automatic taxobox|item={{#invoke:Wikidata|claim|property=P31|qualifier=P642|list=false|formatting=raw}}}}
+| taxon = {{Automatic taxobox|item={{{1|}}}}}
+| taxon common name = {{Automatic taxobox|item={{#invoke:Wikidata|claim|property=P31|qualifier=P642|list=false|formatting=raw|item={{{1|}}}}}}}
 | country = {{Infobox country}}
-| city = {{Infobox city|item={{{1|}}}}} 
+| city = {{Infobox city|item={{{1|}}}}}
 | musical band = {{Infobox musical artist}} 
 | album | tv | book | intellectual work = {{Infobox intellectual work}} 
 | script = {{Databox writing system}} 
