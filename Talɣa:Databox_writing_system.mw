@@ -1,0 +1,10 @@
+<includeonly>{{Infobox writing system
+ |name={{PAGENAMEBASE}}
+ |type= {{#invoke:Wikidata|claim|property=P31|list=false}}
+ |languages= {{#invoke:Wikidata|claim|property=P407}}
+ |time=
+ |classification ={{#invoke:Wikidata|getParentValues|property=P144|sorting=-1|rowformat=$1|cascade=true|include_self=true}}
+ |iso15924={{{iso15924|{{#Property:P506|from={{{item|}}}}} }}}
+ |sample= {{#invoke:Wikidata|claim|property=P18|list=false}}
+ |imagesize=200px
+ }}</includeonly>
