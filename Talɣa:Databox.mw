@@ -15,7 +15,7 @@
 | orography = {{Infobox physical geography|category=orography}}
 | hydrography = {{Infobox physical geography|category=hydrography}}
 | software = {{Infobox software}}
-| disease = {{Infobox medical condition}}
+| disease = {{Infobox medical condition|item={{{1|}}}}}
 | website = {{Infobox website|item={{{1|}}}}}
 | school | organization = {{Infobox organization}}
 | building = {{Infobox building}}
