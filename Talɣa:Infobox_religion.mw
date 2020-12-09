@@ -1,0 +1,29 @@
+<includeonly>{{Infobox
+| abovestyle = background-color: lightsteelblue
+| aboveclass = hd
+| headerstyle = background-color: lightsteelblue
+| above = {{PAGENAMEBASE}}
+| image2 =  {{#if:{{#Property:P10|from={{{item|}}}}}|{{#invoke:Wikidata | claim | property=P10|formatting=[[File:$1|260px]]|list=false}}|{{#invoke:Wikidata | claim | property=P18|formatting=[[File:$1|260px]]|value={{{image|}}}|list=false}}}}{{#invoke:Wikidata | claim | property=P2096|formatting=<br/> $1|list=false}}
+
+| label1 = {{Infobox religion/localize|Founded}}
+| data1 = {{{founded|{{#invoke:Wikidata | claim | property=P571|list=false}}}}}
+
+| label2 = {{Infobox religion/localize|Founder}}
+| data2 =  {{{founder|{{#invoke:Wikidata | claim | property=P112|rowformat=$1}} }}}
+
+| label3 = {{Infobox religion/localize|Classification}} 
+| data3 = {{#invoke:Wikidata|getParentValues|property=P279 P361|uptolinkid=Q9174|sorting=-1|rowformat=$1|cascade=true|include_self=true}}
+
+| label4 = {{Infobox religion/localize|Native name}}
+| data4 =  {{{native_name|{{#invoke:Wikidata | claim | property=P1705|rowformat=$1}} }}}
+
+| label5 = {{Infobox religion/localize|Practiced by}}
+| data5 =  {{{members|{{#invoke:Wikidata | claim | property=P3095|rowformat=$1}} }}}
+
+| label6 = {{Infobox religion/localize|Branches}}
+| data6 =  {{{branches|{{#invoke:Wikidata | claim | property=P527|qualifier=P580|qualifier2=P582|formatting=table|rowformat=$0 <small>$1 $2</small>|rowsubformat1=($1 |rowsubformat2= - $2)|conjunction=<br />|separator=<br />|colformat0=internallink}} }}}
+
+
+}}</includeonly><noinclude>
+Template localization: [[Template:Infobox religion/localize]]
+</noinclude>
