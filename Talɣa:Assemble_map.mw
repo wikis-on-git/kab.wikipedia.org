@@ -1,0 +1,62 @@
+<includeonly><!--  Comença preparació per crear mapa
+-->{{#if:{{{layer|}}}{{{lat_lon|}}}{{{lat_dec|}}}{{{serie_punts5|}}} {{{item_territori|}}} {{Wp/shi/if both|{{{item|}}}|{{#invoke:Wikidata|validProperty|P625|from={{{item|}}}}} }}<!-- si no hi ha cap dada que generi capa, saltar
+  -->|{{Wp/shi/map draw |frameless=s  |align= 
+<!--  geotype1 pot servir per fer un "geomask" que agafa el layout d'OSM o per fer un "page" amb un contingut data.map de commons
+___________________________
+      -->|geotype1={{#if:{{{layer|}}}|page<!-- amb .map de commons, posa aquesta sintaxi. Cas contrari mira de muntar geomask                         -->|{{#if:{{{item|}}} {{{item_territori|}}} |geomask<!-- Si paramètre item o item_territori, posar geomask                            -->|{{#ifeq:{{#invoke:Wikibase|id}}||none|geomask}}<!-- Si ∃ a WD, posar geomask 
+                -->}} }} 
+              |commons1= {{#invoke:StringFunc|split|{{{layer|}}}|###|1}}<!-- capa provinent d'estructura .map de commons
+           -->|ids1={{Wp/shi/if empty|{{{item_territori|}}} | {{{item|}}}}} | fill-opacity1=0.2
+<!--  geotype2 i 3 fan un "page" amb el 2n i 3r contingut data.map de commons, quan és multivalor
+___________________________
+      -->|geotype2= {{#if:{{#invoke:StringFunc|split|{{{layer|}}}|###|2}}|page|none}}<!-- si hi ha 2a. forma commons, activa
+geotype=page -->|commons2= {{#invoke:StringFunc|split|{{{layer|}}}|###|2}}<!-- capa provinent d'estructura data.map de commons
+      -->|geotype3= {{#if:{{#invoke:StringFunc|split|{{{layer|}}}|###|3}}|page|none}}<!-- si hi ha 3a. forma de commons, activa
+geotype=page -->|commons3= {{#invoke:StringFunc|split|{{{layer|}}}|###|3}}<!-- capa provinent d'estructura data.map de commons
+--><!--
+      geotype4: Línia provinent d'OSM. Limitat a pont o presa.
+___________________________
+ Pont ? -->|geotype4= {{#ifeq:{{#invoke:string|find
+                                       |{{lc:{{#invoke:Wikidata|claim|property=P31 |editicon=no|lang=en}} }}|bridge}}|0<!--
+   Presa ?           -->|{{#ifeq:{{#invoke:string|find
+                                          |{{lc:{{#invoke:Wikidata|claim|property=P31 |editicon=no|lang=en}}}}|dam}}|0<!--
+   curs d'aigua / riu?  -->|{{#if:{{#invoke:Wikidata|claim|property=P31|item={{{item|}}}
+                                           |formatting=table|rowformat=$0 |editicon=no
+                                           |whitelist0=Q355304<!-- /Q4022 Riu-->}}<!--
+
+    troba "curs d'aigua"   -->|geoline|none}}<!--
+    troba "presa"          -->|geoline}}<!--
+       troba "pont"             -->|geoline}}
+                      | ids4={{{item|}}}| stroke-width6={{Wp/shi/if empty|{{{linia_mida|}}}|5}}
+                      | stroke4={{Wp/shi/if empty|{{{linia_color|}}} |#0000FF}}
+<!-- geotype5: conjunt de punts. Tractament MultiPoint
+___________________________________________________
+      -->|geotype5= {{#if:{{{serie_punts5|}}} |MultiPoint|none}}<!--           activar             -->
+              | title5={{{nom_marcador5|POI}}}   |description5 ={{{descripcio_marcador5|}}}
+              | image5={{{imatge_marcador5|}}}
+              | marker-symbol5={{Wp/shi/if empty|{{{marcador5|}}} | {{Wp/shi/map draw/icon|item={{{item|}}}}} }}
+              | marker-color5={{Wp/shi/if empty|{{{marcador_color5|}}} | 7e7e7e}} | marker-size5={{{marcador_mida5|small}}}
+              | coordinates5={{{serie_punts5|}}}   <!--    Tractament primer punt amb coordenades    -->
+<!-- geotype6 i 7: punts singulars; 6 quan només tenim una coordenada; 6+7 per quan és origen-destí
+___________________________________________________
+      -->|geotype6={{#if:{{{lat_lon|}}}|Point|{{Wp/shi/if both|{{{lat_dec|}}} | {{{lon_dec|}}} |Point|none}} }} 
+              | title6={{{nom_marcador|POI}}}   |description6 ={{{descripcio_marcador|}}}
+              | image6={{{imatge_marcador|}}}
+              | marker-symbol6={{Wp/shi/if empty|{{{marcador|}}} | {{Wp/shi/map draw/icon|item={{{item|}}}}} }}
+              | marker-color6={{Wp/shi/if empty|{{{marcador_color|}}} | FF0000}} | marker-size6={{Wp/shi/if empty|{{{marcador_mida|}}}|small}}
+              | coordinates6 ={{Wp/shi/if both|{{{lat_dec|}}}|{{{lon_dec|}}} | {{{lat_dec|}}}, {{{lon_dec|}}} | {{{lat_lon|}}} }}
+   <!--    Tractament segon punt per a poder-lo fer servir des de plantilles de geografia física (Indret, etc..)    -->
+        | geotype7={{#if:{{{lat_lon2|}}}|Point|{{Wp/shi/if both|{{{lat_dec2|}}} | {{{lon_dec2|}}} |Point|none}} }}
+              | title7={{{nom_marcador2|POI}}}  |description7={{{descripcio_marcador2|}}} 
+              | image7={{{imatge_marcador2|}}}
+              | marker-symbol7={{Wp/shi/if empty|{{{marcador2|}}} | {{Wp/shi/map draw/icon|item={{{item|}}}}} }}
+              | marker-color7={{Wp/shi/if empty|{{{marcador_color2|}}} | FF0000}} |marker-size7={{Wp/shi/if empty|{{{marcador_mida2|}}}|small}} 
+              | coordinates7={{#if:{{{lat_lon2|}}}|{{{lat_lon2|}}} |{{#if:{{{lat_dec2|}}} | {{{lat_dec2|}}}, {{{lon_dec2|}}} }} }}
+<!-- Paràmetres global de mapa.
+___________________________
+           -->|width={{Wp/shi/if empty| {{{mapa_mida|}}}|150}}|height={{Wp/shi/if empty| {{{mapa_mida|}}}|150}}
+              |zoom={{{zoom|}}}
+              |default_zoom=4 |text=
+     }}<!-- FI map draw
+ -->}}<!-- FI if de continguts 
+--></includeonly><noinclude></noinclude>
