@@ -43,7 +43,7 @@
 |header20 = {{Infobox physical geography/localize|Geography}}
 |data21 = {{Infobox physical geography/location}}
 |label22 = {{#if:{{#property:P625|from={{{item|}}}}}|{{Infobox physical geography/localize|Geographic coordinate system}} }}
-|data22 = {{#if:{{#property:P625|from={{{item|}}}}}|{{cal coor|globe:Earth|region:{{{kodea2}}}_type:peak|display=inline,title}}}}
+|data22 = {{#if:{{#property:P625|from={{{item|}}}}}|{{cal coor|item={{{item|}}}|globe:Earth|region:{{{kodea2}}}_type:peak|display=inline,title}}}}
 
 |label24 = {{Infobox physical geography/localize|Part of}}
 |data24 = {{#invoke:Wikidata | claim | property=P361|formatting = internallink|separator=<br />|conjunction=<br />|value={{{part of|}}}}}
