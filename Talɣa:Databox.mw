@@ -8,7 +8,7 @@
 | country = {{Infobox country}}
 | city = {{Infobox city|item={{{1|}}}}}
 | musical band = {{Infobox musical artist}} 
-| album | tv | book | intellectual work = {{Infobox intellectual work}} 
+| album | tv | book | intellectual work = {{Infobox intellectual work|item={{{1|}}}}} 
 | script = {{Databox writing system}} 
 | religion = {{Infobox religion}}
 | physical geography = {{Infobox physical geography}} 
@@ -19,7 +19,7 @@
 | website = {{Infobox website}}
 | school | organization = {{Infobox organization}}
 | building = {{Infobox building}}
-| chemical = {{Infobox chemical}}
+| chemical = {{Infobox chemical|item={{{1|}}}}}
 | year = {{Year nav}}
 | event = {{Infobox event}}
 | grapheme = {{Infobox grapheme}}
