@@ -7,8 +7,10 @@
        padding:0.25em;
     background:{{#switch:{{lc:{{{qtype|{{{type|}}}}}}}}
                 |q185087|abjad|[[abjad]]|impure abjad|impure [[abjad]]|consonantary|[[consonantary]]=palegreen
-                |q9779|alphabet|[[alphabet]]=lightblue   |abugida|[[abugida]]=navajowhite
-                |syllabary|[[syllabary]]=pink      |semisyllabary|[[semisyllabary]]=magenta
+                |q9779|alphabet|[[alphabet]]=lightblue  
+                |q335806|abugida|[[abugida]]=navajowhite
+                |q182133|syllabary|[[syllabary]]=pink
+                |q3781304|semisyllabary|[[semisyllabary]]=magenta
                 |manual|[[manual]]=paleturquoise   |pictographic|[[pictographic]]=palegoldenrod
                 |ideographic|[[ideographic]]=gold  |logographic|[[logographic]]|[[logosyllabic]]=mistyrose
                 |stenography|[[stenography]] |shorthand|[[shorthand]] =
