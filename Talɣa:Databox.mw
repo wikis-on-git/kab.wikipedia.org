@@ -17,7 +17,7 @@
 | software = {{Infobox software}}
 | disease = {{Infobox medical condition|item={{{1|}}}}}
 | website = {{Infobox website|item={{{1|}}}}}
-| school | organization = {{Infobox organization}}
+| school | organization = {{Infobox organization|item={{{1|}}}}}
 | building = {{Infobox building}}
 | chemical = {{Infobox chemical|item={{{1|}}}}}
 | year = {{Year nav}}
