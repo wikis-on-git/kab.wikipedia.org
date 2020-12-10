@@ -1,1 +1,1 @@
-{{Databox/box/sandbox|{{Databox/resolve/sandbox|{{{1|}}}}}}}
+{{Databox/box/sandbox|{{if empty|{{#invoke:WikidataIB|getEntityFromTitle|{{{1|}}}|site=enwiki}}|{{#invoke:WikidataIB|getEntityFromTitle|{{{1|}}}|site=frwiki}}|{{{1|}}}}}}}
