@@ -1,0 +1,21 @@
+{{#if:{{#Property:P757|from={{{item|}}}}}|[[File:World Heritage Logo global.svg|24x24px]]&nbsp;'''{{Infobox building/localize|UNESCO World Heritage Site}}'''<!---
+--->{{#if:
+{{#Property:P649|from={{{item|}}}}}
+{{#Property:P3008|from={{{item|}}}}}
+{{#Property:P1586|from={{{item|}}}}}
+{{#Property:P808|from={{{item|}}}}}
+{{#Property:P1216|from={{{item|}}}}}
+{{#Property:P380|from={{{item|}}}}}
+{{#Property:P2526|from={{{item|}}}}}
+|<br />
+}}}}
+
+<!---
+{{#if:{{#Property:P649}}|[[File:Logo of the National Register of Historic Places.jpg|24x24px]]&nbsp;'''[[Ameriketako Estatu Batuetako Gune Historikoen Erregistroa|AEBko Gune Historikoa]]'''}}
+{{#if:{{#Property:P3008}}|'''[[Australian National Heritage List]]'''}}
+{{#if:{{#Property:P1216}}|'''[[National Heritage List for England]]'''}}
+{{#if:{{#Property:P1586}}|'''[[Catalan object of cultural interest ID]]'''|{{#if:{{#Property:P808}}|[[Bien de Interés Cultural]]}}}}
+{{#if:{{#Property:P380}}|{{#ifeq:{{#invoke:string|pos|{{#invoke:Wikidata|claim|item=Q1860484|property=P380}}|1}}|P|[[File:Logo_monument_historique_-_rouge_sans_texte.svg|24x24px]]&nbsp;'''[[Monumentu historiko (Frantzia)|Monumentu historikoa]]'''}}}}
+{{#if:{{#Property:P2526}}|[[File:Maple_Leaf_(from_roundel).svg|22x22px]]&nbsp;'''Kanadako Leku Historiko Nazionala'''}}
+{{#ifeq:{{#invoke:Wikidata|claim|property=P1435|formatting=raw}}|Q65553409|[[File:Logotipo del Gobierno Vasco.svg|20x20px]]&nbsp;'''Eraikitako euskal ondasun nabarmena'''}}
+-->
