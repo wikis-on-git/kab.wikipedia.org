@@ -1,0 +1,2 @@
+{{#switch:{{Wp/shi/lat wd|item={{{item|}}}}}
+|={{Wp/shi/Coord missing|tema={{{tema|}}}|category={{{category|Articles without coordinates}}}}}|#default={{coord|{{Wp/shi/lat wd|item={{{item|}}}}}|{{Wp/shi/lon wd|item={{{item|}}}}}|{{{params|region:{{{region|}}}_type:{{{type|{{Wp/shi/Cal coor/type wd}}}}}_scale:{{{scale|}}}_dim:{{{dim|}}}}}}|display={{{display|inline,title}}}}} }}<noinclude>{{documentation}}</noinclude>
