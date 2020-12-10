@@ -5,7 +5,7 @@
 |labelstyle = width: 40%;
 |subheader = {{#invoke:Wikidata | claim | property=P1705|formatting = text|separator=<br />|conjunction=<br />|value={{{native_name|}}}}}
 |subheaderstyle2 = border-top: 2px solid #ddd; border-bottom: 2px solid #ddd; background-color: #eee;
-|subheader2 = {{Infobox building/legend}}
+|subheader2 = {{Infobox building/legend|item={{{item|}}}}}
 |subheader3 = {{#invoke:Wikidata | claim | property=P361 |formatting=table
               |rowformat = {{((}}Sub-item image{{!}}$0{{!}}P2910{{!}}16x16px{{))}} [[{{((}}#invoke:Wikibase{{!}}label{{!}}$0{{))}}]]
               | colformat0=raw | separator=<br />}}
