@@ -1,0 +1,34 @@
+{{ {{{1<noinclude>
+|country showdata
+</noinclude>}}}
+| alias = Republic of China (1912–1949)
+| shortname alias = China
+| flag alias = Flag of the Republic of China.svg
+| flag alias-1912 = Flag of the Republic of China 1912-1928.svg
+| flag alias-1928=Flag of the Republic of China.svg
+| flag alias-army = Flag of the Republic of China Army.svg
+| flag alias-civil = Civil Ensign of the Republic of China.svg
+| link alias-army = National Revolutionary Army
+| link alias-naval = Republic of China Navy
+| link alias-air force = Republic of China Air Force
+| link alias-football = China {{{mw|}}} national football team
+| name alias-football = China
+| link alias-tennis = China {{{mw}}} Cup team
+| name alias-tennis = China
+| size = {{{size|}}}
+| name = {{{name|}}}
+| variant = {{{variant|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+<noinclude>
+| var1 = 1912
+| var2 = 1928
+| var3 = civil
+| related1 = Republic of China
+| related2 = China
+| related3 = Taiwan
+| cat = China republic 1912
+</noinclude>
+}}<noinclude>
+
+</noinclude>
