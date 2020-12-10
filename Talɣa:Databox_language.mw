@@ -1,15 +1,15 @@
 <includeonly>{{Infobox language
 | name = {{{name|{{PAGENAMEBASE}}}}}
-| nativename = {{Coalesce|{{{nativename}}}|{{#invoke:Wikidata|claim|property=P1705|formatting=text|separator=&nbsp;—&nbsp;|conjunction=&nbsp;—&nbsp;|item={{{item|}}}}} }}
-| familycolor = {{Coalesce|{{{familycolor}}}|{{#invoke:Wikidata|getParentValues|property=P279|rowformat=$1|sorting=-1|uptolinkid=Q25268 Q721612 Q37845 Q32940 Q33199 Q49228 Q33311 Q25946 Q25946 Q33322 Q19860 Q33614 Q26986 Q33838 Q33705 Q33909 Q236425 Q34228 Q45961 Q34171 Q34113 Q34073 Q33612 Q34090 Q33750 Q34230 Q11263525 Q27969 Q34070|last_only=true|formatting=raw|editicon=false}} }}
-| iso1 = {{Coalesce|{{{iso1}}}|{{#invoke:Wikidata|claim|property=P218|formatting=$1}} }}
-| iso2 = {{Coalesce|{{{iso2}}}|{{#invoke:Wikidata|claim|property=P219|formatting=$1|separator=&nbsp;|conjunction=&nbsp;}} }}
-| iso3 = {{Coalesce|{{{iso3}}}|{{#invoke:Wikidata|claim|property=P220|formatting=$1|separator=&nbsp;|conjunction=&nbsp;}} }}
-| glotto = {{Coalesce|{{{glotto}}}|{{#invoke:Wikidata|claim|property=P1394|formatting=$1}} }}
-| wikipedia = {{Coalesce|{{{wikipedia}}}|{{#Property:P424}} }} 
-| speakers = {{Coalesce|{{{speakers}}}|{{#invoke:Wikidata|claim|property=P1098|qualifier=P518|qualifier2=P585|formatting=table|rowformat=$1 $0 $2|rowsubformat1=$1:|rowsubformat2=<small>($2)</small>}} }}
-| map = {{Coalesce|{{{map}}}|{{#invoke:Wikidata|claim|property=P1846|formatting=$|list=false}} }}
+| nativename = {{If empty|{{{nativename|}}}|{{#invoke:Wikidata|claim|property=P1705|formatting=text|separator=&nbsp;—&nbsp;|conjunction=&nbsp;—&nbsp;|item={{{item|}}}}} }}
+| familycolor = {{If empty|{{{familycolor|}}}|{{#invoke:Wikidata|getParentValues|property=P279|rowformat=$1|sorting=-1|uptolinkid=Q25268 Q721612 Q37845 Q32940 Q33199 Q49228 Q33311 Q25946 Q25946 Q33322 Q19860 Q33614 Q26986 Q33838 Q33705 Q33909 Q236425 Q34228 Q45961 Q34171 Q34113 Q34073 Q33612 Q34090 Q33750 Q34230 Q11263525 Q27969 Q34070|last_only=true|formatting=raw|editicon=false}} }}
+| iso1 = {{If empty|{{{iso1|}}}|{{#invoke:Wikidata|claim|property=P218|formatting=$1}} }}
+| iso2 = {{If empty|{{{iso2|}}}|{{#invoke:Wikidata|claim|property=P219|formatting=$1|separator=&nbsp;|conjunction=&nbsp;}} }}
+| iso3 = {{If empty|{{{iso3|}}}|{{#invoke:Wikidata|claim|property=P220|formatting=$1|separator=&nbsp;|conjunction=&nbsp;}} }}
+| glotto = {{If empty|{{{glotto|}}}|{{#invoke:Wikidata|claim|property=P1394|formatting=$1}} }}
+| wikipedia = {{If empty|{{{wikipedia|}}}|{{#Property:P424}} }} 
+| speakers = {{If empty|{{{speakers|}}}|{{#invoke:Wikidata|claim|property=P1098|qualifier=P518|qualifier2=P585|formatting=table|rowformat=$1 $0 $2|rowsubformat1=$1:|rowsubformat2=<small>($2)</small>}} }}
+| map = {{If empty|{{{map|}}}|{{#invoke:Wikidata|claim|property=P1846|formatting=$|list=false}} }}
 | mapcaption = {{{mapcaption|}}}
 | classification = {{#invoke:Wikidata|getParentValues|property=P279|uptolinkid=Q25268 Q721612 Q37845 Q32940 Q33199 Q49228 Q33311 Q25946 Q25946 Q33322 Q19860 Q33614 Q26986 Q33838 Q33705 Q33909 Q236425 Q34228 Q45961 Q34171 Q34113 Q34073 Q33612 Q34090 Q33750 Q34230 Q11263525 Q27969 Q34070|sorting=-1|rowformat=$1|cascade=true|include_self=true}}
-| script = {{Coalesce|{{{script}}}|{{#invoke:Wikidata|claim|property=P282|formatting=internallink}} }}
+| script = {{If empty|{{{script|}}}|{{#invoke:Wikidata|claim|property=P282|formatting=internallink}} }}
 }}</includeonly>
