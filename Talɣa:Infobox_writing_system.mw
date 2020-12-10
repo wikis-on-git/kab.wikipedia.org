@@ -107,7 +107,7 @@
 | data12 = {{#if:{{{iso15924|}}} |{{ISO 15924 direction|{{{iso15924|}}}|rtl={{Infobox writing system/localize|Right-to-left}} |ltr={{Infobox writing system/localize|Left-to-right}}|ttb={{Infobox writing system/localize|Top-to-bottom}}|default=|mixed={{Infobox writing system/localize|Mixed}} }}}}
 
 | label13 = [[ISO 15924]]
-| data13 = {{#if:{{ISO 15924 code|{{{iso15924|}}}|default=}} |<code>{{ISO 15924 code|{{{iso15924|}}} }}, {{ISO 15924 number|{{{iso15924|}}} }}</code>{{Main other|[[Category:Scripts with ISO 15924 four-letter codes]]|<!-- Don't categorize when not in main (article) space. -->}}}}<!--
+| data13 = {{#if:{{ISO 15924 code|{{{iso15924|}}}|default=}} |<code>{{ISO 15924 code|{{{iso15924|}}} }}, {{ISO 15924 number|{{{iso15924|}}} }}</code>}}<!--
         -->{{#ifeq:{{BASEPAGENAME}}|Infobox writing system |<code>''iso15924''</code>}}<!--
         -->{{#if:{{{iso15924 note|}}} |{{#ifeq:{{{br|}}} |yes|<br />}} {{{iso15924 note}}}}}
 
