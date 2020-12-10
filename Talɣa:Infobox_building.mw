@@ -1,0 +1,234 @@
+<includeonly>{{Infobox
+|above = {{{name|{{PAGENAMEBASE}}}}}
+|abovestyle = background-color: #bbb;
+|headerstyle = background-color: #bbb;
+|labelstyle = width: 40%;
+|subheader = {{#invoke:Wikidata | claim | property=P1705|formatting = text|separator=<br />|conjunction=<br />|value={{{native_name|}}}}}
+|subheaderstyle2 = border-top: 2px solid #ddd; border-bottom: 2px solid #ddd; background-color: #eee;
+|subheader2 = {{Infobox building/legend}}
+|subheader3 = {{#invoke:Wikidata | claim | property=P361 |formatting=table
+              |rowformat = {{((}}Sub-item image{{!}}$0{{!}}P2910{{!}}16x16px{{))}} [[{{((}}#invoke:Wikibase{{!}}label{{!}}$0{{))}}]]
+              | colformat0=raw | separator=<br />}}
+|image = {{#invoke:Wikidata | claim | property=P154|formatting = [[File:$1|80x80px]]|list=false}}
+|image2 = {{#if:{{{image|}}}|[[File:{{{image}}}|280px]]|{{#invoke:Wikidata | claim | property=P18|formatting=[[File:$1|280px]]|list=false}}}}
+|caption2 = {{#if:{{{mapcaption|}}}|{{{mapcaption}}}}}{{#if:{{#Property:P238|from={{{item|}}}}}|{{#invoke:Wikidata | claim | property=P238|formatting =[[IATA]]: '''$1'''}}{{#if:{{#Property:P239|from={{{item|}}}}}|&nbsp;•&nbsp;}}}}{{#invoke:Wikidata | claim | property=P239|formatting =[[ICAO]]: '''$1'''}}{{#invoke:Wikidata|claim|property=P373|formatting=[[File:Commons-logo.svg|10px|link=[[c:Category:$1]]]] [[c:Category:$1|{{((}}Infobox building/localize{{!}}More pictures{{))}}]]}}
+|image3 = {{#if:{{{image2|}}}|[[File:{{{image2}}}|280px]]}}
+|image4 = {{#if:{{#property:P5775|from={{{item|}}}}}|[[File:{{#property:P5775|from={{{item|}}}}}|280px]]}}
+|header1 = {{Infobox building/localize|Location}}
+|data2 = {{{location|{{#invoke:Wikidata|getParentValues|sorting=-1|separator=</tr>|rowformat=<tr><td>'''$0'''</td><td>$1</td>}}}}}
+
+|label3 = {{Infobox building/localize|Geographical location}}
+|data3 = {{#invoke:Wikidata | claim | property=P706|formatting=internallink|list=false}}
+|label4 = {{Infobox physical geography/localize|Flanked by}}
+|data4= {{#invoke:Wikidata | claim | property=P206|formatting=internallink}}
+
+|label6 = {{Infobox building/localize|Coordinates}}
+|data6 = {{#if:{{#property:P625|from={{{item|}}}}}|{{cal coor|globe:Earth|region:{{{place}}}_type:landmark|display=inline,title}}}}
+|data7  = {{#if:{{#Property:P625|from={{{item|}}}}}|{{Map draw|width=280|height=250|zoom=13|frameless=s|align=center|geotype2=geoshape|stroke-width2=0.5|fill2=#F5A9A9|opacity2=0.33|title2={{PAGENAME}}|image2={{#invoke:Wikidata | claim | property=P18|formatting=$1}}|geotype3=geomask|ids3={{#invoke:Wikidata|claim|property=P131|formatting=raw|list=false}}|fill-opacity3=0.33|stroke-width3=0.5|fill3=#FFFFE0|title={{PAGENAME}}|image={{#invoke:Wikidata | claim | property=P18|formatting=$1}}|marker-symbol={{Map draw/icon}}|marker-color=#1E90FF|geotype4=geoline|ids4={{#invoke:Wikibase|id}}|stroke-width4=5 | stroke4=#FF0000|latitude={{#invoke:Wikidata|claim|property=P625|formatting=latitude}}|longitude={{#invoke:Wikidata|claim|property=P625|formatting=longitude}}}}}}
+|label8 = {{Infobox building/localize|Altitude}}
+|data8 = {{#invoke:Wikidata | claim | property=P2044|formatting =unitcode}}{{#if:{{#Property:P2044|from={{{item|}}}}}|, {{Infobox building/localize|above sea level}}}}
+
+
+|header10 = {{#if:{{#Property:P793|from={{{item|}}}}}{{#Property:P571|from={{{item|}}}}}{{#Property:P127|from={{{item|}}}}}{{#Property:P366|from={{{item|}}}}}{{#Property:P138|from={{{item|}}}}}{{#Property:P140|from={{{item|}}}}}{{#Property:P1083|from={{{item|}}}}}{{#Property:P708|from={{{item|}}}}}|{{Infobox building/localize|History and use}}}}
+|data11 = {{#if:{{#Property:P793|from={{{item|}}}}}|{{#invoke:Wikidata| claim | property=P793|qualifier=P580|qualifier2=P582|qualifier3=P585|formatting=table|rowformat=<tr><td>'''{{((}}ucfirst:$0{{))}}'''</td><td>$1 $2 $3</td></tr>|rowsubformat1 = $1 -|rowsubformat2= $2</small>|rowsubformat3= $3|colformat0=label|case=singularra|tablesort=3|separator=|editicon=false}}|{{#if:{{#Property:P571}}|<tr><td>'''{{Infobox building/localize|Opening}}'''</td><td>{{#invoke:Wikidata | claim | property=P571|list=false}}</td></tr>}}}}{{#if:{{#Property:P1619}}|<tr><td>'''{{Infobox building/localize|Inauguration}}'''</td><td>{{#invoke:Wikidata | claim | property=P1619|list=false}}</td></tr>}}
+|label12 = {{Infobox building/localize|Owner}}
+|data12 = {{#invoke:Wikidata | claim | property=P127|formatting = internallink|separator=<br />|conjunction=<br />}}
+|label13 = {{#if:{{#Property:P137|from={{{item|}}}}}|{{Infobox building/localize|Manager}}}}{{#if:{{#Property:P1037|from={{{item|}}}}}|{{Infobox building/localize|Director}}}}
+|data13 = {{#invoke:Wikidata | claim | property=P1037|formatting = internallink|separator=<br />|conjunction=<br />}}{{#invoke:Wikidata | claim | property=P137 |formatting=table
+              |rowformat = {{((}}Sub-item image{{!}}$0{{!}}P154{{!}}40x20px{{))}} [[{{((}}#invoke:Wikibase{{!}}label{{!}}$0{{))}}]]
+              | colformat0=raw | separator=<br />}}
+|label14 = {{Infobox building/localize|Commissioner}}
+|data14 = {{#invoke:Wikidata | claim | property=P88|qualifier=P585|formatting = table|rowformat = $0 $1|rowsubformat1=($1)}}
+|label15 = {{Infobox building/localize|Named after}}
+|data15 = {{#invoke:Wikidata | claim | property=P138|formatting = internallink|separator=<br />|conjunction=<br />}}
+|label16 = {{Infobox building/localize|Religion}}
+|data16 = {{#invoke:Wikidata | claim | property=P140|formatting = internallink|separator=<br />|conjunction=<br />|case=singularra}}
+|label17 = {{Infobox building/localize|Diocese}}
+|data17 = {{#invoke:Wikidata | claim | property=P708|formatting = internallink|separator=<br />|conjunction=<br />}}
+|label18 = {{Infobox building/localize|Name}}
+|data18 = {{#invoke:Wikidata | claim | property=P825|formatting = internallink|separator=<br />|conjunction=<br />}}
+|label19 = {{Infobox building/localize|Use}}
+|data19 = {{#invoke:Wikidata | claim | property=P366|formatting = internallink|separator=<br />|conjunction=<br />|case=singularra}}
+|label20 = {{Infobox building/localize|Sport}}
+|data20 = {{#invoke:Wikidata | claim | property=P641|formatting = internallink|separator=<br />|conjunction=<br />|case=singularra}}
+|label21 = {{Infobox building/localize|Occupant}}
+|data21 = {{#invoke:Wikidata | claim | property=P466|qualifier=P580|qualifier2=P582|formatting = table|rowformat=$0 $1 $2|rowsubformat1=<small>$1</small>|rowsubformat2=<small> - $2</small>|colformat0= internallink}}
+|label22 =  {{Infobox building/localize|Capacity}}
+|data22 = {{#invoke:Wikidata | claim | property=P1083|formatting = unit}}
+
+|header23 = {{#if:{{#Property:P84|from={{{item|}}}}}{{#Property:P193|from={{{item|}}}}}{{{age|}}}{{#Property:P149|from={{{item|}}}}}{{#Property:P2048|from={{{item|}}}}}{{#Property:P1101|from={{{item|}}}}}{{#Property:P1139|from={{{item|}}}}}{{#Property:P631|from={{{item|}}}}}{{#Property:P1301|from={{{item|}}}}}{{#Property:P2046|from={{{item|}}}}}|{{Infobox building/localize|Architecture}}}}
+|label24 = {{Infobox building/localize|Architect}}
+|data24 = {{#invoke:Wikidata | claim | property=P84|formatting = internallink|separator=<br />|conjunction=<br />}}
+|label25 = {{Infobox building/localize|Builder}}
+|data25 = {{#invoke:Wikidata | claim | property=P193|formatting = internallink|separator=<br />|conjunction=<br />}}
+|label26 = {{Infobox building/localize|Designer}}
+|data26 = {{#invoke:Wikidata | claim | property=P287|formatting = internallink}}
+|label27 = {{Infobox building/localize|Structural engineer}}
+|data27 = {{#invoke:Wikidata | claim | property=P631|formatting = internallink|separator=<br />|conjunction=<br />}}
+|label28 = {{Infobox building/localize|Material(s)}}
+|data28 = {{#invoke:Wikidata | claim | property=P186|formatting = internallink|case=singularra}}
+|label29 = {{Infobox building/localize|Color}}
+|data29 = {{#if:{{#Property:P462|from={{{item|}}}}}|{{legenda|#{{#invoke:Wikidata|claim|item={{#invoke:Wikidata | claim | property=P462|formatting = raw|list=false}}|property=P465|formatting=label|list=false}}|{{#invoke:Wikidata | claim | property=P462|formatting = internallink}}|ertza=grey}}}}
+|label30 = {{Infobox building/localize|Style}}
+|data30 = {{#invoke:Wikidata | claim | property=P149|formatting = internallink|case=singularra|separator=<br />|conjunction=<br />}}
+
+
+|label31 = {{Infobox building/localize|Height}}
+|data31 = {{#invoke:Wikidata | claim | property=P2048|qualifier=P794|formatting = table|rowformat={{((}}ucfirst:$1{{))}} $0|rowsubformat1=$1: |colformat1=label|colformat0=unitcode}}
+|label32 = {{Infobox building/localize|Floors}}
+|data32 = {{#invoke:Wikidata | claim | property=P1101|formatting = unit}}
+|label33 = {{Infobox building/localize|Underground floors}}
+|data33 = {{#invoke:Wikidata | claim | property=P1139|formatting =unit}}
+|label34 = {{Infobox building/localize|Width}}
+|data34 = {{#if:{{#property:P2049|from={{{item|}}}}}|{{convert/variable|{{formatnum:{{#invoke:Wikidata | claim | property=P2049 |list=false| item={{{item|}}} |formatting=unitcode | value= }}|R}}|m|disp=number | abbr=on}} {{Infobox building/localize|meters}} }}
+|label35 = {{Infobox building/localize|Length}}
+|data35 = {{#if:{{#property:P2043|from={{{item|}}}}}|{{convert/variable|{{formatnum:{{#invoke:Wikidata | claim | property=P2043 |list=false| item={{{item|}}} |formatting=unitcode | value= }}|R}}|m|disp=number | abbr=on}} {{Infobox building/localize|meters}} }}
+|label36 = {{Infobox building/localize|Area}}
+|data36 = {{#invoke:Wikidata | claim | property=P2046 |list=false|formatting=unitcode}}
+|label37 = {{Infobox building/localize|Replaces}}
+|data37 = {{#invoke:Wikidata | claim | property=P1365 |list=false|formatting=internallink}}
+|label39 = {{Infobox building/localize|Elevators}}
+|data39 = {{#invoke:Wikidata | claim | property=P1301|formatting =unit}}
+
+<!--- BRIDGES --->
+|label40 = {{Infobox building/localize|Crosses}}
+|data40 = {{#invoke:Wikidata | claim | property=P177|formatting =internallink}}
+|label41 = {{Infobox building/localize|Carries}}
+|data41 = {{#invoke:Wikidata | claim | property=P2505|formatting =internallink}}
+|label42 = {{Infobox building/localize|Spans}}
+|data42 = {{#invoke:Wikidata | claim | property=P1314|formatting =unit}}
+|label43 = {{Infobox building/localize|Longest span}}
+|data43 = {{#invoke:Wikidata | claim | property=P2787|formatting =unitcode}}
+|label44 = {{Infobox building/localize|Clearance}}
+|data44 = {{#invoke:Wikidata | claim | property=P2793|formatting =unitcode}}
+
+<!--- LIGHTHOUSES --->
+|header45 = {{#if:{{#Property:P2923|from={{{item|}}}}}{{#Property:P2929|from={{{item|}}}}}{{#Property:P1030|from={{{item|}}}}}{{#Property:P3922|from={{{item|}}}}}|{{Infobox building/localize|Lighthouse}} }}
+|label46 = {{Infobox building/localize|Focal height}}
+|data46 = {{#invoke:Wikidata | claim | property=P2923|formatting =unitcode}}
+|label47 = {{Infobox building/localize|Lighthouse range}}
+|data47 = {{#invoke:Wikidata | claim | property=P2929|qualifier=P462|formatting =table|rowformat = $1 $0|rowsubformat1=$1:|colformat0= unit}}
+|label48 = {{Infobox building/localize|Light characteristic}}
+|data48 = {{#invoke:Wikidata | claim | property=P1030|formatting =label}}
+|label49 = {{Infobox building/localize|Light sector}}
+|data49 = {{#invoke:Wikidata | claim | property=P3922|qualifier=P462|formatting =table|rowformat = $1 $0|rowsubformat1=$1:|case=singularra}}
+|label50 = {{Infobox building/localize|Catalogs}}
+|data50 = {{#if:{{#Property:P2980|from={{{item|}}}}}{{#Property:P3563|from={{{item|}}}}}{{#Property:P3562|from={{{item|}}}}}{{#Property:P3601|from={{{item|}}}}}{{#Property:P3223|from={{{item|}}}}}|{{plainlist}}{{#invoke:Wikidata | claim | property=P2980|formatting =*ARLHS: [http://wlol.arlhs.com/lighthouse/$1.html $1]}}{{#invoke:Wikidata | claim | property=P3563|formatting =*NGA: $1}}{{#invoke:Wikidata | claim | property=P3562|formatting =*Admiralty: $1}}{{#invoke:Wikidata | claim | property=P3601|formatting =*MarineTraffic: [http://www.marinetraffic.com/en/ais/details/lights/$1 $1]}}{{#invoke:Wikidata | claim | property=P3223|formatting =*List of Lights: [http://listoflights.org/leuchtfeuer/detail?id=$1 $1]}}{{endplainlist}}}}
+
+<!--- AIRPORTS --->
+|header51 = {{#if:{{#Property:P529|from={{{item|}}}}}|{{Infobox building/localize|Airport}} }}
+|data52 = {{#if:{{#Property:P529|from={{{item|}}}}}|
+{{infobox3cols|child=yes|
+|headerstyle= background-color:#eee
+|header1 = {{Infobox building/localize|Tracks}}
+|label2 = {{Infobox building/localize|Runway}}
+|data2a = {{Infobox building/localize|Material}}
+|data2b = {{Infobox building/localize|Length}}
+|data2c = {{Infobox building/localize|Width}}
+|data3 = 
+<tr>{{#invoke:Wikidata |claim |formatting=table |property=P529 |qualifier=P186| qualifier2=P2043 |qualifier3=P2049 |rowformat=<td class="align=left">$0</td><td class="align=left">$1</td><td class="align=left">$2</td><td class="align=left">$3</td>|separator=</tr><tr>|conjunction=</tr><tr>|tablesort=0|colformat0=label|case=singularra|colformat2=unitcode|colformat3=unitcode}}</tr>
+}} }}
+|label53 = {{Infobox building/localize|City served}}
+|data53 = {{#invoke:Wikidata | claim | property=P931|formatting =internallink}}
+|label54 = {{Infobox building/localize|Flights}}
+|data54 = {{#if:{{#Property:P521|from={{{item|}}}}}|{{Collapsible list|title={{Infobox building/localize|List}}|{{#invoke:Wikidata | claim | property=P521|qualifier=P137|qualifier2=P931|formatting=table|rowformat = $2 ($0) $1|colformat0=internallink|rowsubformat1 = <br /><small>[[File:Aiga_departingflights.svg|12px]] $1</small>|rowsubformat2=[[File:Map marker font awesome.svg|14x14px]] $2}}
+}} }}
+
+<!--- RAILWAYS --->
+|header55 = {{#if:{{#Property:P1064|from={{{item|}}}}}{{#Property:P3086|from={{{item|}}}}}{{#Property:P930|from={{{item|}}}}}|{{Infobox building/localize|Railroad}} }}{{#if:{{#Property:P197|from={{{item|}}}}}{{#Property:P1103|from={{{item|}}}}}{{#Property:P81|from={{{item|}}}}}{{#Property:P1192|from={{{item|}}}}}|{{Infobox building/localize|Station}} }}
+|label56 = {{Infobox building/localize|Road width}}
+|data56 = {{#invoke:Wikidata | claim | property=P1064|formatting =unitcode}}
+|label57 = {{Infobox building/localize|Speed limit}}
+|data57 = {{#invoke:Wikidata | claim | property=P3086|formatting =unitcode}}
+|label58 = {{Infobox building/localize|Electrification}}
+|data58 = {{#invoke:Wikidata | claim | property=P930|qualifier=P2048|qualifier2=P2436|formatting=table|rowformat='''$0''' $1 $2|rowsubformat1=<br />{{((}}Infobox building/localize{{!}}Height{{))}}: $1|rowsubformat2 =<br />{{((}}Infobox building/localize{{!}}Voltage{{))}}: $2|colformat0 = label|colformat1=unitcode|colformat2=unitcode|case=singularra}}
+
+<!-- next stations -->
+|data59 = {{#if:{{#Property:P197|from={{{item|}}}}}{{#Property:P833|from={{{item|}}}}}|{{#invoke:Railway|station}}}}
+
+|label61 = {{Infobox building/localize|Types of trains}}
+|data61 = {{#invoke:Wikidata | claim | property=P1192 |formatting=table
+              |rowformat = {{((}}Sub-item image{{!}}$0{{!}}P154{{!}}40x20px{{))}} [[{{((}}#invoke:Wikibase{{!}}label{{!}}$0{{))}}]]
+              | colformat0=raw | separator=<br />}}
+|label62 = {{Infobox building/localize|Tracks}}
+|data62 = {{#invoke:Wikidata | claim | property=P1103|formatting =unit}}
+|label63 = {{Infobox building/localize|Facilities}}
+|data63 = {{#invoke:Wikidata | claim | item={{{item|}}}| property=P912 |formatting=table
+                                     |rowformat = {{((}}Sub-item image{{!}}$0{{!}}P2910{{!}}18px{{!}}$l{{))}}
+                                    | colformat0=raw | separator=&nbsp; }}
+
+<!--- Heritage--->
+|header65 = {{#if:{{#Property:P2614|from={{{item|}}}}}{{#Property:P757|from={{{item|}}}}}|{{Infobox building/localize|World Heritage Site}}|{{#if:{{#Property:P1435|from={{{item|}}}}}|{{Infobox building/localize|Heritage}} }}}}
+|label66 = {{Infobox building/localize|Criterion}}
+|data66 = {{#if:{{#Property:P2614|from={{{item|}}}}}|[[Gizateriaren Ondare#Aukeraketa irizpideak|{{#invoke:Wikidata | claim | property=P2614|formatting =label}}]]}}
+|label67 = {{Infobox building/localize|Reference}}
+|data67 = {{#invoke:Wikidata | claim | property=P757|formatting=[http://whc.unesco.org/en/list/$1 $1]}}
+|label68 = {{Infobox building/localize|Region}}{{efn-ur|name=fn1|{{Infobox building/localize|According to the UNESCO classification}}}}
+|data68 = {{#if:{{#Property:P2614|from={{{item|}}}}}{{#Property:P757|from={{{item|}}}}}|{{#if:{{{region|}}}|{{{region}}}|{{Infobox building/UNESCO region}}}}}}
+|label69 = {{Infobox building/localize|Registration}}
+|data69 = {{#if:{{#Property:P2614|from={{{item|}}}}}{{#Property:P757|from={{{item|}}}}}|{{Infobox building/UNESCO session|{{WD multi-value qualifier|property=P1435 |item={{{item|}}} |element=Q9259|qualifier=p580}} }} }}
+
+|label70 = [[National Register of Historic Places|NRHP]]
+|data70 = {{#invoke:Wikidata | claim | property=P649|formatting=[https://npgallery.nps.gov/AssetDetail/NRIS/$1 $1]}}
+|label71 = [[Australian Heritage Database|ANHL]]
+|data71 = {{#invoke:Wikidata | claim | property=P3008|formatting=[http://www.environment.gov.au/cgi-bin/ahdb/search.pl?mode=place_detail;place_id=$1 $1]}}
+|label72 = [[Catalan object of cultural interest ID|BCIN]]
+|data72 = {{#invoke:Wikidata | claim | property=P1586|formatting=$1}}
+|label73 = [[Bien de Interés Cultural|BIC]]
+|data73 = {{#invoke:Wikidata | claim | property=P808|formatting=$1}}
+|label74 = [[National Heritage List for England|NHLE]]
+|data74 = {{#invoke:Wikidata | claim | property=P1216|formatting=[https://www.historicengland.org.uk/listing/the-list/list-entry/$1 $1]}}
+|label75 = [[Base Mérimée|Mérimée ID]]
+|data75 = {{#invoke:Wikidata | claim | property=P380|formatting=[http://www.culture.gouv.fr/public/mistral/merimee_fr?ACTION=CHERCHER&FIELD_1=REF&VALUE_1=$1 $1]}}
+|label76 = NHSC/LHNC
+|data76 = {{#invoke:Wikidata | claim | property=P2526|formatting=[http://www.pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=$1 $1]}}
+|label77 = {{#ifeq:{{#invoke:Wikidata|claim|property=P1435|formatting=raw}}|Q65553409|EJren ondarea}}
+|data77 = {{#if:{{#Property:P1325|from={{{item|}}}}}|{{#invoke:Wikidata|claim|property=P1325|formatting=[$1 {{#invoke:Wikidata|claim|property=P1435|qualifier=P217|formatting=$1]}}|list=false}}|{{#invoke:Wikidata|claim|property=P1435|qualifier=P217|formatting=$1}}}}
+
+|header80 = {{#if:{{#Property:P1990|from={{{item|}}}}}| {{Infobox building/localize|Species}}}}
+|data81 = {{#if:{{#Property:P1990|from={{{item|}}}}}|{{#tag:gallery|{{#invoke:Wikidata | claim | property=P1990|formatting=table|rowformat={{((}}Galeria WD{{!}}$0{{))}}|colformat0=raw|separator = LF}} | mode="slideshow"|widths="280px"}}}}
+|label82 =  {{Infobox building/localize|Collection size}}
+|data82 = {{#invoke:Wikidata | claim | property=P1436|formatting=unit}}
+|label83 =  {{Infobox building/localize|Opening days}}
+|data83 = {{#invoke:Wikidata | claim | property=P3025|qualifier=P3026|formatting=table|rowformat = $0 $1|colformat0= label|rowsubformat1= <br /><small>{{((}}Infobox building/localize{{!}}Closed{{))}}: $1</small>}}
+|label84 =  {{Infobox building/localize|Visitors per year}}
+|data84 = {{#invoke:Wikidata | claim | property=P1174|formatting=unit|list=false}}
+
+<!--- CIRCUIT RACE--->
+|label85 =  {{Infobox building/localize|Races}}
+|data85  = {{{races|}}}
+|label86 =  {{Infobox building/localize|Length}}
+|data86  = {{{length|}}}
+|label87 =  {{Infobox building/localize|Bends}}
+|data87  = {{{bends|}}}
+|label88 =  {{Infobox building/localize|Record tour}}
+|data88  = {{{record_tour|}}}
+|label89 =  {{Infobox building/localize|Website}}
+|data89  = {{{website|}}}
+
+<!--- Power stations --->
+|label90 =  {{Infobox building/localize|Service entry}}
+|data90 = {{#invoke:Wikidata | claim | property=P729|formatting=internallink|list=false}}
+|label91 =  {{Infobox building/localize|Service Retirement}}
+|data91 = {{#invoke:Wikidata | claim | property=P730|formatting=internallink|list=false}}
+|label92 =  {{Infobox building/localize|Capacity}}
+|data92 = {{#invoke:Wikidata | claim | property=P2109|formatting=unit|list=false}}
+|label93 =  {{Infobox building/localize|Parts}}
+|data93 = {{#invoke:Wikidata | claim | property=P2670|qualifier=P1114|formatting=table|rowformat=$0: $1|colformat0=internallink}}
+
+<!--- OTHER ---->
+
+|header100 = {{#if:{{#Property:P968|from={{{item|}}}}}{{#Property:P1329|from={{{item|}}}}}{{#Property:P6375|from={{{item|}}}}}|{{Infobox building/localize|Contact}}}}
+|label101 =  {{Infobox building/localize|Address}}
+|data101 = {{#invoke:Wikidata|claim|property=P6375|formatting=label}}
+|label102 =  {{Infobox building/localize|E-mail}}
+|data102 = {{#invoke:Wikidata|claim|property=P968|formatting=label}}
+|label103 =  {{Infobox building/localize|Phone}}
+|data103 = {{#invoke:Wikidata|claim|property=P1329|formatting=tel:$1}}
+
+|data200 = {{#invoke:Wikidata | claim | property=P856| formatting=[$1 {{((}}Infobox building/localize{{!}}Offical website{{))}}]|list=false}}
+|below = {{notelist-ur}}
+}}</includeonly><noinclude>
+Template localization: [[Template:Infobox building/localize]]
+{{doc}}
+</noinclude>
