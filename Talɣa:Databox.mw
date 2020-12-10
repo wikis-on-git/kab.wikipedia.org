@@ -1,7 +1,7 @@
 {{#switch:{{#invoke:Categorizer|find|item={{{1|}}}}}
 | entity not found = {{Infobox entity not found}}
-| language = {{Databox language}}
-| language family = {{Databox language family}}
+| language = {{Databox language|item={{{1|}}}}}
+| language family = {{Databox language family|item={{{1|}}}}}
 | human = {{Infobox biography|item={{{1|}}}}}
 | taxon = {{Automatic taxobox|item={{{1|}}}}}
 | taxon common name = {{Automatic taxobox|item={{#invoke:Wikidata|claim|property=P31|qualifier=P642|list=false|formatting=raw|item={{{1|}}}}}}}
