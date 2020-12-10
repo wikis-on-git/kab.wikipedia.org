@@ -1,0 +1,39 @@
+{{Infobox
+| bodyclass = bordered
+| title = <includeonly>Genomic information</includeonly>
+| imagestyle = padding:0.3em;
+| image = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|}}}|sizedefault=frameless|upright=1.16|alt={{{alt|}}}}}
+| caption = {{{caption|}}}
+| labelstyle = padding:0.2em 0.3em; background:#f1EBf1
+| datastyle  = padding:0.2em 0.3em;
+
+| label1 = [[National Center for Biotechnology Information|NCBI]] genome ID
+| data1 = {{#if:{{{taxId|}}}|<span class="plainlinks">[https://www.ncbi.nlm.nih.gov/{{{type|genome}}}/?term={{{taxId}}} {{{taxId}}}]</span>}}
+
+| label2 = [[Ploidy]] 
+| data2 = {{{ploidy|}}}
+
+| label3 = [[Genome size]] 
+| data3 = {{#if:{{{size|}}}|<span class="nowrap">{{{size}}}</span>}}
+
+| label4 = Number of [[chromosome]]s
+| data4 = {{{chromosomes|}}}
+
+| label5 = [[Genome project|Year of completion]]
+| data5 = {{{year|}}}
+
+| label6 = Sequenced [[organelle]]
+| data6 = {{{organelle|}}}
+
+| label7 = Organelle size 
+| data7 = {{{organelle-size|}}}
+
+| label8 = Year of {{#if:{{{organelle|}}}{{{organelle-size|}}}|{{abbr|completion|completion of the sequencing of the organelle}}|organelle sequencing completion}}
+| data8 = {{{organelle-year|}}}
+
+| data9 = {{#if:{{{ucsc_assembly|}}}|<span class="plainlinks">[https://genome.ucsc.edu/cgi-bin/hgTracks?db={{{ucsc_assembly}}} Genome browser]</span> ([[University of California, Santa Cruz|UCSC]])}}
+
+}}<noinclude>
+{{Documentation}}
+<!-- Add categories to the /doc subpage, interwikis to Wikidata, not here -->
+</noinclude>
