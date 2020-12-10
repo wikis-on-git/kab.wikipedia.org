@@ -1,0 +1,35 @@
+<includeonly>{{Infobox
+| abovestyle = background-color: lightsteelblue
+| aboveclass = hd
+| headerstyle = background-color: lightsteelblue
+| above = <span style="float:left;">[[image:Group_half.svg|20px]]</span> {{PAGENAMEBASE}}
+| image = {{#invoke:Wikidata|claim|property=P154|formatting=[[File:$1|280px]]|value={{{image|}}}|list=false}}
+| image2 =  {{#if:{{#Property:P10|from={{{item|}}}}}|{{#invoke:Wikidata | claim | property=P10|formatting=[[File:$1|260px]]|list=false}}|{{#invoke:Wikidata | claim | property=P18|formatting=[[File:$1|260px]]|value={{{image|}}}|list=false}}}}{{#invoke:Wikidata | claim | property=P2096|formatting=<br/> $1|list=false}}
+
+| header1 = {{Infobox musical artist/localize|Background information}}
+
+| label2 = {{Infobox musical artist/localize|Founded}}
+| data2 = {{{founded|{{#invoke:Wikidata | claim | property=P571|list=false}}}}}
+
+| label3 = {{Infobox musical artist/localize|Genres}} 
+| data3 = {{#invoke:Wikidata | claim | property=P136|formatting = internallink }}
+
+| label4 = {{Infobox musical artist/localize|Influenced by}}  
+| data4 = {{#invoke:Wikidata | claim | property=P737|formatting = internallink}}
+
+|data5 = {{#invoke:Wikidata | claim | property=P856|formatting = weblink}}
+
+| header6 = {{Infobox musical artist/localize|Members}}
+| data7 =  {{{members|{{#invoke:Wikidata | claim | property=P527|qualifier=P580|qualifier2=P582|formatting=table|rowformat=$0 <small>$1 $2</small>|rowsubformat1=($1 |rowsubformat2= - $2)|conjunction=<br />|separator=<br />|colformat0=internallink}} }}}
+
+| header8 = {{Infobox musical artist/localize|Prizes}}
+| label9 = {{Infobox musical artist/localize|Prizes}}
+| data9 = {{collapsible list|title=ẓer|{{#invoke:Wikidata | claim | property=P166 |qualifier=P585| qualifier2=P1027 |qualifier3=P1686|formatting=table
+              |rowformat = {{((}}Sub-item image{{!}}$0{{!}}P2425{{!}}40x20px{{))}} [[{{((}}#invoke:Wikibase{{!}}label{{!}}$0{{))}}]] $2 $1 $3 |rowsubformat1=<small>&nbsp;($1)</small> |rowsubformat2=: <small>$2</small>|rowsubformat3=: <small>$3</small> | colformat0=raw | colformat2=internallink| separator=<br />}}}}
+
+| label10 = {{Infobox musical artist/localize|Nominated to}}  
+| data10 = {{collapsible list|title=ẓer|{{delink|{{#invoke:Wikidata |claim |formatting=table |property=P1411|tablesort=1 |qualifier=P585| qualifier2=P1027 |qualifier3=P1686|rowformat=[[$0]] $2 $1 $3 |rowsubformat1=<br /><small>($1)</small> |rowsubformat2=<small>: [[$2]]</small>|rowsubformat3=<small>: [[$3]]</small>}}}}}}
+
+}}</includeonly><noinclude>
+Template localization: [[Template:Infobox musical artist/localize]]
+</noinclude>
