@@ -1,9 +1,9 @@
 <includeonly>{{Infobox
 | bodyclass   = vcard
 | bodystyle   = line-height:normal; width:23.5em;
-| abovestyle  = {{Infobox physical geography/color|{{{category|}}}}}
+| abovestyle  = {{Infobox physical geography/color|{{{category|}}}|item={{{item|}}}}}
 | aboveclass  = fn org
-| headerstyle = {{Infobox physical geography/color|{{{category|}}}}}
+| headerstyle = {{Infobox physical geography/color|{{{category|}}}|item={{{item|}}}}}
 | labelstyle  = padding-right:1.2em; background:#eeeeee; text-align:start
 | datastyle   = padding: 0.2em 0em; vertical-align:text-top;
 | imagestyle  = padding: 0.2em 0.2em 0.2em 0.2em;
