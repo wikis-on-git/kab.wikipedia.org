@@ -1,0 +1,9 @@
+<noinclude><!--==============================================================
+
+          ATTENTION : LA MODIFICATION D'UN MODÈLE PEUT ENTRAÎNER DES PROBLÈMES 
+         SUR TOUTES LES PAGES DANS LESQUELLES IL EST INCLUS.
+
+Veuillez ne pas tenter de le modifier à moins que vous ne soyez certain de bien comprendre sa conception. 
+
+==============================================================-->
+</noinclude><includeonly>{{en}} [http://www.imdb.com/name/nm{{{id|{{{1|}}}}}}/{{#if:{{{adu-asebtar|}}}|{{{adu-asebtar|}}}}} {{{name|{{{isem|{{PAGENAME}}}}}}}}] ɣef {{lang|en|''[[Internet Movie Database]]''}}</includeonly><noinclude>{{Tumlin}}</noinclude>
