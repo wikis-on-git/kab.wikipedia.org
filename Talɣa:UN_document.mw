@@ -42,5 +42,5 @@
   || {{#if: {{{accessdate|}}}
   | &#32; (consulté le {{{accessdate}}})&#32;
 }}}}<noinclude>
-{{documentation}}
+{{Tumlin}}
 </noinclude>
