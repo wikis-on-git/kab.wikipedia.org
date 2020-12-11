@@ -1,0 +1,46 @@
+{{#if: {{{body|}}}
+  |{{#switch: {{{body}}} | 
+        A = [[Assemblée générale des Nations unies]] | 
+        S = [[Conseil de sécurité des Nations unies]] | 
+        [[{{{body}}}]] }}, 
+}}{{#if: {{{docid|}}}
+  |[http://www.undocs.org/{{{language|fr}}}{{#if: {{{anchor|}}}
+        |{{#if: {{{meeting|}}}|/meeting}}/{{{docid}}}&#35;{{{anchor}}}
+        |{{#if: {{{page|}}}|/{{{docid}}}/page_{{{page}}}
+        |{{#if: {{{meeting|}}}|/meeting}}/{{{docid}}}}}{{#if: {{{highlight|}}}|/{{{highlight}}}}}
+}}}}{{#if: {{{type|}}}
+  | ''{{{type}}}''| '' ''
+}}{{#if: {{{resolution_number|}}}
+  | &#32;{{{resolution_number}}}
+}}{{#if: {{{document_number|}}}
+  | &#32;{{{document_number}}}
+}}{{#if: {{{meeting|}}}
+  | &#32;meeting {{{meeting}}}
+}}{{#if: {{{session|}}}
+  | &#32;session {{{session}}}
+}}{{#if: {{{title|}}}
+  | &#32;{{{title}}} 
+}}{{#if: {{{session|}}}
+  ||{{#if: {{{meeting|}}}
+  ||{{#if: {{{title|}}}
+  || &#32; {{{docid}}}
+}}}}}}{{#if: {{{docid|}}}
+  |]
+}}{{#if: {{{page|}}}
+  |&#32;page {{{page}}}
+}}{{#if: {{{speakername|}}}
+  |, {{{speakername}}}
+}}{{#if: {{{speakernation|}}}
+  |&#32;''{{#switch:{{{speakernation}}}|Georgia=[[Georgia (country)|Georgia]]|[[{{{speakernation}}}]]}}''
+}}{{#if: {{{date|}}}
+  |&#32;le {{{date}}}
+{{#if: {{{meetingtime|}}}
+  |&#32;à {{{meetingtime}}}
+}}|{{#if: {{{year|}}}
+  |&#32;in {{{year}}}
+}}}}{{#if: {{{title|}}}
+  || {{#if: {{{accessdate|}}}
+  | &#32; (consulté le {{{accessdate}}})&#32;
+}}}}<noinclude>
+{{documentation}}
+</noinclude>
