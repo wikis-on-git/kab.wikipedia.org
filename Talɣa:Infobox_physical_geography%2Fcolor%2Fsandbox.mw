@@ -1,1 +1,1 @@
-{{#switch:{{{1|{{{item|}}}}}}|hydrography = H|#default={{{1|{{{item}}}}}} D}}
+{{#switch:{{if empty|{{{1|}}}|{{{item|}}}}}|hydrography = H|#default={{if empty|{{{1|}}}|{{{item|}}}}} D}}
