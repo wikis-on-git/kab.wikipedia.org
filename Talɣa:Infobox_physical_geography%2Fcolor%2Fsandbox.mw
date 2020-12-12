@@ -1,1 +1,1 @@
-{{#switch:{{{category|{{#invoke:Categorizer|find|item={{{item|}}}}}}}}|hydrography = H|#default= D}}
+{{#switch:{{if empty|{{{1|}}}|{{#invoke:Categorizer|find|item={{{item|}}}}}}}|hydrography = H|#default= D}}
