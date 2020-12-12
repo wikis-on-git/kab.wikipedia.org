@@ -1,1 +1,1 @@
-<includeonly>{{#switch:{{{1|{{#invoke:Categorizer|find|item={{{item|}}}}}}}}|hydrography = background-color: #CEDEFF;|#default= background-color: #e7dcc3;}}</includeonly>
+<includeonly>{{#switch:{{if empty|{{{1|}}}|{{#invoke:Categorizer|find|item={{{item|}}}}}}}|hydrography = background-color: #CEDEFF;|#default= background-color: #e7dcc3;}}</includeonly>
