@@ -1,0 +1,13 @@
+{{#if:{{#property:P625|from={{{item|}}}}}
+|<!-- koordenatu orokorrak daude.-->{{#invoke:Wikidata | claim | property=P625 | formatting=latitude | list=false}}
+|<!-- ez dago koordenatu orokorrik. -->{{#if:{{#invoke:Wikidata|claim|qualifier=P625 |property=P403 | formatting=latitude}}
+|<!-- itsasoratze koordenatuak daude.-->{{#invoke:Wikidata|claim|qualifier=P625 |property=P403 | formatting=latitude | list=false}}
+|<!-- ez dago itsasoratze koordenaturik.-->{{#if:{{#invoke:Wikidata|claim|qualifier=P625 |property=P159 | formatting=latitude}}
+|<!-- egoitza koordenatuak daude. -->{{#invoke:Wikidata|claim|qualifier=P625 |property=P159 | formatting=latitude | list=false}}
+|<!-- ez dago egoitza koordenaturik.-->{{#if:{{#invoke:Wikidata|claim|qualifier=P625 |property=P276 | formatting=latitude}}
+|<!-- dagoen lekuaren koordenatuak daude.-->{{#invoke:Wikidata|claim|qualifier=P625 |property=P276 | formatting=latitude | list=false}}
+|<!-- ez dago ezer.
+-->}}
+}}
+}}
+}}
