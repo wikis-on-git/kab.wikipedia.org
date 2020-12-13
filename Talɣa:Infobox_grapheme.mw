@@ -1,0 +1,63 @@
+{{Infobox
+| name        = Infobox grapheme
+| item        = {{{item|}}}
+| above       = <span style="float:left; margin-left: 3px;">[[File:Transponaturtecken.svg|20px|link=]]</span>{{{name|{{PAGENAMEBASE}}}}}
+
+| abovestyle  = background-color:Moccasin;
+| headerstyle = background-color:Moccasin;
+| labelstyle   = background:#eeeeee
+
+| image       = {{#ifeq:{{{imatge|}}} |NONE
+                |<!-- no take WD -->
+                |{{#if:{{{imatge|}}}
+                   | {{#invoke:InfoboxImage |InfoboxImage |image={{{imatge|}}}
+                                                          | size=300x300px | alt={{{alt|}}} }}<!--
+                  -->{{#if:{{{peu|{{{llegenda|}}}}}} |<br />{{{peu|{{{llegenda|}}}}}} }} 
+                   |{{if then show|{{#invoke:Wikidata | claim | property=P18 |qualifier=P2096
+                                                      | formatting = table | list = false
+                                                      | rowformat= [[File:$0|150x150px]]<br />$1}}
+                    }}
+              }} }}  
+
+| image2      = {{#ifeq:{{{imatge2|}}} |NONE
+                |<!-- no take WD -->
+                |{{#if:{{{imatge2|}}}
+                   | {{#invoke:InfoboxImage |InfoboxImage |image={{{imatge2|}}}
+                                                          | size=300x300px | alt={{{alt|}}} }}<!--
+                  -->{{#if:{{{peu2|{{{llegenda2|}}}}}} |<br />{{{peu2|{{{llegenda2|}}}}}} }} 
+                   |{{if then show|{{#invoke:Wikidata | claim | property=P41 |qualifier=P2096
+                                                      | formatting = table | list = false
+                                                      | rowformat= [[File:$0|50px]]<br />$1}}
+                    }}
+              }} }}  
+
+| header1  = 
+
+| label3   = {{GetLabelFix|Q3241972}}
+| data3    = {{#invoke:string | replace | {{#invoke:Wikidata | claim | property=P487 | qualifier=P518 | qualifier2=P4213 | qualifier3=P1993 | qualifier4=P4575 | value={{{caracter|}}} | formatting=table | rowformat=$0 $1 $2 $3 $4 | rowsubformat1 = ($1) | rowsubformat2 = <br />'''Unicode:''' [http://unicode.org/cldr/utility/character.jsp?a=$2 $2]<br />  | rowsubformat3 = '''{{GetLabelFix|P1993}}:''' $3<br /> | rowsubformat4 = '''{{GetLabelFix|P4575}}:''' $4<br /> }}|&|&amp;}}
+
+| label4   = {{GetLabelFix|Q21146257}} 
+| data4    = {{#invoke:Wikidata | claim | property=P31 | value={{{type|}}} }}
+
+| label5   = {{GetLabelFix|P361}}
+| data5    = {{#invoke:Wikidata | claim | property=P361 | value={{{part_of|}}} }}
+
+| label6   = {{GetLabelFix|P3295}}
+| data6    = {{#invoke:Wikidata | claim | property=P3295 | qualifier=P3294 | value={{{code|}}} | formatting= table }}
+
+| label7   = {{GetLabelFix|P144}}
+| data7    = {{#invoke:Wikidata | claim | property=P144 | value={{{based on|}}} }}
+
+| label8   = {{GetLabelFix|P4575}}
+| data8    = {{#invoke:string|replace| {{#invoke:Wikidata | claim | property=P4575 | value={{{html entity|}}} }} |&|&amp;}}
+
+
+| data46  = {{#if:{{{anterior|{{#property:P155}}}}}{{{principal|{{#property:P1269}}}}}{{{seguent|{{#property:P156}}}}}|<nowiki />
+{{{!}} style="width:100%; background-color:Moccasin;"
+{{!}} style="width: 30%; padding: 0.2em 0.1em 0.2em 0" {{!}} {{#if:{{{anterior|{{#property:P155 | from= {{{item|}}} }}}}}|'''&nbsp;&lt; {{#invoke:Wikidata | claim | property=p155 | value={{{anterior|}}} }}'''|&nbsp;}}
+{{!}} style="width: 40%; padding: 0.2em 0.1em 0.2em 0.1em" {{!}} {{#if:{{{principal|{{#property:P1269 | from= {{{item|}}} }}}}}|'''{{#invoke:Wikidata | claim | property=p1269 | value={{{main|{{{principal|}}}}}} }}'''|&nbsp;}}
+{{!}} style="width: 30%; padding: 0.2em 0 0.2em 0.1em" {{!}} {{#if:{{{seguent|{{#property:P156 | from= {{{item|}}} }}}}}|'''{{#invoke:Wikidata | claim | property=p156 | value={{{seguent|}}} }} &gt;&nbsp;'''|&nbsp;}}
+{{!}}}
+}}
+
+}}
