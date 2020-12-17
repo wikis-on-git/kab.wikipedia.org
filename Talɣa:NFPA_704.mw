@@ -1,0 +1,74 @@
+<!-- NFPA 704 Diamant de foc.  Com a simbol de perill de  radiació, empreu &#x2622;. -->
+{| border="0" cellspacing="0" cellpadding="0"
+|-
+<div style="position: relative; height: 85px; width: 75px;">
+<div style="position: absolute; height: 75px; width: 75px;">[[File:NFPA 704.svg|75px]]</div>
+<div title="Inflamabilitat" style="
+background:     transparent;
+width:          75px;
+height:         2em;
+text-align:     center;
+vertical-align: middle;
+position:       absolute;
+top:            8px;
+font-size:      large;
+">{{#switch:{{{Inflamabilitat|{{{Flammability|}}}}}}
+|0 = <span class="abbr" style="color: black;" title="Inflamabilitat 0.No es pot encendre. (p.ex., aigua)">0</span>
+|1 = <span class="abbr" style="color: black;" title="Inflamabilitat 1.  Ha de ser preescalfat abans que la ignició pugui ocórrer (e. g. oli de colza). Punt d'inflamabilitat per sobre 93°C (200°F).">1</span>
+|2 = <span class="abbr" style="color: black;" title="Inflamabilitat 2. Ha de ser moderadament escalfat o ser exposat a temperatures relativament altes. (p.ex. gasoil) Punt d'inflamació entre 38°C (100°F) i 93°C (200°F).">2</span>
+|3 = <span class="abbr" style="color: black;" title="Inflammabilitat 3.  Líquids que es poden encendre sota gairebé totes les condicions de temperatura ambientals (e. g., gasolina). Punt d'inflamabilitat per sota 38°C (100°F) però per damunt de 23°C (73°F).">3</span>
+|4 = <span class="abbr" style="color: black;" title="Inflamabilitat 4.  Es vaporitza ràpidament o completament a pressió atmosfèrica i temperatura ambient, o és dispersa i quema fàcilment en l'aire (p.ex., propà) Punt d'inflamabilitat per sota  23°C (73°F).">4</span>
+|&nbsp;}}</div>
+<div title="Salut" style="
+background:     transparent;
+width:          37.5px;
+height:         2em;
+text-align:     center;
+vertical-align: middle;
+position:       absolute;
+top:            26px;
+font-size:      large;
+">{{#switch:{{{Salut|{{{Health|}}}}}}
+|0 = <span class="abbr" style="color: black;" title="Salut 0.  L'exposició al focs no oferira cap perill més enllà que la d'un material  combustible corrent. (p.ex., clorur de sodi)">0</span>
+|1 = <span class="abbr" style="color: black;" title="Salut 1.  L'exposició provocaria irritació amb seqüeles lleus. (e. g., aiguarràs)">1</span>
+|2 = <span class="abbr" style="color: black;" title="Salut 2.  L'exposició intensa o continuada però no crònica podria provocar incapacitat provisional o possibles seqüeles. (p.ex., cloroform)">2</span> |3 = <span class="abbr" style="color: black;" title="Salut 3. L'exposició curta podria provocar lesió provisional seriosa i lesions moderades permanents. (p.ex., gas de clor)">3</span>
+|4 = <span class="abbr" style="color: black;" title="Salut 4. L'exposició molt curta podria provocar mort o lesions greus permanents. (p.ex., gas nerviós)">4</span>
+|&nbsp;}}</div>
+<div title="Reactivitat" style="
+background:     transparent;
+width:          37.5px;
+height:         2em;
+text-align:     center;
+vertical-align: middle;
+position:       absolute;
+top:            26px;
+left:           37.5px;
+font-size:      large;
+">{{#switch:{{{Reactivitat|{{{Reactivity|}}}}}}
+|0 = <span class="abbr" style="color: black;" title="Reactivitat 0. Normalment estable, fins i tot sota exposició al foc, i no és reactiu amb aigua. (p.ex., nitrogen líquid)">0</span>
+|1 = <span class="abbr" style="color: black;" title="Reactivitat 1. Normalment estable, però es pot tornar inestable a temperatures i pressions elevades. (p.ex., calci)">1</span>
+|2 = <span class="abbr" style="color: black;" title="Reactivitat 2. Sofreix canvi químic violent a temperatures i pressions elevades, reacciona violentament amb l'aigua, o pot formar mescles explosives amb aigua. (p.ex., fòsfor)">2</span>
+|3 = <span class="abbr" style="color: black;" title="Reactivitat 3. Capaç de detonar o de descompondre's explosivament però exigeix una font d'iniciació forta, ha de ser escalfat sota confinament abans d'iniciació, reacciona de forma explosiva amb l' aigua, o detonarà si rep cops severs. (p.ex., fluor)">3</span>
+|4 = <span class="abbr" style="color: black;" title="Reactivitat 4.  Fàcilment capaç de detonar o de patir una descomposició explosiva a temperatures i pressions normals. (p.ex., Nitroglicerina)">4</span>
+|&nbsp;}}</div>
+<div title="Altres riscs" style="
+background:     transparent;
+width:          75px;
+height:         2em;
+text-align:     center;
+vertical-align: middle;
+position:       absolute;
+top:            47px;
+font-size:      small;
+">{{#switch:{{uc:{{{Altres|{{{Other|}}}}}}}}
+|W = <span class="abbr" style="color: black;" title="Especial W.  reacciona amb l'aigua d'una manera inusual o perillosa (p.ex. Cesi, Sodi)"><s>W</s></span>
+|OX = <span class="abbr" style="color: black;" title="Especial OX - oxidant (p.ex. Perclorat de potassi)">OX</span>
+|COR = <span class="abbr" style="color: black;" title="Especial 'COR' - corrosiu; àcid o base forta (p.ex. Àcid sulfuric, hidroxid de potasi)">COR</span>
+|BIO = <span class="abbr" style="color: black;" title="Especial BIO - Perill biologic (p.ex. virus de la verola)">BIO</span>
+|CRYO = <span class="abbr" style="color: black;" title="'CRYO' - Cryogenic">CRYO</span>
+|ACID = <span class="abbr" style="color: black;" title="Especial 'ACID' - corrosiu; àcid fort (p.ex. Àcid sulfúric)">ACID</span>
+|ALK = <span class="abbr" style="color: black;" title="Special 'ALK' - corrosiu; base forta (p.ex. hidròxid de potassi)">ALK</span>
+|RA = <span class="abbr" style="color: black;" title="Especial RA - és radioactiu (p.ex. Plutoni)">[[File:Radioactive.svg|20px]]</span>
+|&nbsp;}}</div>
+</div>
+|}<!-- Template:NFPA_704 -->
