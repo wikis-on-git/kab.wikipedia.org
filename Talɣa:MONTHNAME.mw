@@ -1,0 +1,25 @@
+<includeonly>{{ #if: {{{1|}}} <!-- {{{1}}} est présent et non-vide -->
+ | {{ #switch: {{ MONTHNUMBER | 1={{{1}}} }} <!-- force "1=" au cas où {{{1}}} contient un signe = -->
+  | 01 = yennayer
+  | 02 = fuṛaṛ
+  | 03 = meɣres
+  | 04 = yebrir
+  | 05 = mayyu
+  | 06 = yunyu
+  | 07 = yulyu
+  | 08 = ɣuct
+  | 09 = ctamber
+  | 10 = tubeṛ
+  | 11 = wamber
+  | 12 = dujamber
+  | #default <!-- MONTHNUMBER n'a pas retourné un numéro entre 1 et 12 -->
+   = <strong class="error">Erreur MONTHNAME : paramètre ''aggur'' invalide: {{{1}}}</strong>
+ }}
+ | <strong class="error">Erreur MONTHNAME : paramètre ''aggur'' manquant</strong>
+}}</includeonly><noinclude><!--
+
+  Pour limiter le nombre de changements de cette page merci de placer les
+  métadonnées (catégories, interwikis) concernant ce modèle dans une
+  section <includeonly> de sa sous-page de documentation, plutôt qu'ici.
+
+-->{{nobots}}</noinclude>
