@@ -4,6 +4,7 @@
 | language family = {{Databox language family|item={{{1|}}}}}
 | script = {{Databox writing system|item={{{1|}}}}} 
 | religion = {{Infobox religion|item={{{1|}}}}}
+| ethnic group = {{Databox ethnic group|item={{{1|}}}}}
 | taxon = {{Automatic taxobox|item={{{1|}}}}}
 | taxon common name = {{Automatic taxobox|item={{#invoke:Wikidata|claim|property=P31|qualifier=P642|list=false|formatting=raw|item={{{1|}}}}}}}
 | human = {{Infobox biography|item={{{1|}}}}}
