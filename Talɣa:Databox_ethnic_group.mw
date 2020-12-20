@@ -1,0 +1,24 @@
+<includeonly>{{Infobox ethnic group
+| group = {{If empty|{{{group|}}}|{{{name|}}}|{{PAGENAMEBASE}}}}
+| image    = {{#if:{{{imatge|{{{image|}}}}}} 
+               | {{#invoke:InfoboxImage|InfoboxImage|image={{{imatge|{{{image|}}}}}} |alt={{{alt|}}}
+                                            |sizedefault=300x300px}}<!--
+              -->
+               |{{#ifeq:{{lc:{{{imatgeWD|}}}}} |no|<!-- No buscar a WD
+               -->| {{#if:{{#invoke:Wikidata|validProperty|P18|item={{{item|}}}}}<!-- NO "sense valor/desconegut"
+                   -->|{{if then show|{{#invoke:{{{module|wikidata}}}|claim| property=P18 or P41|qualifier=P2096 
+                                               | formatting = table | list = false  
+                                               | rowformat= [[File:$0|300x300px]]<br />$1 }}
+                       }}
+             }} }}  }}
+| image_caption 	={{{image_caption|{{{caption|}}}}}}
+| native_name = {{#invoke:Wikidata | claim | property=P1705 | value={{{native_name|}}} }}
+| population = {{#invoke:Wikidata | claim | property=P1082 | value={{{population|}}} }}
+| regions =  {{if empty|{{{regions|}}}
+                       | {{#invoke:Wikidata | claim | property=P17 }}
+                       | {{#invoke:Wikidata | claim | property=P495 }}
+             }}
+| languages = {{#invoke:Wikidata | claim | property=P2936 OR P1412 | value={{{languages|}}} }}
+| rels ={{#invoke:Wikidata | claim | property=P140 | value={{{rels|}}} }}
+| related ={{#invoke:Wikidata | claim | property=P279 OR P361 | value={{{related|}}} }}
+}}</includeonly>
