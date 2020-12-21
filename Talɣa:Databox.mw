@@ -25,6 +25,7 @@
 | event = {{Infobox event|item={{{1|}}}}}
 | grapheme = {{Infobox grapheme|item={{{1|}}}}}
 | astronomical object = {{Infobox astronomical object|item={{{1|}}}}}
+| food = {{Infobox food|item={{{1|}}}}}
 <!-- Infobox programming language -->
 | #default = {{Databox generic}} [[Category:Articles using generic infobox]]
 }}
