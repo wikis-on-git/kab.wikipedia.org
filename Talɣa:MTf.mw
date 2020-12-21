@@ -1,0 +1,57 @@
+<includeonly>{| class="infobox" style="width:220px; float: left; text-align:center; margin-top:1em; "
+|- style="font-size:90%; background:#DCF0FF"
+| '''[[{{{Isem}}}]]'''
+|-
+{{#if:{{{Tawlaft|}}}|{{!}}[[Tugna:{{{Tawlaft}}}{{!}}160px]]|}}
+{{#if:{{{anemmal|}}}|{{!}}<div style="padding-top: 7px; padding-bottom: 4px;">{{{anemmal}}}|}}</div>
+{{#if:{{{LabelId|}}}|
+{{!}}- style="padding-top: 0px;font-size: 75%; line-height: 150%;"
+{{!}}{{{Azwel_n_unemmal}}}|}}
+{{#if:{{{imagraden_isuranen|}}}|
+{{!}}- style="font-size: 90%; line-height: 150%;"
+{{!}}{{{imagraden_isuranen}}}|}}
+{| class="collapsible {{#ifeq: {{{azwel1|}}}|{{{azwel}}}| | collapsed}}" width="100%" 
+!style=" text-align: right; background: #DCF0FF; font-size: 90%;"|{{{azwel1}}}
+|-style="font-size: 90%; line-height: 150%;"
+|{{{Iferdisen1}}}
+|}{{#if:{{{azwel2|}}}|{{{!}} class="collapsible {{#ifeq: {{{azwel2|}}}|{{{azwel2}}}| | collapsed}}" width="100%" 
+!style=" text-align: right; background: #DCF0FF; font-size: 90%;"{{!}}{{{azwel2}}}
+{{!}}-style="font-size: 90%; line-height: 150%;"
+{{!}}{{{Iferdisen2}}}
+{{!}}}|}}{{#if:{{{azwel3|}}}|{{{!}} class="collapsible {{#ifeq: {{{azwel3|}}}|{{{azwel}}}| | collapsed}}" width="100%" 
+!style=" text-align: right; background: #DCF0FF; font-size: 90%;"{{!}}{{{azwel3}}}
+{{!}}-style="font-size: 90%; line-height: 150%;"
+{{!}}{{{iferdisen3}}}
+{{!}}}|}}{{#if:{{{Topic4|}}}|{{{!}} class="collapsible {{#ifeq: {{{azwel4|}}}|{{{azwel4}}}| | collapsed}}" width="100%" 
+!style=" text-align: right; background: #DCF0FF; font-size: 90%;"{{!}}{{{azwel4}}}
+{{!}}-style="font-size: 90%; line-height: 150%;"
+{{!}}{{{iferdisen4}}}
+{{!}}}|}}{{#if:{{{azwel5|}}}|{{{!}} class="collapsible {{#ifeq: {{{azwel5|}}}|{{{cTopic}}}| | collapsed}}" width="100%" 
+!style=" text-align: right; background: #DCF0FF; font-size: 90%;"{{!}}{{{azwel5}}}
+{{!}}-style="font-size: 90%; line-height: 150%;"
+{{!}}{{{Iferdisen5}}}
+{{!}}}|}}{{#if:{{{azwel6|}}}|{{{!}} class="collapsible {{#ifeq: {{{azwel6|}}}|{{{azwel}}}| | collapsed}}" width="100%" 
+!style=" text-align: right; background: #DCF0FF; font-size: 90%;"{{!}}{{{azwel6}}}
+{{!}}-style="font-size: 90%; line-height: 150%;"
+{{!}}{{{iferdisen6}}}
+{{!}}}|}}{{#if:{{{azwel7|}}}|{{{!}} class="collapsible {{#ifeq: {{{azwel7|}}}|{{{azwel}}}| | collapsed}}" width="100%" 
+!style=" text-align: right; background: #DCF0FF; font-size: 90%;"{{!}}{{{azwel7}}}
+{{!}}-style="font-size: 90%; line-height: 150%;"
+{{!}}{{{iferdisen7}}}
+{{!}}}|}}{{#if:{{{azwel8|}}}|{{{!}} class="collapsible {{#if: {{{azwel8|}}}|{{{azwel}}}| | collapsed}}" width="100%" 
+!style=" text-align: right; background: #DCF0FF; font-size: 90%;"{{!}}{{{azwel8}}}
+{{!}}-style="font-size: 90%; line-height: 150%;"
+{{!}}{{{iferdisen8}}}
+{{!}}}|}}{{#if:{{{imusnawen|}}}|{{{!}} class="collapsible {{#if: {{{imusnawen|}}}| | collapsed}}" width="100%" 
+!style=" text-align: right; background: #DCF0FF; font-size: 90%;"{{!}}imusnawen
+{{!}}-style="font-size: 90%; line-height: 150%;"
+{{!}}{{{imusnawen}}}{{#ifexist: imttekkiyen deg {{{Name}}}| · [[imttekkiyen deg {{{isem}}}{{!}}''niden'']]|}}
+{{!}}}|}}
+{{!}}-style=" text-align: center; font-size: 90%;"
+|{{Tnavbar|{{{isem}}}}}
+|}</includeonly><noinclude>
+
+[[Taggayt:Talɣiwin n Wikipedia]]
+[[Taggayt:talɣiwin n isalan]]
+{{Tumlin}}
+</noinclude>
