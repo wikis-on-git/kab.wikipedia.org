@@ -1,0 +1,30 @@
+<!--Initial version eu:Txantiloi:Elikagai infotaula-->
+{{Infobox
+| abovestyle = background-color: #DBA901
+| aboveclass = hd
+| subheaderstyle = border-top: 2px solid #DBA901; border-bottom: 2px solid #DBA901; background-color:#DBA901;
+| headerstyle = background-color: #DBA901
+| above = {{{name|{{PAGENAMEBASE}}}}}
+| subheader = {{#invoke:Wikidata|claim|property=P279|from={{{item|}}}|formatting=internallink|value={{{subheader|}}}}}
+| image = {{#invoke:Wikidata | claim | property=P18|value={{{image|}}}|formatting=[[File:$1|260px]]|list=false}}
+| caption = {{{caption|}}}
+| label2 =  {{GetLabelFix|Q10675206}}  <!--ingredient-->
+| data2 = {{#invoke:Wikidata | claim | property=P186|qualifier=P366|qualifier2=P1114|qualifier3=P518|value={{{ingredients|}}}|formatting=table|rowformat=$3 $0 $1 $2|rowsubformat1=($1)|rowsubformat3='''$3'''&nbsp;|colformat0=internallink|case=singularra|colformat1=label|colformat2=unit|colformat3=label|tablesort=3}}
+| label3 = {{GetLabelFix|Q10675206}}  <!--ingredient-->
+| data3 = {{#invoke:Wikidata|claim|property=P527|formatting=internallink|case=singularra}}
+| label4 = {{GetLabelFix|Q1075}}  <!--Color-->
+| data4 = {{#invoke:Wikidata|claim|property=Q39338|formatting=internallink|case=singularra}}
+| header10 = {{#if:{{#Property:P495|from={{{item|}}}}}{{#Property:P571|from={{{item|}}}}}{{#Property:P750|from={{{item|}}}}}{{#Property:P138|from={{{item|}}}}}{{#Property:P1582|from={{{item|}}}}}| {{GetLabelFix|Q309}} <!--history-->}}
+| label11 = {{GetLabelFix|Q3885844}} <!--Origin-->
+| data11 = {{#invoke:Wikidata|claim|property=P495|formatting=internallink}}
+| label12 = {{GetLabelFix|Q13235160}} <!--Producer-->
+| data12 = {{#invoke:Wikidata|claim|property=P1582|formatting=internallink}}
+| label13 = {{GetLabelFix|P571}} <!--creation date-->
+| data13 = {{#invoke:Wikidata|claim|property=P571}}
+| label14 = {{GetLabelFix|P138}} <!--named after -->
+| data14 = {{#invoke:Wikidata|claim|property=P138|formatting=internallink}}
+| label15 = {{GetLabelFix|Q12540664}} <!--distributor-->
+| data15 = {{#invoke:Wikidata|claim|property=P750|formatting=internallink}}
+| label16 =  {{GetLabelFix|P460}} <!--said to be the same as-->
+| data16 = {{#invoke:Wikidata|claim|property=P460|formatting=internallink}}
+}}<noinclude>{{doc}}</noinclude>
