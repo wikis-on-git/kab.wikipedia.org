@@ -1,0 +1,94 @@
+<!--
+================================================================
+ Bandera / Escut
+================================================================
+--> {{#if:{{{left_image|}}} | {{#if:{{{right_image|}}} 
+|<!--thenF:
+ -----------------------------------------------------------
+ Dues imatges: Bandera+escut o logo, etc.
+ -----------------------------------------------------------
+ --><tr class="mergedtoprow">
+ <td class="maptable" colspan="2"  align="center" style="padding:0.5em 0;"><!--
+ --------------------------------------------------
+ Subtable to format coat-of-arms (or symbol)
+ display. Align="center"s and "width:auto;"s
+ are for sake of Internet Explorer.
+ --------------------------------------------------
+ --><table align="center" style="width:100%; background:none;"><!--
+ -----------Image/s-----------
+ --><tr>  
+ <td align="center" style="width:auto; vertical-align:middle;"><!--
+ -->{{#invoke:InfoboxImage|InfoboxImage|image={{{left_image}}}|size={{{left_size|100px}}} |sizedefault=frameless|upright=1|border={{{left_border|}}}|alt={{{left_alt|{{{left_footer|}}}}}}|suppressplaceholder=yes}}<!--end imatge esq:--><!--
+ --></td>
+ <td align="center" style="width:auto; vertical-align:middle;"><!--
+ -->{{#invoke:InfoboxImage|InfoboxImage|image={{{right_image}}}|size={{{right_size|100px}}} |sizedefault=frameless|upright=1|alt={{{right_alt|{{{right_footer|}}}}}} |suppressplaceholder=yes}}<!--
+ --></td>
+ </tr><!--
+ ----------Caption/s 2 imatges----------
+ --><tr>
+   <td align="center"><small>{{{left_footer|}}} </small></td>
+   <td align="center"><small>{{{right_footer|}}} </small></td>
+ </tr><!--
+ ---------End subtable per dues imatges:---------
+ --></table>
+ </td>
+ </tr><!--
+-->|<!--else, no imatge dreta:
+ ------------------------------------------------------------
+ hi ha imatge esquerra només:
+ ------------------------------------------------------------
+ --><tr class="mergedtoprow">
+ <td class="maptable"  colspan="2" align="center" style="padding:0.5em 0;"><!--
+ -----------------------------------------------
+ Subtable per una sola imatge. Align="center"s and "width:auto;"s
+ are for sake of Internet Explorer.
+ -----------------------------------------------
+ --><table align="center" style="width:100%; background:none;"><!--
+ -----------Image esquerra-----------
+ --><tr> 
+     <td align="center" style="width:auto; vertical-align:middle;"></td>
+     <td align="center" style="width:auto; vertical-align:middle;"><!--
+ -->{{#invoke:InfoboxImage|InfoboxImage|image={{{left_image}}}|size={{{left_size|100px}}} |sizedefault=frameless|upright=1|alt={{{left_alt|{{{left_footer|}}}}}}|suppressplaceholder=yes}}<!--end imatge esq:--><!--
+  --></td><!-- 
+ --></tr><!--
+ ----------Caption/s 1 imatges----------
+ --><tr>
+   <td align="center" style="width:auto; vertical-align:middle;"></td>
+   <td align="center"><small>{{{left_footer|}}}</small></td>
+ </tr><!--
+ ---------End subtable d'imatge esquerra:----------
+ --></table>
+ </td>
+ </tr>
+}}
+|<!--else, no imatge esquerra:
+ ------------------------------------------------------------
+ Hi ha imatge dreta sola ?
+ ------------------------------------------------------------
+ -->{{#if:{{{right_image|}}}<!-- Imatge dreta sola
+ -->|<tr class="mergedtoprow">
+     <td class="maptable"   colspan="2"  align="center" style="padding:0.5em 0;"><!--
+ -----------------------------------------------
+ Subtable per una sola imatge. Align="center"s and "width:auto;"s
+ are for sake of Internet Explorer.
+ -----------------------------------------------
+ --><table align="center" style="width:100%; background:none;"><!--
+ -----------Image dreta-----------
+ --><tr>
+     <td align="center" style="width:auto; vertical-align:middle;"></td>
+     <td align="center" style="width:auto; vertical-align:middle;"><!--
+ -->{{#invoke:InfoboxImage|InfoboxImage|image={{{right_image}}}|size={{{right_size|100px}}} |sizedefault=frameless|upright=1|alt={{{right_alt|{{{right_footer|}}}}}} |suppressplaceholder=yes}}<!--
+ --></td>
+    </tr><!--
+ ----------Caption/s 1 imatges----------
+ --><tr>
+     <td align="center" style="width:auto; vertical-align:middle;"></td>
+     <td align="center"><small>{{{right_footer|}}}</small></td>
+ </tr><!--
+ ---------End subtable d'imatge dreta:----------
+ --></table>
+ </td>
+ </tr>
+ }}}}<!--
+ ---------End table :----------
+ --><noinclude>{{doc}}</noinclude>
