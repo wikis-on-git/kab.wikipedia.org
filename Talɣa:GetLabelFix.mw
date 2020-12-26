@@ -1,0 +1,1 @@
+{{#if:{{{1|}}}|{{#invoke:Wikidata|getLabel|{{{1|}}}|linked={{{linked|}}}|editicon={{{editicon|}}}|{{#if:{{{itemgender|}}}|itemgender{{=}}{{{itemgender|}}}}}}}}}<noinclude>{{documentation}}</noinclude>
