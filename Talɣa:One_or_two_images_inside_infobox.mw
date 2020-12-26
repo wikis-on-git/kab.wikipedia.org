@@ -17,17 +17,17 @@
  --><table align="center" style="width:100%; background:none;"><!--
  -----------Image/s-----------
  --><tr>  
- <td align="center" style="width:auto; vertical-align:middle;"><!--
+ <td align="center" style="width:auto; vertical-align:middle;text-align: center"><!--
  -->{{#invoke:InfoboxImage|InfoboxImage|image={{{left_image}}}|size={{{left_size|100px}}} |sizedefault=frameless|upright=1|border={{{left_border|}}}|alt={{{left_alt|{{{left_footer|}}}}}}|suppressplaceholder=yes}}<!--end imatge esq:--><!--
  --></td>
- <td align="center" style="width:auto; vertical-align:middle;"><!--
+ <td align="center" style="width:auto; vertical-align:middle;text-align: center"><!--
  -->{{#invoke:InfoboxImage|InfoboxImage|image={{{right_image}}}|size={{{right_size|100px}}} |sizedefault=frameless|upright=1|alt={{{right_alt|{{{right_footer|}}}}}} |suppressplaceholder=yes}}<!--
  --></td>
  </tr><!--
  ----------Caption/s 2 imatges----------
  --><tr>
-   <td align="center"><small>{{{left_footer|}}} </small></td>
-   <td align="center"><small>{{{right_footer|}}} </small></td>
+   <td align="center" style="text-align: center;"><small>{{{left_footer|}}} </small></td>
+   <td align="center" style="text-align: center;"><small>{{{right_footer|}}} </small></td>
  </tr><!--
  ---------End subtable per dues imatges:---------
  --></table>
@@ -47,14 +47,14 @@
  -----------Image esquerra-----------
  --><tr> 
      <td align="center" style="width:auto; vertical-align:middle;"></td>
-     <td align="center" style="width:auto; vertical-align:middle;"><!--
+     <td align="center" style="width:auto; vertical-align:middle;text-align: center"><!--
  -->{{#invoke:InfoboxImage|InfoboxImage|image={{{left_image}}}|size={{{left_size|100px}}} |sizedefault=frameless|upright=1|alt={{{left_alt|{{{left_footer|}}}}}}|suppressplaceholder=yes}}<!--end imatge esq:--><!--
   --></td><!-- 
  --></tr><!--
  ----------Caption/s 1 imatges----------
  --><tr>
    <td align="center" style="width:auto; vertical-align:middle;"></td>
-   <td align="center"><small>{{{left_footer|}}}</small></td>
+   <td align="center" style="text-align: center;"><small>{{{left_footer|}}}</small></td>
  </tr><!--
  ---------End subtable d'imatge esquerra:----------
  --></table>
@@ -76,14 +76,14 @@
  -----------Image dreta-----------
  --><tr>
      <td align="center" style="width:auto; vertical-align:middle;"></td>
-     <td align="center" style="width:auto; vertical-align:middle;"><!--
+     <td align="center" style="width:auto; vertical-align:middle;text-align: center"><!--
  -->{{#invoke:InfoboxImage|InfoboxImage|image={{{right_image}}}|size={{{right_size|100px}}} |sizedefault=frameless|upright=1|alt={{{right_alt|{{{right_footer|}}}}}} |suppressplaceholder=yes}}<!--
  --></td>
     </tr><!--
  ----------Caption/s 1 imatges----------
  --><tr>
      <td align="center" style="width:auto; vertical-align:middle;"></td>
-     <td align="center"><small>{{{right_footer|}}}</small></td>
+     <td align="center" style="text-align: center;"><small>{{{right_footer|}}}</small></td>
  </tr><!--
  ---------End subtable d'imatge dreta:----------
  --></table>
