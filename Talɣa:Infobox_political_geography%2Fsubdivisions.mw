@@ -1,0 +1,22 @@
+{{Infobox
+|child = {{{child|}}}
+| bodystyle = border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0; text-align:start;
+| labelstyle = background-color:#eeeeee;text-align:start; |datastyle = text-align:start;
+|label10 = {{{admin_type1|}}}
+|data10  = {{#if:{{{admin1|}}} | {{{admin1|}}}  {{#if:{{{admin2|}}}{{{admin3|}}}{{{admin4|}}}{{{admin5|}}}{{{admin6|}}}{{{admin7|}}}{{{admin8|}}} || {{{coordinates|}}} }} }}
+|label15 = {{{admin_type2|}}}  
+|data15  = {{#if:{{{admin2|}}} | {{{admin2|}}}  {{#if:{{{admin3|}}}{{{admin4|}}}{{{admin5|}}}{{{admin6|}}}{{{admin7|}}}{{{admin8|}}} ||  {{{coordinates|}}} }} }}
+|label20 = {{{admin_type3|}}} 
+|data20  = {{#if:{{{admin3|}}} | {{{admin3|}}}  {{#if:{{{admin4|}}}{{{admin5|}}}{{{admin6|}}}{{{admin7|}}}{{{admin8|}}} || {{{coordinates|}}} }} }}
+|label25 = {{{admin_type4|}}}
+|data25  = {{#if:{{{admin4|}}} | {{{admin4|}}}  {{#if:{{{admin5|}}}{{{admin6|}}}{{{admin7|}}}{{{admin8|}}} ||  {{{coordinates|}}} }} }}
+|label30 = {{{admin_type5|}}}
+|data30  = {{#if:{{{admin5|}}} | {{{admin5|}}}  {{#if:{{{admin6|}}}{{{admin7|}}}{{{admin8|}}} ||  {{{coordinates|}}} }} }}
+
+|label35 = {{{admin_type6|}}}
+|data35  = {{#if:{{{admin6|}}} | {{{admin6|}}}  {{#if:{{{admin7|}}}{{{admin8|}}} ||  {{{coordinates|}}} }} }}
+|label40 = {{{admin_type7|}}}
+|data40  = {{#if:{{{admin7|}}} | {{{admin7|}}} {{#if:{{{admin8|}}} ||  {{{coordinates|}}} }} }}
+|label45 = {{{admin_type8|}}} 
+|data45  = {{#if:{{{admin8|}}} |{{{admin8|}}}{{{coordinates|}}} }}
+}}<noinclude>{{doc}}</noinclude>
