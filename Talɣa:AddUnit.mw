@@ -1,0 +1,4 @@
+{{#ifeq:{{#invoke:StringFunc|isNumber|{{formatnum:{{{1|}}}|R}} }}|true<!-- 
+     -->|{{{1|}}} {{{2|}}}<!-- 
+     -->|{{{1|}}}<!-- 
+-->}}<noinclude>{{doc}}</noinclude>
