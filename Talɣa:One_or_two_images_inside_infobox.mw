@@ -14,7 +14,7 @@
  display. Align="center"s and "width:auto;"s
  are for sake of Internet Explorer.
  --------------------------------------------------
- --><table align="center" style="width:100%; background:none;"><!--
+ --><table align="center" style="width:100%; background:none; display:table;"><!--
  -----------Image/s-----------
  --><tr>  
  <td align="center" style="width:auto; vertical-align:middle;text-align: center"><!--
@@ -43,7 +43,7 @@
  Subtable per una sola imatge. Align="center"s and "width:auto;"s
  are for sake of Internet Explorer.
  -----------------------------------------------
- --><table align="center" style="width:100%; background:none;"><!--
+ --><table align="center" style="width:100%; background:none; display:table;"><!--
  -----------Image esquerra-----------
  --><tr> 
      <td align="center" style="width:auto; vertical-align:middle;"></td>
@@ -72,7 +72,7 @@
  Subtable per una sola imatge. Align="center"s and "width:auto;"s
  are for sake of Internet Explorer.
  -----------------------------------------------
- --><table align="center" style="width:100%; background:none;"><!--
+ --><table align="center" style="width:100%; background:none; display:table;"><!--
  -----------Image dreta-----------
  --><tr>
      <td align="center" style="width:auto; vertical-align:middle;"></td>
