@@ -12,7 +12,7 @@
 | data2 =  {{{founder|{{#invoke:Wikidata | claim | property=P112|rowformat=$1}} }}}
 
 | label3 = {{Infobox religion/localize|Classification}} 
-| data3 = {{#invoke:Wikidata|getParentValues|property=P279 P361|uptolinkid=Q9174|sorting=-1|rowformat=$1|cascade=true|include_self=true}}
+| data3 = {{#invoke:Wikidata|getParentValues|property=P279 P361|uptovalueid=Q9174 Q2998321 Q2742167|sorting=-1|rowformat=$1|cascade=true|include_self=true}}
 
 | label4 = {{Infobox religion/localize|Native name}}
 | data4 =  {{{native_name|{{#invoke:Wikidata | claim | property=P1705|rowformat=$1}} }}}
