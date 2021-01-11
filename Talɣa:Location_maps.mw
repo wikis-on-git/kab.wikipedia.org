@@ -1,0 +1,97 @@
+<includeonly><!-- tractament "imatge_mapa", "draw mapa" i "mapaWD=no", com a pas previ a mapa dinàmic __________________________________________________________________
+-->{{#if:{{{imatge_mapa|}}}
+     | {{#invoke:InfoboxImage|InfoboxImage|image={{{imatge_mapa|}}} |sizedefault=frameless |center=yes
+                             |upright=1   |title={{{peu_mapa|}}}    |suppressplaceholder=yes}} 
+     | {{#if:{{{draw_mapa|}}} | {{{draw_mapa|}}}
+         | {{#ifeq:{{{mapaWD|}}}|no<!-- salta, no es vol mapa -->|<!--
+_____NO imatge ni draw, o mapaWD=no >>___Inici construcció mapa dinàmic amb o sense "mapa_localitzador"______________________
+-->|<table align="center" style="width:auto; background:none; cellspacing:1; cellpadding:0%; border:0; margin:0; display:table;"><tr><!--
+-->{{#ifeq:<!-- Avaluar 3 condicions conjuntament per determinar si surt mapa doble 
+   -->{{#ifeq:{{{mapa_localitzador|}}}|noWD|0<!--  no es vol mapa_localitzador de WD 
+     -->|{{#if:{{{mapa_localitzador|}}}|1<!-- si hi ha mapa_localitzador manual
+        -->|{{#if:{{#invoke:wikidata|claim|property=P242|item={{{item|}}}}}|1|0}}<!-- si hi ha mapa_localitzador WD -->
+         }}
+      }} |1<!-- resultat avaluació =1 si s'ha trobat condició: mapa localitzador manual≠noWD o P242 sense noWD 
+  -->|<td align="center" style="width:auto; vertical-align:middle;"><!--
+           P242=imatge mapa localització genèric. Si existeix, va a l'esquerra
+      -->{{#if:{{{mapa_localitzador|}}} | {{#invoke:InfoboxImage|InfoboxImage|size={{if empty|{{{mida_imatge|}}}|150x150px}}
+                                                   |image={{{mapa_localitzador|}}}|sizedefault=frameless 
+                                                   |alt={{{alt|}}}|suppressplaceholder=yes}}
+           | {{#invoke:wikidata|claim|property=P242||list=false|item= {{{item|}}}
+                              |formatting=[[file:$1|{{if empty|{{{mida_imatge|}}}|150x150px}}]]}}
+         }} 
+         <!-- CODI antic CANVIAT per implantar llapis
+         {{#invoke:InfoboxImage|InfoboxImage|size={{if empty|{{{mida_imatge|}}}|150x150px}}
+                  |image={{#invoke:wikidata|claim|property=P242|value={{{mapa_localitzador|}}}
+                                   |list=false|item= {{{item|}}} }}
+                  |sizedefault=frameless |alt={{{alt|}}}|suppressplaceholder=yes}}</td> --><!-- 
+___________ Mapa dinàmic a la dreta_________________
+      --><td align="center" style="width:auto; vertical-align:middle;"><!--
+                 -->{{Assemble map  |item={{{item|}}} | item_territori = {{{item_territori|}}} 
+                                  | zoom= {{{zoom|}}} |mapa_mida= {{{mapa_mida|}}} |linia_mida= {{{linia_mida|}}} 
+                                  | marcador ={{{marcador|}}} | nom_marcador ={{{nom_marcador|}}}
+                                  | marcador_color= {{{marcador_color|}}} | marcador_mida={{{marcador_mida|}}}
+                                  | descripcio_marcador={{{descripcio_marcador|}}}
+                                  | imatge_marcador={{{imatge_marcador|}}}
+                                  | marcador2= {{{marcador2|}}}| nom_marcador2  ={{{nom_marcador2|}}}
+                                  | marcador_color2= {{{marcador_color2|}}} | marcador_mida2={{{marcador_mida2|}}} 
+                                  | descripcio_marcador2={{{descripcio_marcador2|}}}
+                                  | imatge_marcador2={{{imatge_marcador2|}}}
+                                  | lat_lon = {{{lat_lon|}}}  | lat_lon2 = {{{lat_lon2|}}}
+                                  | lat_dec = {{{lat_dec|}}}  | lon_dec ={{if empty|{{{lon_dec|}}} |{{{long_dec|}}} }}
+                                  | lat_dec2= {{{lat_dec2|}}} | lon_dec2={{if empty|{{{lon_dec2|}}}|{{{long_dec2|}}} }}
+                                  | marcador5={{{marcador5|}}}| nom_marcador5={{{nom_marcador5|}}}  
+                                  | descripcio_marcador5={{{descripcio_marcador5|}}}
+                                  | imatge_marcador5={{{imatge_marcador5|}}}
+                                  | serie_punts5 = {{{serie_punts5|}}}
+                                  | marcador_color5={{{marcador_color5|}}} | marcador_mida5={{{marcador_mida5|}}}
+                                  | layer= {{{layer|}}} | lang={{{lang|}}} 
+                    }}<!-- 
+          --></td><!-- fi if both coordenades
+______________________Si no hi ha localitzador, el mapa dinàmic ocupa tot l'espai
+  -->|<td align="center" style="width:auto; vertical-align:middle;"><!--
+                 -->{{Assemble map  |item={{{item|}}} | item_territori = {{{item_territori|}}} 
+                                  | zoom= {{{zoom|}}} |mapa_mida= {{if empty| {{{mapa_mida|}}}|300}}  |linia_mida= {{{linia_mida|}}} 
+                                  | marcador ={{{marcador|}}} | nom_marcador ={{{nom_marcador|}}}
+                                  | marcador_color= {{{marcador_color|}}} | marcador_mida={{{marcador_mida|}}}
+                                  | descripcio_marcador={{{descripcio_marcador|}}}
+                                  | imatge_marcador={{{imatge_marcador|}}}
+                                  | marcador2= {{{marcador2|}}}| nom_marcador2  ={{{nom_marcador2|}}}
+                                  | marcador_color2= {{{marcador_color2|}}}
+                                  | descripcio_marcador2={{{descripcio_marcador2|}}}
+                                  | imatge_marcador2={{{imatge_marcador2|}}}
+                                  | lat_lon = {{{lat_lon|}}} | lat_lon2 = {{{lat_lon2|}}}
+                                  | lat_dec = {{{lat_dec|}}} | lon_dec ={{if empty|{{{lon_dec|}}} |{{{long_dec|}}}}} 
+                                  | lat_dec2= {{{lat_dec2|}}} | lon_dec2={{if empty|{{{lon_dec2|}}}|{{{long_dec2|}}}}} 
+                                  | marcador5={{{marcador5|}}}| nom_marcador5={{{nom_marcador5|}}}  
+                                  | descripcio_marcador5={{{descripcio_marcador5|}}}
+                                  | imatge_marcador5={{{imatge_marcador5|}}}
+                                  | serie_punts5 = {{{serie_punts5|}}}
+                                  | marcador_color5={{{marcador_color5|}}} | marcador_mida5={{{marcador_mida5|}}}
+                                  | layer= {{{layer|}}} |lang={{{lang|}}} 
+                    }}<!-- 
+      --></td>}}</tr><!-- Fi IF hi ha P242 ?
+--><!-- Coordenades a baix del mapa dinàmic
+    --><tr><td colspan=2 align="center" style="width:auto; vertical-align:middle;"><!--
+    -->{{#if:{{{lat_lon|}}} {{{lat_dec|}}} 
+         |<small>{{#ifexpr:{{str len|{{{marcador|}}}}}>2 |[[file:Maki2-{{{marcador|}}}-12.svg|link=|15px]]&nbsp;
+                   | {{uc:{{{marcador|}}} }} }}&nbsp;<!-- 
+              -->{{#if:{{{lat_lon|}}}
+                   |{{coord|{{#invoke:StringFunc|split|{{{lat_lon|}}}|,|1}}|{{#invoke:StringFunc|split|{{{lat_lon|}}}|,|2}}
+                           |display=inline}}
+                   |{{coord|{{{lat_dec|}}}|{{{lon_dec|}}}|display={{if empty|{{{display|}}}|title,inline}}}}
+                 }}</small><!-- 
+    -->}}<!--  
+    -->{{#if:{{{lat_lon2|}}} {{{lat_dec2|}}}  
+         |<br><small>{{#ifexpr:{{str len|{{{marcador2|}}}}}>2 |[[file:Maki2-{{{marcador2|}}}-12.svg|link=|15px]]&nbsp;
+                       | {{uc:{{{marcador2|}}} }} }}&nbsp;<!-- 
+                  -->{{#if:{{{lat_lon2|}}}
+                       |{{coord|{{#invoke:StringFunc|split|{{{lat_lon2|}}}|,|1}}
+                               |{{#invoke:StringFunc|split|{{{lat_lon2|}}}|,|2}}
+                               |display=inline}} 
+                       |{{coord|{{{lat_dec2|}}} | {{{lon_dec2|}}}|display=inline}}
+                     }}</small><!--
+     -->}}</td></tr></table><!--
+  -->}}<!-- fi mapaWD=no -->
+  }}<!-- fi IF draw_mapa -->
+}}<!-- fi IF imatge_mapa --></includeonly><noinclude>{{doc}}</noinclude>
