@@ -4,25 +4,25 @@
                              |upright=1   |title={{{peu_mapa|}}}    |suppressplaceholder=yes}} 
      | {{#if:{{{draw_mapa|}}} | {{{draw_mapa|}}}
          | {{#ifeq:{{{mapaWD|}}}|no<!-- salta, no es vol mapa -->|<!--
-_____NO imatge ni draw, o mapaWD=no >>___Inici construcció mapa dinàmic amb o sense "mapa_localitzador"______________________
+_____NO imatge ni draw, o mapaWD=no >>___Inici construcció mapa dinàmic amb o sense "locator_map"______________________
 -->|<table align="center" style="width:auto; background:none; cellspacing:1; cellpadding:0%; border:0; margin:0; display:table;"><tr><!--
 -->{{#ifeq:<!-- Avaluar 3 condicions conjuntament per determinar si surt mapa doble 
-   -->{{#ifeq:{{{mapa_localitzador|}}}|noWD|0<!--  no es vol mapa_localitzador de WD 
-     -->|{{#if:{{{mapa_localitzador|}}}|1<!-- si hi ha mapa_localitzador manual
-        -->|{{#if:{{#invoke:wikidata|claim|property=P242|item={{{item|}}}}}|1|0}}<!-- si hi ha mapa_localitzador WD -->
+   -->{{#ifeq:{{{locator_map|}}}|noWD|0<!--  no es vol locator_map de WD 
+     -->|{{#if:{{{locator_map|}}}|1<!-- si hi ha locator_map manual
+        -->|{{#if:{{#invoke:wikidata|claim|property=P242|item={{{item|}}}}}|1|0}}<!-- si hi ha locator_map WD -->
          }}
       }} |1<!-- resultat avaluació =1 si s'ha trobat condició: mapa localitzador manual≠noWD o P242 sense noWD 
   -->|<td align="center" style="width:auto; vertical-align:middle;"><!--
            P242=imatge mapa localització genèric. Si existeix, va a l'esquerra
-      -->{{#if:{{{mapa_localitzador|}}} | {{#invoke:InfoboxImage|InfoboxImage|size={{if empty|{{{mida_imatge|}}}|150x150px}}
-                                                   |image={{{mapa_localitzador|}}}|sizedefault=frameless 
+      -->{{#if:{{{locator_map|}}} | {{#invoke:InfoboxImage|InfoboxImage|size={{if empty|{{{mida_imatge|}}}|150x150px}}
+                                                   |image={{{locator_map|}}}|sizedefault=frameless 
                                                    |alt={{{alt|}}}|suppressplaceholder=yes}}
            | {{#invoke:wikidata|claim|property=P242||list=false|item= {{{item|}}}
                               |formatting=[[file:$1|{{if empty|{{{mida_imatge|}}}|150x150px}}]]}}
          }} 
          <!-- CODI antic CANVIAT per implantar llapis
          {{#invoke:InfoboxImage|InfoboxImage|size={{if empty|{{{mida_imatge|}}}|150x150px}}
-                  |image={{#invoke:wikidata|claim|property=P242|value={{{mapa_localitzador|}}}
+                  |image={{#invoke:wikidata|claim|property=P242|value={{{locator_map|}}}
                                    |list=false|item= {{{item|}}} }}
                   |sizedefault=frameless |alt={{{alt|}}}|suppressplaceholder=yes}}</td> --><!-- 
 ___________ Mapa dinàmic a la dreta_________________
@@ -72,7 +72,7 @@ ______________________Si no hi ha localitzador, el mapa dinàmic ocupa tot l'esp
                     }}<!-- 
       --></td>}}</tr><!-- Fi IF hi ha P242 ?
 --><!-- Coordenades a baix del mapa dinàmic
-    --><tr><td colspan=2 align="center" style="width:auto; vertical-align:middle;"><!--
+    --><tr><td colspan=2 align="center" style="width:auto; vertical-align:middle; text-align: center"><!--
     -->{{#if:{{{lat_lon|}}} {{{lat_dec|}}} 
          |<small>{{#ifexpr:{{str len|{{{marcador|}}}}}>2 |[[file:Maki2-{{{marcador|}}}-12.svg|link=|15px]]&nbsp;
                    | {{uc:{{{marcador|}}} }} }}&nbsp;<!-- 
