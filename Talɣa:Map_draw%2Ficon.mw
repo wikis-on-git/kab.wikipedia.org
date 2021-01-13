@@ -1,0 +1,21 @@
+{{#switch:{{if empty|{{{1|}}} | {{#invoke:wikidata|claim|property=P31|list=false|formatting=raw|item={{{item|}}} }} }}
+|Q1021645|Q11303|Q18142 = commercial
+|Q1497364 = city
+|Q33506|Q17431399 = museum
+|Q32815|Q48356|Q132834 = religious-muslim
+|Q16970|Q2977|Q160742|Q1128397|Q102496 = religious-christian
+|Q34627 = religious-jewish
+|Q751876|Q16560 = town-hall
+|Q1154710 = soccer
+|Q1248784|Q644371 = airport
+|Q2735929 = building
+|Q860861 = monument
+|Q928830 = rail-metro
+|Q55488 = rail
+|Q494829 = bus
+|Q8502 = triangle
+|Q134447|Q1003207|Q61950883|Q285927|Q200297|Q6558431|Q261604|Q1434958|Q3498533
+|Q55364050|Q2443965|Q50694621|Q3068975|Q50687555|Q1357601    = industrial
+|Q12323|Q3497167|Q890545|Q357679|Q47499777 = dam
+|#default = marker
+}}
