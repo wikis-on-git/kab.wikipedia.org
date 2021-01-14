@@ -1,0 +1,8 @@
+{{#invoke:Wikidata | claim | property= {{{1|}}} |formatting=table<!--
+ -->|qualifier=P1480 OR P5102 |qualifier2=P4241 |qualifier3=P1326 |qualifier4=P1319<!--
+ -->|rowformat= {{((}}Circa WD/labels{{!}}data=$0{{!}}circa=$1{{!}}moment=$2{{!}}before=$3{{!}}after=$4{{!}}lang{{=}}{{{lang|}}}{{))}}<!--
+ -->|colformat0={{{formatting|}}} |colformat1 =raw |colformat2 =raw |colformat3={{{formatting|}}} |colformat4={{{formatting|}}}<!--
+ -->|separator={{{separator|}}} |conjunction={{{conjunction|}}}<!--
+ -->|list={{{list|all}}}<!--
+ -->|editicon={{{editicon|}}}
+}}<noinclude>{{doc}} </noinclude>
