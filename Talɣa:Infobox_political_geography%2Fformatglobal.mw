@@ -1,0 +1,566 @@
+<includeonly>{{OpenDivRTL|lang={{{lang|}}}}}{{Infobox
+|wikidata     = {{{wikidata|}}}
+|child        = {{{child|}}}
+|item         = {{{item|}}}
+|lang         = {{{lang|}}}
+|bodyclass    = vcard    <!-- importat de infotaula organització --> 
+|titleclass   = fn org   <!-- importat de infotaula organització -->
+
+|above        = <span style="float:left;">{{#ifeq:{{{icona_taula|}}}|eclesiàstic<!--
+                                         -->| [[image:Chess tile bl trans.svg|22px|link=]]
+                                            | [[image:Globe icon.svg|22px|link=]]}}</span><!--
+
+               -->{{{nom|}}}  
+|subheader    = {{#if:{{{nom_original|}}}
+                    |{{#ifeq:{{{nom_original_txt|}}} | {{{nom|}}}|<!-- no mostrar per a evitar redundància amb el nom bàsic
+                    -->|{{{nom_original|}}}{{#if:{{{nom_original_lleng|}}} |&nbsp;({{{nom_original_lleng}}}) }}
+                     }}
+                  }}
+
+|abovestyle     = background-color:&#35;d9b38c;
+|subheaderstyle = background-color:&#35;d9b38c; 
+|headerstyle    = background-color:&#35;d9b38c;  
+|labelstyle     = padding-right:1.2em;<!--(assegura espai entre label i data --> background:#eeeeee; text-align:start
+|datastyle      = text-align:start
+|captionstyle   = font-size:90%;
+ 
+
+<!-- La imatge2 conté els símbols: logo, escut i bandera. Quan només hi ha una de les 3 es mostra centrada.
+          Quan hi ha més d'una només (màx.2), les combinacions possibles són:
+            * Escut + Bandera
+            * Logo  + Bandera
+            * Escut + Logo     -->
+<!-- La imatge3 conté una imatge de l'entitat.   -->
+|image2        = {{One or two images inside infobox
+                 |left_image = {{#if:{{{bandera|}}}|{{{bandera|}}}|{{{logo|}}} }}
+                 |left_border = {{#if:{{{bandera|}}}|yes}}
+                 |left_size   = 100x100px
+                 |left_capture    = {{#if:{{{bandera|}}} | {{{peu_bandera|}}} | {{{peu_logo|}}} }}
+                 |left_alt    = {{#if:{{{bandera|}}} | {{{alt_bandera|{{{peu_bandera|}}}}}} 
+                                                         | {{{alt_logo|{{{peu_logo|}}}}}} }}
+                 |right_image    = {{#if:{{{bandera|}}} | {{#if:{{{escut|}}} |{{{escut|}}} |{{{logo|}}} }} 
+                                                         | {{{escut|}}} }} 
+                 |right_size      = 100x100px
+                 |right_capture      = {{#if:{{{bandera|}}} 
+                                      | {{#if:{{{escut|}}} | {{{peu_escut|}}}
+                                                           | {{{peu_logo|}}} }}
+                                      | {{{peu_escut|}}} }}
+                 |right_alt = {{#if:{{{bandera|}}} 
+                                | {{#if:{{{escut|}}} | {{{alt_escut|{{{peu_escut|}}}}}}
+                                                     | {{{alt_logo|{{{peu_logo|}}}}}} }} 
+                                | {{{alt_escut|{{{peu_escut|}}}}}} }}
+                              }}
+
+|image3       = {{#if:{{{imatge|}}} | {{{imatge|}}} }}
+
+| data1  = {{#if:{{{himne|}}} |<hr> }}
+
+| label2  = {{GetLabelFix|P85|lang={{{lang|}}}}}
+| data2  =  {{{himne|}}}
+
+| data3 = {{#if:{{{himne|}}}|{{#if:{{{registre_audio_himne|}}}|{{center|[[File:{{{registre_audio_himne|}}}]]}}}}}}
+
+| data4 = {{#ifeq:{{{lema|}}}|{{novalue|lang={{{lang|}}}}}|<!--No línia separació-->|<hr>}}
+| label5 = {{GetLabelFix|P1546|lang={{{lang|}}}}}
+| data5= {{#ifeq:{{{lema|}}}|{{novalue|lang={{{lang|}}}}}|<!--No mostrar -->|{{{lema|}}} }}
+| label6 = {{GetLabelFix|P2238|lang={{{lang|}}}}}
+| data6= {{#if:{{{simbol|}}}|{{{simbol|}}}}}
+| label7 = {{GetLabelFix|P1449|lang={{{lang|}}}}}
+| data7= {{#if:{{{sobrenom|}}}|{{{sobrenom|}}}}}
+| label8 = {{GetLabelFix|P138|lang={{{lang|}}}}}
+| data8= {{#if:{{{etimologia|}}}|{{{etimologia|}}}}}
+| header9 = {{GetLabelFix|Q17334923|lang={{{lang|}}}}}
+
+| data10  = {{#if:{{{imatge_mapa|}}}  |<!--   hi ha imatge de mapa d'àrea d'actuació
+              -->{{#invoke:InfoboxImage|InfoboxImage|image={{{imatge_mapa|}}}
+                          |size=200px |sizedefault=frameless|upright=1
+                          |alt={{{alt_mapa|}}}|suppressplaceholder=yes}}<br />{{{peu_mapa|}}}
+            }}
+| data11 = {{if empty | {{{draw_mapa|}}} | {{{localitzacio|}}} }}
+
+| label12 = {{GetLabelFix|P1336|lang={{{lang|}}}}}
+| data12  = {{#if:{{{territori_reclamat|}}} | {{{territori_reclamat|}}} }}
+| data13 = {{#if:{{{llista_localitzacio|}}} | {{{llista_localitzacio|}}}
+             |{{Infobox political geography/subdivisions|child=yes
+               |admin_type1 = {{GetLabelFix|Q6256|lang={{{lang|}}}|linked=yes}} |admin1  = {{{pais_historic|}}}
+               |admin_type2 = {{{admin_tipus1|}}}           |admin2  = {{{admin1|}}}
+               |admin_type3 = {{{admin_tipus2|}}}           |admin3  = {{{admin2|}}}
+               |admin_type4 = {{{admin_tipus3|}}}           |admin4  = {{{admin3|}}}
+               |admin_type5 = {{{admin_tipus4|}}}           |admin5  = {{{admin4|}}}
+               |admin_type6 = {{{admin_tipus5|}}}           |admin6  = {{{admin5|}}}
+               |admin_type7 = {{{admin_tipus6|}}}           |admin7  = {{{admin6|}}}
+               |admin_type8 = {{{admin_tipus7|}}}           |admin8  = {{{admin7|}}}
+              }}
+           }}
+| label14  = {{GetLabelFix|P500|lang={{{lang|}}}}} 
+
+| data14   = {{{exclavament|}}}
+| label15  = {{GetLabelFix|P501|lang={{{lang|}}}}} 
+
+| data15   = {{{enclavament|}}}
+
+| label16  = {{GetLabelFix|P1376|lang={{{lang|}}}}} 
+
+| data16 = {{Conditional drop-down list|{{{capital_de|}}}|40|1}}
+| header18 = {{#if:{{{capital1|}}}{{{capital2|}}} {{{capital3|}}}{{{capital4|}}}  {{{ciutat_gran|}}} 
+                   {{{nombre_municipis|}}}{{{conte_localitats|}}} 
+               |{{if empty|{{{capçalera_entitats|}}}|<hr>}} }}
+| label20  = {{if empty |{{{etiqueta_capital1|}}}
+                        |{{#ifeq:{{#invoke:Delink|delink|{{{capital1|}}} }} 
+                                |{{#invoke:Delink|delink|{{{ciutat_gran|}}} }}
+                           |{{GetLabelFix|P36|lang={{{lang|}}}}} +<!--
+                        --> {{GetLabelFix|Q51929311|lang={{{lang|}}}}}
+                         }}
+                        |{{GetLabelFix|P36|lang={{{lang|}}}}} }}
+|  data20  = {{{capital1|}}}  
+| label21  = {{{etiqueta_capital2|}}}
+|  data21  = {{{capital2|}}}  
+| label22  = {{{etiqueta_capital3|}}}
+|  data22  = {{{capital3|}}}  
+| label23  = {{{etiqueta_capital4|}}}
+|  data23  = {{{capital4|}}}  
+| label24  = {{if empty|{{{etiqueta_ciutat_gran|}}} |{{GetLabelFix|Q51929311|lang={{{lang|}}}}}}}
+|  data24  =  {{#ifeq:{{#invoke:Delink|delink|{{{capital1|}}} }} | {{#invoke:Delink|delink|{{{ciutat_gran|}}}}}|<!--no mostrar, ja està com a capital  -->|{{{ciutat_gran|}}} }}
+
+| label25  = {{if empty|{{{etiqueta_nombre_subdivisions|}}}|{{GetLabelFix|Q15284|lang={{{lang|}}}}} }}
+|  data25  = {{{nombre_subdivisions|}}} 
+| label26  = {{GetLabelFix|P150|lang={{{lang|}}}}}
+|  data26  = {{Conditional drop-down list|{{{conte_localitats|}}}|40|1}}
+
+| header30 = {{#if:{{{poblacio|}}} {{{densitat|}}}{{{llars|}}}{{{gentilicis|}}}
+                   {{{malnom|}}}{{{llengua|}}}{{{religio|}}}{{{grups_etnics|}}} 
+               |{{GetLabelFix|Q33829|lang={{{lang|}}}}}}}
+| label31  = {{GetLabelFix|Q16868672|lang={{{lang|}}}}} 
+|  data31  = {{#if:{{{poblacio|}}}
+               | {{{poblacio|}}}<!--
+              -->{{#if:{{{poblacio_any|}}}
+                   |&nbsp;({{{poblacio_any|}}})}}
+             }}  
+
+| label32  = &bull;&nbsp;{{GetLabelFix|Q23008351|lang={{{lang|}}}}} 
+|  data32  = {{#if:{{both|{{{poblacio_pos|}}} | {{{poblacio_refer|}}} }}
+               |{{ordinal|{{{poblacio_pos|}}}}}&nbsp;{{Deod'|{{{poblacio_refer|}}} }} }}
+| label33  = &bull;&nbsp;%&nbsp;{{GetLabelFix|Q33829|lang={{{lang|}}}}}
+|  data33  = {{#if:{{both|{{{poblacio_per|}}} | {{{poblacio_refer|}}} }}
+               |{{{poblacio_per|}}}&nbsp;%&nbsp;{{Deod'|{{{poblacio_refer|}}} }} }}
+| label34  = &bull;&nbsp;{{GetLabelFix|Q29539|lang={{{lang|}}}}} 
+|  data34  = {{{densitat|}}}
+| label35  = {{GetLabelFix|Q7743|lang={{{lang|}}}}} 
+|  data35  = {{#if:{{{llars|}}}
+               | {{{llars|}}}<!--
+              -->{{#if:{{{llars_any|}}}
+                   |&nbsp;({{{llars_any|}}})}}
+             }}  
+| label36  = {{GetLabelFix|P1549|lang={{{lang|}}}}}
+|  data36  = {{{gentilicis|}}}{{#if:{{{gentilicis2|}}}|<br />{{{gentilicis2|}}} }} 
+| label37  = {{GetLabelFix|Q11934751|lang={{{lang|}}}}} 
+|  data37  = {{{malnom|}}}
+| label38  = {{if empty|{{{etiqueta_llengua|}}}|{{GetLabelFix|Q337968|lang={{{lang|}}}}} }}
+ |  data38  = {{{llengua|}}}  
+| label39  = {{GetLabelFix|P140|lang={{{lang|}}}}} 
+|  data39  = {{{religio|}}}  
+
+| label40  = {{GetLabelFix|P172|lang={{{lang|}}}}} 
+|  data40  = {{{grups_etnics|}}}
+
+| label41    = {{{etiqueta_poblacio1|}}}
+| data41     = {{{nom_poblacio1|}}}
+| label42    = {{{etiqueta_poblacio2|}}}
+| data42     = {{{nom_poblacio2|}}}
+| label43    = {{{etiqueta_poblacio3|}}}
+| data43     = {{{nom_poblacio3|}}}
+| label44    = {{{etiqueta_poblacio4|}}}
+| data44     = {{{nom_poblacio4|}}}
+| label45    = {{{etiqueta_poblacio5|}}}
+| data45     = {{{nom_poblacio5|}}}
+
+
+| header47 = {{#if:{{{partde|}}}{{{superficie|}}}{{{superficie_aigua_per|}}}
+                   {{{dimensions|}}}{{{amplada|}}} {{{llargada|}}}{{{alçada|}}}
+                   {{{long_limits|}}}{{{long_costa|}}}{{{banyat_per|}}}{{{altitud|}}}
+                   {{{punt_mes_alt|}}}{{{altitud_maxima|}}}{{{punt_mes_baix|}}}
+                   {{{altitud_minima|}}}{{{limits_amb|}}}{{{bloc_geografia_especial|}}}
+                   {{{nom_geografia1|}}}{{{nom_geografia2|}}}{{{nom_geografia3|}}}
+                   {{{nom_geografia4|}}}{{{nom_geografia5|}}} {{{entitat_estadistica|}}}
+               |{{GetLabelFix|Q1071|lang={{{lang|}}}}} }}
+| label49  = {{GetLabelFix|P8138|lang={{{lang|}}}}} 
+|  data49  = {{{entitat_estadistica|}}}
+| label50  = {{GetLabelFix|P361|lang={{{lang|}}}}} 
+|  data50  = {{{partde|}}}
+| label51  = {{GetLabelFix|Q665487|lang={{{lang|}}}}} 
+|  data51  = {{{diocesi|}}}
+| label53  = {{GetLabelFix|P2046|lang={{{lang|}}}}} 
+|  data53  = {{{superficie|}}}
+| label54  = &bull;&nbsp;{{GetLabelFix|Q23008351|lang={{{lang|}}}}} 
+|  data54  = {{#if:{{both|{{{superficie_pos|}}} | {{{superficie_refer|}}} }}
+               |{{ordinal|{{{superficie_pos|}}}}}&nbsp;{{Deod'|{{{superficie_refer|}}} }} }}
+| label56  = &bull;&nbsp;%&nbsp;{{GetLabelFix|Q183366|lang={{{lang|}}}}} 
+|  data56  = {{#if:{{both|{{{superficie_per|}}} | {{{superficie_refer|}}} }}
+               |{{{superficie_per|}}}&nbsp;%&nbsp;{{Deod'|{{{superficie_refer|}}} }}
+             }}
+| label58  = &bull;&nbsp;{{GetLabelFix|Q283|lang={{{lang|}}}}} 
+|  data58  = {{#if:{{{superficie_aigua_per|}}}|{{{superficie_aigua_per|}}}}} 
+| label70  = {{GetLabelFix|Q12453|lang={{{lang|}}}}} 
+
+|  data70  = {{Bloc dimensions |dimensions  = {{{dimensions|}}} |diametre = 
+               | amplada = {{{amplada|}}} | llargada = {{{llargada|}}} 
+               | alçada  = {{{alçada|}}}| unitat_mida = {{if empty| {{{unitat_mida|}}}|km}}}} 
+| label72  = {{if empty | {{{etiqueta_long_limits|}}} | {{GetLabelFix|Q177239|lang={{{lang|}}}}} }}  
+|  data72  = {{{long_limits|}}}
+| label74  = {{GetLabelFix|P5141|lang={{{lang|}}}}}
+|  data74  = {{{long_costa|}}}
+| label75  = {{GetLabelFix|P206|lang={{{lang|}}}}}
+|  data75  = {{{banyat_per|}}}
+| label76  = {{GetLabelFix|Q190200|lang={{{lang|}}}}} 
+|  data76  = {{#if:{{{altitud|}}}
+               |{{{altitud|}}}<!--
+          -->}}<!--
+          -->{{#if:{{{punt_mes_alt|}}}|<!-- res
+            -->|{{#if:{{{altitud_maxima|}}}|&nbsp;..[[file:Feather-arrows-chevrons-up.svg|20px|enllaç=]]:{{{altitud_maxima|}}}
+             }} }}<!--
+          -->{{#if:{{{punt_mes_baix|}}}|<!-- res
+            -->|{{#if:{{{altitud_minima|}}}|&nbsp;..[[file:Feather-arrows-chevrons-down.svg|20px|enllaç=]]:{{{altitud_minima|}}}
+             }} }}
+
+| label77  = {{GetLabelFix|P610|lang={{{lang|}}}}}
+|  data77  = {{#if:{{{punt_mes_alt|}}}|{{{punt_mes_alt|}}} {{#if:{{{altitud_maxima|}}}|&nbsp;({{{altitud_maxima|}}}) }} }}
+| label78  = {{GetLabelFix|P1589|lang={{{lang|}}}}}
+|  data78  = {{#if:{{{punt_mes_baix|}}}|{{{punt_mes_baix|}}} {{#if:{{{altitud_minima|}}}|&nbsp;({{{altitud_minima|}}}) }} }}
+| label81  = {{GetLabelFix|P47|lang={{{lang|}}}}} 
+|  data81  = {{Conditional drop-down list|{{{limits_amb|}}}|40|1}}
+
+| data82 = {{{bloc_geografia_especial|}}}
+| label84  = {{{etiqueta_geografia1|}}}
+|  data84  = {{{nom_geografia1|}}}
+| label85  = {{{etiqueta_geografia2|}}}
+|  data85  = {{{nom_geografia2|}}}
+| label86  = {{{etiqueta_geografia3|}}}
+|  data86  = {{{nom_geografia3|}}}
+| label87  = {{{etiqueta_geografia4|}}}
+|  data87  = {{{nom_geografia4|}}}
+| label88  = {{{etiqueta_geografia5|}}}
+|  data88  = {{{nom_geografia5|}}}
+
+| header92 = {{#if: {{{anterior|}}}{{{fundador|}}}{{{llista_fundacio|}}}
+                    {{{data_fundacio1|}}}{{{data_fundacio2|}}}{{{data_fundacio3|}}}
+                    {{{data_fundacio4|}}}{{{posterior|}}}{{{fet_clau|}}}
+                    {{{llista_celebracio|}}}{{{data_celebracio1|}}} 
+                    {{{data_celebracio2|}}}{{{data_celebracio3|}}} 
+                    {{{data_celebracio4|}}}{{{patro|}}}{{{bloc_historia_especial|}}}
+                    {{{nom_historia1|}}}{{{nom_historia2|}}}{{{nom_historia3|}}}
+                    {{{nom_historia4|}}}{{{nom_historia5|}}} {{{dia_mercat|}}}
+                    {{{data_dissolucio1|}}}{{{data_dissolucio2|}}}{{{data_dissolucio3|}}}
+                    {{{data_dissolucio4|}}}
+               |{{GetLabelFix|Q92615993|editicon=yes|lang={{{lang|}}}}} }}
+
+|  label94 = {{GetLabelFix|P155|lang={{{lang|}}}}} 
+|   data94 = {{{anterior|}}}
+
+|  label95 = {{GetLabelFix|P112|lang={{{lang|}}}}} 
+|   data95 = {{{fundador|}}}
+| label96  = {{{etiqueta_fundacio|}}} 
+|  data96  = {{#if:{{{etiqueta_fundacio|}}}
+               |{{#if:{{{llista_fundacio|}}}{{{data_fundacio1|}}}{{{data_fundacio2|}}}
+                      {{{data_fundacio3|}}} {{{data_fundacio4|}}}  | &nbsp;}} }}
+| label97  = {{if empty|{{#if:{{{llista_fundacio|}}}||{{{etiqueta_fundacio1|}}} }}|{{GetLabelFix|Q11398090|lang={{{lang|}}}}} }}
+|  data97  = {{#if:{{{llista_fundacio|}}}||{{{data_fundacio1|}}} }}
+
+| label98  = {{if empty|{{#if:{{{llista_dissolucio|}}}||{{{etiqueta_dissolucio1|}}} }}|{{GetLabelFix|Q18603731|lang={{{lang|}}}}} }}
+|  data98  = {{#if:{{{llista_dissolucio|}}}||{{{data_dissolucio1|}}} }}
+
+| label99  = {{#if:{{{llista_fundacio|}}}||{{{etiqueta_fundacio2|}}} }}
+|  data99  = {{#if:{{{llista_fundacio|}}}||{{{data_fundacio2|}}} }}
+
+| label100  = {{#if:{{{llista_dissolucio|}}}||{{{etiqueta_dissolucio2|}}} }}
+|  data100  = {{#if:{{{llista_dissolucio|}}}||{{{data_dissolucio2|}}} }}
+
+| label101  = {{#if:{{{llista_fundacio|}}}||{{{etiqueta_fundacio3|}}} }}
+|  data101  = {{#if:{{{llista_fundacio|}}}||{{{data_fundacio3|}}} }}
+
+| label102  = {{#if:{{{llista_dissolucio|}}}||{{{etiqueta_dissolucio3|}}} }}
+|  data102  = {{#if:{{{llista_dissolucio|}}}||{{{data_dissolucio3|}}} }}
+
+| label103  = {{#if:{{{llista_fundacio|}}}||{{{etiqueta_fundacio4|}}} }}
+|  data103  = {{#if:{{{llista_fundacio|}}}||{{{data_fundacio4|}}} }}
+
+| label104  = {{#if:{{{llista_dissolucio|}}}||{{{etiqueta_dissolucio4|}}} }}
+|  data104  = {{#if:{{{llista_dissolucio|}}}||{{{data_dissolucio4|}}} }}
+
+|  data105  = {{#if:{{{llista_fundacio|}}}| {{{llista_fundacio|}}} }}
+
+|  label106 = {{GetLabelFix|P156|lang={{{lang|}}}}} 
+|   data106 = {{{posterior|}}}  
+|  label108 = {{GetLabelFix|Q2245405|lang={{{lang|}}}}}
+|   data108 = {{Conditional drop-down list|{{{fet_clau|}}}|40|3}}
+
+| label109  = {{if empty|{{{etiqueta_llista_celebracio|}}}|{{GetLabelFix|P832|lang={{{lang|}}}}} }} 
+|  data109  = {{#if:{{{llista_celebracio|}}}
+               |{{Conditional drop-down list|{{{llista_celebracio|}}}|40|1}}
+             }}
+| label110  = {{{etiqueta_celebracio|}}}  
+|  data110  = {{#if:{{{etiqueta_celebracio|}}}
+               |{{#if:{{{data_celebracio1|}}} {{{data_celebracio2|}}}
+                      {{{data_celebracio3|}}} {{{data_celebracio4|}}}  | &nbsp;}} }}
+
+| label111  = {{#if:{{{llista_celebracio|}}}||{{{etiqueta_celebracio1|}}} }}
+|  data111  = {{#if:{{{llista_celebracio|}}}||{{{data_celebracio1|}}} }} 
+| label112  = {{#if:{{{llista_celebracio|}}}||{{{etiqueta_celebracio2|}}} }}
+|  data112  = {{#if:{{{llista_celebracio|}}}||{{{data_celebracio2|}}} }} 
+| label113  = {{#if:{{{llista_celebracio|}}}||{{{etiqueta_celebracio3|}}} }}
+|  data113  = {{#if:{{{llista_celebracio|}}}||{{{data_celebracio3|}}} }} 
+| label114  = {{#if:{{{llista_celebracio|}}}||{{{etiqueta_celebracio4|}}} }}
+|  data114  = {{#if:{{{llista_celebracio|}}}||{{{data_celebracio4|}}} }} 
+| label116  = {{GetLabelFix|P417|lang={{{lang|}}}}} 
+|  data116  = {{{patro|}}} 
+| label117  = {{GetLabelFix|P1885|lang={{{lang|}}}}} 
+|  data117  = {{{catedral|}}} 
+
+| label118  = {{GetLabelFix|Q55426287|lang={{{lang|}}}}}
+|  data118  = {{{dia_mercat|}}} 
+| label119  = {{GetLabelFix|Q150139|lang={{{lang|}}}}}
+|  data119  = {{{festa_major|}}}
+
+|  data120  = {{{bloc_historia_especial|}}}
+| label121  = {{{etiqueta_historia1|}}}
+|  data121  = {{{nom_historia1|}}}
+| label122  = {{{etiqueta_historia2|}}}
+|  data122  = {{{nom_historia2|}}}
+| label124  = {{{etiqueta_historia3|}}}
+|  data124  = {{{nom_historia3|}}}
+| label126  = {{{etiqueta_historia4|}}}
+|  data126  = {{{nom_historia4|}}}
+| label128  = {{{etiqueta_historia5|}}}
+|  data128  = {{{nom_historia5|}}}
+
+| header125 = {{#if: {{{org_territorial|}}}{{{forma_govern|}}}
+                     {{{organ_executiu|}}}{{{organ_legislatiu|}}}
+                     {{{nom_cap_estat|}}}{{{nom_cap_govern|}}}{{{nom_lider1|}}}
+                     {{{nom_lider2|}}}{{{nom_lider3|}}}{{{nom_lider4|}}}
+                     {{{nom_lider5|}}}{{{representacio1|}}}
+                     {{{representacio2|}}}{{{representacio3|}}}
+                     {{{representacio4|}}}{{{representacio5|}}}{{{organ_judicial|}}}
+                     {{{bloc_govern_especial|}}}{{{nom_govern1|}}}
+                     {{{nom_govern2|}}}{{{nom_govern3|}}}{{{nom_govern4|}}}
+                     {{{nom_govern5|}}}{{{membre_de|}}}
+                |{{GetLabelFix|Q7210356|lang={{{lang|}}}}} }}
+
+| label127  = {{if empty | {{{etiqueta_org_territorial|}}} | {{GetLabelFix|Q43229|lang={{{lang|}}}}} }}
+|  data127  = {{{org_territorial|}}}
+| label129  = {{if empty | {{{etiqueta_forma_govern}}} | {{GetLabelFix|P122|lang={{{lang|}}}}} }} 
+|  data129  = {{{forma_govern|}}} 
+
+| label130  = {{GetLabelFix|P208|lang={{{lang|}}}}} 
+|  data130  = {{{organ_executiu|}}} 
+| label131  = {{GetLabelFix|P194|lang={{{lang|}}}}} 
+|  data131  = {{{organ_legislatiu|}}} 
+
+| label138  = &bull;&nbsp;{{if empty|{{{etiqueta_cap_estat|}}}|{{GetLabelFix|P35|lang={{{lang|}}}}} }}
+|  data138  = {{#if:{{{nom_cap_estat|}}}
+                |{{#ifeq:{{{nom_cap_estat|}}} | {{{nom_cap_govern|}}}|<!-- No repetir
+                -->|{{{nom_cap_estat|}}} }}
+              }}
+
+| label139  = &bull;&nbsp;{{if empty|{{{etiqueta_cap_govern|}}}|{{GetLabelFix|P6|lang={{{lang|}}}}} }}
+|  data139  = {{#if:{{{nom_cap_govern|}}}
+                | {{{nom_cap_govern|}}}<!-- 
+               -->{{#if:{{{cap_govern_any|}}}
+                    |&nbsp;({{{cap_govern_any|}}}) }}
+              }}
+| label140  = &bull;&nbsp;{{{etiqueta_lider1|}}}
+|  data140  = {{{nom_lider1|}}} 
+| label141  = &bull;&nbsp;{{{etiqueta_lider2|}}}
+|  data141  = {{{nom_lider2|}}} 
+| label142 = &bull;&nbsp;{{{etiqueta_lider3|}}} 
+|  data142 = {{{nom_lider3|}}} 
+| label143 = &bull;&nbsp;{{{etiqueta_lider4|}}} 
+|  data143 = {{{nom_lider4|}}} 
+| label144 = &bull;&nbsp;{{{etiqueta_lider5|}}}
+|  data144 = {{{nom_lider5|}}} 
+
+| label145 = {{if empty | {{{etiqueta_representacio|}}} |Repr.&nbsp;parlamentària}}<!--    PENDENT --> 
+|  data145 = {{#if:{{{representacio1|}}}{{{representacio2|}}}{{{representacio3|}}}
+                   {{{representacio4|}}}{{{representacio5|}}} | &nbsp;}}
+| label147 = &bull;&nbsp;{{{etiqueta_representacio1|}}} 
+|  data147 = {{{representacio1|}}} 
+| label149 = &bull;&nbsp;{{{etiqueta_representacio2|}}} 
+|  data149 = {{{representacio2|}}} 
+| label151 = &bull;&nbsp;{{{etiqueta_representacio3|}}} 
+|  data151 = {{{representacio3|}}} 
+| label153 = &bull;&nbsp;{{{etiqueta_representacio4|}}} 
+|  data153 = {{{representacio4|}}} 
+| label155 = &bull;&nbsp;{{{etiqueta_representacio5|}}} 
+|  data155 = {{{representacio5|}}} 
+| label156 = {{GetLabelFix|P209|lang={{{lang|}}}}}  
+|  data156 = {{{organ_judicial|}}} 
+
+|  data158 = {{{bloc_govern_especial|}}}
+| label159 = {{{etiqueta_govern1|}}}
+|  data159 = {{{nom_govern1|}}}
+| label160 = {{{etiqueta_govern2|}}}
+|  data160 = {{{nom_govern2|}}}
+| label161 = {{{etiqueta_govern3|}}}
+|  data161 = {{{nom_govern3|}}}
+| label162 = {{{etiqueta_govern4|}}}
+|  data162 = {{{nom_govern4|}}}
+| label163 = {{{etiqueta_govern5|}}}
+|  data163 = {{{nom_govern5|}}} 
+| label164  = {{GetLabelFix|P463|lang={{{lang|}}}}}
+|  data164  = {{Conditional drop-down list|{{{membre_de|}}}|40|1}}
+
+| header165= {{#if:{{{PIB|}}}{{{PIB_capita|}}}{{{INB|}}}{{{INB_capita|}}}
+                   {{{reserves_totals|}}}{{{pressupost|}}}
+                   {{{exportacions|}}}{{{importacions|}}}{{{IDH|}}}
+                   {{{moneda|}}}{{{taxa_atur|}}}{{{bloc_economia_especial|}}}
+                   {{{nom_economia1|}}}{{{nom_economia2|}}}{{{nom_economia3|}}}
+                   {{{nom_economia4|}}}{{{nom_economia5|}}}
+               |{{GetLabelFix|Q8134|lang={{{lang|}}}}} }}
+
+| label167 = {{GetLabelFix|P2131|lang={{{lang|}}}}}
+|  data167 = {{#if:{{{PIB|}}} 
+               | {{{PIB|}}}<!-- 
+              -->{{#if:{{{PIB_any|}}}
+                   |&nbsp;({{{PIB_any|}}})}}
+                 {{#if:{{both|{{{PIB_posicio|}}}|{{{PIB_refer|}}} }}<!-- 
+                -->|&nbsp;({{ordinal|{{{PIB_posicio|}}}}}<!--
+                 -->&nbsp;{{Deod'|{{{PIB_refer|}}} }}) }}<!-- 
+          -->}}
+
+| label171 = {{GetLabelFix|P2132|lang={{{lang|}}}}} 
+|  data171 = {{#if:{{{PIB_capita|}}} | {{{PIB_capita|}}}<!--
+              -->{{#if:{{{PIB_capita_any|}}}
+                   |&nbsp;({{{PIB_capita_any|}}})}}
+                 {{#if:{{both|{{{PIB_capita_posicio|}}}|{{{PIB_refer|}}} }}<!-- 
+                -->|&nbsp;({{ordinal|{{{PIB_capita_posicio|}}}}}<!--
+                 -->&nbsp;{{Deod'|{{{PIB_refer|}}} }})}}<!-- 
+          -->}}
+
+| label174 = {{GetLabelFix|P2134|lang={{{lang|}}}}}
+|  data174 = {{#if:{{{reserves_totals|}}}
+               | {{{reserves_totals|}}}<!--
+              -->{{#if:{{{reserves_totals_any|}}}
+                   |&nbsp;({{{reserves_totals_any|}}})}}
+             }}  
+
+| label175 = {{GetLabelFix|P2769|lang={{{lang|}}}}}
+|  data175 = {{#if:{{{pressupost|}}}
+               | {{{pressupost|}}}<!--
+              -->{{#if:{{{pressupost_any|}}}
+                   |&nbsp;({{{pressupost_any|}}})}}
+             }}  
+
+| label176 = {{GetLabelFix|P2135|lang={{{lang|}}}}} 
+|  data176 = {{#if:{{{exportacions|}}}
+               | {{{exportacions|}}}<!--
+              -->{{#if:{{{exportacions_any|}}}
+                   |&nbsp;({{{exportacions_any|}}})}}
+             }}  
+| label177 = {{GetLabelFix|P2136|lang={{{lang|}}}}}
+|  data177 = {{#if:{{{importacions|}}}
+               | {{{importacions|}}}<!--
+              -->{{#if:{{{importacions_any|}}}
+                   |&nbsp;({{{importacions_any|}}})}}
+             }}  
+
+| label178 = {{GetLabelFix|P1081|lang={{{lang|}}}}} 
+|  data178 = {{#if:{{{IDH|}}} 
+               | {{{IDH|}}}<!--   
+              -->{{#if:{{{IDH_any|}}}
+                   |&nbsp;({{{IDH_any|}}})}}
+                 {{#if:{{both|{{{IDH_posicio|}}}|{{{IDH_refer|}}} }}
+                   |&nbsp;({{ordinal|{{{IDH_posicio|}}}}}<!--
+                 -->&nbsp;{{Deod'|{{{IDH_refer|}}} }})}}
+                    {{#if:{{{etiqueta_IDH|}}} 
+                      |&nbsp;-&nbsp;{{{etiqueta_IDH|}}} }}
+             }}
+| label181  = {{GetLabelFix|P38|lang={{{lang|}}}}}
+|  data181  = {{#if:{{{moneda|}}}|{{{moneda|}}} <!-- 
+                 -->{{#if:{{{moneda_simbol|}}} | ({{{moneda_simbol|}}}) }}
+              }}
+|  data183  = {{{bloc_economia_especial|}}}
+| label185  = {{{etiqueta_economia1|}}}
+|  data185  = {{{nom_economia1|}}}
+| label186  = {{{etiqueta_economia2|}}}
+|  data186  = {{{nom_economia2|}}}
+| label187  = {{{etiqueta_economia3|}}}
+|  data187  = {{{nom_economia3|}}}
+| label188  = {{{etiqueta_economia4|}}}
+|  data188  = {{{nom_economia4|}}}
+| label189  = {{{etiqueta_economia5|}}}
+|  data189  = {{{nom_economia5|}}}
+
+| header190 = {{#if:{{{codi_postal|}}}{{{horari|}}}{{{horari_estiu|}}}
+                    {{{bloc_indicatiu_especial|}}} {{{domini|}}} {{{codi_telef|}}}
+                    {{{telefon_emergencies|}}}{{{prefix_radiofonic|}}}
+                    {{{etiqueta_indicatiu1|}}}{{{etiqueta_indicatiu2|}}}
+                    {{{etiqueta_indicatiu3|}}}{{{etiqueta_indicatiu4|}}}
+                    {{{etiqueta_indicatiu5|}}}
+                |{{GetLabelFix|Q22975498|lang={{{lang|}}}}} }}
+|  label192 = {{GetLabelFix|P281|lang={{{lang|}}}}}  
+|   data192 = {{{codi_postal|}}}  
+|  label194 = {{GetLabelFix|P421|lang={{{lang|}}}}}  
+|   data194 = {{Conditional drop-down list|{{{horari|}}}|40|1}}
+|  label196 = &bull;&nbsp;{{GetLabelFix|Q36669|lang={{{lang|}}}}}
+|   data196 = {{{horari_estiu|}}}  
+
+
+|  label200 = {{GetLabelFix|P78|lang={{{lang|}}}}} 
+|   data200 = {{{domini|}}} 
+|  label202 = {{GetLabelFix|Q103903|lang={{{lang|}}}}} 
+|   data202 = {{{codi_telef|}}}
+|  label203 = {{GetLabelFix|P2852|lang={{{lang|}}}}}  
+|   data203 = {{{telefon_emergencies|}}}
+|  label204 = {{GetLabelFix|Q1344924|lang={{{lang|}}}}}
+|   data204 = {{{prefix_radiofonic|}}}   
+|  label205 = {{GetLabelFix|P972|lang={{{lang|}}}}} 
+|   data205 = {{{cataleg|}}}   
+|   data206 = {{{bloc_indicatiu_especial|}}}
+|  label208 = {{{etiqueta_indicatiu1|}}}
+|   data208 = {{{nom_indicatiu1|}}}
+|  label209 = {{{etiqueta_indicatiu2|}}}
+|   data209 = {{{nom_indicatiu2|}}}
+|  label210 = {{{etiqueta_indicatiu3|}}}
+|   data210 = {{{nom_indicatiu3|}}}
+|  label211 = {{{etiqueta_indicatiu4|}}}
+|   data211 = {{{nom_indicatiu4|}}}
+|  label212 = {{{etiqueta_indicatiu5|}}}
+|   data212 = {{{nom_indicatiu5|}}}
+
+
+| header218 = {{#if:{{{agermanaments|}}}{{{transport|}}}{{{colors|}}}
+                    {{{bloc_final_especial|}}} {{{nom_final1|}}} 
+                    {{{nom_final2|}}}{{{nom_final3|}}}{{{nom_final4|}}}
+                    {{{lloc_web|{{{web|}}}}}}{{{facebook|}}}
+                    {{{twitter|}}}{{{notes|}}}
+                |{{GetLabelFix|Q55107540|lang={{{lang|}}}}} }}
+
+|  label219 = {{GetLabelFix|P190|lang={{{lang|}}}}}  
+|   data219 = {{Conditional drop-down list|{{{agermanaments|}}}|40|3}}
+| label220 = {{GetLabelFix|Q7590|lang={{{lang|}}}}} 
+|  data220 = {{{transport|}}}
+| label222 = {{GetLabelFix|P462|lang={{{lang|}}}}}Colors oficials
+|  data222 = {{{colors|}}}
+
+|  data225 = {{{bloc_final_especial|}}}  
+| label227 = {{{etiqueta_final1|}}}
+|  data227 = {{{nom_final1|}}} 
+
+| label229 = {{{etiqueta_final2|}}}
+|  data229 = {{{nom_final2|}}} 
+
+| label231 = {{{etiqueta_final3|}}}
+|  data231 = {{{nom_final3|}}} 
+
+| label233 = {{{etiqueta_final4|}}}
+|  data233 = {{{nom_final4|}}}  
+
+
+|  data237 = {{#if:{{{lloc_web|{{{web|}}}}}}{{{facebook|}}}{{{twitter|}}}{{{notes|}}}|<hr>}}
+
+| label239 = {{GetLabelFix|Q35127|lang={{{lang|}}}}}
+|  data239 = {{{lloc_web|}}}
+
+|  data240 = {{{xarxes|}}}
+
+| belowstyle = border-top:#aaa 1px solid; background-color:{{{color_notes|}}};
+| below = {{{notes|}}}
+}}{{CloseDivRTL|lang={{{lang|}}}}}</includeonly>
