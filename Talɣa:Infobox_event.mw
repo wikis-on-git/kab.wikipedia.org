@@ -1,0 +1,741 @@
+{{Infobox event/formatglobal
+| wikidata    = {{{wikidata|}}}
+| child       = {{{child|}}}
+| item        = {{{item|}}}
+| lang        = {{{lang|}}}
+| desplega_judicial    = {{{desplega_judicial|}}}
+| desplega_premis      = {{{desplega_premis|}}}
+| desplega_participants= {{{desplega_participants|}}}
+| icona_taula = {{#if: {{#invoke:Wikidata |claim |formatting=table |property=P31 |rowformat=$0
+                                                 |whitelist0= Q618779<!-- guardó -->/Q57082336<!-- medalla
+                                                          -->/Q38593919<!-- medalla orde -->/Q406039<!-- medalla or
+                                                          -->/Q847956<!-- medalla argent -->/Q873364<!-- medalla bronze
+                                                          -->/Q1300246<!-- medalla honor -->/Q193622<!-- orde
+                                                          -->/Q60754876<!-- rang d'orde -->/Q15229207<!-- premi esportiu
+                                                          -->/Q60754876<!-- rang d'orde -->/Q1792571<!-- premi artístic
+                                                          -->/Q11448906<!-- premi científic -->/Q378427<!-- premi literari
+                                                          -->/Q38033430<!-- tipus de premi -->/Q3320743<!-- títol honorífic
+                                                          -->/Q5124642<!-- condec.civil -->/Q2003221<!-- orde cavaller
+                                                          -->/Q1364556<!-- premi musical -->/Q41254<!-- premi Grammy -->
+                       }}    
+                  |premi
+                  |{{#switch: {{#invoke:Wikidata|getParentValues|property=P279|label=P279|showlabelid=Q618779 |uptolabelid=Q618779|rowformat=$0|editicon=false}} 
+                     | Guardó = premi
+                     | #default = ;·)
+}}
+}}
+| nom       = {{{esdeveniment|{{{nom|{{PAGENAMEBASE}}}}}}}}
+
+| logo      = {{#if:{{{logo|}}} 
+                |{{#invoke:InfoboxImage|InfoboxImage |image={{{logo|}}} |sizedefault=150x150px }}
+                |{{#invoke:Wikidata | claim | property= P154 OR P2425 | list=false |formatting=[[file:$1|150x150px]]  }}
+              }}
+
+| imatge    = {{#if:{{{imatge|}}} 
+                |{{#invoke:InfoboxImage|InfoboxImage |image={{{imatge|}}} |sizedefault=300x300px 
+                          |thumbtime={{{thumbtime|}}} |alt={{{alt|}}} }}{{#if: {{{peu|}}}  |<br />{{{peu|}}} }}
+                |{{#invoke:Wikidata | claim | property= P2716 OR P18 |qualifier=P2096 
+                                            | formatting = table | list = false
+                                            | rowformat= [[File:$0|300x300px]]<br />$1 }}
+              }} 
+
+| bloc_mapa = {{Location maps
+                                   | imatge_mapa={{{imatge_mapa|}}} | peu_mapa={{{peu_mapa|}}}
+                                   | draw_mapa={{{draw_mapa|}}}     | mapaWD={{{mapaWD|}}}
+                                   | item = {{{item|}}} |lang={{{lang|}}}  |display={{{coord_display|inline,title}}}
+                                   |lat_lon={{GetLatLon|P625|item={{{item|}}} }} 
+                                   |lat_dec={{#if:{{{long_dec|{{{lon_dec|}}}}}}|{{{lat_dec|}}} }}  
+                                   |lon_dec={{#if:{{{lat_dec|}}} | {{{long_dec|{{{lon_dec|}}}}}} }}
+                                   |locator_map={{{mapa_localitzador|}}} |zoom={{{zoom|auto}}}
+                                   |nom_marcador= {{if empty|{{{nom_marcador|}}}| {{{nom|{{PAGENAME}} }}} }}
+                                   |marcador={{{marcador|}}} |marcador_color={{if empty|{{{marcador_color|}}} | FF0000}}
+                                   |marcador_mida={{{marcador_mida|small}}} |mapa_mida={{{mapa_mida|}}}
+                                   |layer        = {{#ifeq:{{{draw_layer|}}}|noWD|<!-- res
+                                                  -->|{{#if:{{{draw_layer|}}}|{{{draw_layer|}}}
+                                                        |{{#invoke:Wikidata | claim |formatting = table |property=P3896
+                                                        |qualifier=P518
+                                                   <!-- |whitelist1=Q29981662/Q1067164/Q719456/Q494829/Q953806  -->
+                                                        |rowformat = $0 |separator=### | item={{{item|}}} |editicon=no}} 
+                                                   }} }}
+              }}
+<!--
+_____________________  Tractament que hi havia a {{infotaula premi}}. Pendent integrar en "article del premi", no de les edicions  ________________
+
+| image2      = {{if empty | {{#invoke:InfoboxImage |InfoboxImage |image={{#invoke:Wikidata|claim |property=P18 |value={{{imatge|{{{image|}}}}}} |list=false | item={{{item|}}} }} |size=300x300px|alt={{{alt|}}} }}
+                           | {{#invoke:InfoboxImage |InfoboxImage |image={{#invoke:Wikidata |claim |property=P2425 |value={{{imatge|{{{image|}}}}}} |list=false | item={{{item|}}} }} |size=300x300px|alt={{{alt|}}} }} }}
+
+|caption2     = {{#if:{{{imatge|{{{image|}}}}}}
+                   | {{{descripció|{{{caption|{{{peu|}}}}}}}}}
+                   | {{#invoke:Wikidata | claim | property=P18   |qualifier=P2096 | list=false  }}
+                   | {{#invoke:Wikidata | claim | property=P2425 |qualifier=P2096 | list=false  }} }}
+________________________________________________________________________________________
+-->
+
+<!-- NOM -->
+| nom_original_txt    = {{#invoke:Wikidata | claim | property= P1559 OR P1705  | list=firstrank | formatting=text <!--per poder determinar si està duplicat amb el nom bàsic.              -->| value={{{nom_original|}}} }}<!-- El format de "nom_original" -->
+<!--                                                                          incorpora llengua --> 
+| nom_original        = {{#invoke:Wikidata | claim | property= P1559 OR P1705  | list=firstrank
+                                         | value={{{nom_original|}}} |formatting=($language) $text|separator=<br/> }}
+| nom_original_lleng  = {{{nom_original_lleng|}}}<!-- llengua en camp separat, si manual. Si és de WD va dins el nom en span--> 
+
+| nom_curt   = {{#invoke:Wikidata | claim | property=P1813 | value={{{nom_curt|}}} }}
+| altre_nom    = {{#invoke:Wikidata | claim | property=P1449 | value= {{{altres noms|{{{conegut_com|{{{alies|{{{altre_nom|}}}}}}}}}}}} }}
+| tipus      = {{#if:{{{tipus|}}} | {{{tipus|}}}
+                 |{{#if:{{#property:P31 | from={{{item|}}} }}
+                    |{{#ifeq: {{#invoke:Wikidata | claim | property=P31 | list=false | formatting=raw }} |Q13406463|<!--llista, saltar
+
+no llista, posar P31-->|{{#invoke:Wikidata | claim | property=P31 | list=firstrank | formatting=table 
+                                           | blacklist0= Q18650988/Q63106470/Q63106482/Q63170811/Q3157041/Q63106520<!--
+                                                     -->/Q63170831/Q63171248/Q63100559/Q63108234/Q16172167/Q63183653<!--
+                                                     -->/Q63100584/Q63100595/Q63183392/Q63182478/Q63183687/Q63100601<!--
+                                                     -->/Q63100611/Q15941028/Q63183538/Q63182937/Q63183721/Q11069306<!--
+                                                     -->/Q63106574/Q11069306/Q63183636/Q140588 
+                                           | qualifier=P642 | rowsubformat1= de $1 | rowformat=$0 $1 }}
+                     }}
+<!--NO P31, P279 -->|{{#invoke:Wikidata | claim | from={{{item|}}} | property=P279 | formatting=ucfirst}}
+                  }}
+               }}
+
+| nivell_ciclo = {{#invoke:Wikidata | claim  | property=P31 | qualifier=P31 | qualifier2=P459 | qualifier3=P518
+                            | list=firstrank| formatting=table
+                            | whitelist0= Q18650988/Q63106470/Q63106482/Q63170811/Q3157041/Q63106520<!--
+                                                     -->/Q63170831/Q63171248/Q63100559/Q63108234/Q16172167/Q63183653<!--
+                                                     -->/Q63100584/Q63100595/Q63183392/Q63182478/Q63183687/Q63100601<!--
+                                                     -->/Q63100611/Q15941028/Q63183538/Q63182937/Q63183721/Q11069306<!--
+                                                     -->/Q63106574/Q11069306/Q63183636/Q140588 
+                            | rowformat= {{Infobox event/cyclone|$0|$1}} | rowsubformat1=$1$3 ($2)
+                            | colformat0=raw |colformat1=ucfirst |case2=infoboxdata| rowsubformat3=, ''{{small|$3}}''}}
+
+| descripcio   = {{#invoke:Wikidata | claim | property=P6208 | value={{{description|{{{descripcio|}}}}}} |list=lang}}
+| anomenat     = {{#invoke:Wikidata | claim | property=P138 | value={{{anomenat|}}} }}
+
+
+<!-- TEMPS   {{#property:P571|from={{{item|}}}}}   -->
+| vigencia =  {{#if:{{{data_creacio|}}} {{{data_dissolucio|}}}
+                | {{{data_creacio|}}}&nbsp;–&nbsp;{{{data_dissolucio|}}}
+                | {{#if:{{#property:P571|from={{{item|}}}}} 
+                    | {{FormatDate start end|start=P571|end=P576|item={{{item|}}}}} }}
+              }}
+| dia = {{#invoke:Wikidata | claim | property= P2894 OR P837 | value={{{dia|}}} }}
+
+| data = {{if empty
+                   | {{{data|}}}
+                   | {{#if:{{{data_signatura|}}} {{{ratificacio|}}} {{{efectivitat|}}} {{{expiracio|}}}|<!-- saltar ús de P585             -->|{{#invoke:Wikidata | claim | property=P585|qualifier=P4241|qualifier2=P421
+                                 |rowsubformat1=($1$2)  |rowsubformat2=.<small> $2</small>
+                                 |formatting=table|rowformat=$0 $1}} }} 
+
+                   | {{#if:{{{inici|}}} 
+                          | {{#if:{{{fi|}}} 
+                              | {{{inici|}}}&nbsp;-&nbsp;{{{fi|}}}
+                              | {{{inici|}}}
+                        }}  }}
+                   | {{#if:{{#property:P580|from={{{item|}}}}} | {{FormatDate start end|start=P580|end=P582|item={{{item|}}}}} }}
+             }} 
+
+| hora = {{{hora|}}}{{#if:{{{hora_inici|}}}|{{{hora_inici|}}}&nbsp;– {{{hora_final|}}}}}
+<!--
+
+Conjunt de dates EXCLUSIVES pel tractats.
+NO està clar el seu ús a WD; condiciona l'ús std. de P585
+pel moment només provenen dels param.manuals migrats
+_____________________________________________________ -->
+
+| data_signatura            = {{#if:{{{signataris|}}}|{{{data_signatura|}}}<!-- si signataris manual, data manual  -->
+                                |{{#if:{{#invoke:Wikidata | claim | property=P1891 |qualifier=P585}}|<!--si hi ha data signatura en signataris, ja sortira amb ells -->|{{{data_signatura|}}} }} }}
+| ratificacio = {{#invoke:Wikidata | claim | property=P6193 |qualifier=P585 | value={{{ratificacio|}}}  
+                      | formatting = table |rowformat=$0 $1 |rowsubformat1=($1)}}
+| efectivitat = {{#invoke:Wikidata | claim | property=P7588 | value={{{efectivitat|}}} }}
+| expiracio   = {{{expiracio|}}}
+
+<!-- FI BLOC excepcional dates {{infotaula tractat}}
+-->
+| publicacio = {{#invoke:Wikidata | claim | property=P577  | value={{{publicació|}}} }}
+| durada     = {{#invoke:Wikidata | claim | property=P2047 | value={{{durada|}}} | formatting=unitcode }}
+| frequencia = {{#invoke:Wikidata | claim | property=P2257 | value={{{freq|{{{frequencia|}}}}}} | formatting = unit }}
+| periode    = {{#invoke:Wikidata | claim | property=P2348 | value={{{periode|}}} }}
+
+| basat_en   = {{#invoke:Wikidata | claim | property=P144 |qualifier=P50  
+                                | formatting=table | list=firstrank | value={{{basat_en|}}}  
+                                | rowformat=$0 $1 |rowsubformat1=($1) 
+             }} 
+| edicio = {{if empty
+              |{{#invoke:Wikidata | claim | property=P393 | value={{{edicio|}}} }}<!--  
+           -->|{{#invoke:Wikidata | claim | property=P179 |qualifier=P1545 |list=false}}<!--
+         -->}}{{if then show|{{#invoke:Wikidata | claim | property=P4566 }}|<!-- res -->|&nbsp;(|)}}
+
+| instaurador = {{#invoke:Wikidata | claim | property=P112 | value={{{instaurador|}}} |list=firstrank }}
+
+| antecedents = {{{antecedents|}}}
+
+|  bloc_precedencia = {{if empty
+<!-- manual -->| {{#if:{{{precedit|}}}
+                   | {{align|left|&larr;{{{precedit|}}}}}}}{{#if:{{{succeit|}}}|{{align|right|{{{succeit|}}} &rarr;}} }} 
+<!-- P.pral -->| {{#if:{{#invoke:Wikidata | claim | property= P155 OR P1365 }}
+                   |{{align|left|&larr; {{#invoke:Wikidata | claim | formatting=table
+                                                 |property=P155 OR P1365  
+                                                 |qualifier=P580 |qualifier2=P582 |qualifier3=P585
+                                                 |colformat1=Y |colformat2=Y |colformat3=Y 
+                                                 |rowsubformat1=($1–$2) |rowsubformat3=($3)  
+                                                 |rowformat=$0 $3 $1}}
+                 }} }}<!--    
+              -->{{#if:{{#invoke:Wikidata | claim | property=P156 OR P1366   }}
+                  |{{align|right|{{#invoke:Wikidata | claim | formatting=table
+                                                 |property=P156 OR P1366
+                                                 |qualifier=P580 |qualifier2=P582 |qualifier3=P585
+                                                 |colformat1=Y |colformat2=Y |colformat3=Y 
+                                                 |rowsubformat1=($1–$2) |rowsubformat3=($3)  
+                                                 |rowformat=$0 $3 $1}} &rarr;}} }}
+<!--Q.sèrie -->| {{#ifeq:{{#invoke:string|match|s={{#invoke:Wikidata|claim |property=P179 |separator=¿|conjunction=¿}}
+                                            |pattern=¿|match=1|nomatch=0}}|0
+                   |{{#invoke:Wikidata | claim | property=P179 |qualifier=P155 |qualifier2=P156  |formatting=table 
+                            |list=firstrank |rowformat=$1$2   
+                            |rowsubformat1={{align|left|&larr; $1}} |rowsubformat2={{align|right|$2 &rarr;}} }}
+                   |<tr>{{#invoke:Wikidata | claim | property=P179 |qualifier=P155 |qualifier2=P156  |formatting=table 
+                            |list=firstrank |separator=</tr><tr> |conjunction=</tr><tr> | colformat0=ucfirst 
+                            |rowformat=<td style="background: #eeeeee;">'''$0'''</td><td class="align=left">$1$2</td>    
+                            |rowsubformat1={{align|left|&larr; $1}} |rowsubformat2={{align|right|$2 &rarr;}} }}</tr>
+                  }}
+            }}
+
+
+
+
+
+<!-- LLOC -->
+| cultura  = {{#invoke:Wikidata | claim | property=P2596 | value={{{cultura|}}}  }}
+
+| lloc = {{if empty   | {{#invoke:Wikidata | claim | property=P6375 |list=false }}
+                      | {{Comma separated entries 
+                                            | {{#invoke:Wikidata | claim | property=P276 |qualifier=P585 | formatting=table
+                                                       |list=firstrank | value= {{{lloc|{{{municipi|}}}}}}
+                                                       |rowformat=$1$0 |rowsubformat1= ($1):&nbsp;    
+                                       }}
+                                            | {{#if: {{#invoke:Wikidata | claim  | property=P31| list=firstrank| formatting=table
+                                                       | blacklist0= Q18650988/Q63106470/Q63106482/Q63170811/Q3157041/Q63106520<!--
+                                                      -->/Q63170831/Q63171248/Q63100559/Q63108234/Q16172167/Q63183653<!--
+                                                      -->/Q63100584/Q63100595/Q63183392/Q63182478/Q63183687/Q63100601<!--
+                                                      -->/Q63100611/Q15941028/Q63183538/Q63182937/Q63183721/Q11069306<!--
+                                                      -->/Q63106574/Q11069306/Q63183636/Q140588 
+                                                        | rowformat=$0}}
+                                                |{{#invoke:Wikidata | claim | property=P706  }} }}
+                                            | {{#invoke:Wikidata | claim | property=P131  }} }}
+             }}
+| conca  =  {{#if: {{#invoke:Wikidata | claim  | property=P31| list=firstrank| formatting=table
+                            | whitelist0= Q18650988/Q63106470/Q63106482/Q63170811/Q3157041/Q63106520<!--
+                                                     -->/Q63170831/Q63171248/Q63100559/Q63108234/Q16172167/Q63183653<!--
+                                                     -->/Q63100584/Q63100595/Q63183392/Q63182478/Q63183687/Q63100601<!--
+                                                     -->/Q63100611/Q15941028/Q63183538/Q63182937/Q63183721/Q11069306<!--
+                                                     -->/Q63106574/Q11069306/Q63183636/Q140588 
+                            | rowformat=$0}}
+              | {{#invoke:Wikidata | claim | property=P706  }}<!-- Conca oceànica per tormentes tropicals -->
+            }}
+
+| estat  = {{if empty | {{#invoke:Wikidata | claim | property=P17 | value={{{estat|}}}  }}
+                        | {{#invoke:Wikidata | claim | property=P495 }} }}
+
+| continent  = {{#invoke:Wikidata | claim | property=P30 | value={{{continent|}}}  }}
+| superficie  = {{#invoke:Wikidata | claim | property=P2046 | value={{{superficie|}}} |formatting=unitcode }}
+
+
+
+
+<!-- CALAIX DE SASTRE -->
+| lema = {{#invoke:Wikidata | claim | property=P1451 | value={{{lema|}}} }} 
+
+|  rang  = {{if then show
+              |{{#invoke:Wikidata | claim | property=P3730 |qualifier=P3730/P2425 |list=false |formatting=table
+                          | rowformat=$1 $0 |rowsubformat1=[[file:$1|30px|link=]] }}|<!-- res, si no hi és -->|{{gran|↑&nbsp;}}}}
+            {{if then show
+              |{{#invoke:Wikidata | claim | property=P3729 |qualifier=P3729/P2425 |list=false |formatting=table
+                 | rowformat=$1 $0 |rowsubformat1=[[file:$1|30px|link=]] }}|<!-- res, si no hi és -->|{{gran|↓&nbsp;}}}}
+| partde = {{#invoke:Wikidata | claim | property=P361 | value={{{partde|}}} }}
+
+| premi  = {{#invoke:Wikidata | claim | property=P2121 | value={{{premi|}}} |formatting=unitcode }}
+
+| mascota = {{#invoke:Wikidata | claim | property=P822 | value={{{mascota|}}}  }}
+
+| tema   = {{#invoke:Wikidata | claim | property=P921 | value={{{tema|}}}  }}
+
+| objectiu  = {{#invoke:Wikidata | claim | property= P533 OR P3712 
+                       | value={{{objectiu|}}} }}<!--P533=objectiu militar/terrorista; P3712=objectiu de proj. o esdev.  -->
+
+| causa  = {{#invoke:Wikidata | claim | property= P1478 OR P828 |qualifier=P585 |qualifier2=P642   
+                                  | formatting=table | list=firstrank | value={{{causa|}}}  
+                                  | rowformat=$0 $2 $1 |rowsubformat1=($1) | rowsubformat2=de $2
+            }} 
+
+| consequencia = {{#invoke:Wikidata | claim | property= P1542 OR P1536 
+                                    | qualifier=P585 |qualifier2=P642
+                                    | formatting=table | list=firstrank | value={{{consequencia|}}}  
+                                    | rowformat=$0 $2 $1 |rowsubformat1=($1) | rowsubformat2=$2
+            }}
+
+| vent    = {{if empty | {{{vent|}}}
+                       | {{#if:{{#invoke:Wikidata | claim   | property=P2895}}
+                           |{{#invoke:Wikidata | claim | property=P2895 |qualifier=P2047 |list=false |formatting=table
+                                      |rowformat=$0 $1 |colformat0=unitcode |convert0=default2  
+                                      |rowsubformat1=, $1 |colformat1=unit}}
+
+                         }}
+            }}
+| pressio = {{if empty | {{{pressio|}}}
+                       | {{#invoke:Wikidata | claim | property=P2532 |formatting=unitcode |convert=default}}
+            }}           
+
+| accions  = {{{accions|}}}
+| condicio = {{{condicio|}}}
+| resultat = {{{resultat|}}}
+
+| conflicte = {{#invoke:Wikidata | claim | property=P607 |qualifier=P585 |qualifier2=P1012   
+                                  | formatting=table | list=firstrank | value={{{conflicte|}}}  
+                                  | rowformat=$0$2 $1 |rowsubformat1=($1) | rowsubformat2=, $2
+            }}
+| llengua = {{#invoke:Wikidata | claim | property=P407 | value={{{llengua|}}}  }}
+| religio = {{#invoke:Wikidata | claim | property=P140 | value={{{religio|}}}  }}
+
+
+
+
+
+
+
+<!-- CONCERTS -->
+| genere = {{#invoke:Wikidata | claim | property=P136 | value={{{genere|}}}  }}
+| interpret = {{#invoke:Wikidata | claim | property=P175 | value={{{interpret|}}}  }}
+
+| representacions = {{#invoke:Wikidata | claim | property=P5027 |qualifier=P585 |qualifier2=P276  
+                                | formatting=table | list=firstrank | value={{{representacions|}}}  
+                                | rowformat=$0 $2 $1 |rowsubformat1 = ($1) |rowsubformat2 =→ $2 }}
+
+
+
+
+
+
+<!-- ECONOMIA-->
+| pressupost = {{#invoke:Wikidata | claim | property=P2769 | value={{{pressupost|}}} |formatting=unitcode }}
+
+| perdues1 = {{{perdues1|}}}
+| perdues2 = {{{perdues2|}}}
+| perdues3 = {{{perdues3|}}}
+
+
+
+
+
+
+
+<!-- DESASTRE -->
+| repliques = {{#if:{{{rèpliques|{{{repliques|}}}}}}  | {{{rèpliques|{{{repliques|}}}}}}
+              |{{#invoke:Wikidata | claim | property=P2320 |qualifier=P585 |qualifier2=P276    
+                                  | formatting=table | list=firstrank |tablesort=1
+                                  | rowformat=$2 $0 $1 |rowsubformat1=($1) | rowsubformat2=$2: 
+            }} }}
+
+| morts = {{#if:{{{morts|}}}  | {{{morts|}}} 
+              |{{#invoke:Wikidata | claim | property=P1120 |qualifier=P518|qualifier2=P276  OR P426 OR P17  
+                                  | formatting=table | list=firstrank |tablesort=2
+                                  | rowformat=$2 $0 $1 $3|rowsubformat1=($1) | rowsubformat2=$2: 
+                                  | qualifier3 = P585 | rowsubformat3 = <small>(a data de $3)</small> }}
+
+            }} 
+| ferits = {{#if:{{{ferits|}}}  | {{{ferits|}}} 
+              |{{#invoke:Wikidata | claim | property=P1339 |qualifier=P518 |qualifier2=P276 OR P426   
+                                  | formatting=table | list=firstrank | tablesort=2 
+                                  | rowformat=$2 $0 $1 $3|rowsubformat1=($1) | rowsubformat2=$2: 
+                                  | qualifier3 = P585 | rowsubformat3 = <small>(a data de $3)</small> }}
+            }} 
+
+| victimes = {{#invoke:Wikidata | claim | property=P8032 |qualifier=P3831 |formatting=table
+                      |value={{{victimes|}}} |rowformat=$0 $1 |rowsubformat1=($1) }}
+| desapareguts = {{#if:{{{desapareguts|}}}  | {{{desapareguts|}}} 
+
+              |{{#invoke:Wikidata | claim | property=P1446 |qualifier=P518 |qualifier2=P276 OR P426   
+                                  | formatting=table | list=firstrank | tablesort=2
+                                  | rowformat=$2 $0 $1 $3|rowsubformat1=($1) | rowsubformat2=$2: 
+                                  | qualifier3 = P585 | rowsubformat3 = <small>(a data de $3)</small> }}
+            }}
+
+| supervivents = {{#if:{{{supervivents|}}}  | {{{supervivents|}}} 
+              |{{#invoke:Wikidata | claim | property=P1561 |qualifier=P518  |qualifier2=P276 OR P426   
+                                  | formatting=table | list=firstrank | tablesort=2
+                                  | rowformat=$2 $0 $1 |rowsubformat1=$1 | rowsubformat2=$2: 
+                                  | qualifier3 = P585 | rowsubformat3 = <small>(a data de $3)</small> }}
+}}
+
+| danys = {{#invoke:Wikidata | claim  | property=P3081 | qualifier=P1114  | value={{{danys|}}}    
+                          | formatting=table | list=firstrank
+                          | rowformat=$1 $0 $4 $2 $3 | rowsubformat1=$1 | tablesort=2/1
+                          | qualifier2 = P585 | rowsubformat2 = ($2) 
+                          | qualifier3 = P1107  | rowsubformat3 = ($3)  
+                          | qualifier4 = P642    }}
+| danys_economics = {{#invoke:Wikidata | claim  | property=P2630 | qualifier=P518 OR P642  | value={{{danys_economics|}}}  
+                           | formatting=table | list=firstrank 
+                          | rowformat=$1 $0 $2 $3 | rowsubformat1=$1: | tablesort=2/1  
+                          | qualifier2 = P585 | rowsubformat2 = ($2) | colformat0 = unitcode
+                          | qualifier3 = P459  | rowsubformat3 = ($3)  }}
+
+| destruccio = {{#invoke:Wikidata | claim  | property=P3082 | qualifier=P1114  | value={{{habitatges_destruits|{{{destruccio|}}}}}}   
+                          | formatting=table | list=firstrank
+                          |rowformat=$1 $0 $4 $2 $3 | rowsubformat1=$1 | tablesort=2/1
+                          | qualifier2 = P585 | rowsubformat2 = ($2) 
+                          | qualifier3 = P1107  | rowsubformat3 = ($3)  
+                          | qualifier4 = P642    }}
+
+
+
+<!-- PARTS IMPLICADES + Premis-->
+| esport       = {{#invoke:Wikidata | claim | property=P641 | value={{{esport|}}} }}
+
+| concedit_per      = {{#invoke:Wikidata | claim | property=P1027 | value={{{host|{{{amfitrió|{{{concedit_per|}}}}}}}}} }}
+
+
+
+| organitzacio = {{#invoke:Wikidata | claim | property=P664 | value={{{organitzacio|}}}}}
+
+
+| jurisdiccio = {{#invoke:Wikidata | claim | property=P1001 | value={{{jurisdiccio|}}}  }}
+| presentador = {{#invoke:Wikidata | claim | property=P371 | qualifier=P276 |formatting=table | value={{{presentador|}}}
+                                   | rowformat=$0$1 |rowsubformat1=&nbsp;($1)}}
+
+| director = {{#invoke:Wikidata | claim | property=P57 | value={{{director|}}} }}
+
+| productor = {{#invoke:Wikidata | claim | property=P162 | value={{{productor|}}} }}
+
+| descobridor = {{#invoke:Wikidata | claim | property=P61 | value={{{descobridor|}}} }}
+
+| comandament = {{#invoke:Wikidata | claim | property=P598 | value={{{comandament|}}} }}
+
+| locutor = {{#invoke:Wikidata | claim | property=P823 | value={{{locutor|}}} }}
+
+
+
+
+<!-- altres càrrecs a P3342 persona rellevant -->
+|  etiq_coordinador  = {{#if:{{{coordinador|}}} | {{GetLabelFix|Q2630879|lang={{{lang|}}}}} }}
+|  bloc_coordinador  = <tr>{{#invoke:Wikidata | claim | property=P3342 | formatting= table | list=firstrank 
+                           | value={{{coordinador|}}} |tablesort = 7
+             <!-- paper -->| qualifier = P3831 |colformat1=ucfirst
+             <!-- inici -->| qualifier2= P580  
+                <!-- fi -->| qualifier3= P582  
+          <!-- motiu fi -->| qualifier4= P1534 | rowsubformat4= , &rarr; $4
+      <!-- reemplaça  a -->| qualifier5= P1365 | rowsubformat5= per $5
+       <!-- grup parlam -->| qualifier6= P4100/P1813 OR P102/P1813 | rowsubformat6=&nbsp;– $6  
+             <!-- ordre -->| qualifier7= P1545
+                           |rowformat = <td style="background: #eeeeee;">''' $1 '''</td><td>$0$6 <!--
+                  --><small>{{((}}Mostra inici fi{{!}}inici{{=}}$2{{!}}fi{{=}}$3{{!}}lang{{=}}{{{lang|}}}{{))}}</small> <!--
+                  -->$5$4</td><!-- 
+                        -->|separator=</tr><tr>|conjunction=</tr><tr>}}</tr>    
+
+| empleats = {{#invoke:Wikidata | claim | property=P1128 |qualifier=P585 | value={{{empleats|}}}
+                      | formatting = table |rowformat=$0 $1| colformat0 = unit |rowsubformat1=($1)}}
+
+| voluntaris = {{#invoke:Wikidata | claim | property=P6125 |qualifier=P585 | value={{{voluntaris|}}}
+                      | formatting = table |rowformat=$0 $1| colformat0 = unit |rowsubformat1=($1)}}
+
+| representat_per   =  {{#invoke:Wikidata | claim | property=P1875 | value={{{representat_per|}}}  }}
+
+| participants = {{#invoke:Wikidata | claim | property=P710 |qualifier=P3831 | value={{{participants|}}}
+                      | formatting = table |rowformat=$0 $1| colformat0 = unit |rowsubformat1=($1)}}
+
+| signataris  = {{#invoke:Wikidata | claim | property=P1891 |qualifier=P585 | value={{{signataris|}}}  
+                      | formatting = table |rowformat=$0 $1 |rowsubformat1=($1)}}
+
+| revisat_per = {{#invoke:Wikidata | claim | property=P4032 | value={{{revisat_per|}}}  }} 
+
+| depositari  = {{#invoke:Wikidata | claim | property=P2058 | value={{{depositari|}}}  }}
+| impulsors = {{#invoke:Wikidata | claim | property=P859 | value= {{{patrocini|{{{impulsors|}}}}}} }}
+
+| primer_informador = {{{primer_informador|}}}
+
+| preu = {{#invoke:Wikidata | claim | property=P2284 | value= {{{preu|}}} |formatting= unitcode}}
+
+| filmat_per = {{{filmat_per|}}}
+
+| espectadors = {{#invoke:Wikidata | claim | property=P5436 |qualifier=P585 | value={{{espectadors|}}}
+                      | formatting = table |rowformat=$0 $1| colformat0 = unit |rowsubformat1=($1)}}
+| assistents = {{#invoke:Wikidata | claim | property=P1110 |qualifier=P585 | value={{{assistents|}}}
+                      | formatting = table |rowformat=$0 $1| colformat0 = unit |rowsubformat1=($1)}}
+| num_participants = {{#invoke:Wikidata | claim | property=P1132 |qualifier=P585| value={{{num_participants|}}}
+                      | formatting = table |rowformat=$0 $1| colformat0 = unit |rowsubformat1=($1)}} 
+
+| guanyador= {{#invoke:Wikidata | claim  | property=P1346 | qualifier=P585  | value={{{guanyadors|{{{guanyador|}}}}}}
+                          | formatting=table |rowformat=$0$2 $1 | rowsubformat1=($1) | tablesort=1
+                          | qualifier2 = P1686 | rowsubformat2 = , per l'obra ''$2'' }}
+
+| recaptacio = {{#invoke:Wikidata | claim | property=P2142 |qualifier=P585 | value={{{recaptacio|}}}
+                      | formatting = table |rowformat=$0 $1| colformat0 = unit |rowsubformat1=($1)}}
+
+
+
+
+<!-- ELECCIONS -->
+| carrec = {{#if:{{{carrec|}}} | {{{carrec|}}}
+               | {{#invoke:Wikidata | claim | formatting=table | property=P541 | qualifier=P1114 
+                          | rowformat = $0 $1 |rowsubformat1=($1) }}
+             }}
+
+| candidats = {{#invoke:Wikidata | claim | property=P726 | value={{{candidats|}}} }}
+
+| elegit = {{#invoke:Wikidata | claim | property=P991 | value={{{elegit|}}} }}
+
+
+
+
+<!-- originals de FESTA -->
+| representa    = {{{representa|}}}<!-- estudiar "commemora" (P547) o "inspirat/da per" (P941)-->  
+| ritual        = {{{ritual|}}}
+| relacio_amb   = {{{relacio_amb|}}}
+| opera_celebra = {{#invoke:Wikidata | claim | property=P2541 | value={{{opera_celebra|}}} | list=firstrank }}
+
+
+
+
+<!-- LEGAL -->
+| investigacio = {{#invoke:Wikidata | claim | property=P1840 | value={{{investigacio|}}} }}
+| investigacio_judicial = {{{investigacio_judicial|}}}
+| instructor  = {{#invoke:Wikidata | claim | property=P1592 | value={{{instructor|}}} }}
+| sospitosos  = {{{sospitos|{{{sospitosos|}}}}}}
+| perpetrador = {{#invoke:Wikidata | claim | property=P8031 |qualifier=P3831 |formatting=table 
+
+                                    |value={{{perpetrador|}}} |rowformat=$0 $1 |rowsubformat1=($1) }}
+
+| armes       = {{#invoke:Wikidata | claim | property=P520 |qualifier=P1114 |formatting=table 
+
+                                    |value={{{armes|}}} |rowformat=$1$0 |rowsubformat1=$1&nbsp; }}
+| detinguts   = {{#invoke:Wikidata | claim  | property=P5582 | value={{{detinguts|}}} }}
+| litigi      = {{{litigi|}}}
+| demandant   = {{#invoke:Wikidata | claim | property=P1620 | value={{{demandant|}}} }}
+| acusats     = {{#invoke:Wikidata | claim | property=P1591 | value={{{acusats|}}} }}
+| carrecs     = {{#invoke:Wikidata | claim | property=P1595 | value={{{carrecs|}}} }}<!-- +P585+P642+P276+P1114 -->
+| defensor    = {{#invoke:Wikidata | claim | property=P1593 | value={{{defensor|}}} }}
+| tribunal    = {{#invoke:Wikidata | claim | property=P4884 | qualifier=P1594 OR P488 | formatting=table  
+                                    |value={{{tribunal|}}} |rowformat=$0 $1 
+                                    |rowsubformat1=({{GetLabelFix|Q140686|lang={{{lang|}}}}}: $1) }}
+
+| jutge       = {{#invoke:Wikidata | claim | property=P1594 | value={{{jutge|}}}  }}
+| veredicte   = {{{veredicte|}}}
+| condemnats  = {{{condemnats|}}}
+| condemna    = {{#invoke:Wikidata | claim  | property=P1596 | qualifier=P1591  | value={{{condemna|}}}
+                          | formatting=table | list=firstrank
+                          | rowformat=$1 $0$3$4 ($2$5) | rowsubformat1=$1: | tablesort=2/1
+                          | qualifier2 = P585   | rowsubformat2 = $2
+                          | qualifier3 = P2047  | rowsubformat3 = , $3. | colformat3 = unit
+                          | qualifier4 = P2284  | rowsubformat4 = , $4. | colformat4 = unitcode
+                          | qualifier5 = P4884  | rowsubformat5 = , $5 }}
+
+
+
+
+
+<!-- TRAJECTE -->
+| tipus_aeronau = {{{tipus_aeronau|}}}
+| tipus_vehicle = {{{tipus_vehicle|}}} 
+| vehicle       = {{#invoke:Wikidata | claim | property=P121 | value={{{vehicle|{{{tipus_aeronau|}}}}}}
+                       |formatting=table| list=firstrank |rowformat=$0$1$2$3
+                       |qualifier = P426 |rowsubformat1=, matr.:$1
+                       |qualifier2= P137 |rowsubformat2=<br>de $2
+                       |qualifier3= P3090|rowsubformat3=, vol $3
+             }}
+
+| linia      = {{#invoke:Wikidata | claim | property=P81 | value={{{linia|}}} }}
+
+| origen     = {{#invoke:Wikidata | claim | property=P1427 | value={{{origen|}}}
+                       |formatting=table| list=firstrank |rowformat=$0$2$1
+                       |qualifier = P426 |rowsubformat1=&nbsp;(matr.:$1)
+                       |qualifier2= P2825 |rowsubformat2=, via $2}}
+| destinacio = {{#invoke:Wikidata | claim | property=P1444 | value={{{destinacio|}}} 
+                       |formatting=table| list=firstrank |rowformat=$0$2$1
+                       |qualifier = P426 |rowsubformat1=&nbsp;(matr.:$1)
+                       |qualifier2= P2825 |rowsubformat2=, via $2}}
+
+| ultima_escala  = {{{ultima_escala|}}}
+
+
+
+
+
+
+<!-- VOL -->
+| operador = {{#invoke:Wikidata | claim | property=P137 | value={{{operador|}}}  }}
+| matricula = {{#invoke:Wikidata | claim | property=P426 | value={{{matricula|}}}  }} 
+| vol = {{#invoke:Wikidata | claim | property=P3090 | value={{{vol|}}}  }} 
+| registre = {{{registre|}}}
+| passatgers = {{{passatgers|}}}
+| tripulacio = {{{tripulacio|}}}
+
+
+
+
+
+<!-- FENOMEN ASTRONÒMIC -->
+| constellacio = {{#invoke:Wikidata | claim | property=P59 | value={{{constellacio|}}} }}
+| data_descobriment = {{#invoke:Wikidata | claim | property=P575 | value={{{data_descobriment|}}} }}
+| lloc_descobriment = {{#invoke:Wikidata | claim | property=P65 | value={{{lloc_descobriment|}}} }}
+| tipus_espectral = {{#invoke:Wikidata | claim | property=P215 | value={{{tipus_espectral|}}}  }}
+| codi_cataleg = {{#invoke:Wikidata | claim | property=P528 | value={{{codi_cataleg|}}} }}
+| pare = {{#invoke:Wikidata | claim | property=P397 | value={{{pare|}}} }}
+
+
+
+
+
+
+
+<!-- TERRATRÈMOL -->
+| richter = {{#invoke:Wikidata | claim | property= P2528 | value={{{richter|}}} 
+                         | formatting=table | qualifier=P585
+                         | rowformat = $0 $1|rowsubformat1=($1) }}
+| magnitud = {{#invoke:Wikidata | claim | property=P2527   | value={{{magnitud|}}}
+                         | formatting=table | qualifier=P585
+                         | rowformat = $0 $1|rowsubformat1=($1) }}
+| mercalli = {{#invoke:Wikidata | claim | property=P2784 | value={{{mercalli|}}}
+                         | formatting=table | qualifier=P585
+                         | rowformat = $0 $1|rowsubformat1=($1) }}
+| profunditat = {{#invoke:Wikidata | claim | formatting=table | property=P4511 | qualifier=P1013 
+                          | qualifier2=P518 OR P642 | value={{{profunditat|}}}
+                          | rowformat = $1 $0 $2 |rowsubformat1= $1: |rowsubformat2=($2) | colformat0=unitcode }}
+
+
+
+
+
+<!-- MÈDIA-->
+| canal  = {{#invoke:Wikidata | claim | property=P449 | value={{{network|{{{canal|}}}}}} }}
+| video =  {{#invoke:Wikidata | claim | property=P10 | value={{{video|}}} | list=false  }}
+| transmes_per = {{#invoke:Wikidata | claim | property=P3301 | value={{{transmes_per|}}} }}
+| audio  = {{#invoke:Wikidata | claim | property=P51 | value={{{audio|}}}  | list=false }}
+| peu_audio =  {{#invoke:Wikidata | claim | property=P51 | qualifier =P2096 | list=false }}
+
+
+
+
+
+
+<!-- Variables comodí dins la P2670 -->
+|   estands = {{{estands|}}}
+|  elements = {{#if: {{#invoke:Wikidata | claim | property=P2670 }}
+                |<tr>{{#invoke:Wikidata | claim | property=P2670 | formatting= table | list=firstrank 
+                                | colformat0= ucfirst |case=plural | value={{{estands|}}}
+                                | qualifier = P1114 | qualifier2= P518 |rowsubformat2 = ($2) 
+                                | rowformat = <td style="background: #eeeeee;">'''$0'''</td><td>$1 $2</td>
+                                | separator=</tr><tr>|conjunction=</tr><tr>}}</tr>    
+              }}
+
+<!-- P527 format_per. Llista variable amb continguts subordinats que podrien ser tractats també amb aquesta infotaula. Exemple:
+
+                                Orde/rangs i els seus diferents guardons
+                                Cerimònia premis i els seus premis
+                                Atemptats i els seus episodis, etc.
+       Es mostra en dos formats: 1 sola columna (data) quan no té cap qualificador, llevat les dates i l'emblema que ess mostren junt amb el nom
+                                 2 cols. (label+data) quan té altres qualificadors; label=emblema P2425 + valor de P527 i data= els qualificadors que tingui
+       El qualificador P1545 (ordre dins sèrie) no es mostra, només serveix per ordenar els continguts de P527 quan no són cronològics.   
+-->
+
+|   formatper = {{#if:{{#invoke:Wikidata | claim | property=P527 | formatting=table  
+                                | rowformat  = $6$7$8 |separator=|conjunction=
+                                | qualifier  = P1545 <!-- No s'avalua --> 
+                                | qualifier2 = P580  <!-- No s'avalua -->  
+                                | qualifier3 = P582  <!-- No s'avalua -->  
+                                | qualifier4 = P585  <!-- No s'avalua --> 
+                                | qualifier5 = P2425 <!-- No s'avalua -->   
+                                | qualifier6 = P1346 
+                                | qualifier7 = P1686 
+                                | qualifier8 = P518   }}   
+<!--   té qualificadors -->| <tr>{{#invoke:Wikidata | claim | property=P527 | formatting=table  
+                                | value={{{formatper|{{{format_per|{{{conte|}}}}}}}}} | tablesort=1/4/2/3
+                                | rowformat  = <td style="background: #eeeeee;">$5 '''$0'''</td><td>$4 $2 $6$7</td> 
+                                | qualifier  = P1545 | rowsubformat1 = ordre:$1, 
+                                | qualifier2 = P580 <!-- OR P527/P580 --> | rowsubformat2 = ($2&nbsp;–&nbsp;$3)  
+                                | qualifier3 = P582 <!-- OR P527/P582 --> | rowsubformat3 = $3 
+                                | qualifier4 = P585 <!-- OR P527/P585 --> | rowsubformat4 = ($4)
+                                | qualifier5 = P527/P2425  | rowsubformat5 = [[file:$5|30px|link=]]
+                                | qualifier6 = P1346 | rowsubformat6 = $6
+                                | qualifier7 = P1686 | rowsubformat7 = , per l'obra ''$7'' 
+                                | qualifier8 = P518  | rowsubformat8 = aplica:$8        
+                                |separator=</tr><tr>|conjunction=</tr><tr>}}</tr>
+<!--NO té qualificadors -->| {{#invoke:Wikidata | claim | property=P527 | formatting=table 
+                                | value={{{formatper|{{{format_per|{{{conte|}}}}}}}}}
+
+                                | rowformat  = $5 '''$0''' $4 $2| tablesort=1/4/2/3
+                                | qualifier  = P1545 | rowsubformat1 = ordre:$1, 
+                                | qualifier2 = P580 <!-- OR P527/P580 --> | rowsubformat2 = ($2&nbsp;–&nbsp;$3)  
+                                | qualifier3 = P582 <!-- OR P527/P582 --> | rowsubformat3 = $3 
+                                | qualifier4 = P585 <!-- OR P527/P585 --> | rowsubformat4 = ($4), 
+                                | qualifier5 = P527/P2425  | rowsubformat5 = [[file:$5|30px|link=]]
+                                | qualifier6 = P1346 | rowsubformat6 = $6
+                                | qualifier7 = P1686 | rowsubformat7 = , per l'obra ''$7'' 
+                                | qualifier8 = P518  | rowsubformat8 = aplica:$8        
+                              }}
+          }}
+<!-- Cronologia està -pel moment- orientat a presentar casos judicials amb trajectòria per diversos tribunals i sentències. És a dir, tot i tractar-se d'un cas, no és un esdeveniment puntal en el temps.
+
+    Si cal tractar altres situacions diferents, potser caldrà adaptar els qualificadors i format.
+  -->
+
+|cronologia =  {{#if:{{#property:P793 | from={{{item|}}} }} 
+                               |<tr>{{#invoke:Wikidata |claim |formatting=table |property=P793  
+                                      |qualifier=P585<!-- data       -->|qualifier2=P580<!-- data inici--> 
+                                      |qualifier3=P582<!-- data fi   -->
+                                      |qualifier4= P1591<!-- P710 OR P1346 ....participant -->
+                                      |rowsubformat4=<br>{{GetLabelFix|Q989174|lang={{{lang|}}}}}:$4
+                                      |qualifier5=P1399<!-- condemnat per  -->
+                                      |rowsubformat5=<br>&rArr; $5
+                                      |qualifier6=P828<!-- aplica a-->
+                                      |rowsubformat6=&nbsp;{{GetLabelFix|P828|lang={{{lang|}}}}} $6
+                                      |qualifier8=P1114<!-- quant. --> |qualifier7=P1596<!-- condemna -->
+                                      |colformat8=unit
+                                      |rowsubformat7=<br/>&rArr; $8 $7 
+                                      |separator=</tr><tr>|conjunction=</tr><tr> |rowsubformat2=$2-$3   
+                                      |colformat0=ucfirst     
+                                      |rowformat=<td style="background: #eeeeee;">$1 $2</td><td>$0$5$4$7$6   }}
+}}
+<!-- ADDICIONAL -->
+| etiqueta = {{{etiqueta|}}}
+|     dada = <!-- {{#if:{{{etiqueta|}}} | --> {{{dada|}}} <!-- }} -->
+
+| etiqueta1 = {{{etiqueta1|}}}
+|     dada1 = <!-- {{#if:{{{etiqueta1|}}} | --> {{{dada1|}}} <!-- }} -->
+
+| etiqueta2 = {{{etiqueta2|}}}
+|     dada2 = <!-- {{#if:{{{etiqueta2|}}} | --> {{{dada2|}}} <!-- }} -->
+
+| bloc_proteccions = {{#invoke:wikidata| claim | property=P3259 |item={{{item|}}} |formatting=table
+                          | whitelist0 = {{{whitelist0|}}} | blacklist0 = {{{blacklist0|}}}  
+                          | qualifier  = P580 OR P585<!-- Data inici o data. En format sencer-->
+                          | qualifier2 = P582  | qualifier3 =  P1534<!-- causa baixa -->
+                          | qualifier4 = P217<!-- N.inventari --> | qualifier5 = P1448<!-- nom oficial --> 
+                          | qualifier6 = P580 OR P585<!-- Data inici o data. Recupera en format any --> 
+                          | qualifier7 = P1600<!-- P1600 com a qualificador recull el codi IPAC d'un BCIN que també és BCIL --> 
+                          | qualifier8 = P973<!-- descrit a URL. Patrimoni immaterial no té propietat de codi on posar el pattern -->
+                          | rowformat = {{((}}Protecció patrimonial/prepara{{!}}{{{item|}}}<!-- 
+                                         -->{{!}}$0{{!}}$1{{!}}$2{{!}}<!-- res -->{{!}}$3{{!}}$4{{!}}$5{{!}}$6{{!}}$7{{!}}$8{{))}}<!-- 
+                       -->| colformat0 = raw |colformat3 = label | colformat5 = text | colformat6 = Y 
+                          | tablesort=1  | sorting=-1 |editicon= no |separator=
+}}
+
+| vista   =  {{#if:{{{vista|}}} 
+               | {{#invoke:InfoboxImage|InfoboxImage  |image={{{vista|}}} |sizedefault=300x300px }}<!--  
+              -->{{#if:{{{peu_vista|}}} 
+                   | <br>{{{peu_vista|}}} 
+             }}  }}
+
+
+| notes = {{{notes|}}}
+
+
+<!-- XARXES-->
+|  lloc_web = {{#if: {{{lloc_web|}}} 
+                |{{{lloc_web|}}}
+                |{{#if:{{#invoke:Wikidata|validProperty|P856|item={{{item|}}}}}   
+                   |{{#invoke:Wikidata | claim | property= P856 |list=false 
+                             |formatting=weblink }}
+              }} }}
+
+| hashtag = {{#invoke:Wikidata | claim | property=P2572 | value={{{hashtag|}}} | formatting=[https://twitter.com/hashtag/$1 #$1] }}
+
+| xarxes  = {{Identifiers | item={{{item|}}} | lang={{{lang|}}} }}
+
+
+
+}}<noinclude>{{doc}}</noinclude>
