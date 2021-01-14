@@ -1,0 +1,52 @@
+<!--  _______________ AVÍS de manteniment ____________
+Dependents:
+*{{circa WD))
+*{{format P571/presenta}}
+_______________________________
+DEBUG: --><!--  <br/>
+*somevalue={{Unknownvalue|lang={{{lang|}}}}}
+*lang={{{lang|}}} 
+*{{MediaWiki:Wikibase-snakview-snaktypeselector-somevalue/{{if empty|{{{lang|}}}|{{CONTENTLANGUAGE}}}} }}
+*{{#ifeq:{{{data|}}} | {{Unknownvalue|lang={{{lang|}}}}}|igual|diferent}}
+*data= {{{data|}}}
+*circa= {{{circa|}}}
+*moment= {{{moment|}}}
+*before= {{{before|}}}
+*after= {{{after|}}}
+---- 
+--><noinclude>{{doc}}</noinclude><includeonly><!-- "somevalue", returns "no value" in the selected language
+-->{{#ifeq:{{{data|}}}|{{Unknownvalue|lang={{{lang|}}}}}|<!-- Not apply circa nor moment
+  -->|{{#switch:{{{circa|}}}<!-- 
+     -->|Q5727902={{if both|1={{{after|}}}|2={{{before|}}}|3=<!-- not apply circa when data bracketing exists
+               -->|4=<abbr title="{{GetLabelFix|Q5727902|lang={{{lang|}}}}}">''{{lc:{{padleft:|1|{{GetLabelFix|Q5727902|lang={{{lang|}}}}} }}}}.''&nbsp;</abbr>}}<!--
+     -->|Q18122778<!--presumible-->|Q18912752<!--disputat-->|Q50376823<!--previst-->|Q748250<!--predicció-->|Q41719<!--hipotesi
+     -->|Q29509043<!--oficial   -->|Q29509080<!--no oficial--><!-- qualificacions que es mostren juntament amb la data o forquilla dates
+        -->=<abbr title="{{GetLabelFix|{{{circa|}}}|lang={{{lang|}}}}}">''{{lc:{{padleft:|1|{{GetLabelFix|{{{circa|}}}|lang={{{lang|}}}}}|1}}}}.''&nbsp;</abbr><!--
+   -->|}}<!-- 
+-->{{#if:{{{before|}}}{{{after|}}}|<!-- with "before" or "after", do not use "moment".
+  -->|{{#switch:{{{moment|}}}<!--
+     -->|Q40719727={{GetLabelFix|Q40719727|lang={{{lang|}}}}}&nbsp;<!-- 
+     -->|Q40719748={{GetLabelFix|Q40719748|lang={{{lang|}}}}}&nbsp;<!--
+     -->|Q40719766={{GetLabelFix|Q40719766|lang={{{lang|}}}}}&nbsp;<!--  
+     -->|Q40719687={{GetLabelFix|Q40719687|lang={{{lang|}}}}}&nbsp;<!--
+     -->|Q40719707={{GetLabelFix|Q40719707|lang={{{lang|}}}}}&nbsp;<!--
+     -->|Q40690303={{GetLabelFix|Q40690303|lang={{{lang|}}}}}&nbsp;<!-- 
+     -->|Q40719649={{GetLabelFix|Q40719649|lang={{{lang|}}}}}&nbsp;<!--
+     -->|Q40719662={{GetLabelFix|Q40719662|lang={{{lang|}}}}}&nbsp;<!--
+     -->|Q40719674={{GetLabelFix|Q40719674|lang={{{lang|}}}}}&nbsp;<!--
+     -->|}}
+   }}
+}}<!-- 
+-->{{#if:{{{before|}}}
+     |{{#if:{{{after|}}}
+       |{{{after|}}} ↔ {{{before|}}}
+       |{{#ifeq:{{{data|}}}|{{Unknownvalue|lang={{{lang|}}}}}
+          |{{GetLabelFix|P1326|lang={{{lang|}}}}} {{{before|}}} | {{{data|}}}&nbsp;(<{{{before|}}}) }}
+      }}
+     |{{#if:{{{after|}}}
+        |{{#ifeq:{{{data|}}}|{{Unknownvalue|lang={{{lang|}}}}}
+           |{{GetLabelFix|P1319|lang={{{lang|}}}}} {{{after|}}} | {{{data|}}}&nbsp;(>{{{after|}}}) }}
+        |{{#ifeq:{{{data|}}}|{{Unknownvalue|lang={{{lang|}}}}}
+           |''{{{data|}}}''|{{{data|}}} }}
+      }}
+   }}</includeonly>
