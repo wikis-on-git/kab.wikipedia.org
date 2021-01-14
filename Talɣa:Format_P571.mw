@@ -1,0 +1,63 @@
+<includeonly><!-- 
+-->{{#invoke:Wikidata | claim | property=P571 | formatting=table |separator=<br><!-- |list= firstrank -->
+                      | qualifier =P793   | rowsubformat1 =  $1
+                      | qualifier2=P518   | rowsubformat2 =  $2
+                      | qualifier3=P122   | rowsubformat3 =  $3
+                      | qualifier4=P1013  | rowsubformat4 =  $4
+                      | qualifier5=P31 OR P642 | rowsubformat5 =  $5
+                      | qualifier6=P805   | rowsubformat6 =  $6
+                      | qualifier7=P828   | rowsubformat7 =  $7
+                      | qualifier8=P807   | rowsubformat8 =   $8
+                      | qualifier9=P3831  | rowsubformat9 =  $9
+                      | qualifier10=P1810 | rowsubformat10= $10
+                      | qualifier11=P2868 | rowsubformat11= $11
+                      | qualifier12=P4649 | rowsubformat12= $12
+                      | qualifier13=P793  <!-- esdev en raw  -->| qualifier14=P518   <!-- aplica en raw -->
+                      | qualifier15=P122  <!-- fgovern en raw-->| qualifier16=P1013  <!-- criteri en raw -->
+                      | qualifier17=P31 OR P642  <!-- instancia raw -->| qualifier18=P805   <!-- afirmat en raw -->
+                      | qualifier19=P828  <!-- causat  raw   -->| qualifier20=P807   <!-- separat en raw -->
+                      | qualifier21=P3831 <!--  paper en raw --><!-- No hi ha raw per P1810 (monolingual) -->   
+                      | qualifier22=P2868 <!-- rol en raw    -->| qualifier23=P4649 <!-- identitat en raw -->
+                         <!-- Qualificadors de tractament data per passar a circa/labels -->
+                      | qualifier24=P1480 OR P5102<!-- circumstancia -->| colformat24 = raw
+                      | qualifier25=P4241 <!--   precisio    -->| colformat25 = raw 
+                      | qualifier26=P1326 <!--    abans      -->| colformat26 = {{{formatdata|}}} 
+                      | qualifier27=P1319 <!--   despres     -->| colformat27 = {{{formatdata|}}} 
+                      | qualifier28=P580  <!--   data_inici  -->| colformat28 = {{{formatdata|}}} 
+                      | qualifier29=P582  <!--    data_fi    -->| colformat29 = {{{formatdata|}}}
+                      | tablesort=0       | editicon=no         |item={{{item|}}}
+                      | colformat0={{{formatdata|}}} | colformat1=label  | colformat2=label  | colformat3=label 
+                      | colformat4=label  | colformat5=label  | colformat6=label  | colformat7=label 
+                      | colformat8=label  | colformat9=label  | colformat10=label | colformat11=label  
+                      | colformat12=label | colformat13=raw   | colformat14=raw   | colformat15=raw    
+                      | colformat16=raw   | colformat17=raw   | colformat18=raw   | colformat19=raw     
+                      | colformat20=raw   | colformat21=raw   | colformat22=raw   | colformat23=raw
+                      | rowformat= {{((}}Format P571/show{{!}}raw_esdev=$13{{!}} raw_aplica=$14 {{!}}
+                                     raw_fgovern=$15 {{!}} raw_criteri=$16 {{!}} raw_instancia=$17{{!}} 
+                                     raw_afirmat=$18 {{!}} raw_causat=$19  {{!}} raw_separat=$20  {{!}}
+                                     raw_paper=$21   {{!}} raw_rol=$22     {{!}} raw_identitat=$23{{!}} 
+                                     data571=$0{{!}}esdev=$1{{!}}aplica =$2{{!}} fgovern=$3{{!}} criteri=$4{{!}}
+                                     instancia=$5{{!}}afirmat=$6{{!}}causat=$7{{!}}separat =$8{{!}}paper =$9{{!}}
+                                     nomenat =$10{{!}}rol  =$11{{!}} identitat=$12{{!}}
+<!--    per passar a Circa/labels -->circumstances=$24 {{!}} precisio  =$25  {{!}} abans=$26   {{!}}
+                                     despres=$27       {{!}} data_inici=$28  {{!}} data_fi=$29 {{!}}  
+                                     item={{{item|}}}  {{!}} test={{{test|}}}{{!}}lang{{=}}{{{lang|}}}{{))}}
+
+          }}</includeonly><noinclude>{{documentation}}<!--
+{{Format P571|item=Q66491090|test=instància}}
+----
+{{Format P571|item=Q2198961}}
+----
+{{Format P571|item=Q159}}
+----
+{{Format P571|item=Q851}}
+----
+{{Format P571|item=Q458}}
+{{Usuari:Amadalvarez/proves plantilla2|item=Q3395798}}
+{{Usuari:Amadalvarez/proves plantilla2|item=Q96}}
+{{Usuari:Amadalvarez/proves plantilla2|item=Q3075647}}
+{{Usuari:Amadalvarez/proves plantilla2|item=Q458}}
+{{Usuari:Amadalvarez/proves plantilla2|item=Q19616}}
+{{Usuari:Amadalvarez/proves plantilla2|item=Q851}}
+{{Usuari:Amadalvarez/proves plantilla2|item=Q159}}
+ --></noinclude>
