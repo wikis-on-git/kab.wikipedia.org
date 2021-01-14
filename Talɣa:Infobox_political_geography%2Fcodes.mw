@@ -1,0 +1,166 @@
+<!-- Debugging
+
+*P772={{#invoke:wikidata|claim|property=P772|item={{{item|}}} }}
+*IF = {{#ifeq:{{Str left|{{#invoke:Wikidata | claim | property=P772 | item={{{item|}}} }}|2}}|08|ok|ko}}
+*switch = {{#switch:{{Str left|{{#invoke:Wikidata | claim | property=P772 | item={{{item|}}} }}|2}} |08|17|25|43=[http://www.idescat.cat/emex/?id={{CodiIDESCAT|{{#invoke:Wikidata | claim | property=P772|list=false | item={{{item|}}} }}}} {{CodiIDESCAT|{{#invoke:Wikidata | claim | property=P772|list=false | item={{{item|}}} }}}}] }}
+--><!--
+
+
+Llista de condicions amb tots els codis que hi intervenen per evitar que es generi una infotaula buida quan cap existeix.
+         D'aquesta forma s'evita la creació de la secció sense contingut dins "infotaula geografia política"
+
+
+    ****  Si s'afegeix el tractament d'algun codi nou, cal afegir-lo també en aquest IF  ****
+-->
+{{#if: {{#invoke:Wikidata| claim |item={{{item|}}} |property=P297 P300 P605 P635 P764 P771 P772 P882 P939 P964 P981 P1077 P1585 P1388 P2496 P2506 P2586 P4335 }} 
+ | {{Infobox
+      |child={{if empty|{{{child|}}}|yes}}
+      |bodyclass = vcard | titleclass = fn org      
+      | labelstyle     = padding-right:1.2em;<!--(assegura espai entre label i data --> background:#eeeeee; text-align:start
+      | datastyle      = text-align:start
+      |above=
+<!-- Codis internacionals -->
+|label5 = 
+|data5  = 
+|label7 = {{GetLabelFix|Q906278|lang={{{lang|}}}}} 
+|data7  = {{#if: {{#property:P297 |from={{{item|}}} }}
+            | {{#ifexist:ISO 3166-2:{{padleft:|2|{{#invoke:Wikidata | claim | property=P297 |item={{{item|}}} |editicon=no }}}}
+                |{{#invoke:Wikidata | claim | property=P297 |item={{{item|}}}
+                                          |formatting=[[ISO 3166-2:{{((}}padleft:{{!}}2{{!}}$1{{))}}|$1]] }}
+
+                |{{#invoke:Wikidata | claim | property=P297 |item={{{item|}}} }}
+          }} }}
+|label8 = {{GetLabelFix|P300|lang={{{lang|}}}|linked=yes}} 
+|data8  = {{#if: {{#property:P300 |from={{{item|}}} }}
+            | {{#ifexist:ISO 3166-2:{{padleft:|2|{{#invoke:Wikidata | claim | property=P300 |item={{{item|}}} |editicon=no }}}}
+                |{{#invoke:Wikidata | claim | property=P300 |item={{{item|}}} 
+                                          |formatting=[[ISO 3166-2:{{((}}padleft:{{!}}2{{!}}$1{{))}}|$1]] }}
+                |{{#invoke:Wikidata | claim | property=P300 |item={{{item|}}} }}
+          }} }}
+|label9 = {{GetLabelFix|P605|lang={{{lang|}}}|linked=yes}} 
+|data9  = {{#if: {{#property:P605 |from={{{item|}}} }}
+            |{{#invoke:Wikidata |claim| property=P605 |list=false|item={{{item|}}}
+                                      |formatting=[http://dd.eionet.europa.eu/vocabularyconcept/common/nuts/$1 $1]}}
+          }}
+<!-- Codis locals. Per no carregar massa la infotaula resultant, s'ha conveniat no fer aparèixer més de 2 codis locals per article.
+                   Par afegir nous codis cal tenir present que dins el #switch només pot haver un cas per cada país/estat, ja que switch atura la
+                   cerca quan ha trobat un cas. 
+                   Si només hi ha un codi per país, després del "=" es pot posar l'acció corresponent (nom a label i recuperació de WD a data).
+                   Si hi ha més d'un codi per un país, s'haurà de posar un #If amb la property que volem tractar. Ubicarem la primera al #switch
+                    del primer label/data, la segona property al #switch del segon bloc label/data, etc. 
+-->
+|label20 = {{#switch:{{#invoke:Delink|delink|{{{pais|}}}}}
+             |Ucraïna|Q212 = {{GetLabelFix|P1077|lang={{{lang|}}}}}<!-- Codi&nbsp;KOATUUP1077 -->
+             |Suïssa|Q39  = {{GetLabelFix|P771|lang={{{lang|}}}}}<!-- Codi&nbsp;BFS P771 -->
+             |Rússia|Q159  = {{GetLabelFix|P764|lang={{{lang|}}}}}<!-- Codi&nbsp;OKTMO P764 -->
+             |Països Baixos|Q55 = {{GetLabelFix|P981|lang={{{lang|}}}}}<!-- Codi&nbsp;BAG P981 -->
+             |Letònia|Q211  = {{GetLabelFix|P2496|lang={{{lang|}}}}}<!-- Codi&nbsp;LGIA P2496 -->
+             |HongriaQ28 = {{GetLabelFix|P939|lang={{{lang|}}}}}<!-- Codi&nbsp;KSH P939 -->
+             |Itàlia|Q38  = {{GetLabelFix|P635|lang={{{lang|}}}}}<!-- Codi&nbsp;ISTAT P635 -->
+             |França|Q142   = {{#if: {{#property:P2586 |from={{{item|}}} }}<!--
+                        -->|{{GetLabelFix|P2586|lang={{{lang|}}}}}}}<!-- INSEE]]departament P2586 -->
+
+             |Estats Units d'Amèrica|Q30= {{#if: {{#property:P882|from={{{item|}}} }}<!--
+                        -->|{{GetLabelFix|P2586|lang={{{lang|}}}}}}}<!-- FIPS&nbsp;(comtats)}}  P882 -->
+             |Espanya|Q29  = {{GetLabelFix|P772|lang={{{lang|}}}}}<!-- Codi&nbsp;INE P772 codi INE-->
+             |Brasil|Q155  = {{GetLabelFix|P1585|lang={{{lang|}}}}}<!-- Municipi&nbsp;Brasil P1585 -->
+             |Àustria|Q40  = {{GetLabelFix|P964|lang={{{lang|}}}}}<!-- Municipi&nbsp;Àustria P964 -->
+             |Alemanya|Q183 = {{#if: {{#property:P1388|from={{{item|}}} }}|{{GetLabelFix|P1388|lang={{{lang|}}}}}}}<!-- Regió&nbsp;Alemanya}} P1388 -->
+           }}
+|data20  = {{#switch:{{#invoke:Delink|delink|{{{pais|}}}}}
+             |Ucraïna|Q212  = {{#if: {{#property:P1077 |from={{{item|}}} }}
+                                |{{#invoke:Wikidata |claim| property=P1077 |list=false|item={{{item|}}}
+                                          |formatting=[http://dovidnyk.in.ua/directories/koatuu/search=$1 $1]}} }}<!--P1077 KOATUU-->
+             |Suïssa|Q39  = {{#if: {{#property:P771 |from={{{item|}}} }}
+                                |{{#invoke:Wikidata |claim| property=P771 |list=false|item={{{item|}}}
+                                          |formatting=[https://www.cadastre.ch/content/cadastre-internet/fr/services/service/plz.html $1]}} }}<!--P771 BFS-->
+             |Rússia|Q159  = {{#if: {{#property:P764 |from={{{item|}}} }}
+                                |{{#invoke:Wikidata |claim| property=P764 |list=false|item={{{item|}}}
+                                                    |formatting=[http://classif.spb.ru/classificators/view/tma.php?st=A&kr=1&kod=$1 $1]}} }}<!-- P764 OKTMO-->
+             |Països Baixos|Q55= {{#if: {{#property:P981 |from={{{item|}}} }}
+                                |{{#invoke:Wikidata |claim| property=P981 |list=false|item={{{item|}}}
+                                    |formatting=[https://bagviewer.kadaster.nl/lvbag/bag-viewer/index.html#?objectId=$1&detailsObjectId=$1 $1]}} }}<!--P981 BAG -->
+             |Letònia|Q211       = {{#if: {{#property:P2496 |from={{{item|}}} }}
+                                |{{#invoke:Wikidata |claim| property=P2496 |list=false|item={{{item|}}}
+                                    |formatting=[http://vietvardi.lgia.gov.lv/vv/to_www_obj.objekts?p_id=$1 $1]}} }}<!--P2496 LGIA-->
+             |Hongria|Q28      = {{#if: {{#property:P939 |from={{{item|}}} }}
+                                |{{#invoke:Wikidata |claim| property=P939 |list=false|item={{{item|}}}
+                                    |formatting=[http://www.ksh.hu/apps/hntr.telepules?p_id=$1 $1]}} }}<!--P939 KSH-->
+             |Itàlia|Q38       = {{#if: {{#property:P635 |from={{{item|}}} }}
+                                |{{#invoke:Wikidata |claim| property=P635 |list=false|item={{{item|}}}
+                                    <!-- |formatting=[http://www.ksh.hu/apps/hntr.telepules?p_id=$1 $1]-->}} }}<!--P635 ISTAT -->
+             |França|Q142        = {{#if: {{#property:P2586 |from={{{item|}}} }}
+                                |{{#invoke:Wikidata |claim| property=P2586 |list=false|item={{{item|}}}
+                                                    |formatting=[https://www.insee.fr/fr/statistiques/2011101?geo=DEP-$1 $1]}} }} <!--P2586 INSEE (departament)-->
+             |Estats Units d'Amèrica|Q30 = {{#if: {{#property:P882|from={{{item|}}} }}
+                                         |{{#invoke:Wikidata |claim| property=P882 |list=false|item={{{item|}}}
+                                                    |formatting=[http://www.census.gov/quickfacts/table/PST045215/$1,00 $1]}} }} <!--P882 FIPS (comtats)-->
+             |Espanya|Q29  = {{#invoke:Wikidata | claim | property=P772 |list=false |item={{{item|}}} }}<!--P772 codi INE-->
+             |Brasil|Q155   = {{#if: {{#property:P1585 |from={{{item|}}} }}
+                                |{{#invoke:Wikidata |claim| property=P1585 |list=false|item={{{item|}}}
+                                                    |formatting=[http://cidades.ibge.gov.br/xtras/perfil.php?codmun=$1 $1]}} }}<!--P1585 municipi Brasil-->
+             |Àustria|Q40  = {{#if: {{#property:P964 |from={{{item|}}} }}
+                                |{{#invoke:Wikidata |claim| property=P964 |list=false|item={{{item|}}}
+                                           |formatting=[http://www.statistik.at/blickgem/gemDetail.do?gemnr=$1 $1]}} }}<!--P964 municipi Àustria-->
+             |Alemanya|Q183 = {{#if: {{#property:P1388 |from={{{item|}}} }}
+                                |{{#invoke:Wikidata |claim| property=P1388 |list=false|item={{{item|}}}
+                                           |formatting=[http://www.statistik-portal.de/Statistik-Portal/gemeindeverz.asp?G=$1 $1]}} }}<!--P1388 regió Alemanya-->
+           }}
+|label25 = {{#switch:{{#invoke:Delink|delink|{{{pais|}}}}}
+             |Espanya|Q29  = {{#if: {{#property:P4335 |from={{{item|}}} }}|{{GetLabelFix|P4335|lang={{{lang|}}}}}}}<!-- Codi&nbsp;IDESCAT}} P4335 IDESCAT de Catalunya -->
+             |França|Q142   = {{#if: {{#property:P2506 |from={{{item|}}} }}| {{GetLabelFix|P2506|lang={{{lang|}}}}}}}<!-- [[INSEE]]&nbsp;(cantó)}} P2506 -->
+             |Itàlia|Q38   = {{#if: {{#property:P806 |from={{{item|}}} }}|{{GetLabelFix|P806|lang={{{lang|}}}}}}}<!-- Codi&nbsp;cadastral}} <!--P806 -->
+             |Estats Units d'Amèrica|Q30 = {{#if: {{#property:P590|from={{{item|}}} }}|{{GetLabelFix|P590|lang={{{lang|}}}}}}}<!-- Codi&nbsp;GNIS}}P590 -->
+             |Alemanya|Q183 = {{#if: {{#property:P439 |from={{{item|}}} }}|{{GetLabelFix|P439|lang={{{lang|}}}}}}}<!-- Municipi&nbsp;Alemanya}} P439 -->
+             |Rússia|Q159   = {{GetLabelFix|P721|lang={{{lang|}}}}}<!-- Codi&nbsp;OKATO P721 -->
+           }}<!-- fi switch pais label25-->
+|data25  = {{#switch:{{#invoke:Delink|delink|{{{pais|}}}}}
+             |Espanya|Q29 = {{#if: {{#property:P4335 |from={{{item|}}} }}
+                                |{{#invoke:Wikidata|claim| property=P4335|list=false | item={{{item|}}}
+                                          |formatting=[http://www.idescat.cat/emex/?id=$1 $1]}} }}<!-- P4335 IDESCAT de Catalunya -->
+             |França|Q142   = {{#if: {{#property:P2506 |from={{{item|}}} }}
+                                |{{#invoke:Wikidata |claim| property=P2506 |list=false|item={{{item|}}}
+                                           |formatting=[https://www.insee.fr/fr/recherche/recherche-geographique?geo=CANTON-$1 $1]}} }} <!--P2506 INSEE (cantó)-->
+             |Itàlia|Q38   = {{#if: {{#property:P806 |from={{{item|}}} }}
+                            |{{#invoke:Wikidata |claim| property=P806 |list=false|item={{{item|}}} }} }}<!--P806 Codi cadastre IT-->
+             |Estats Units d'Amèrica|Q30 = {{#if: {{#property:P590|from={{{item|}}} }}
+                                         |{{#invoke:Wikidata |claim| property=P590 |list=false|item={{{item|}}}
+                                                    |formatting=[https://geonames.usgs.gov/apex/f?p=gnispq:3:::NO::P3_FID:$1 $1]}} }}<!--P590 GNIS-->
+             |Alemanya|Q183 = {{#if: {{#property:P439 |from={{{item|}}} }}
+                                |{{#invoke:Wikidata |claim| property=P439 |list=false|item={{{item|}}}
+                                          |formatting=[http://www.statistik-portal.de/Statistik-Portal/gemeindeverz.asp?G=$1 $1]}} }}<!--P439 municipi Alemanya-->
+             |Rússia|Q159   = {{#if: {{#property:P721 |from={{{item|}}} }}
+                                |{{#invoke:Wikidata |claim| property=P721 |list=false|item={{{item|}}}
+                                                    |formatting=[http://classif.spb.ru/classificators/view/okt.php?st=A&kr=1&kod=$1 $1]}} }}<!--P721 OKATO -->
+           }}<!-- fi switch pais data25-->
+|label30 = {{#switch:{{#invoke:Delink|delink|{{{pais|}}}}}
+             |Espanya|Q29 = {{#switch:{{Str left|{{#invoke:Wikidata | claim | property=P772 | item={{{item|}}} }}|2}}
+                           |03|12|46={{GetLabelFix|Q55439123|lang={{{lang|}}}}}}}<!-- Codi&nbsp;ARGOS}} P772  de País Valencià. Província=08,17,25 o 43-->
+             |França|Q142   = {{#if: {{#property:P374  |from={{{item|}}} }}|{{GetLabelFix|P374|lang={{{lang|}}}}}}}<!--[[INSEE]]&nbsp;(municipi)}} P374 )-->
+           }}
+|data30  = {{#switch:{{#invoke:Delink|delink|{{{pais|}}}}}
+             |Espanya|Q29  = {{#switch:{{Str left|{{#invoke:Wikidata | claim | property=P772 | item={{{item|}}} }}|2}}<!--
+València. Prov.=03,12,46       -->|03|12|46={{#invoke:Wikidata|claim| property=P772|list=false | item={{{item|}}}|formatting=[http://www.argos.gva.es/bdmun/pls/argos_mun/DMEDB_MUNDATOSGENERALES.Dibujapagina?aNMunId=$1&aVLengua=V $1]}}
+                         }}<!-- fi switch províncies--> 
+             |França|Q142   = {{#if: {{#property:P374 |from={{{item|}}} }}
+                                |{{#invoke:Wikidata |claim| property=P374 |list=false|item={{{item|}}}
+                                               |formatting=[http://www.insee.fr/fr/themes/dossier_complet.asp?codgeo=COM-$1 $1]}} }} <!--P374 INSEE (municipi)-->
+           }}
+|label35 = {{#switch:{{#invoke:Delink|delink|{{{pais|}}}}}
+             |França|Q142   = {{#if: {{#property:P3423 |from={{{item|}}} }}|{{GetLabelFix|P3423|lang={{{lang|}}}}}}}<!-- [[INSEE]]&nbsp;(districte)}} P3423 -->
+           }}
+|data35  = {{#switch:{{#invoke:Delink|delink|{{{pais|}}}}}
+             |França|Q142   = {{#if: {{#property:P3423 |from={{{item|}}} }}
+                                |{{#invoke:Wikidata |claim| property=P3423 |list=false|item={{{item|}}}
+                                               |formatting=[https://www.insee.fr/fr/statistiques?geo=ARR-$1 $1]}} }} <!--P3423 INSEE (districte)-->
+           }}
+|label40 = {{#switch:{{#invoke:Delink|delink|{{{pais|}}}}}
+             |França|Q142   = {{#if: {{#property:P2585 |from={{{item|}}} }}|{{GetLabelFix|P2585|lang={{{lang|}}}}}}}<!-- [[INSEE]]&nbsp;(regió)}} P2585 -->
+           }}
+|data40  = {{#switch:{{#invoke:Delink|delink|{{{pais|}}}}}
+             |França|Q142   = {{#if: {{#property:P2585 |from={{{item|}}} }}
+                                |{{#invoke:Wikidata |claim| property=P2585 |list=false|item={{{item|}}}
+                                               |formatting=[https://www.insee.fr/fr/statistiques?geo=REG-$1 $1]}} }} <!--P2585 INSEE (regió)-->
+           }}
+}}<!-- Fi condició "fer infotaula"-->
+}}<noinclude>{{doc}}</noinclude>
