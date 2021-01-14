@@ -1,0 +1,4 @@
+{{#switch:{{{1}}}
+| inhabitants/km² = imezdaɣen/km²
+| #default = {{{1}}}
+}}
