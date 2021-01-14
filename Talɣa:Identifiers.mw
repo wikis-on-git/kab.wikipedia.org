@@ -1,0 +1,79 @@
+<!--
+-->{{#invoke:Wikidata | claim | property=P345 | list=false |editicon=no |formatting=[[File:IMDb Logo Square.svg |50x20px|link=https://tools.wmflabs.org/wikidata-externalid-url/?p=345&url_prefix=https://www.imdb.com/&id=$1 |IMDB: $1]] }} <!--
+        Si hi ha plataformes cinematogràfiques, es tracten separadament de xarxes socials
+-->{{#if: {{#invoke:Wikidata|claim |item={{{item|}}} |property=P480 P1265 P1266 P1267 P1258 P1237 P1562 P2019 P2631 P3056 P2638 P1219 P1220 }} |<!--
+   -->{{#invoke:Wikidata | claim | property=P480 | list=false |editicon=no |formatting=[[File:FA_en_14.jpg|20x50px<!--
+        -->|link=http://www.filmaffinity.com/en/film$1.html |Filmaffinity: $1]] }} <!-- 
+   -->{{#invoke:Wikidata | claim | property=P1265 | list=false |editicon=no |formatting=[[File:Allociné Logo carré.png|20x40px<!--
+        -->|link=http://www.allocine.fr/film/fichefilm_gen_cfilm=$1.html |Allocine: $1]] }} <!--
+   -->{{#invoke:Wikidata | claim | property=P1266 | list=false |editicon=no |formatting=[[File:Allociné Logo carré.png|20x40px<!--
+        -->|link=http://www.allocine.fr/personne/fichepersonne_gen_cpersonne=$1.html?nopub=1 |Allocine: $1]] }} <!--
+   -->{{#invoke:Wikidata | claim | property=P1267 | list=false |editicon=no |formatting=[[File:Allociné Logo carré.png|20x40px<!--
+        -->|link=http://www.allocine.fr/series/ficheserie_gen_cserie=$1.html?nopub=1 |Allocine: $1]] }} <!--
+   -->{{#invoke:Wikidata | claim | property=P1258 |list=false |editicon=no |formatting=[[File:Rottentomatoesalternativelogo.svg|20x100px<!--
+        -->|link=http://www.rottentomatoes.com/$1|Rottentomatoes: $1]] }} <!-- 
+   -->{{#invoke:Wikidata | claim | property=P1237 |list=false |editicon=no |formatting=[[File:Box office MOJO square.jpg|25x100px<!--
+        -->|link=http://boxofficemojo.com/movies/?id=$1.htm|Mojo: $1]] }} <!-- 
+   -->{{#invoke:Wikidata | claim | property=P1562 |list=false |editicon=no |formatting=[[File:Allmovie square.jpg|25x100px<!--
+        -->|link=https://www.allmovie.com/movie/$1 |Allmovie: $1]] }} <!-- 
+   -->{{#invoke:Wikidata | claim | property=P2019 |list=false |editicon=no |formatting=[[File:Allmovie square.jpg|25x100px<!--
+        -->|link=https://www.allmovie.com/artist/$1 |Allmovie: $1]] }} <!-- 
+   -->{{#invoke:Wikidata | claim | property=P2631 |list=false |editicon=no |formatting=[[File:Tcm logo squared.png|20px<!--
+        -->|link=http://www.tcm.turner.com/tcmdb/title/title.jsp?stid=$1 |TCM: $1]] }} <!-- 
+   -->{{#invoke:Wikidata | claim | property=P3056 |list=false |editicon=no |formatting=[[File:Tcm logo squared.png|20px<!--
+        -->|link=http://www.tcm.turner.com/tcmdb/participant/participant.jsp?participantId=$1 |TCM: $1]] }} <!-- 
+   -->{{#invoke:Wikidata | claim | property=P1712 | list=false |editicon=no |formatting=[[File:Metacritic.svg|20x100px<!--
+        -->|link=http://www.metacritic.com/$1 |Metacritic: $1]] }} <!--
+   -->{{#invoke:Wikidata | claim | property=P2638 |list=false |editicon=no |formatting=[[File:TVcom Logo cropped.png|22px<!--
+        -->|link=http://www.tv.com/$1/ |TV.com: $1]] }} <!-- 
+   -->{{#invoke:Wikidata | claim | property=P1219 |list=false |editicon=no |formatting=[[File:Ibdb logo.jpg|20px<!--
+        -->|link=https://www.ibdb.com/broadway-show/$1 |IBDB: $1]] }} <!-- 
+   -->{{#invoke:Wikidata | claim | property=P1220 |list=false |editicon=no |formatting=[[File:Ibdb logo.jpg|20px<!--
+        -->|link=https://www.ibdb.com/broadway-cast-staff/$1 |IBDB: $1]] }} <!-- 
+   --><!-- {{#invoke:Wikidata | claim | property=P1874 | list=false |editicon=no |formatting=[[File:Netflix-new-icon.png|20x100px
+           |link=https://www.netflix.com/title/$1 |Netflix: $1]] }}&nbsp; Eliminat segons discussió plantilla:pel·lícula 
+   -->{{#if:{{#invoke:Wikidata| claim |item={{{item|}}} |property=P2013 P2002 P2003 P3789 P3265 P6634 P4264 P3040 P2984 P1902 P2205 P2207 P2397 P4175 P3283 P4015 P3836 P2850 P3192 P434 P3478 P2611 P1953 P1954 P839 P1728 P1729 P1730 P1994 P1146 P3171 P1469 P2276 P535 }} |<hr>}} }}<!--
+-->{{#invoke:Wikidata | claim | property=P2013 |list=false |editicon=no |formatting=[[File:F_icon.svg |20x20px |link=http://www.facebook.com/$1|Facebook: $1]] }} <!--
+-->{{#invoke:Wikidata | claim | property=P2002 | list=false |editicon=no |formatting=[[File:Twitter.svg |20x20px |link=http://www.twitter.com/$1 |Twitter: $1]] }} <!-- 
+-->{{#invoke:Wikidata | claim | property=P2003 | list=false |editicon=no |formatting=[[File:Instagram logo 2016.svg |20x20px |link=https://www.instagram.com/$1 |Instagram: $1]] }} <!-- 
+-->{{#invoke:Wikidata | claim | property=P3789 | list=false |editicon=no |formatting=[[File:Telegram 2019 Logo.svg |20x20px |link=https://t.me/s/$1 |Telegram: $1]] }} <!-- 
+-->{{#invoke:Wikidata | claim | property=P3265 | list=false |editicon=no |formatting=[[File:Myspace icon.jpg |20x20px |link=https://myspace.com/$1 |MySpace: $1]] }} <!-- 
+-->{{#invoke:Wikidata | claim | property=P6634 | list=false |editicon=no |formatting=[[File:LinkedIn logo initials.png |20x20px |link=https://www.linkedin.com/in/$1/ |LinkedIn: $1]] }} <!-- 
+-->{{#invoke:Wikidata | claim | property=P4264 | list=false |editicon=no |formatting=[[File:LinkedIn logo initials.png |20x20px |link=https://www.linkedin.com/company/$1 |LinkedIn: $1]] }} <!-- 
+-->{{#invoke:Wikidata | claim | property=P2984 | list=false |editicon=no |formatting=[[File:Icona snapchat.png |20x20px |link=https://www.snapchat.com/add/$1 |Snapchat: $1]] }} <!--
+-->{{#invoke:Wikidata | claim | property=P2397 | list=false |editicon=no |formatting=[[File:YouTube social red squircle (2017).svg |20x20px |link=http://www.youtube.com/channel/$1 |Youtube: $1]] }} <!--
+-->{{#invoke:Wikidata | claim | property=P4175 | list=false |editicon=no |formatting=[[File:Patreon_logomark.svg |20x20px |link=https://www.patreon.com/$1 |Patreon: $1]] }} <!--
+-->{{#invoke:Wikidata | claim | property=P4015 | list=false |editicon=no |formatting=[[File:Vimeo icon block.png |20x20px |link=https://vimeo.com/$1 |Vimeo: $1]] }} <!--
+-->{{#invoke:Wikidata | claim | property=P3836 | list=false |editicon=no |formatting=[[File:Pinterest.svg |20x20px |link=https://www.pinterest.com/$1  |Pinterest: $1]] }} <!--
+-->{{#invoke:Wikidata | claim | property=P7085 | list=false |editicon=no |formatting=[[File:Cib-tiktok (CoreUI Icons v1.0.0).svg|20x20px |link=https://www.tiktok.com/@$1  |TikTok: $1]] }} <!--
+-->{{#invoke:Wikidata | claim | property=P5797 | list=false |editicon=no |formatting=[[File:Twitch mit Glitch.png|20x20px |link=https://www.twitch.tv/$1  |Twitch: $1]] }} <!--
+-->{{#invoke:Wikidata | claim | property=P2611 | list=false |editicon=no |formatting=[[File:TED three letter logo.svg |30x20px |link=https://www.ted.com/speakers/$1  |TED: $1]] }} <!--
+-->{{#invoke:Wikidata | claim | property=P3267 | list=false |editicon=no |formatting=[[File:Flickr dots.svg|30x20px |link=https://www.flickr.com/photos/$1  |Flickr: $1]] }} <!--
+-->{{#invoke:Wikidata | claim | property=P3283 | list=false |editicon=no |formatting=[[File:Bandcamp-button-circle-aqua.svg |20x20px |link=https://$1.bandcamp.com |Bandcamp: $1]] }} <!--
+-->{{#invoke:Wikidata | claim | property=P3040 | list=false |editicon=no |formatting=[[File:Antu soundcloud.svg |20x20px |link=https://soundcloud.com/$1 |Souncloud: $1]] }} <!--
+-->{{#invoke:Wikidata | claim | property=P1902 | list=false |editicon=no |formatting=[[File:Spotify.png |20x20px |link=https://open.spotify.com/artist/$1 |Spotify: $1]] }} <!--
+-->{{#invoke:Wikidata | claim | property=P2205 | list=false |editicon=no |formatting=[[File:Spotify.png |20x20px |link=https://open.spotify.com/album/$1 |Spotify: $1]] }} <!--
+-->{{#invoke:Wikidata | claim | property=P2207 | list=false |editicon=no |formatting=[[File:Spotify.png |20x20px |link=https://open.spotify.com/track/$1 |Spotify: $1]] }} <!--
+-->{{#invoke:Wikidata | claim | property=P2850 | list=false |editicon=no |formatting=[[File:ITunes 12.png |20x20px |link=https://itunes.apple.com/es/artist/$1  |iTunes: $1]] }} <!--
+-->{{#invoke:Wikidata | claim | property=P3192 | list=false |editicon=no |formatting=[[File:Last.fm icon.png |20x20px |link=https://www.last.fm/music/$1  |Last fm: $1]] }} <!--
+-->{{#invoke:Wikidata | claim | property=P434 | list=false |editicon=no |formatting=[[File:MusicBrainz Logo 2016.svg |25x22px |link=https://musicbrainz.org/artist/$1  |Musicbrainz: $1]] }} <!--
+-->{{#invoke:Wikidata | claim | property=P3478 | list=false |editicon=no |formatting=[[File:Songkick logo.jpg |20x20px |link=http://www.songkick.com/artists/$1  |Songkick: $1]] }} <!--
+-->{{#invoke:Wikidata | claim | property=P1953 | list=false |editicon=no |formatting=[[File:Discogs.png |20x20px |link=https://www.discogs.com/artist/$1  |Discogs: $1]] }} <!--
+-->{{#invoke:Wikidata | claim | property=P1954 | list=false |editicon=no |formatting=[[File:Discogs.png |20x20px |link=https://www.discogs.com/master/$1  |Discogs: $1]] }} <!--
+-->{{#invoke:Wikidata | claim | property=P839 | list=false |editicon=no |formatting=[[File:Music 2b1+30x45.svg|23px |link=https://imslp.org/wiki/$1  |IMSLP: $1]] }} <!--
+-->{{#invoke:Wikidata | claim | property=P1728 | list=false |editicon=no |formatting=[[File:Allmusic Favicon.png|18px |link=https://www.allmusic.com/artist/$1 |Allmusic: $1]] }} <!--
+-->{{#invoke:Wikidata | claim | property=P1729 | list=false |editicon=no |formatting=[[File:Allmusic Favicon.png|18px |link=https://www.allmusic.com/album/$1 |Allmusic: $1]] }} <!--
+-->{{#invoke:Wikidata | claim | property=P1730 | list=false |editicon=no |formatting=[[File:Allmusic Favicon.png|18px |link=https://www.allmusic.com/song/$1 |Allmusic: $1]] }} <!--
+-->{{#invoke:Wikidata | claim | property=P1994 | list=false |editicon=no |formatting=[[File:Allmusic Favicon.png|18px |link=https://www.allmusic.com/composition/$1 |Allmusic: $1]] }} <!--
+-->{{#invoke:Wikidata | claim | property=P1146 | list=false |editicon=no |formatting=[[File:IAAF logo.svg|20px |link=https://www.iaaf.org/athletes/athlete=$1 |IAAF: $1]] }} <!--
+-->{{#invoke:Wikidata | claim | property=P3171 | list=false |editicon=no |formatting=[[File:Olympic rings without rims.svg|20px |link=https://www.olympic.org/$1 |Olympic.org: $1]] }} <!--
+-->{{#invoke:Wikidata | claim | property=P1469 | list=false |editicon=no |formatting=[[File:FIFA series logo.svg|20px |link=https://static.fifa.com/fifa-tournaments/players-coaches/people=$1/index.html |FIFA: $1]] }} <!--
+-->{{#invoke:Wikidata | claim | property=P2276 | list=false |editicon=no |formatting=[[File:Uefa 2013.png|20px |link=https://www.uefa.com/teamsandplayers/players/player=$1/profile/index.html |UEFA: $1]] }} <!--
+-->{{#invoke:Wikidata | claim | property=P2037 | list=false |editicon=no |formatting=[[File:Font Awesome 5 brands github-alt.svg|22px |link=https://github.com/$1 |GitHub: $1]] }} <!--
+-->{{#invoke:Wikidata | claim | property=P535 | list=false |editicon=no |formatting=[[File:Creative-Tail-Halloween-grave.svg|22px |link=https://www.findagrave.com/memorial/$1 |Find a Grave: $1]] }} <!--
+-->{{#invoke:Wikidata | claim | property=P2722 | list=false |editicon=no |formatting=[[File:Deezer Icon.svg|22px |link=https://www.deezer.com/artist/$1 |Deezer: $1]] }} <!--
+--><!--{{#invoke:Wikidata | claim | property=P1874 | list=false |editicon=no |formatting=[[File:Netflix icon.svg |30x20px |link=https://www.netflix.com/title/$1  |Netlix: $1]] }}  Eliminat segons discussió plantilla:pel·lícula<!--
+   If any identifier then add the Wikidata icon
+-->{{#if: {{#invoke:Wikidata|claim |item={{{item|}}} |property=P345 P480 P1265 P1266 P1267 P1258 P1237 P1562 P2019 P2631 P3056 P2638 P1219 P1220 P2013 P2002 P2003 P3789 P3265 P6634 P4264 P3040 P2984 P1902 P2205 P2207 P2397 P4175 P3283 P4015 P3836 P2850 P3192 P434 P3478 P2611 P1953 P1954 P839 P1728 P1729 P1730 P1994 P1146 P3171 P1469 P2276 P535 P2722 }}<!--
+---->| {{#invoke:Wikidata| editAtWikidata | item={{{item|}}} | property=identifiers | editicon=true}} }}<!--
+--><noinclude>{{doc}}</noinclude>
