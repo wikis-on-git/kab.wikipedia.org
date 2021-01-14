@@ -1,0 +1,57 @@
+<!-- DEBUGGING
+
+*alt={{{alt|}}}
+*unit_alt={{{unit_alt|}}}
+*amp={{{amp|}}}
+*unit_amp={{{unit_amp|}}}
+*llg={{{llg|}}} 
+*unit_llg={{{unit_llg|}}}
+*Igual A-B= {{#if: {{both|{{{unit_alt|}}}|{{{unit_amp|}}}}}|{{#ifeq:{{{unit_alt|}}}|{{{unit_amp|}}}|0|1}} }}  
+*Igual A-C= {{#if: {{both|{{{unit_alt|}}}|{{{unit_llg|}}}}}|{{#ifeq:{{{unit_alt|}}}|{{{unit_llg|}}}|0|1}} }}  
+*Igual B-C= {{#if: {{both|{{{unit_amp|}}}|{{{unit_llg|}}}}}|{{#ifeq:{{{unit_amp|}}}|{{{unit_llg|}}}|0|1}} }}  
+* Total = {{#ifexpr:{{#if: {{both|{{{unit_alt|}}}|{{{unit_amp|}}}}}|{{#ifeq:{{{unit_alt|}}}|{{{unit_amp|}}}|0|1}}|0 }}  
+                 +  {{#if: {{both|{{{unit_alt|}}}|{{{unit_llg|}}}}}|{{#ifeq:{{{unit_alt|}}}|{{{unit_llg|}}}|0|1}}|0 }}  
+                 +  {{#if: {{both|{{{unit_amp|}}}|{{{unit_llg|}}}}}|{{#ifeq:{{{unit_amp|}}}|{{{unit_llg|}}}|0|1}}|0 }} > 0|diferents|igual}}  
+-->{{#if:{{{alt|}}}<!--edita alçada
+   -->|{{{alt|}}}&nbsp;<!-- si les unitats són heterogènies, posar-la. si no seguir
+    -->{{#ifexpr: {{#if: {{both|{{{unit_alt|}}}|{{{unit_amp|}}}}}|{{#ifeq:{{{unit_alt|}}}|{{{unit_amp|}}}|0|1}}|0 }}  
+                + {{#if: {{both|{{{unit_alt|}}}|{{{unit_llg|}}}}}|{{#ifeq:{{{unit_alt|}}}|{{{unit_llg|}}}|0|1}}|0 }}  
+                + {{#if: {{both|{{{unit_amp|}}}|{{{unit_llg|}}}}}|{{#ifeq:{{{unit_amp|}}}|{{{unit_llg|}}}|0|1}}|0 }}
+                + {{#if: {{if empty | {{{amp|}}}|{{{llg|}}} }}|0|1}}<!-- si és la única dimensió, força unitat abans símbol
+     -->  > 0|{{{unit_alt|}}}&nbsp;}}<!-- +0, significa unitats diferents o dimensió única, llavors posa unitat abans símbol
+    -->([[file:Chess uat45.svg|15px|link=|alt=Alçada]])<!-- (↑)-->&nbsp;<!-- símbol alçada
+         si hi ha més dimensions, posar "x", si no acabar.
+    -->{{#if:{{{amp|}}}{{{llg|}}} |×&nbsp;}}<!--  fi sufix alçada 
+  -->}}<!-- fi alçada 
+-->{{#if:{{{amp|}}}<!--edita amplada
+    -->|{{{amp|}}}&nbsp;<!-- si les unitats són heterogènies, posar-la. si no seguir
+    -->{{#ifexpr: {{#if: {{both|{{{unit_alt|}}}|{{{unit_amp|}}}}}|{{#ifeq:{{{unit_alt|}}}|{{{unit_amp|}}}|0|1}}|0 }}  
+                + {{#if: {{both|{{{unit_alt|}}}|{{{unit_llg|}}}}}|{{#ifeq:{{{unit_alt|}}}|{{{unit_llg|}}}|0|1}}|0 }}  
+                + {{#if: {{both|{{{unit_amp|}}}|{{{unit_llg|}}}}}|{{#ifeq:{{{unit_amp|}}}|{{{unit_llg|}}}|0|1}}|0 }}
+                + {{#if: {{if empty | {{{alt|}}}|{{{llg|}}} }}|0|1}}<!-- si és la única dimensió, força unitat abans símbol
+     -->  > 0|{{{unit_amp|}}}&nbsp;}}<!--
+    -->([[file:Chess lrt45.svg|15px|link=|alt=Amplada]])<!-- (↔)-->&nbsp;<!-- símbol amplada
+          si hi ha més, posar "x", si no acabar
+    -->{{#if:{{{llg|}}}  |×&nbsp;}}<!--  fi sufix llargada 
+ -->}}<!-- fi amplada 
+-->{{#if:{{{llg|}}} <!--edita amplada
+   -->|{{{llg|}}} &nbsp;<!-- si les unitats són heterogènies, posar-la. si no seguir
+    -->{{#ifexpr: {{#if: {{both|{{{unit_alt|}}}|{{{unit_amp|}}}}}|{{#ifeq:{{{unit_alt|}}}|{{{unit_amp|}}}|0|1}}|0 }}  
+          + {{#if: {{both|{{{unit_alt|}}}|{{{unit_llg|}}}}}|{{#ifeq:{{{unit_alt|}}}|{{{unit_llg|}}}|0|1}}|0 }}  
+          + {{#if: {{both|{{{unit_amp|}}}|{{{unit_llg|}}}}}|{{#ifeq:{{{unit_amp|}}}|{{{unit_llg|}}}|0|1}}|0 }}
+          + {{#if: {{if empty | {{{alt|}}}|{{{amp|}}} }}|0|1}}<!-- si és la única dimensió, força unitat abans símbol
+     -->  > 0|{{{unit_llg|}}}&nbsp;}}<!--
+    -->([[file:Chess urt45.svg|15px|link=|alt=Llargada]])<!-- (/)-->&nbsp;<!-- fi sufix llargada  
+       si les unitats són IGUALS, posar-la -com a única- al final. si no ja s'han posat en cada cas
+ -->}}<!-- fi llargada
+
+   Unitats al final: no apareixen si són heterogènies perquè ja s'han representat en cada dimensió 
+                
+   -->{{#ifexpr: ({{#if: {{both|{{{unit_alt|}}}|{{{unit_amp|}}}}}|{{#ifeq:{{{unit_alt|}}}|{{{unit_amp|}}}|0|1}}|0 }}  
+               + {{#if: {{both|{{{unit_alt|}}}|{{{unit_llg|}}}}}|{{#ifeq:{{{unit_alt|}}}|{{{unit_llg|}}}|0|1}}|0 }}  
+               + {{#if: {{both|{{{unit_amp|}}}|{{{unit_llg|}}}}}|{{#ifeq:{{{unit_amp|}}}|{{{unit_llg|}}}|0|1}}|0 }} > 0) or
+<!-- Unitats al final: tampoc apareixen si només hi ha una dimensió
+               -->({{#if:{{{alt|}}}|1|0}}+{{#if:{{{amp|}}}|1|0}}+{{#if:{{{llg|}}}|1|0}} < 2 ) ||<!-- 
+                   -->{{if empty|{{{unit_alt|}}}|{{{unit_amp|}}}|{{{unit_llg|}}} }} }}
+<noinclude>
+</noinclude>
