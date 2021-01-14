@@ -1,0 +1,22 @@
+{{#iferror:
+     {{#expr:{{formatnum:<!--
+             -->{{#invoke:Wikidata| claim | property=P1082 |value={{{population|}}} 
+                                          |item={{{item|}}}|list=false|editicon=false}}<!-- 
+          -->|R}} / {{formatnum:<!--
+                    -->{{#invoke:Wikidata | claim | property=P2046| value={{#invoke:StringFunc|split|{{{area|}}}| |1}}
+                                                  |item={{{item|}}}|list=false|editicon=false}}<!-- 
+                 -->|R}} }}|<!-- si error:deixar buit
+    correcte :Pobl/sup. -->| {{formatnum:<!--
+                             -->{{#expr: {{formatnum:<!--
+                                         -->{{#invoke:Wikidata| claim | property=P1082 
+                                                     |value={{{population|}}}
+                                                     |item={{{item|}}}|list=false|editicon=false}}<!-- 
+                                      -->|R}} / <!-- 
+                                          -->{{formatnum:<!--
+  converteix d'altra unitat a km2.           -->{{convert/variable
+                                                  |{{#invoke:Wikidata | claim 
+                                                    | property=P2046| value={{{area|}}}
+                                                    |item={{{item|}}}|list=false
+                                                    | formatting=unitcode|editicon=false}}<!--
+  disp=number, retorna només xifres            -->|km²|disp=number}}<!-- 
+                                             -->|R}} round 2}} }} {{Infobox political geography/localize|inhabitants/km²}}}}<noinclude>{{documentation}}</noinclude>
