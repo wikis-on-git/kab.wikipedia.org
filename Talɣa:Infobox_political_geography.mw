@@ -1,0 +1,622 @@
+<includeonly>{{Infobox political geography/formatglobal
+| wikidata      = {{{wikidata|}}}
+| child         = {{{child|}}}
+| item          = {{{item|}}}
+| lang          = {{{lang|}}}
+| icona_taula = {{#if: {{#invoke:Wikidata |claim |formatting=table |property=P31 |rowformat=$0
+                                                 |whitelist0= Q665487<!-- diòcesi -->/Q3146899<!-- bisbat catòlic
+                                                          -->/Q20926517<!-- ent. territ. admin. religiosa
+                                                          -->/Q102496<!-- parròquia ecles.
+                                                          -->/Q47999270<!-- arxiprestat -->/Q373074<!-- sufragania
+                                                          -->/Q4024737<!-- zona pastoral -->/Q2072238<!-- arxidiòcesi
+                                                          -->/Q1506541<!-- regió eclesiàstica -->/Q625160<!-- província ecles.
+                    -->}} | eclesiàstic
+                }}
+| nom         = {{{name|{{{official_name|{{{toponym|{{PAGENAMEBASE}} }}} }}} }}}
+| nom_original_txt  = {{#invoke:Wikidata | claim | property=P1705 |list=firstrank 
+                               | value={{{native_name|}}}| formatting=text}} <!-- agafa
+                format "text" per poder determinar si està duplicat amb el nom bàsic. -->
+| nom_original   = {{#invoke:Wikidata | claim | property=P1705 | list=firstrank
+                     | value={{{native_name|}}} | formatting=$text ($language) | separator=<br/> }}
+| nom_original_lleng = {{#if:{{{native_name|}}}|{{{native_name_lang|}}} }}<!-- llengua separada, si manual. Si WD, va editat amb el nom --> 
+| imatge_mapa    = {{{map|{{{map_image|}}}}}}
+| draw_mapa      = {{{map_draw|}}}
+| alt_mapa       = {{{map_alt|}}}
+| peu_mapa       = {{{map_caption|}}}
+| bandera        = {{#if:{{{flag|}}} |{{{flag|}}}
+                     |{{#if:{{#invoke:Wikidata|validProperty|P41|item={{{item|}}}}}<!--No mostrar "sense valor"
+                     -->|{{#invoke:Wikidata | claim| property=P41 | list=false |editicon=false}}
+                   }} }}
+| escut      = {{#if:{{{coat|}}} | {{{coat|}}} 
+                 |{{#if:{{#invoke:Wikidata|validProperty|P94|item={{{item|}}}}}<!--descartar "sense valor"
+                 -->|{{#invoke:Wikidata | claim| property=P94 | list=false |editicon=false}}
+                    |{{#if:{{#invoke:Wikidata|validProperty|P158|item={{{item|}}}}}<!--No m "sense valor"
+                    -->|{{#invoke:Wikidata | claim| property=P158 | list=false |editicon=false}}
+               }} }} }}
+| peu_bandera    = {{#if:{{{flag_caption|}}} | {{{flag_caption|}}}
+                     | {{#invoke:Wikidata | claim| property=P163 | formatting=ucfirst| list=false}} 
+                   }} 
+| peu_escut      = {{#if:{{{coat_caption|}}} | {{{coat_caption|}}}
+                     |{{#if:{{#invoke:Wikidata|validProperty|P94|item={{{item|}}}}}<!--Si tenim
+ P94 (escut) >> P237 -->|{{#invoke:Wikidata | claim| property=P237 | formatting=ucfirst| list=false}}
+                        |{{#if:{{#invoke:Wikidata|validProperty|P158|item={{{item|}}}}}<!--Si
+P158 (segell) >> P418   -->|{{#invoke:Wikidata | claim| property=P418 |formatting=ucfirst |list=false}}
+                    }} }} }}
+| lema            = {{if empty|
+                          |{{{motto|}}}
+                     | {{#invoke:Wikidata | claim | property=P1546
+                        | list=firstrank <!-- lema -->
+                        | separator=<br /> | formatting=table
+                        | qualifier = P580 | qualifier2 = P582 
+                        | rowformat = «$0» $1
+                        | rowsubformat1= ($1$2) | rowsubformat2= -$2 }}
+                     | {{#invoke:Wikidata | claim | property=P1451 <!-- motto (text) -->
+                        | separator=<br /> | list=firstrank
+                        | formatting=table
+                        | qualifier = P580 | qualifier2 = P582 
+                        | rowformat = «$0» $1
+                        | rowsubformat1= ($1$2) | rowsubformat2= -$2}}
+                 }}
+| simbol      = {{#invoke:Wikidata | claim | property=P2238 | list=firstrank 
+                     | value={{{symbol|}}} }}
+| etimologia  = {{#invoke:Wikidata | claim | property=P138 | list=firstrank 
+                     | value={{{etymology|}}} }}
+| sobrenom    = {{#invoke:Wikidata | claim | property=P1449 | list=firstrank 
+                     | value={{{alias|}}} }}
+| himne       = {{#invoke:Wikidata | claim | property=P85
+                     | value={{{anthem|}}} | list=false
+                     | formatting=table | qualifier = P580
+                     | qualifier2 = P582 | rowformat = ''$0'' $1
+                     | rowsubformat1= ($1$2) | rowsubformat2= -$2 }}
+| registre_audio_himne    = {{#invoke:Wikidata | claim | property=p85 
+                  | value={{{audio_anthem|}}}
+                  | list=false |qualifier = P51}}
+| peu_àudio_himne      = {{{audio_anthem_caption|}}}
+| imatge     = {{#if:{{{image|{{{picture|}}}}}}
+                 | {{#invoke:InfoboxImage|InfoboxImage|image={{{image|{{{picture|}}}}}} |alt={{{alt|}}}
+                            |sizedefault=300x300px}}{{#if:{{{caption|{{{picture_caption|}}}}}}
+                                                      |<br /> {{{caption|{{{picture_caption|}}}}}} }}
+                 |{{#ifeq:{{lc:{{{imageWD|}}}}} |no|<!-- No buscar a WD
+                 -->| {{if then show|{{#invoke:Wikidata | claim | property=P18 |qualifier=P2096 or P180 
+                                              | formatting = table | list = false
+                                              | rowformat= [[File:$0|300x300px]]<br />$1 |shownovalue=no}}
+                        |<!--
+                             Categoria:Articles de geografia política sense foto‎
+                   -->}}
+              }}  }}
+| localitzacio  = {{Location maps| item = {{{item|}}} | lang = {{{lang|}}}  
+                        |lat_lon={{if both|{{{lat_dec_lloc|}}}|{{{lon_dec_lloc}}}||{{GetLatLon|P625|P276|P159|item={{{item|}}}}} }}
+                        |lat_dec={{#if:{{{lon_dec_lloc|}}}|{{{lat_dec_lloc|}}} }}  
+                        |lon_dec={{#if:{{{lat_dec_lloc|}}} | {{{lon_dec_lloc|}}} }}
+                        |locator_map={{{locator_map|}}} |zoom={{{zoom|}}}
+                        |layer = {{#ifeq:{{{draw_layer|}}}|noWD|<!-- res
+                                -->|{{#if:{{{draw_layer|}}}|{{{draw_layer|}}}
+                                      |{{#invoke:Wikidata | claim |formatting = table |property=P3896 |qualifier=P518
+                                           |blacklist1= Q94979808 {{{blacklist_layer|}}}<!-- evitar, manualment,
+
+                                                un data.map indesitjable. Q94979808-polígon acolorit està per defecte -->
+
+                                           |rowformat = $0 |separator=### | item={{{item|}}}|editicon=no}}
+                                 }} }} 
+                 }}
+| llista_localitzacio     = {{#if: {{{country|{{{historical_country|}}}}}}{{{admin1|}}}
+                    {{{admin2|}}}{{{admin3|}}}{{{admin4|}}}{{{admin5|}}}{{{subdivision_name|}}}{{{subdivision_name1|}}}{{{subdivision_name2|}}}{{{subdivision_name3|}}}{{{subdivision_name4|}}}
+                 |<!-- no recuperar llista a WD
+                -->|{{Infobox|child=yes 
+                   |bodyclass = vcard | titleclass = fn org
+                   |labelstyle = background-color:#eeeeee; |datastyle = text-align:left;
+                   |header1 = 
+                   |data3  = {{#invoke:Wikidata |getParentValues |list=false
+                             |uptolabelid=Q7275 |separator=</td></tr>| sorting=-1 
+                             |rowformat=<tr><td style="background:#eeeeee;">$0</td><td>$1 }}</td></tr>
+                  }}
+                }} 
+| territori_reclamat  = {{if empty | {{{territori_reclamat|}}}
+                                   |{{#invoke:Wikidata | claim | property=P17|qualifier=P1310| list=firstrank}}
+                                   |{{#invoke:Wikidata | claim | property=P1336| list=firstrank  }}
+                        }}
+| exclavament      = {{#invoke:Wikidata | claim | property=P500| list=firstrank 
+                         | value={{{exclavament|}}} }}
+| enclavament      = {{#invoke:Wikidata | claim | property=P501| list=firstrank 
+                         | value={{{enclavament|}}} }}
+| pais_historic    = {{{country|{{{historical_country|}}}}}}
+| admin_tipus1     = {{{admin_type1|{{{subdivision_type|}}}}}}
+| admin1           = {{{admin1|{{{subdivision_name|}}}}}}
+| admin_tipus2     = {{{admin_type2|{{{subdivision_type1|}}}}}}
+| admin2           = {{{admin2|{{{subdivision_name1|}}}}}}
+| admin_tipus3     = {{{admin_type3|{{{subdivision_type2|}}}}}}
+| admin3           = {{{admin3|{{{subdivision_name2|}}}}}}
+| admin_tipus4     = {{{admin_type4|{{{subdivision_type3|}}}}}}
+| admin4           = {{{admin4|{{{subdivision_name3|}}}}}}
+| admin_tipus5     = {{{admin_type5|{{{subdivision_type4|}}}}}}
+| admin5           = {{{admin5|{{{subdivision_name4|}}}}}}
+| admin_tipus6     = {{{admin_type6|{{{subdivision_type5|}}}}}}
+| admin6           = {{{admin6|{{{subdivision_name5|}}}}}}
+| admin_tipus7     = {{{admin_type7|{{{subdivision_type6|}}}}}}
+| admin7           = {{{admin7|{{{subdivision_name6|}}}}}}
+| capital_de       = {{#invoke:Wikidata | claim | property=P1376 
+                     | qualifier=P580 | qualifier2=P582 
+                     | list = firstrank | formatting=table 
+                     | rowformat=$0 <small>{{((}}Show start end{{!}}start{{=}}$1{{!}}end{{=}}$2{{))}}</small> 
+                     | colformat1=Y | colformat2=Y 
+                     | value={{{capital_of|}}} }}
+| etiqueta_capital1 = {{{etiqueta_capital1|{{{capital1_concepte|}}}}}} 
+| capital1          = {{#invoke:Wikidata | claim | property=P36| list=firstrank 
+                         | value={{{capital1|}}} }}
+| etiqueta_capital2 = {{{etiqueta_capital2|{{{capital2_concepte|}}}}}}
+| capital2          = {{{capital2|}}}
+| etiqueta_capital3 = {{{etiqueta_capital3|{{{capital3_concepte|}}}}}}
+| capital3          = {{{capital3|}}}
+| etiqueta_capital4 = {{{etiqueta_capital4|{{{capital4_concepte|}}}}}}
+| capital4          = {{{capital4|}}}
+| etiqueta_ciutat_gran    = {{{etiqueta_ciutat_gran|{{{població_més_gran_concepte|}}}}}}
+| ciutat_gran        = {{{ciutat_gran|{{{població_més_gran|}}}}}}
+| capçalera_entitats = {{{capçalera_entitats|}}}
+| conte_localitats   = {{if empty|{{{conte_localitats|}}}
+                                 |{{#iferror:|{{#ifexpr:{{#invoke:Wikidata|numStatements|P1383|item={{{item|}}} }}<11
+                                    | {{#invoke:Wikidata | claim | property=P1383 
+                                           | separator=<br /> | formatting=table | list=firstrank
+                                           | qualifier = P580 | qualifier2 = P582 | rowformat = $0 $1
+                                           | rowsubformat1= ($1$2) | rowsubformat2= -$2}}
+                                    | {{#invoke:Wikidata|numStatements|P1383|item={{{item|}}} }} 
+                                  }} }}
+                                 |{{#iferror:|{{#ifexpr:{{#invoke:Wikidata|numStatements|P150|item={{{item|}}} }}<11
+                                    | {{#invoke:Wikidata | claim | property=P150 
+                                           | separator=<br /> | formatting=table | list=firstrank
+                                           | qualifier = P580 | qualifier2 = P582  | rowformat = $0 $1
+                                           | rowsubformat1= ($1$2) | rowsubformat2= -$2}}
+                                    | {{#invoke:Wikidata|numStatements|P150|item={{{item|}}} }}
+                                  }} }}
+                       }}
+| etiqueta_nombre_subdivisions = {{{etiqueta_nombre_subdivisions|}}}
+| nombre_subdivisions     = {{{nombre_subdivisions|{{{nombre_municipis|}}}}}}
+| poblacio          = {{#if:{{{poblacio|}}} | {{{poblacio|}}} {{#if:{{{poblacio_any|}}} |&nbsp;({{{poblacio_any|}}}) }}
+                        | {{#invoke:Wikidata | claim | property=P1082 |qualifier =P585
+                                 | list=false |formatting=table |rowformat= $0 $1
+                                 | rowsubformat1=($1)|colformat0=unitcode |colformat1=Y}}
+                    }}
+| densitat          = {{Infobox political geography/density 
+                       |population={{{poblacio|}}}
+                       |area={{AddUnit|{{{superficie|}}}|km²}}
+                }}
+| llars            = {{#if:{{{llars|}}} | {{{llars|}}} {{#if:{{{llars_any|}}} |&nbsp;({{{llars_any|}}}) }}
+                      | {{#invoke:Wikidata | claim | property=P1538 |qualifier =P585
+                             | list=false |formatting=table |rowformat= $0 $1
+                             | rowsubformat1=($1)|colformat0=unitcode |colformat1=Y}}
+                    }}
+| superficie         = {{#if:{{{superficie|}}}
+                 |{{AddUnit|{{{superficie|}}}|km²}}
+                 |{{#invoke:Wikidata | claim | property=P2046 |list=false |formatting=unitcode |convert=default }} }}
+| gentilicis         = {{#invoke:Wikidata | claim | property=P1549 
+                     | list=lang | value={{{gentilicis|}}} |conjunction=,&nbsp;}}
+| gentilicis2         = {{#if:{{{gentilicis|}}}|{{{gentilicis2|}}} }}<!-- només si no WD-->
+| malnom            = {{{malnom|}}}
+| etiqueta_llengua  = {{if empty|{{#if:{{{predoling|}}}| {{GetLabelFix|Q9062186|lang={{{lang|}}}}}}}
+                                    |{{#if:{{{zonaling|}}} | {{GetLabelFix|Q1149061|lang={{{lang|}}}}}}}
+                                    |{{{etiqueta_llengua|}}}
+                                    |{{{concepte_llengua|}}} }}
+| llengua           = {{if empty|{{{predoling|}}}
+                        |{{{zonaling|}}}
+                        |{{{llengua|}}}
+                        |{{#invoke:Wikidata | claim | property=P37 | qualifier=P3831 | list=firstrank 
+                                | separator=<br /> | formatting=table| rowformat = $0 $1 | rowsubformat1=($1)
+                     }} }}
+| religio           = {{if empty| {{{religio|}}}
+                     | {{#invoke:Wikidata | claim | property=P140
+                           | list=firstrank }}
+                     |{{#invoke:Wikidata | claim | property=P3075
+                           | list=firstrank }} }}
+| grups_etnics       = {{{grups_etnics|}}} 
+| superficie_pos     = {{{superficie_pos|{{{sup_posició|{{{superfície_posició|}}}}}}}}}
+| superficie_refer   = {{{superficie_refer|}}}
+| superficie_per     = {{{superficie_per|{{{sup_percent|{{{superfície_percentatge|}}}}}}}}}
+| superficie_aigua_per    = {{#invoke:Wikidata | claim | property=P2927 
+                     | value={{{superficie_aigua_per|{{{sup_aigua_percent|}}}}}} 
+                     |list=false |formatting=unitcode}} 
+| dimensions         = {{{dimensions|}}}
+| entitat_estadistica = {{#invoke:Wikidata | claim | property=P8138
+                               | separator=<br/> | formatting=table |list=firstrank
+                               | qualifier = P580 | qualifier2 = P582 
+                               | rowformat = $0 $1
+                               | rowsubformat1= ($1$2) | rowsubformat2= -$2
+                               | value={{{entitat_estadistica|}}} }}
+| partde             = {{#invoke:Wikidata | claim | property=P361 | list=firstrank 
+                               | value={{{partde|}}} }}
+| amplada            = {{#invoke:Wikidata | claim | property=P2049 
+                                | value={{{amplada|}}} 
+                               | list=false |formatting=unitcode |convert=default}} 
+| llargada           = {{#invoke:Wikidata | claim | property=P2043 
+                                | value={{{llargada|}}} 
+                               |list=false |formatting=unitcode |convert=default}} 
+| unitat_mida        = {{#if: {{{unitat_mida|}}} | {{{unitat_mida|}}} |default}}
+
+| etiqueta_long_limits    = {{{etiqueta_long_limits|{{{long_límits_concepte|}}}}}}
+| long_limits        = {{{long_limits|{{{long_límits|}}}}}}
+| limits_amb         = {{#invoke:Wikidata | claim | property=P47 
+                               | separator=<br/> | formatting=table |list=firstrank
+                               | qualifier = P580 | qualifier2 = P582 
+                               | rowformat = $0 $1
+                               | rowsubformat1= ($1$2) | rowsubformat2= -$2
+                               | value={{{limits_amb|}}} }}
+| long_costa         = {{#invoke:Wikidata | claim | property=P5141 | formatting=unitcode |convert=default
+                     | value={{AddUnit|{{{long_costa|}}}|km}} }}
+| banyat_per         = {{#invoke:Wikidata | claim | property=P206 
+                     | value={{{banyat_per|}}}{{{costa_amb|}}} }} 
+| altitud           = {{#invoke:Wikidata | claim | property=P2044 
+                     | separator=- |conjunction=- |formatting=unitcode |convert=default
+                     | value={{AddUnit|{{{altitud|}}}|m}} }}
+| altitud_maxima    = {{#if:{{{altitud_maxima|{{{altitud_màxima|}}}}}} 
+                        | {{AddUnit|{{{altitud_maxima|{{{altitud_màxima|}}}}}}|m}}
+                      }}
+| altitud_minima    = {{#if:{{{altitud_minima|{{{altitud_mínima|}}}}}} 
+                        | {{AddUnit|{{{altitud_minima|{{{altitud_mínima|}}}}}}|m}}
+                      }}
+| punt_mes_alt        = {{#invoke:Wikidata | claim | property=P610 |qualifier=P2044 OR P610/P2044
+                            | formatting=table| colformat1=unitcode |convert=default1 |rowformat=$0 $1|list=false
+                            |rowsubformat1=($1)| value={{{punt_mes_alt|}}}}} 
+| punt_mes_baix        = {{#invoke:Wikidata | claim | property=P1589|qualifier=P2044 OR P1589/P2044
+                            | formatting=table| colformat1=unitcode |convert=default1 |rowformat=$0 $1|list=false
+                            |rowsubformat1=($1)  | value={{{punt_mes_baix|}}} }} 
+| anterior          = {{if empty| {{{anterior|}}}
+                        | {{#invoke:Wikidata | claim | property=P1365
+                             |list=firstrank }}
+                        | {{#invoke:Wikidata | claim | property=P155
+                             |list=firstrank }} }}
+| posterior          = {{if empty| {{{posterior|}}}
+                         | {{#invoke:Wikidata | claim | property=P1366
+                             |list=firstrank }}
+                         | {{#invoke:Wikidata | claim | property=P156
+                             |list=firstrank }} }}
+<!-- etiqueta_fundacio= concepte global sense valor associat. Ex: Cronologia, Història,..
+                 Si no hi ha bloc construït externament, se situa aquí el tractament de P571, si és multivalor -->
+| etiqueta_fundacio      = {{{etiqueta_fundacio|{{{fundació_concepte|}}}}}}
+| fundador          = {{#invoke:Wikidata | claim | property=P112
+                     | list= | value={{{fundador|}}} }} 
+<!-- llista_fundacio= bloc amb llista preconstruïda ex: any-fet <br> any-fet, etc. -->
+| llista_fundacio       = {{#if:{{{llista_fundacio|}}} | {{{llista_fundacio|}}}
+                            |{{#iferror:{{#ifexpr:{{#invoke:Wikidata|numStatements|P571|item={{{item|}}}}}>1
+                               |{{format P571|item={{{item|}}}}} }} }} }}
+<!-- fundacio1 = entrada manual o P571 (data creació genèrica) -->
+| etiqueta_fundacio1     = {{{fundació_històrica|{{{etiqueta_fundacio1|}}}}}}
+| data_fundacio1         = {{#if:{{{fundació_històrica_data|{{{data_fundacio1|}}}}}}
+                             |{{{fundació_històrica_data|{{{data_fundacio1|}}}}}}
+                             |{{#iferror:{{#ifexpr:{{#invoke:Wikidata|numStatements|P571|item={{{item|}}}}}=1
+                               |{{format P571|item={{{item|}}} }} }}  }}
+                           }} 
+| etiqueta_fundacio2     = {{{fundació_actual|{{{etiqueta_fundacio2|}}}}}}
+| data_fundacio2         = {{{fundació_actual_data|{{{data_fundacio2|}}}}}}
+| etiqueta_fundacio3     = {{{etiqueta_fundacio3|}}}
+| data_fundacio3         = {{{data_fundacio3|}}}
+| etiqueta_fundacio4     = {{{etiqueta_fundacio4|}}}
+| data_fundacio4         = {{{data_fundacio4|}}}
+
+<!-- dissolucio1 = entrada manual o P576 (data dissolució genèrica) -->
+| etiqueta_dissolucio1   = {{{dissolucio_històrica|{{{etiqueta_dissolucio1|}}}}}}
+| data_dissolucio1       = {{#if:{{{dissolució_històrica_data|{{{data_dissolucio1|}}} }}}
+                             |{{{dissolució_històrica_data|{{{data_dissolucio1|}}} }}}
+                             |{{circa WD|P576|item={{{item|}}} |list=firstrank}}
+                           }} 
+| etiqueta_dissolucio2   = {{{dissolucio_actual|{{{etiqueta_dissolucio2|}}}}}}
+| data_dissolucio2       = {{{dissolucio_actual_data|{{{data_dissolucio2|}}}}}}
+| etiqueta_dissolucio3   = {{{etiqueta_dissolucio3|}}}
+| data_dissolucio3       = {{{data_dissolucio3|}}}
+| etiqueta_dissolucio4   = {{{etiqueta_dissolucio4|}}}
+| data_dissolucio4       = {{{data_dissolucio4|}}}
+| fet_clau               = {{#ifeq:{{{fet_clau|}}}|noWD|<!-- saltar
+                          -->|{{#invoke:Wikidata | claim | property=P793 |qualifier= P585| list=firstrank
+                                    | value={{{fet_clau|}}} | separator=<br/> | formatting=table
+                                    | rowformat = $0 $1 |rowsubformat1 =($1)}} }}
+| etiqueta_llista_celebracio  = {{{etiqueta_llista_celebracio|}}}
+| llista_celebracio      = {{#invoke:Wikidata | claim | property=P832 | qualifier=P837 OR P832/P837 | list=firstrank 
+                             | separator=<br /> | formatting=table| rowformat = $0 $1 | rowsubformat1=($1)
+                             | value={{{llista_celebracio|{{{celebració|}}}}}} }}
+| etiqueta_celebracio    = {{{etiqueta_celebracio|}}}  <!-- separador entre llista celebracions i 4 param. celebracions -->
+| etiqueta_celebracio1   = {{{etiqueta_celebracio1|{{{celebració_concepte|}}}}}}
+| data_celebracio1       = {{{data_celebracio1|}}} 
+| etiqueta_celebracio2   = {{{etiqueta_celebracio2|}}}
+| data_celebracio2       = {{{data_celebracio2|}}}
+| etiqueta_celebracio3   = {{{etiqueta_celebracio3|}}}
+| data_celebracio3       = {{{data_celebracio3|}}}
+| etiqueta_celebracio4   = {{{etiqueta_celebracio4|}}}
+| data_celebracio4       = {{{data_celebracio4|}}}
+| dia_mercat             = {{{dia_mercat|{{{dies_mercat|}}}}}}
+| festa_major            = {{{festa_major|{{{festes_majors|}}}}}}
+| patro                  = {{#invoke:Wikidata | claim | property=P417 | list=firstrank 
+                                    | value={{{patro|}}} }}
+| catedral               = {{#invoke:Wikidata | claim | property=P1885|qualifier=P1013 | list=firstrank 
+                                    | value={{{catedral|}}} |formatting=table|rowformat= $0 $1|colformat1=($1)}}
+| etiqueta_org_territorial   = {{{etiqueta_org_territorial|{{{org_territorial_concepte|}}}}}}
+| org_territorial        = {{{org_territorial|}}}
+| etiqueta_forma_govern  = {{{etiqueta_forma_govern|{{{forma_govern_concepte|}}}}}}
+| forma_govern           = {{#invoke:Wikidata | claim | property=P122 | list=firstrank
+                                    | value={{{forma_govern|}}} }}
+| organ_executiu         = {{#invoke:Wikidata | claim | property=P208 
+                                    | list=false | value={{{organ_executiu|}}} }}
+| organ_legislatiu       = {{#invoke:Wikidata | claim | property=P194 
+                                    | list=false | value={{{organ_legislatiu|}}} }}
+| etiqueta_cap_estat     = {{#invoke:Wikidata | claim | property=P1906
+                                    | list=false | formatting=label | case=gender
+                                    | value={{{etiqueta_cap_estat|}}} 
+                                    | itemgender={{#invoke:Wikidata | claim | property=P35
+                                                          | list=false |formatting=raw }} }}
+| nom_cap_estat          = {{#invoke:Wikidata | claim | property=P35 |qualifier=P580
+                                    | formatting=table | list=false | value={{{nom_cap_estat|}}} 
+                                    | rowformat =$0 $1 |rowsubformat1= ($1)  }}
+| etiqueta_cap_govern    = {{#invoke:Wikidata | claim | property=P1313
+                                    | list=false | formatting=label | case=infoboxlabel
+                                     | value={{{etiqueta_cap_govern|}}} 
+                                    | itemgender={{#invoke:Wikidata | claim | property=P6
+                                                          | list=false |formatting=raw }} }} 
+| nom_cap_govern         = {{#invoke:Wikidata | claim | property=P6|qualifier=P580
+                                    | formatting=table| list=false | value={{{nom_cap_govern|}}}
+                                    | rowformat =$0 $1 |rowsubformat1= ($1) }}
+| cap_govern_any         = {{#if:{{{nom_cap_govern|}}} | {{{cap_govern_any|}}} }}
+| etiqueta_lider1       = {{{etiqueta_lider1|{{{dirigent_tipus1|}}}}}} 
+| nom_lider1         = {{{nom_lider1|{{{dirigent1|}}}}}}
+| etiqueta_lider2       = {{{etiqueta_lider2|{{{dirigent_tipus2|}}}}}} 
+| nom_lider2         = {{{nom_lider2|{{{dirigent2|}}}}}}
+| etiqueta_lider3       = {{{etiqueta_lider3|{{{dirigent_tipus3|}}}}}} 
+| nom_lider3         = {{{nom_lider3|{{{dirigent3|}}}}}}
+| etiqueta_lider4       = {{{etiqueta_lider4|{{{dirigent_tipus4|}}}}}} 
+| nom_lider4         = {{{nom_lider4|{{{dirigent4|}}}}}}
+| etiqueta_lider5       = {{{etiqueta_lider5|{{{dirigent_tipus5|}}}}}} 
+| nom_lider5         = {{{nom_lider5|{{{dirigent5|}}}}}}
+| etiqueta_representacio   = {{{etiqueta_representacio|{{{representació_concepte|}}}}}}
+| etiqueta_representacio1   = {{{etiqueta_representacio1|{{{representació_tipus1|}}}}}}
+| representacio1       = {{{representacio1|{{{representació1|}}}}}}
+| etiqueta_representacio2   = {{{etiqueta_representacio2|{{{representació_tipus2|}}}}}}
+| representacio2       = {{{representacio2|{{{representació2|}}}}}}
+| etiqueta_representacio3   = {{{etiqueta_representacio3|{{{representació_tipus3|}}}}}}
+| representacio3       = {{{representacio3|{{{representació3|}}}}}}
+| etiqueta_representacio4   = {{{etiqueta_representacio4|{{{representació_tipus4|}}}}}}
+| representacio4       = {{{representacio4|{{{representació4|}}}}}}
+| organ_judicial       = {{#invoke:Wikidata | claim | property=P209 | list=false
+                     | value={{{organ_judicial|{{{nom_judicial|}}}}}} }}
+| membre_de          = {{#ifeq:{{{membre_de|}}}|noWD|<!-- saltar
+                      -->|{{#if:{{{membre_de|}}} | {{{membre_de|}}}
+                            |{{#iferror:|{{#ifexpr:{{#invoke:Wikidata|numStatements|P463|item={{{item|}}} }}<11
+                               |{{#invoke:Wikidata | claim |property=P463  |list=firstrank
+                                    | separator=<br/> |formatting=table|qualifier =P580 |qualifier2 = P582 
+                                    | rowformat = $0 $1  | rowsubformat1= ($1$2) | rowsubformat2= -$2 }}
+                               | {{#invoke:Wikidata|numStatements|P463 |item={{{item|}}} }}
+                       }} }} }} }}
+| PIB             = {{#if:{{{PIB|}}} | {{{PIB|}}} {{#if:{{{PIB_any|}}} |&nbsp;({{{PIB_any|}}}) }}
+                      | {{#invoke:Wikidata | claim | property=P2131 |qualifier =P585
+                             | list=false |formatting=table |rowformat= $0 $1
+                             | rowsubformat1=($1)|colformat0=unitcode |colformat1=Y}}
+                    }}
+<!-- Tractament any integrat. Posició i "en referència a", anul·lats per "manuals amb manca d'ús"
+| PIB_posicio         = {{{PIB_posicio|{{{PIB_posició|}}}}}}
+| PIB_refer          = {{{PIB_ref|{{{PIB_refer|}}}}}}
+| PIB_any           = {{#invoke:Wikidata | claim | property=P2131 
+                     | value={{{PIB_any|}}} |list=false
+                     |qualifier=P585 }}     -->
+| PIB_capita      = {{#if:{{{PIB_capita|}}} | {{{PIB_capita|}}} {{#if:{{{PIB_capita_any|}}} |&nbsp;({{{PIB_capita_any|}}}) }}
+                      | {{#invoke:Wikidata | claim | property=P2132 |qualifier =P585
+                             | list=false |formatting=table |rowformat= $0 $1
+                             | rowsubformat1=($1)|colformat0=unitcode |colformat1=Y}}
+                    }}
+<!-- Tractament any integrat. Posició,  anul·lats per "manuals amb manca d'ús"
+
+| PIB_capita_posicio     = {{{PIB_capita_posicio|}}}
+
+| PIB_capita_any       = {{#invoke:Wikidata | claim | property=P2132 
+                     | value={{{PIB_capita_any|}}} 
+                     |list=false |qualifier=P585 }}     -->
+| reserves_totals  = {{#if:{{{reserves_totals|}}} | {{{reserves_totals|}}} {{#if:{{{reserves_totals_any|}}} |&nbsp;({{{reserves_totals_any|}}}) }}
+                       | {{#invoke:Wikidata | claim | property=P2134 |qualifier =P585
+                             | list=false |formatting=table |rowformat= $0 $1
+                             | rowsubformat1=($1)|colformat0=unitcode |colformat1=Y}}
+                     }}
+
+<!-- Tractament any integrat.  
+| reserves_totals_any     = {{#invoke:Wikidata | claim | property=P2134 
+                     | value={{{reserves_totals_any|}}} |list=false
+                     | qualifier=P585 }} -->
+| pressupost       = {{#if:{{{pressupost|}}} | {{{pressupost|}}} {{#if:{{{pressupost_any|}}} |&nbsp;({{{pressupost_any|}}}) }}
+                       | {{#invoke:Wikidata | claim | property=P2769 |qualifier =P585
+                             | list=false |formatting=table |rowformat= $0 $1
+                             | rowsubformat1=($1)|colformat0=unitcode |colformat1=Y}}
+                     }}
+<!-- Tractament any integrat. 
+| pressupost_any   = {{#invoke:Wikidata | claim | property=P2769
+                     | value={{{pressupost_any|}}} 
+                     | list=false| qualifier=P585 }} -->
+| exportacions     = {{#if:{{{exportacions|}}} | {{{exportacions|}}} {{#if:{{{exportacions_any|}}} |&nbsp;({{{exportacions_any|}}}) }}
+                       | {{#invoke:Wikidata | claim | property=P2135 |qualifier =P585
+                             | list=false |formatting=table |rowformat= $0 $1
+                             | rowsubformat1=($1)|colformat0=unitcode |colformat1=Y}}
+                     }}
+<!-- Tractament any integrat. 
+| exportacions_any      = {{#invoke:Wikidata | claim | property=P2135 
+                     | value={{{exportacions_any|}}} 
+                     | list=false|qualifier=P585 }} -->
+| importacions     = {{#if:{{{importacions|}}} | {{{importacions|}}} {{#if:{{{importacions_any|}}} |&nbsp;({{{importacions_any|}}}) }}
+                       | {{#invoke:Wikidata | claim | property=P2136 |qualifier =P585
+                             | list=false |formatting=table |rowformat= $0 $1
+                             | rowsubformat1=($1)|colformat0=unitcode |colformat1=Y}}
+                     }}
+<!-- Tractament any integrat.
+| importacions_any      = {{#invoke:Wikidata | claim | property=P2136
+                     | value={{{importacions_any|}}} 
+                     |list=false|qualifier=P585 }} -->
+| etiqueta_IDH        = {{{etiqueta_IDH|{{{IDH_concepte|}}}}}}
+| IDH              = {{#if:{{{IDH|}}} | {{{IDH|}}} {{#if:{{{IDH_any|}}} |&nbsp;({{{IDH_any|}}}) }}
+                       | {{#invoke:Wikidata | claim | property=1081 |qualifier =P585
+                             | list=false |formatting=table |rowformat= $0 $1
+                             | rowsubformat1=($1)|colformat0=unitcode |colformat1=Y}}
+                     }}
+<!--  Tractament any integrat. Posició, i "en referència a", anul·lats per "manuals amb manca d'ús" 
+| IDH_any          = {{#invoke:Wikidata | claim | property=P1081
+                     | value={{{IDH_any|}}} |list=false
+                     |qualifier=P585 }} 
+| IDH_posicio         = {{{IDH_posicio|{{{IDH_posició|}}}}}}
+| IDH_refer          = {{{IDH_refer|}}}-->
+| moneda           = {{#invoke:Wikidata | claim | property=P38 |qualifier=P489  
+                          | value={{{moneda|}}} |formatting=table |list=false
+                          |rowformat= $0 $1 |rowsubformat1= ($1)|  rowsubformat2=, $2}}
+| moneda_simbol      =  {{#if:{{{moneda|}}} | {{{moneda_simbol|{{{moneda_símbol|}}}}}} }}<!-- només si "moneda és manual -->
+<!--  
+| taxa_atur        = {{#invoke:Wikidata | claim | property=P1198
+                     | value={{{taxa_atur|}}} 
+                     |list=false |formatting=unitcode}} 
+| taxa_atur_any        = {{#invoke:Wikidata | claim | property=P1198 
+                     | value={{{taxa_atur_any|}}} 
+                     |list=false|qualifier=P585 }}
+ -->
+| codi_postal      = {{#invoke:Wikidata | claim | property=P281
+                              | value={{{codi_postal|}}} }} 
+| horari           = {{#invoke:Wikidata | claim | property=P421 
+                              | value={{{horari|}}}  |list=firstrank 
+                              |formatting=table |qualifier=P518 |qualifier2=P1264
+                              |rowformat=$0 $1
+                              |rowsubformat1=<small>(a $1$2)</small> 
+                               | rowsubformat2=, $2}} 
+| horari_estiu      = {{#if:{{{horari|}}}|{{{horari_estiu|}}} }}<!-- només si no WD-->
+| agermanaments     = {{#if:{{{agermanaments|}}}|{{{agermanaments|}}}
+                        |{{#iferror:|{{#ifexpr:{{#invoke:Wikidata|numStatements|P190|item={{{item|}}} }}<11
+                           |{{#invoke:Wikidata | claim | property=P190 |list=firstrank
+                                  | separator=<br /> | formatting=table | rowformat = $0}} 
+                           |{{#invoke:Wikidata|numStatements|P190|item={{{item|}}} }}
+                      }} }} }}
+<!-- eliminat a canvi de {{Infotaula_geografia_política/codis_geogràfics}}
+| etiqueta_codi_iso      = {{{etiqueta_codi_iso|}}}
+| codi_iso          = {{#invoke:Wikidata | claim | property=P300 
+                     | value={{{codi_iso|}}} }} 
+| codi_iso_ref        = {{{codi_iso_ref|}}}
+-->
+<!-- PROVA SUSPESSA  per identificar els pobles que apareixien al Llibre dels remences.
+| cataleg         = {{#if:{{{cataleg|}}} | {{{cataleg|}}}
+                  | {{#invoke:Wikidata | claim |formatting = table  |list=firstrank 
+                       | property=P528 |qualifier=P972 |qualifier2=P585 |qualifier3=P973
+                       |rowformat= $1<small>: {{((}}#if:$3{{!}}[$3 $0]{{!}}$0{{))}}. $2 </small>
+                       |separator =,}}
+                }}
+ -->
+| domini           = {{#invoke:Wikidata | claim | property=P78 
+                        | value={{{domini|{{{tld|}}}}}} }}
+| codi_telef       = {{if empty| {{{codi_telef|}}}
+                        | {{#invoke:Wikidata | claim | property=P474 }}
+                        | {{#invoke:Wikidata | claim | property=P473 }} 
+                     }}
+| telefon_emergencies = {{#invoke:Wikidata | claim | property=P2852 
+                           | value={{{telefon_emergencies|{{{tld|}}}}}} }}
+| prefix_radiofonic= {{{prefix_radiofonic|{{{prefix_radiofònic|}}}}}}
+| transport        = {{{transport|}}}
+| colors           = {{{colors|}}}
+| diocesi          = {{#ifeq:{{{diocesi|}}} |noWD|<!-- saltar
+                    -->|{{#if:{{{diocesi|}}} | {{{diocesi|}}}
+                          |{{If then show|{{#invoke:Wikidata | claim | property=P708 | list=false}} |<!-- saltar si ¬∃ 
+                                -->|<!-- no prefix -->|{{#invoke:Wikidata | claim | property=P5607 |list=false |formatting=table
+                                                                |rowformat=&nbsp;($0)}} }}  
+                             }} 
+                          }} 
+<!-- Camps comodí. Hi ha 5 conjunts de "etiqueta + nom" per cadascun dels blocs (caracteristiques, historia, activitat,
+   govern, xifres i final.
+  També hi ha sis blocs especials, un per cada temàtica de contingut, per poder incorporar blocs d'informació
+   formatada prèviament (per exemple amb una infotaula incrustada) que ha de venir preparat des d'una preinfotaula per
+   tractar entitats amb una gran quantitat de paràmetres massa específics i que causarien una complexitat innecessària en
+   aquesta plantilla.
+-->
+| bloc_magnituds_especial = {{{bloc_magnituds_especial|}}}
+| bloc_geografia_especial = {{{bloc_geografia_especial|}}}
+| bloc_historia_especial  = {{{bloc_historia_especial|}}}
+| bloc_govern_especial    = {{{bloc_govern_especial|}}}
+| bloc_economia_especial  = {{{bloc_economia_especial|}}}
+| bloc_indicatiu_especial = {{if empty|{{{bloc_indicatiu_especial|}}}
+                              |{{Infobox political geography/codes| item={{{item|}}}
+                              |lang={{{lang|}}}
+                              |pais={{#invoke:Wikidata |claim | property=P17|list=false|formatting=raw}} }}
+                            }}
+| bloc_final_especial = {{{bloc_final_especial|}}}
+| etiqueta_magnituds1 = {{{etiqueta_magnituds1|}}}   
+| nom_magnituds1   = {{{nom_magnituds1|}}} 
+| etiqueta_magnituds2 = {{{etiqueta_magnituds2|}}} 
+| nom_magnituds2   = {{{nom_magnituds2|}}} 
+| etiqueta_magnituds3 = {{{etiqueta_magnituds3|}}}
+| nom_magnituds3   = {{{nom_magnituds3|}}}
+| etiqueta_magnituds4 = {{{etiqueta_magnituds4|}}}
+| nom_magnituds4   = {{{nom_magnituds4|}}}
+| etiqueta_magnituds5 = {{{etiqueta_magnituds5|}}} 
+| nom_magnituds5   = {{{nom_magnituds5|}}}
+| etiqueta_poblacio1  = {{{etiqueta_poblacio1|}}}
+| nom_poblacio1     = {{{nom_poblacio1|}}}
+| etiqueta_poblacio2  = {{{etiqueta_poblacio2|}}}
+| nom_poblacio2     = {{{nom_poblacio2|}}}
+| etiqueta_poblacio3  = {{{etiqueta_poblacio3|}}}
+| nom_poblacio3     = {{{nom_poblacio3|}}}
+| etiqueta_poblacio4  = {{{etiqueta_poblacio4|}}}
+| nom_poblacio4     = {{{nom_poblacio4|}}}
+| etiqueta_poblacio5  = {{{etiqueta_poblacio5|}}}
+| nom_poblacio5     = {{{nom_poblacio5|}}}
+| etiqueta_geografia1  = {{{etiqueta_geografia1|}}}
+| nom_geografia1     = {{{nom_geografia1|}}}
+| etiqueta_geografia2  = {{{etiqueta_geografia2|}}}
+| nom_geografia2     = {{{nom_geografia2|}}}
+| etiqueta_geografia3  = {{{etiqueta_geografia3|}}}
+| nom_geografia3     = {{{nom_geografia3|}}}
+| etiqueta_geografia4  = {{{etiqueta_geografia4|}}}
+| nom_geografia4     = {{{nom_geografia4|}}}
+| etiqueta_geografia5  = {{{etiqueta_geografia5|}}}
+| nom_geografia5     = {{{nom_geografia5|}}}
+| etiqueta_historia1  = {{{etiqueta_historia1|}}}
+| nom_historia1     = {{{nom_historia1|}}}
+| etiqueta_historia2  = {{{etiqueta_historia2|}}}
+| nom_historia2     = {{{nom_historia2|}}}
+| etiqueta_historia3  = {{{etiqueta_historia3|}}}
+| nom_historia3     = {{{nom_historia3|}}}
+| etiqueta_historia4  = {{{etiqueta_historia4|}}}
+| nom_historia4     = {{{nom_historia4|}}}
+| etiqueta_historia5  = {{{etiqueta_historia5|}}}
+| nom_historia5     = {{{nom_historia5|}}}
+| etiqueta_govern1  = {{{etiqueta_govern1|}}}
+| nom_govern1     = {{{nom_govern1|}}}
+| etiqueta_govern2  = {{{etiqueta_govern2|}}}
+| nom_govern2     = {{{nom_govern2|}}}
+| etiqueta_govern3  = {{{etiqueta_govern3|}}}
+| nom_govern3     = {{{nom_govern3|}}}
+| etiqueta_govern4  = {{{etiqueta_govern4|}}}
+| nom_govern4     = {{{nom_govern4|}}}
+| etiqueta_govern5  = {{{etiqueta_govern5|}}}
+| nom_govern5     = {{{nom_govern5|}}}
+| etiqueta_economia1  = {{{etiqueta_economia1|}}}
+| nom_economia1     = {{{nom_economia1|}}}
+| etiqueta_economia2  = {{{etiqueta_economia2|}}}
+| nom_economia2     = {{{nom_economia2|}}}
+| etiqueta_economia3  = {{{etiqueta_economia3|}}}
+| nom_economia3     = {{{nom_economia3|}}}
+| etiqueta_economia4  = {{{etiqueta_economia4|}}}
+| nom_economia4     = {{{nom_economia4|}}}
+| etiqueta_economia5  = {{{etiqueta_economia5|}}}
+| nom_economia5     = {{{nom_economia5|}}}
+| etiqueta_indicatiu1  = {{{etiqueta_indicatiu1|}}}
+| nom_indicatiu1    = {{{nom_indicatiu1|}}}
+| etiqueta_indicatiu2  = {{{etiqueta_indicatiu2|}}}
+| nom_indicatiu2    = {{{nom_indicatiu2|}}}
+| etiqueta_indicatiu3  = {{{etiqueta_indicatiu3|}}}
+| nom_indicatiu3    = {{{nom_indicatiu3|}}}
+| etiqueta_indicatiu4  = {{{etiqueta_indicatiu4|}}}
+| nom_indicatiu4    = {{{nom_indicatiu4|}}}
+| etiqueta_indicatiu5  = {{{etiqueta_indicatiu5|}}}
+| nom_indicatiu5    = {{{nom_indicatiu5|}}}
+| etiqueta_final1    = {{{etiqueta_final1|{{{opció_nom1|}}}}}}
+| nom_final1      = {{{nom_final1|{{{opció1|}}}}}}
+| etiqueta_final2    = {{{etiqueta_final2|{{{opció_nom2|}}}}}}
+| nom_final2      = {{{nom_final2|{{{opció2|}}}}}}
+| etiqueta_final3    = {{{etiqueta_final3|{{{opció_nom3|}}}}}}
+| nom_final3      = {{{nom_final3|{{{opció3|}}}}}}
+| etiqueta_final4    = {{{etiqueta_final4|{{{opció_nom4|}}}}}}
+| nom_final4      = {{{nom_final4|{{{opció4|}}}}}}
+| etiqueta_final5    = {{{etiqueta_final5|{{{opció_nom5|}}}}}}
+| nom_final5      = {{{nom_final5|{{{opció5|}}}}}}
+| xarxes  = {{Identifiers | item={{{item|}}} | lang={{{lang|}}} }}
+| lloc_web      = {{if empty
+                    |{{{lloc_web|}}}|{{{website|}}}|{{{web|}}}
+                    |{{#if:{{#property:P856|from={{{item|}}}}}
+                       | {{#invoke:Wikidata | claim | property=P856 |list=false
+                           |formatting=weblink }}
+                     }}
+                  }} 
+| notes            = {{{notes|}}}
+| color_notes         = {{{color_notes|}}}
+}}</includeonly><noinclude>{{documentation}}</noinclude>
