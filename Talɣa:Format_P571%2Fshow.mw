@@ -1,0 +1,60 @@
+<includeonly>{{#if:{{{test|}}} |<hr><!-- si a la crida s'informa paràmetre "test = un text", mostra tots els valors d'entrada encapçalats pel text aportat abans del resultat 
+               --><code>{{{item|}}}:{{{test|}}}</code><br><!--   
+       -->data P571 = {{{data571|}}} >> raw_esdev=MM{{{raw_esdev|}}}MM<br><!--
+       -->{{#if:{{{esdev|}}}     |P793  ={{{raw_esdev|}}}:{{{esdev|}}}<br>}}<!--
+       -->{{#if:{{{aplica|}}}    |P518  ={{{raw_aplica|}}}:{{{aplica|}}}<br>}}<!--
+       -->{{#if:{{{fgovern|}}}   |P122  ={{{raw_fgovern|}}}:{{{fgovern|}}}<br>}}<!--
+       -->{{#if:{{{criteri|}}}   |P1013 ={{{raw_criteri|}}}:{{{criteri|}}}<br>}}<!--
+       -->{{#if:{{{instancia|}}} |P31   ={{{raw_instancia|}}}:{{{instancia|}}}<br>}}<!--
+       -->{{#if:{{{afirmat|}}}   |P805  ={{{raw_afirmat|}}}:{{{afirmat|}}}<br>}}<!--
+       -->{{#if:{{{causat|}}}    |P828  ={{{raw_causat|}}}:{{{causat|}}}<br>}}<!--
+       -->{{#if:{{{separat|}}}   |P807  ={{{raw_separat|}}}:{{{separat|}}}<br>}}<!--
+       -->{{#if:{{{paper|}}}     |P3831 ={{{raw_paper|}}}:{{{paper|}}}<br>}}<!--
+       -->{{#if:{{{nomenat|}}}   |P1810 ={{{raw_nomenat|}}}:{{{nomenat|}}}<br>}}<!--
+       -->{{#if:{{{rol|}}}       |P2868 ={{{raw_rol|}}}:{{{rol|}}}<br>}}<!--
+       -->{{#if:{{{identitat|}}} |P4649 ={{{identitat|}}}<br>}}<!--
+       -->{{#if:{{{circumstances|}}}|P1480={{{circumstances|}}}:{{GetLabelFix|{{{circumstances|}}}|lang={{{lang|}}}}}<br>}}<!--
+       -->{{#if:{{{precisio|}}}  |P4241 = {{{precisio|}}}:{{GetLabelFix|{{{precisio|}}}|lang={{{lang|}}}}}<br>}}<!--
+       -->{{#if:{{{despres|}}}   |P1319 = {{{despres|}}}<br>}}<!--
+       -->{{#if:{{{abans|}}}     |P1326 = {{{abans|}}}<br>}}<!--
+       -->{{#if:{{{data_inici|}}}|P580  = {{{data_inici|}}}<br>}}<!--
+       -->{{#if:{{{data_fi|}}}   |P582  = {{{data_fi|}}}<br>}}<!--
+       --><br><u>'''Resultat'''</u>:}}<!--  FI DEBUGGING
+-->{{Entries separated by spaces |<!--  
+--><!-- Posar data en negreta, si hi ha algun qualificador (llevat instància=Q26961029)
+-->{{#if:{{{esdev|}}}{{{aplica|}}}{{{fgovern|}}}{{{criteri|}}}{{{afirmat|}}}{{{causat|}}} 
+         {{{separat|}}}{{{paper|}}}{{{nomenat|}}}{{{rol|}}}{{{identitat|}}}|<b><!--
+  -->|{{#if:{{{raw_instancia|}}}|{{#ifeq:{{{raw_instancia|}}}|Q26961029|<!-- com si no hi fos -->|<b>}} }} }}<!--
+     -->|{{Circa WD/labels<!-- crida la segona part de {{circa}} preparant-li els paràmetres que determinen la data -->
+            |data  ={{{data571|}}}
+            |circa ={{{circumstances|}}}
+            |moment={{{precisio|}}} 
+            |after={{#if:{{{despres|}}} | {{{despres|}}}
+                       |{{#if:{{{data_fi|}}} <!-- si data_fi sense data_inici, agafem la P571 com a data_inici -->
+                           |{{#if:{{{data_inici|}}} | {{{data_inici|}}}  | {{{data571|}}} }} }} }}
+            |before ={{#if:{{{abans|}}} | {{{abans|}}} | {{{data_fi|}}} }}
+            |lang  ={{{lang|}}} }}<!-- posa ''':  darrera data, si hi ha algun qualificador (llevat instància=Q26961029)
+      -->{{#if:{{{esdev|}}}{{{aplica|}}}{{{fgovern|}}}{{{criteri|}}}{{{afirmat|}}}{{{causat|}}} 
+               {{{separat|}}}{{{paper|}}}{{{nomenat|}}}{{{rol|}}}{{{identitat|}}}|</b>&#58;&nbsp;<!--
+        -->|{{#if:{{{raw_instancia|}}}|{{#ifeq:{{{raw_instancia|}}}|Q26961029|<!--com si no hi fos-->|</b>&#58;&nbsp;}}}} }}<!--
+ -->|{{#if: {{{nomenat|}}}|{{{nomenat|}}}{{#if: {{{instancia|}}} {{{paper|}}}  {{{aplica|}}} |,<!-- 
+                                        -->|{{#if:{{{separat|}}}   {{{causat|}}} {{{criteri|}}} |.}}}}
+     }}
+    |<!-- {{{instancia|}}} -->{{#ifeq:{{{raw_instancia|}}}|Q26961029|<!-- 
+                             -->|{{lcfirst:{{GetLabelFix|{{{raw_instancia|}}}|lang={{{lang|}}}|linked=yes}}}}  }}
+    |<!-- {{{paper|}}}     -->{{lcfirst:{{GetLabelFix|{{{raw_paper|}}}|lang={{{lang|}}}|linked=yes}}}}
+    |{{if both
+        |{{if empty |{{{instancia|}}}  | {{{paper|}}} }} 
+        |{{if empty |{{{identitat|}}}|{{{fgovern|}}} }}|↔}}
+    |<!-- {{{fgovern|}}}  -->{{lcfirst:{{GetLabelFix|{{{raw_fgovern|}}}|lang={{{lang|}}}|linked=yes}}}}
+    |<!-- {{{identitat|}}}-->{{lcfirst:{{GetLabelFix|{{{raw_identitat|}}}|lang={{{lang|}}}|linked=yes}}}}<!-- P31 + 122 + P4649
+ -->|<!--  {{{aplica|}}}  -->{{lcfirst:{{GetLabelFix|{{{raw_aplica|}}}|lang={{{lang|}}}|linked=yes}}}}<!-- P518
+ -->|{{#if:{{{rol|}}} 
+       |{{#if:{{{nomenat|}}}{{{instancia|}}} {{{paper|}}}  {{{aplica|}}}{{{identitat|}}}{{{fgovern|}}}
+          |({{lcfirst:{{GetLabelFix|{{{raw_rol|}}}|lang={{{lang|}}}|linked=yes}}}}) 
+          |{{lcfirst:{{GetLabelFix|{{{raw_rol|}}}|lang={{{lang|}}}|linked=yes}}}} }} }}<!-- P2868
+ -->|{{#if:{{{separat|}}} | {{lcfirst:{{GetLabelFix|P807|lang={{{lang|}}}}}}}&nbsp;{{lcfirst:{{GetLabelFix|{{{raw_separat|}}}|lang={{{lang|}}}|linked=yes}}}} }}<!-- P807 
+ -->|{{#if:{{{causat|}}} | {{lcfirst:{{GetLabelFix|P828|lang={{{lang|}}}}}}}&nbsp;{{lcfirst:{{GetLabelFix|{{{raw_causat|}}}|lang={{{lang|}}}|linked=yes}}}} }}<!-- P828
+ -->|<!-- {{{criteri|}}}  -->{{lcfirst:{{GetLabelFix|{{{raw_criteri|}}}|lang={{{lang|}}}|linked=yes}}}}<!-- P1013 
+ -->|{{#if:{{{afirmat|}}} | ({{lcfirst:{{GetLabelFix|{{{raw_afirmat|}}}|lang={{{lang|}}}|linked=yes}}}})}}
+}}</includeonly><noinclude></noinclude>
