@@ -1,0 +1,24 @@
+{{#if:{{{dimensions|}}}{{{diametre|}}}{{{alçada|}}}{{{amplada|}}}{{{llargada|}}}{{{gruix|}}}<!-- Si hi ha qualsevol dimensió manual, actua.
+                                           Cas contrari, crida mòdul per construir des de WD
+-->|{{#if:{{{dimensions|}}}|{{{dimensions|}}} <!-- Si hi ha "dimensions", s'ignoren la resta de mesures
+   -->|{{#if:{{{diametre|}}}<!-- Si hi ha "diàmetre", va independent abans de H×W×L 
+      -->|{{{diametre|}}}&nbsp;(∅)&nbsp;{{{unitat_mida|cm}}}{{#if:{{{alçada|}}}{{{amplada|}}}{{{llargada|}}}{{{gruix|}}}|,&nbsp;}}
+       }}<!--
+      Inici concatenació Alçada x Amplada x Llargada + unitat
+   -->{{Bloc dimensions/format
+                  |alt={{{alçada|}}}
+                  |unit_alt={{#if:{{{alçada|}}}
+                              | {{if empty | {{{unitat_mida|}}} | cm}}
+                            }}
+                  |amp={{{amplada|}}} 
+                  |unit_amp={{#if:{{{amplada|}}}
+                              | {{if empty | {{{unitat_mida|}}} | cm}}
+                            }}
+                  |llg={{if empty|{{{llargada|}}}|{{{gruix|}}} }}
+                  |unit_llg={{#if:{{{llargada|}}}{{{gruix|}}}  
+                              | {{if empty | {{{unitat_mida|}}} | cm}}
+                            }}
+       }}
+    }}
+|{{#invoke:dimensions |main |blacklist={{{blacklist|}}} | item={{{item|}}} | unit= {{{unitat_mida|}}} |lang={{{lang|}}} }} 
+}}<noinclude>{{doc}}</noinclude>
