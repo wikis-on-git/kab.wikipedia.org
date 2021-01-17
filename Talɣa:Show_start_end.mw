@@ -1,0 +1,3 @@
+{{#if:{{{start|}}}{{{end|}}}
+  |{{#invoke:String|replace|source={{{open|(}}}{{{start|}}}{{{separator|&ndash;}}}{{{end|}}}{{{close|)}}}|{{novalue|lang={{{lang|}}}}}|}} 
+}}<noinclude>{{doc}}</noinclude>
