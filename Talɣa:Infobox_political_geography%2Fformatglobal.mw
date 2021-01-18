@@ -155,7 +155,7 @@
 |  data36  = {{{gentilicis|}}}{{#if:{{{gentilicis2|}}}|<br />{{{gentilicis2|}}} }} 
 | label37  = {{GetLabelFix|Q11934751|lang={{{lang|}}}}} 
 |  data37  = {{{malnom|}}}
-| label38  = {{if empty|{{{etiqueta_llengua|}}}|{{GetLabelFix|Q337968|lang={{{lang|}}}}} }}
+| label38  = {{if empty|{{{etiqueta_llengua|}}}|{{GetLabelFix|Q23492|lang={{{lang|}}}}} }}
  |  data38  = {{{llengua|}}}  
 | label39  = {{GetLabelFix|P140|lang={{{lang|}}}}} 
 |  data39  = {{{religio|}}}  
