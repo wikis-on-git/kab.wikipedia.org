@@ -143,7 +143,7 @@
 | label33  = &bull;&nbsp;%&nbsp;{{GetLabelFix|Q33829|lang={{{lang|}}}}}
 |  data33  = {{#if:{{both|{{{poblacio_per|}}} | {{{poblacio_refer|}}} }}
                |{{{poblacio_per|}}}&nbsp;%&nbsp;{{Deod'|{{{poblacio_refer|}}} }} }}
-| label34  = &bull;&nbsp;{{GetLabelFix|Q29539|lang={{{lang|}}}}} 
+| label34  = &bull;&nbsp;{{GetLabelFix|Q22856|lang={{{lang|}}}}} 
 |  data34  = {{{densitat|}}}
 | label35  = {{GetLabelFix|Q7743|lang={{{lang|}}}}} 
 |  data35  = {{#if:{{{llars|}}}
