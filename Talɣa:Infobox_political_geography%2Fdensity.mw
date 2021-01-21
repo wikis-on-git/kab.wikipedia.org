@@ -13,10 +13,10 @@
                                                      |item={{{item|}}}|list=false|editicon=false}}<!-- 
                                       -->|R}} / <!-- 
                                           -->{{formatnum:<!--
-  converteix d'altra unitat a km2.           -->{{convert/variable/sandbox
+  converteix d'altra unitat a km2.           -->{{convert/variable
                                                   |{{formatnum:{{#invoke:Wikidata | claim 
                                                     | property=P2046| value={{{area|}}}
                                                     |item={{{item|}}}|list=false
                                                     | formatting=unitcode|editicon=false}}|R}}<!--
-  disp=number, retorna només xifres            -->|km²|disp=number}}<!-- 
+  disp=number, retorna només xifres            -->|km²|disp=number|comma=off}}<!-- 
                                              -->|R}} round 2}} }} {{Infobox political geography/localize|inhabitants/km²}}}}<noinclude>{{documentation}}</noinclude>
