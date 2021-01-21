@@ -81,7 +81,7 @@
 {{#expr:
 {{formatnum:{{#invoke:Wikidata|claim|property=P1082|formatting=label|list=false}}|R}}
 /
-{{convert/variable|{{formatnum:{{#invoke:Wikidata | claim | property=P2046 |list=false| item={{{item|}}} |formatting=unitcode | value= }}|R}}|km²|disp=number}}
+{{convert/variable/sandbox|{{formatnum:{{#invoke:Wikidata | claim | property=P2046 |list=false| item={{{item|}}} |formatting=unitcode | value= }}|R}}|km²|disp=number}}
 round2}}
 }} {{Infobox city/localize|inhabitants/km²}}
 }}}}}}
