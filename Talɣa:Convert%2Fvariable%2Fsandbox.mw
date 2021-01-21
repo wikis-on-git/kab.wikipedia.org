@@ -4,5 +4,5 @@
      -->|{{#invoke:StringFunc|split|{{{1|}}}| |1}}{{#ifeq:{{{disp|}}}|number||&nbsp;{{{2|}}}}}
         |{{convert|{{#invoke:StringFunc|split|{{{1|}}}| |1}}<!--
                  -->|{{str rep|{{str rep|{{#invoke:string|sub|{{{1|}}}|{{#invoke:string|find|{{{1|}}}| }}}}|mi²|sqmi}}|peu|ft}}<!-- passa mi² i peu a l'acrònim anglès
-unit+opc.sortida -->|{{{2|}}}|disp={{{disp|}}}|abbr={{{abbr|}}}|order={{{order|}}}|lang={{{lang|}}}}}
+unit+opc.sortida -->|{{{2|}}}|disp={{{disp|}}}|abbr={{{abbr|}}}|order={{{order|}}}|lang={{{lang|}}}|comma=off}}
 }}}}
