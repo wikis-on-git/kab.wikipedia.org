@@ -13,7 +13,7 @@
                                                      |item={{{item|}}}|list=false|editicon=false}}<!-- 
                                       -->|R}} / <!-- 
                                           -->{{formatnum:<!--
-  converteix d'altra unitat a km2.           -->{{convert/variable
+  converteix d'altra unitat a km2.           -->{{convert/variable/sandbox
                                                   |{{formatnum:{{#invoke:Wikidata | claim 
                                                     | property=P2046| value={{{area|}}}
                                                     |item={{{item|}}}|list=false
