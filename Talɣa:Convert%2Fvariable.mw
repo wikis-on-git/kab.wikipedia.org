@@ -1,0 +1,7 @@
+{{#if:{{{1|}}}<!-- Si no està buit 
+  -->|{{#ifeq:{{#invoke:StringFunc|split|{{{1|}}}| |2}}|{{{2|}}}<!--igual unitat, no conversió
+                  posar xifres . . . . si no han demanat "number" (només xifres), posar unitat
+     -->|{{#invoke:StringFunc|split|{{{1|}}}| |1}}{{#ifeq:{{{disp|}}}|number||&nbsp;{{{2|}}}}}           |{{convert|{{#invoke:StringFunc|split|{{{1|}}}| |1}}<!--
+                 -->|{{str rep|{{#invoke:StringFunc|split|{{{1|}}}| |2}}|mi²|sqmi}}<!--
+unit+opc.sortida -->|{{{2|}}}|disp={{{disp|}}}|abbr={{{abbr|}}}|comma={{{comma|}}}}}
+}}}}
