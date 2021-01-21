@@ -1,0 +1,8 @@
+{{#if:{{{1|}}}<!-- Si no està buit 
+  -->|{{#ifeq:{{#invoke:string|sub|{{{1|}}}|{{#invoke:string|find|{{{1|}}}| }}}}|{{{2|}}}<!--igual unitat, no conversió
+                  posar xifres . . . . si no han demanat "number" (només xifres), posar unitat
+     -->|{{#invoke:StringFunc|split|{{{1|}}}| |1}}{{#ifeq:{{{disp|}}}|number||&nbsp;{{{2|}}}}}
+        |{{convert|{{#invoke:StringFunc|split|{{{1|}}}| |1}}<!--
+                 -->|{{str rep|{{str rep|{{#invoke:string|sub|{{{1|}}}|{{#invoke:string|find|{{{1|}}}| }}}}|mi²|sqmi}}|peu|ft}}<!-- passa mi² i peu a l'acrònim anglès
+unit+opc.sortida -->|{{{2|}}}|disp={{{disp|}}}|abbr={{{abbr|}}}|order={{{order|}}}|lang={{{lang|}}}}}
+}}}}
