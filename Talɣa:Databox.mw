@@ -9,7 +9,7 @@
 | taxon common name = {{Automatic taxobox|item={{#invoke:Wikidata|claim|property=P31|qualifier=P642|list=false|formatting=raw|item={{{1|}}}}}}}
 | human = {{Infobox biography|item={{{1|}}}}}
 | country = {{Infobox political geography|item={{{1|}}}}}
-| city = {{Infobox city|item={{{1|}}}}}
+| city = {{Infobox political geography|item={{{item|}}}|category=city}}
 | album | tv | book | intellectual work = {{Infobox intellectual work|item={{{1|}}}}} 
 | physical geography = {{Infobox physical geography|item={{{1|}}}}} 
 | orography = {{Infobox physical geography|category=orography|item={{{1|}}}}}
