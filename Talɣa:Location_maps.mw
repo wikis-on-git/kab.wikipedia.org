@@ -78,7 +78,7 @@ ______________________Si no hi ha localitzador, el mapa dinàmic ocupa tot l'esp
                    | {{uc:{{{marcador|}}} }} }}&nbsp;<!-- 
               -->{{#if:{{{lat_lon|}}}
                    |{{coord|{{#invoke:StringFunc|split|{{{lat_lon|}}}|,|1}}|{{#invoke:StringFunc|split|{{{lat_lon|}}}|,|2}}
-                           |display=inline}}
+                           |display={{if empty|{{{display|}}}|inline}}}}
                    |{{coord|{{{lat_dec|}}}|{{{lon_dec|}}}|display={{if empty|{{{display|}}}|title,inline}}}}
                  }}</small><!-- 
     -->}}<!--  
