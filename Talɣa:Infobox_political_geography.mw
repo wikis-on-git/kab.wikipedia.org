@@ -98,6 +98,7 @@ P158 (segell) >> P418   -->|{{#invoke:Wikidata | claim| property=P418 |formattin
 
                                            |rowformat = $0 |separator=### | item={{{item|}}}|editicon=no}}
                                  }} }} 
+                        |display={{#ifeq:{{{category|}}}|city|title,inline}}
                  }}
 | llista_localitzacio     = {{#if: {{{country|{{{historical_country|}}}}}}{{{admin1|}}}
                     {{{admin2|}}}{{{admin3|}}}{{{admin4|}}}{{{admin5|}}}{{{subdivision_name|}}}{{{subdivision_name1|}}}{{{subdivision_name2|}}}{{{subdivision_name3|}}}{{{subdivision_name4|}}}
