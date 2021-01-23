@@ -1,0 +1,11 @@
+<includeonly>{{{{{♥|safesubst:}}}#invoke:age|birth_date_and_age}}{{#invoke:Check for unknown parameters|check|ignoreblank=y|preview=Page using [[Template:Birth date and age]] with unknown parameter "_VALUE_"|unknown={{main other|[[Category:Pages using birth date and age template with unknown parameters|_VALUE_{{PAGENAME}}]]}}|1|2|3|day|month|year|df|mf}}{{#ifeq: {{NAMESPACENUMBER}} | 0
+| {{#if: {{#invoke:wd|label|raw}}
+  | {{#if: {{#invoke:String|match|{{#invoke:wd|properties|raw|P31}},|Q5,|1|1|true|}}
+    | {{#if: {{#invoke:wd|properties|raw|P569}}
+      |
+      | [[Category:Date of birth not in Wikidata]]
+      }}
+    }}
+  | [[Category:Articles without Wikidata item]]
+  }}
+}}</includeonly><noinclude>{{documentation}}</noinclude>
