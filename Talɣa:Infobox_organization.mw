@@ -1,0 +1,196 @@
+{{Infobox
+| above = <span style="float:left;">[[image:Group half.svg|25px|link=]]</span>{{{name|{{PAGENAMEBASE}}}}}
+| abovestyle     = {{#if:{{#property:P465|from={{{item|}}}}}|border-bottom: 2px solid #{{#invoke:wikidata|claim|property=P465|item={{{item|}}}|list=false|formatting=raw}};|background-color:#ff8c69}};
+| subheaderstyle = {{#if:{{#property:P465|from={{{item|}}}}}|border-bottom: 2px solid #{{#invoke:wikidata|claim|property=P465|item={{{item|}}}|list=false|formatting=raw}};|background-color:#ffc7b6}};
+| headerstyle    = {{#if:{{#property:P465|from={{{item|}}}}}|border-bottom: 2px solid #{{#invoke:wikidata|claim|property=P465|item={{{item|}}}|list=false|formatting=raw}};border-top: 2px solid #{{#invoke:wikidata|claim|property=P465|item={{{item|}}}|formatting=raw}};|background-color:#ff8c69}};
+| belowstyle = {{#if:{{#property:P465|from={{{item|}}}}}|border-top: 2px solid #{{#invoke:wikidata|claim|property=P465|list=false|item={{{item|}}}|formatting=raw}};}}
+
+| subheader = {{#invoke:Wikidata|claim|item={{{item|}}}|property=P229|formatting=[[ICAO airport code|$1]]}}{{#if:{{#Property:P229|from={{{item|}}}}}|{{#if:{{#Property:P230|from={{{item|}}}}}|&nbsp;-&nbsp;}}}}{{#invoke:Wikidata|claim|item={{{item|}}}|property=P230|formatting=[[ICAO airport code|$1]]}}
+
+
+| image = {{#invoke:InfoboxImage|InfoboxImage|image={{#invoke:Wikidata | claim | property=P41 OR P94 OR P154 |list=false |editicon=no }}|size=140x90px}}
+| image2          =  {{#if:{{{imatge|}}} | {{#invoke:InfoboxImage|InfoboxImage|image={{{imatge|}}}
+                                 |size=300x300px|alt={{{alt|}}} }}{{#if:{{{peu|}}} |<br />{{{peu|}}} }}
+                       |{{#ifeq:{{lc:{{{imatgeWD|}}}}} |no|<!-- No buscar a WD
+                       -->| {{#invoke:Wikidata | claim | property=P18 or P1801 |qualifier=P2096 | qualifier2=P585
+                                     | formatting = table | list = false
+                                     | rowformat= [[File:$0|300x300px]]<br />$1 $2 | rowsubformat2=&#32;($2) | colformat2=Y }}
+                     }} }}
+
+| image3 = {{#invoke:Wikidata|claim|item={{{item|}}}|property=P85|qualifier=P51|formatting=table|rowformat=$0 $1|rowsubformat1=<br/>[[File:$1|260px]]|colformat0=internallink}}{{#if:{{#Property:P1451|from={{{item|}}}}}|{{#invoke:Wikidata|claim|item={{{item|}}}|property=P1451|formatting=label|list=firstrank|value={{{motto|}}}}}}}
+
+| header1 = {{Infobox organization/localize|Data}} 
+| label2 = {{Infobox organization/localize|Official name}}
+| data2 = {{#if:{{#Property:P1448|from={{{item|}}}}}|{{Collapsible conditional list|{{#invoke:Wikidata|claim|item={{{item|}}}|property=P1448|formatting=label|value={{{official_name|}}}}}|40}}}}
+| label3 = {{Infobox organization/localize|Short name}}
+| data3 = {{#invoke:Wikidata|claim| property=P1813 | list=firstrank | value={{{abbreviation|}}} }}
+| label4 = {{Infobox organization/localize|Type}}
+| data4 = {{#invoke:Wikidata|claim|item={{{item|}}}|property=P31|formatting=internallink|value={{{type|}}}|case=singularra}}
+| label5 = {{Infobox organization/localize|Industry}}
+| data5 = {{#invoke:Wikidata|claim|item={{{item|}}}|property=P452|formatting=internallink|value={{{industry|}}}|case=singularra}}
+| label6 = {{Infobox organization/localize|Country}}
+| data6 = {{#invoke:Wikidata|claim|item={{{item|}}}|property=P17|formatting=internallink|value={{{country|}}}}}
+| label7 = {{Infobox organization/localize|Ideology}}
+| data7 = {{#invoke:Wikidata|claim|item={{{item|}}}|property=P1142 P135|formatting=internallink|value={{{ideology|}}}|case=singularra}}
+| label8 = {{Infobox organization/localize|Political alignment}}
+| data8 = {{#invoke:Wikidata|claim|item={{{item|}}}|property=P1387|formatting=internallink|value={{{political_alignment|}}}}}
+| label9 = {{Infobox organization/localize|Alias}}
+| data9 = {{#invoke:Wikidata | claim | property=P1449 | list=firstrank | value={{{alias|}}} }}
+
+| header10 = {{#if:
+
+               {{#Property:P463|from={{{item|}}}}}
+               {{#Property:P2124|from={{{item|}}}}}
+               {{#Property:P1410|from={{{item|}}}}}
+               {{#Property:P361|from={{{item|}}}}}
+               {{#Property:P1342|from={{{item|}}}}}
+               {{#Property:P1128|from={{{item|}}}}}
+               {{#Property:P1239|from={{{item|}}}}}
+               {{#Property:P5822|from={{{item|}}}}}
+               {{#Property:P5894|from={{{item|}}}}}
+               {{#Property:P1056|from={{{item|}}}}}
+               |{{Infobox organization/localize|Activity}}}}
+| label11 = {{Infobox organization/localize|Membership}}
+| data11 = {{#invoke:Wikidata | claim |item={{{item|}}}| property=P463 | list=firstrank | formatting = internallink |value={{{membership|}}} }}
+| label12 = {{Infobox organization/localize|Number of members}}
+| data12 = {{#invoke:Wikidata | claim |item={{{item|}}}| property=P2124| qualifier=P585| formatting=table | list=false| rowformat=$0 $1|rowsubformat1=<small>($1)</small>|value={{{members|}}} }}
+| label13 = {{Infobox organization/localize|Part of}}
+| data13 = {{#invoke:Wikidata | claim |item={{{item|}}}| property=P361 | formatting=internallink | value={{{part_of|}}} }}
+| label14 = {{Infobox organization/localize|Subsidiaries}}
+| data14 = {{#if:{{#Property:P355|from={{{item|}}}}}|{{Collapsible conditional list|{{#invoke:Wikidata | claim |item={{{item|}}}| property=P355 | formatting=internallink | value={{{subsidiaries|}}} }}}}}}
+| label15 = {{Infobox organization/localize|Number of seats}}
+| data15 = {{#invoke:Wikidata | claim |item={{{item|}}}| property=P1342 | formatting=internallink | list=false | value={{{seats|}}} }}
+| data16 = {{#invoke:Wikidata | claim |item={{{item|}}}| property=P5555 | formatting=[[File:$1|250px]] | value={{{schematic|}}} }}
+
+| label17 = {{Infobox organization/localize|Employees}}
+| data17 = {{#invoke:Wikidata | claim |item={{{item|}}}| property=P1128 | qualifier=P585| formatting=table | list=false| rowformat=$0 $1|rowsubformat1=<small>($1)</small>|value={{{employees|}}} }}
+| label18 = {{Infobox organization/localize|Language used}}
+| data18 = {{#invoke:Wikidata | claim |item={{{item|}}}| property=P2936 P407 | formatting=internallink | value={{{language|}}} }}
+
+| label19 = {{Infobox organization/localize|Number of students}}
+| data19 = {{#invoke:Wikidata | claim |item={{{item|}}}| property=P2196 | qualifier=P585| formatting=table | list=false| rowformat=$0 $1|rowsubformat1=<small>($1)</small>|value={{{students|}}} }}
+| label20 = {{Infobox organization/localize|Admission rate}}
+| data20 = {{#invoke:Wikidata | claim |item={{{item|}}}| property=P5822 | qualifier=P585| formatting=table | list=false| rowformat=$0 $1|rowsubformat1=<small>($1)</small>|value={{{acceptance_rate|}}} }}
+| label21 = {{Infobox organization/localize|Tuition fee}}
+| data21 = {{#invoke:Wikidata | claim |item={{{item|}}}| property=P5894 | qualifier=P585| formatting=table | list=false| rowformat=$0 $1|rowsubformat1=<small>($1)</small>|colformat0=unitcode|value={{{tuition_fee|}}} }}
+| label22 = {{Infobox organization/localize|Product}}
+| data22 = {{#if:{{#Property:P1056|from={{{item|}}}}}|{{Collapsible conditional list|{{#invoke:Wikidata | claim |item={{{item|}}}| property=P1056 | formatting=internallink | value={{{product|}}} }}}}}}
+| label23 = {{Infobox organization/localize|Business division}}
+| data23 = {{#if:{{#Property:P199|from={{{item|}}}}}|{{Collapsible conditional list|{{#invoke:Wikidata | claim |item={{{item|}}}| property=P199 | formatting=internallink | value={{{division|}}} }}}}}}
+| label24 = {{Infobox organization/localize|Reward program}}
+| data24 = {{#invoke:Wikidata | claim |item={{{item|}}}| property=P4446 | formatting=internallink | value={{{reward_program|}}} }}
+| label25 = {{Infobox organization/localize|Used by}}
+| data25 = {{#if:{{#Property:P121|from={{{item|}}}}}|{{Collapsible conditional list|{{#invoke:Wikidata | claim |item={{{item|}}}| property=P121 | formatting=internallink | value={{{used_by|}}} }}}}}}
+
+| data29 = {{#if:{{#Property:P1410|from={{{item|}}}}}{{{election_seats|}}}|<hr/>}}{{#invoke:Wikidata|claim|item={{{item|}}}|property=P1410|qualifier=P194/P1342|qualifier2=P194|formatting=table|rowformat={{((}}Composition bar{{!}}$0{{!}}$1{{!}}width=260{{!}}description1=[[$2]]{{!}}hex=#{{#invoke:wikidata|claim|property=P465|item={{{item|}}}|formatting=raw}}{{))}}|colformat2=label|editicon=false|separator=<hr/>|value={{{election_seats|}}}}}
+
+| header30 = {{#if:
+               {{#Property:P488|from={{{item|}}}}}
+               {{#Property:P3975|from={{{item|}}}}}
+               {{#Property:P159|from={{{item|}}}}}
+               {{#Property:P2813|from={{{item|}}}}}
+               {{#Property:P4379|from={{{item|}}}}}
+               {{#Property:P1037|from={{{item|}}}}}
+               {{#Property:P1454|from={{{item|}}}}}
+              {{#Property:P4100|from={{{item|}}}}}
+              {{#Property:P127|from={{{item|}}}}}
+              {{#Property:P1075|from={{{item|}}}}}
+              {{#Property:P2769|from={{{item|}}}}}
+               |{{Infobox organization/localize|Governance}}}}
+| label31 = {{Infobox organization/localize|Chairperson}}
+| data31 = {{#invoke:Wikidata|claim|item={{{item|}}}|property=P488|formatting=internallink|list=firstrank|value={{{chairperson|}}}}}
+| label32 = {{Infobox organization/localize|Secretary General}}
+| data32 = {{#invoke:Wikidata|claim|item={{{item|}}}|property=P3975|formatting=internallink|list=firstrank|value={{{secretary_general|}}}}}
+| label33 = {{Infobox organization/localize|Rector}}
+| data33 = {{#invoke:Wikidata|claim|item={{{item|}}}|property=P1075|formatting=internallink|list=firstrank|value={{{rector |}}}}}
+| label34 = {{Infobox organization/localize|CEO}}
+| data34 = {{#invoke:Wikidata|claim|item={{{item|}}}|property=P169|formatting=internallink|list=firstrank|value={{{ceo|}}}}}
+| label35 = {{Infobox organization/localize|Director}}
+| data35 = {{#invoke:Wikidata|claim|item={{{item|}}}|property=P1037|formatting=internallink|list=firstrank|value={{{director|}}}}}
+| label36 = {{Infobox organization/localize|Board members}}
+| data36 = {{#if:{{#Property:P3320|from={{{item|}}}}}|{{Collapsible conditional list|{{#invoke:Wikidata|claim|item={{{item|}}}|property=P3320|formatting=internallink|list=firstrank|value={{{board_members|}}}}}}}}}
+| label37 = {{Infobox organization/localize|Administrator}}
+| data37 = {{#invoke:Wikidata|claim|item={{{item|}}}|property=P137|formatting=internallink|list=firstrank|value={{{administrator|}}}}}
+
+| label40 = {{Infobox organization/localize|Headquarters}}
+| data40 = {{#invoke:Wikidata|claim|item={{{item|}}}|property=P159|formatting=internallink|value={{{headquarters|}}}}}
+| label41 = {{Infobox organization/localize|House publication}}
+| data41 = {{#invoke:Wikidata|claim|item={{{item|}}}|property=P2813|formatting=internallink|value={{{house_publication|}}}}}
+| label42 = {{Infobox organization/localize|Youth}}
+| data42 = {{#invoke:Wikidata|claim|item={{{item|}}}|property=P4379|formatting=internallink|value={{{youth|}}}}}
+| label43 = {{Infobox organization/localize|Spokesman}}
+| data43 = {{{spokesman|}}}
+| label44 = {{Infobox organization/localize|Subdivisions}}
+| data44 = {{#if:{{#Property:P527|from={{{item|}}}}}|{{Collapsible conditional list|{{#invoke:Wikidata|claim|item={{{item|}}}|property=P527|qualifier=P580|qualifier2=P582|formatting=table|rowformat=$0 $1 $2|rowsubformat1=<br/><small>$1 -</small>|rowsubformat2=<small>&nbsp;$2 </small>|colformat0=internallink|separator=<br/>|conjunction=<br/>|tablesort=1/0|value={{{subdivisions|}}}}}}}}}
+| label45 = {{Infobox organization/localize|Parliamentary group}}
+| data45 = {{#invoke:Wikidata|claim|item={{{item|}}}|property=P4100|formatting=internallink|value={{{parliamentary_group|}}}}}
+
+| label46 = {{Infobox organization/localize|Legal form}}
+| data46 = {{#invoke:Wikidata|claim|item={{{item|}}}|property=P1454|formatting=internallink|list=firstrank|value={{{legal_form|}}}}}
+| label47 = {{Infobox organization/localize|Owner}}
+| data47 = {{#invoke:Wikidata|claim|item={{{item|}}}|property=P127 P749|formatting=internallink|list=firstrank|value={{{owner|}}}}}
+| label48 = {{Infobox organization/localize|Sponsor}}
+| data48 = {{#invoke:Wikidata|claim|item={{{item|}}}|property=P859|formatting=unit|list=firstrank|value={{{sponsor|}}}}}
+| label49 = {{Infobox organization/localize|Owner of}}
+| data49 = {{#if:{{#Property:P1830|from={{{item|}}}}}|{{Collapsible conditional list|{{#invoke:Wikidata|claim|item={{{item|}}}|property=P1830|formatting=internallink|list=firstrank|value={{{owner_of|}}}}}}}}}
+| data50 = {{#invoke:Wikidata|claim|item={{{item|}}}|property=P242|formatting=[[File:$1|250px]]|list=firstrank|value={{{map|}}}}}
+
+| header60 = {{#if:
+               {{#Property:P2769|from={{{item|}}}}}
+               {{#Property:P2403|from={{{item|}}}}}
+               {{#Property:P2137|from={{{item|}}}}}
+               {{#Property:P2139|from={{{item|}}}}}
+               {{#Property:P2295|from={{{item|}}}}}
+               {{#Property:P3362|from={{{item|}}}}}
+               {{#Property:P2226|from={{{item|}}}}}
+               |{{Infobox organization/localize|Financial data}}}}
+| label61 = {{Infobox organization/localize|Budget}}
+| data61 = {{#invoke:Wikidata | claim |item={{{item|}}}| property=P2769 | qualifier=P585| formatting=table | list=false| rowformat=$0 $1|rowsubformat1=<small>($1)</small>|colformat0=unitcode|value={{{budget|}}} }}
+| label62 = {{Infobox organization/localize|Assets}}
+| data62 = {{#invoke:Wikidata | claim |item={{{item|}}}| property=P2403 | qualifier=P585| formatting=table | list=false| rowformat=$0 $1|rowsubformat1=<small>($1)</small>|colformat0=unitcode|value={{{assets|}}} }}
+| label63 ={{Infobox organization/localize|Equity}}
+| data63 = {{#invoke:Wikidata | claim |item={{{item|}}}| property=P2137 | qualifier=P585| formatting=table | list=false| rowformat=$0 $1|rowsubformat1=<small>($1)</small>|colformat0=unitcode|value={{{equity|}}} }}
+| label64 = {{Infobox organization/localize|Revenue}}
+| data64 = {{#invoke:Wikidata | claim |item={{{item|}}}| property=P2139 | qualifier=P585| formatting=table | list=false| rowformat=$0 $1|rowsubformat1=<small>($1)</small>|colformat0=unitcode|value={{{revenue|}}} }}
+| label65 = {{Infobox organization/localize|Net profit}}
+| data65 = {{#invoke:Wikidata | claim |item={{{item|}}}| property=P2295 | qualifier=P585| formatting=table | list=false| rowformat=$0 $1|rowsubformat1=<small>($1)</small>|colformat0=unitcode|value={{{net_profit|}}} }}
+| label66 = {{Infobox organization/localize|Operating income}}
+| data66 = {{#invoke:Wikidata | claim |item={{{item|}}}| property=P3362 | qualifier=P585| formatting=table | list=false| rowformat=$0 $1|rowsubformat1=<small>($1)</small>|colformat0=unitcode|value={{{operating_income|}}} }}
+| label67 = {{Infobox organization/localize|Market capitalization}}
+| data67 = {{#invoke:Wikidata | claim |item={{{item|}}}| property=P2226 | qualifier=P585| formatting=table | list=false| rowformat=$0 $1|rowsubformat1=<small>($1)</small>|colformat0=unitcode|value={{{market_capitalization|}}} }}
+| label68 = {{Infobox organization/localize|Stock exchange}}
+| data68 = {{#invoke:Wikidata | claim |item={{{item|}}}| property=P414 |formatting=internallink|value={{{stock_exchange|}}}}}
+
+| header80 = {{#if:
+               {{#Property:P1365|from={{{item|}}}}}
+               {{#Property:P155|from={{{item|}}}}}
+               {{#Property:P156|from={{{item|}}}}}
+               {{#Property:P571|from={{{item|}}}}}
+               |{{Infobox organization/localize|History}}}}
+| label81 = {{Infobox organization/localize|Creation}}
+| data81 = {{#invoke:Wikidata|claim|item={{{item|}}}|property=P571|qualifier=P4649|formatting=table|rowformat=$0 $1|rowsubformat1=<br/><small>($1)</small>|value={{{creation|}}}}}
+| label82 = {{Infobox organization/localize|Founder}}
+| data82 = {{#if:{{#Property:P112|from={{{item|}}}}}|{{Collapsible conditional list|{{#invoke:Wikidata|claim|item={{{item|}}}|property=P112|formatting=internallink|separator=<br/>|conjunction=<br/>|value={{{founder|}}}}}}}}}
+| label83 = {{Infobox organization/localize|Founded in}}
+| data83 = {{#invoke:Wikidata|claim|item={{{item|}}}|property=P740|formatting=internallink|value={{{founded_in|}}}}}
+
+| label85 = {{Infobox organization/localize|Replaces}}
+| data85 = {{#invoke:Wikidata|claim|item={{{item|}}}|property=P1365|formatting=internallink|value={{{replaces|}}}}}
+
+| label86 = {{Infobox organization/localize|Preceded by}}
+| data86 = {{#invoke:Wikidata|claim|item={{{item|}}}|property=P155|formatting=internallink|value={{{preceded_by|}}}}}
+| label87 = {{Infobox organization/localize|Followed by}}
+| data87 = {{#invoke:Wikidata|claim|item={{{item|}}}|property=P156|formatting=internallink|value={{{followed_by|}}}}}
+| label88 = {{Infobox organization/localize|Dissolved}}
+| data88 = {{#invoke:Wikidata|claim|item={{{item|}}}|property=P576 P582|qualifier=P4649|formatting=table|rowformat=$0 $1|rowsubformat1=<br/><small>($1)</small>|value={{{dissolved|}}}}}
+
+| label90 = {{Infobox organization/localize|Patron saint}}
+| data90 = {{#invoke:Wikidata|claim|item={{{item|}}}|property=P417|formatting=internallink|value={{{patron_saint|}}}}}
+| label91 = {{Infobox organization/localize|Awards received}}
+| data91 = {{#if:{{#Property:P166|from={{{item|}}}}}|{{Collapsible conditional list|{{#invoke:Wikidata | claim | property=P166 |qualifier=P585| qualifier2=P1027 |qualifier3=P1686|formatting=table
+              |rowformat = {{((}}Sub-item image{{!}}$0{{!}}P2425{{!}}40x20px{{))}} [[{{((}}#invoke:Wikibase{{!}}label{{!}}$0{{))}}]] $2 $1 $3 |rowsubformat1=<small>&nbsp;($1)</small> |rowsubformat2=: <small>$2</small>|rowsubformat3=: <small>$3</small> | colformat0=raw | colformat2=internallink| separator=<br />}}}}}}
+
+| below = {{#invoke:Wikidata|claim|item={{{item|}}}|property=P856|formatting=weblink|list=false|value={{{web|}}}}}
+{{#if:{{#Property:P2013}}|<br/>}}{{#invoke:Wikidata|claim|item={{{item|}}}|property=P2013|formatting=[[File:Facebook icon 192.png|link=https://www.facebook.com/$1|30px]]|list=false|value={{{facebook|}}}}}{{#invoke:Wikidata|claim|item={{{item|}}}|property=P2002|formatting=[[File:Twitter_Logo.png|link=https://twitter.com/$1|30px]]|list=false|value={{{twitter|}}}}}{{#invoke:Wikidata|claim|item={{{item|}}}|property=P2397|formatting=[[File:Youtube-variation.png|link=https://youtube.com/channel/$1|30px]]|list=false|value={{{youtube|}}}}}{{#invoke:Wikidata|claim|item={{{item|}}}|property=P2003|formatting=[[File:Instagram_logo_2016.svg|link=https://www.instagram.com/$1/|30px]]|list=false|value={{{twitter|}}}}}
+}}<noinclude>Template localization: [[Template:Infobox organization/localize]]
+{{doc}}</noinclude>
