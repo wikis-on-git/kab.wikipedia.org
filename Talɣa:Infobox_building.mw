@@ -24,7 +24,7 @@
 
 |label6 = {{Infobox building/localize|Coordinates}}
 |data6 = {{#if:{{#property:P625|from={{{item|}}}}}|{{cal coor|globe:Earth|region:{{{place}}}_type:landmark|display=inline,title}}}}
-|data7  = {{#if:{{#Property:P625|from={{{item|}}}}}|{{Map draw|width=280|height=250|zoom=13|frameless=s|align=center|geotype2=geoshape|stroke-width2=0.5|fill2=#F5A9A9|opacity2=0.33|title2={{PAGENAME}}|image2={{#invoke:Wikidata | claim | property=P18|formatting=$1}}|geotype3=geomask|ids3={{#invoke:Wikidata|claim|property=P131|formatting=raw|list=false}}|fill-opacity3=0.33|stroke-width3=0.5|fill3=#FFFFE0|title={{PAGENAME}}|image={{#invoke:Wikidata | claim | property=P18|formatting=$1}}|marker-symbol={{Map draw/icon}}|marker-color=#1E90FF|geotype4=geoline|ids4={{#invoke:Wikibase|id}}|stroke-width4=5 | stroke4=#FF0000|latitude={{#invoke:Wikidata|claim|property=P625|formatting=latitude}}|longitude={{#invoke:Wikidata|claim|property=P625|formatting=longitude}}}}}}
+|data7  = {{#if:{{#Property:P625|from={{{item|}}}}}|{{Map draw|width=280|height=250|zoom=13|frameless=s|align=center|geotype2=geoshape|stroke-width2=0.5|fill2=#F5A9A9|opacity2=0.33|title2={{PAGENAME}}|image2={{#invoke:Wikidata | claim | property=P18|formatting=$1}}|geotype3=geomask|ids3={{#invoke:Wikidata|claim|property=P131|formatting=raw|list=false}}|fill-opacity3=0.33|stroke-width3=0.5|fill3=#FFFFE0|title={{PAGENAME}}|image={{#invoke:Wikidata | claim | property=P18|formatting=$1}}|marker-symbol={{Map draw/icon}}|marker-color=#1E90FF|geotype4=geoline|ids4={{#invoke:Wikibase|id}}|stroke-width4=5 | stroke4=#FF0000|latitude={{#invoke:Wikidata|claim|property=P625|formatting=latitude|list=false}}|longitude={{#invoke:Wikidata|claim|property=P625|formatting=longitude|list=false}}}}}}
 |label8 = {{Infobox building/localize|Altitude}}
 |data8 = {{#invoke:Wikidata | claim | property=P2044|formatting =unitcode}}{{#if:{{#Property:P2044|from={{{item|}}}}}|, {{Infobox building/localize|above sea level}}}}
 
@@ -160,7 +160,7 @@
 <!--- Heritage--->
 |header65 = {{#if:{{#Property:P2614|from={{{item|}}}}}{{#Property:P757|from={{{item|}}}}}|{{Infobox building/localize|World Heritage Site}}|{{#if:{{#Property:P1435|from={{{item|}}}}}|{{Infobox building/localize|Heritage}} }}}}
 |label66 = {{Infobox building/localize|Criterion}}
-|data66 = {{#if:{{#Property:P2614|from={{{item|}}}}}|[[Gizateriaren Ondare#Aukeraketa irizpideak|{{#invoke:Wikidata | claim | property=P2614|formatting =label}}]]}}
+|data66 = {{#if:{{#Property:P2614|from={{{item|}}}}}|{{#invoke:Wikidata | claim | property=P2614|formatting =label}}}}
 |label67 = {{Infobox building/localize|Reference}}
 |data67 = {{#invoke:Wikidata | claim | property=P757|formatting=[http://whc.unesco.org/en/list/$1 $1]}}
 |label68 = {{Infobox building/localize|Region}}{{efn-ur|name=fn1|{{Infobox building/localize|According to the UNESCO classification}}}}
