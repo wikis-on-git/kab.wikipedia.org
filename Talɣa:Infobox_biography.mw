@@ -50,7 +50,7 @@ THIS FIRST ROW INSERTS THE POSITIONS HELD BY THE PERSON.
 | label25 = {{Infobox biography/localize|Children}}
 | data25 = {{#if:{{#Property:P40|from={{{item|}}}}}|{{collapsible list|title=view|{{#invoke:Wikidata | claim | property=P40|formatting = internallink|separator=<br />|conjunction=<br />}}}}}}
 | label26 = {{Infobox biography/localize|Siblings}}
-| data26 = {{#if:{{#Property:P3373|from={{{item|}}}}}|{{collapsible list|title=view|{{#invoke:Wikidata | claim | property=P3373|formatting = internallink|separator=<br />|conjunction=<br />}}}}}}
+| data26 = {{#if:{{#Property:P3373|from={{{item|}}}}}|{{#invoke:Wikidata | claim | property=P3373}}}}
 | label27 = {{Infobox biography/localize|Family}}
 | data27 = {{#if:{{#Property:P1038|from={{{item|}}}}}|{{collapsible list|title=view|{{#invoke:Wikidata | claim | property=P1038|qualifier=P1039|formatting = table|rowformat $0 $1|rowsubformat1=<small>$1</small>|colformat0=internallink}}}}}}
 | label28 = {{Infobox biography/localize|Tribe}}
