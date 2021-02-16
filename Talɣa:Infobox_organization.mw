@@ -121,7 +121,7 @@
 | label43 = {{Infobox organization/localize|Spokesman}}
 | data43 = {{{spokesman|}}}
 | label44 = {{Infobox organization/localize|Subdivisions}}
-| data44 = {{#if:{{#Property:P527|from={{{item|}}}}}|{{Collapsible conditional list|{{#invoke:Wikidata|claim|item={{{item|}}}|property=P527|qualifier=P580|qualifier2=P582|formatting=table|rowformat=$0 $1 $2|rowsubformat1=<br/><small>$1 -</small>|rowsubformat2=<small>&nbsp;$2 </small>|colformat0=internallink|separator=<br/>|conjunction=<br/>|tablesort=1/0|value={{{subdivisions|}}}}}}}}}
+| data44 = {{#if:{{#Property:P527|from={{{item|}}}}}|{{Collapsible conditional list|{{#invoke:Wikidata|claim|item={{{item|}}}|property=P527|qualifier=P580|qualifier2=P582|formatting=table|rowformat=$0 $1 $2|rowsubformat1=<br/><small>$1 -</small>|rowsubformat2=<small>&nbsp;$2 </small>|separator=<br/>|conjunction=<br/>|tablesort=1/0|value={{{subdivisions|}}}}}}}}}
 | label45 = {{Infobox organization/localize|Parliamentary group}}
 | data45 = {{#invoke:Wikidata|claim|item={{{item|}}}|property=P4100|value={{{parliamentary_group|}}}}}
 
