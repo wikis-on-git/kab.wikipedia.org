@@ -1,0 +1,162 @@
+<!--
+
+
+
+
+==============================================================
+
+          ATTENTION : NOUVELLE GESTION DU BISTRO
+
+            MERCI DE NE PAS MODIFIER CETTE PAGE 
+
+
+Cette page n'est pas destinée à être éditée pour des raisons autres que la maintenance.
+
+Si vous souhaitez ajouter un message, revenez à la page précédente (Tajmaɛt) et cliquez sur le bouton « Ajouter un message » situé en haut, au centre de la page.
+
+Votre message sera ajouté à une sous-page correspondant à la date du jour (du type « Wikipedia:Tajmaɛt/31 février 2099 ») qui sera automatiquement incluse dans Tajmaɛt.
+
+==============================================================
+
+-->
+Ansuf ɣer '''Tejmaɛt'''. Amḍiq n umeslay ɣef akk ayen yeɛnan Wikipedia.
+{{aɣbar|mois|Wikipedia:Tajmaɛt|2007-1||grille|abréviation}}
+<p class="plainlinks" style="clear:both;font-size:large;text-align:center">[[Image:Crystal Clear action edit add.png|20px]] [{{fullurl:{{NAMESPACE}}:{{BASEPAGENAME}}/{{CURRENTMONTHNAME}} {{CURRENTYEAR}}|action=edit&section=new}} '''Aru tabratt tamaynut''']</p>
+
+<!-- Liste des cinq dernières sous-pages quotidiennes -->
+{{/{{#time:F Y|-1 month+1hours}}}}
+{{/{{#time:F Y|+1hours}}}}
+
+[[Taggayt:Tajmaɛt|*{{PAGENAME}}]]
+<!---
+
+
+    MERCI DE NE RIEN INSCRIRE EN DESSOUS DE CETTE LIGNE,
+    VOTRE CONTRIBUTION SERAIT IMMÉDIATEMENT EFFACÉE
+
+------------------------------------------------------------------------------>
+
+== New notification when a page is connected to Wikidata ==
+
+Hello all,
+
+''({{Int:Please-translate}})''
+
+The Wikidata development team is about to deploy a new feature on all Wikipedias. It is a new type of notification (via Echo, the notification system you see at the top right of your wiki when you are logged in), that will inform the creator of a page, when this page is connected to a Wikidata item.
+
+You may know that [[d:Wikidata:Main page|Wikidata]] provides a centralized system for all the interwikilinks. When a new page is created, it should be connected to the corresponding Wikidata item, by modifying this Wikidata item. With this new notification, editors creating pages will be informed when another editor connects this page to Wikidata.
+
+[[File:Screenshot Echo Wikibase notification.png]]
+
+This feature will be deployed on May 30th on all the Wikipedias, excepting English, French and German. This feature will be disable by default for existing editors, and enabled by default for new editors.
+
+This is the first step of the deployments, the Wikipedias and other Wikimedia projects will follow in the next months.
+
+If you have any question, suggestion, please let me know by pinging me. You can also follow and leave a comment [[phab:T142102|on the Phabricator ticket]].
+
+Thanks go to [[d:user:Matěj Suchánek|Matěj Suchánek]] who developed this feature! 
+
+{{Int:Feedback-thanks-title}} [[:d:User:Lea Lacroix (WMDE)|Lea Lacroix (WMDE)]] ([[:d:User talk:Lea Lacroix (WMDE)|talk]])
+<!-- Message sent by User:Lea Lacroix (WMDE)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=User:Lea_Lacroix_(WMDE)/List_Wikipedias&oldid=16774958 -->
+== [[m:Requests for comment/Global centralnotice for the blockade of the Turkish government]] ==
+Hi, you are invited to participate in the discussion on the proposal to make a banner through [[m: centralnotice]] to inform more people around the world about what the Turkish government has done about Wikipedia, ie all the language versions of Wikipedia are You are obscured, so in Turkey it is impossible to view the * .wikipedia.org site. To hope that the Turkish government will remove the block, it is necessary to raise awareness of this fact around the world because it is important to succeed in this mission because Wikipedia can not be seen in Turkey. With this message also for those interested, I invite him to sign the [[m:Response to 2017 ban in Turkey|Wikimedian appeal]].
+
+If you have any questions or questions do not hesitate to contact me.
+Thanks best regards. --[[User:Samuele2002|<span style="color:#0080C0;">'''Samuele'''2002</span>]] <small>[[User Talk:Samuele2002|'''<font face="Cursive"><font color="#F50">(Talk!)</font></font>''']]</small> 21:11, 28 Mayyu 2017 (UTC)
+
+== Wikidata changes now also appear in enhanced recent changes ==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Hello, and sorry to write this message in English. You can [[mw:User:Lea_Lacroix_(WMDE)/Wikidata_in_enhanced_recent_changes|help translating it]].
+
+Starting from today, you will be able to display Wikidata changes in both modes of the recent changes and the watchlist.
+
+'''[[mw:User:Lea_Lacroix_(WMDE)/Wikidata_in_enhanced_recent_changes|Read and translate the full message]]'''
+
+{{Int:Feedback-thanks-title}} [[user:Lea Lacroix (WMDE)|Lea Lacroix (WMDE)]] 08:33, 29 yunyu 2017 (UTC)
+
+<small>(wrong target page? you can [[m:User:Lea Lacroix (WMDE)/List Wikipedias|fix it here]])</small>
+</div>
+<!-- Message sent by User:Lea Lacroix (WMDE)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=User:Lea_Lacroix_(WMDE)/List_Wikipedias&oldid=16777494 -->
+
+== Improved search in deleted pages archive ==
+
+{{int:please-translate}}
+
+During Wikimedia Hackathon 2016, the [[mw:Wikimedia_Discovery|Discovery]] team [https://phabricator.wikimedia.org/T109561 worked] on one of the items on the 2015 community wishlist, namely [[m:2015_Community_Wishlist_Survey/Search#Provide_a_means_of_searching_for_deleted_pages|enabling searching the archive of deleted pages]]. This feature is now ready for production deployment, and will be enabled on all wikis, except Wikidata. 
+
+Right now, the feature is behind a feature flag - to use it on your wiki, please go to the <code>Special:Undelete</code> page, and add <code>&fuzzy=1</code> to the URL, like this: https://test.wikipedia.org/w/index.php?title=Special%3AUndelete&fuzzy=1. Then search for the pages you're interested in. There should be more results than before, due to using ElasticSearch indexing (via the CirrusSearch extension).
+
+We plan to enable this improved search by default on all wikis soon (around August 1, 2017). If you have any objections to this - please raise them with the Discovery team via [http://mailto:discovery@lists.wikimedia.org email] or on this announcement's discussion page. Like most Mediawiki configuration parameters, the functionality can be configured per wiki. 
+Once the improved search becomes the default, you can still access the old mode using <code>&fuzzy=0</code> in the URL, like this: https://test.wikipedia.org/w/index.php?title=Special%3AUndelete&fuzzy=0
+
+Please note that since Special:Undelete is an admin-only feature, this search capability is also only accessible to wiki admins. 
+
+{{Int:Feedback-thanks-title}}  [[m:User:CKoerner (WMF)|CKoerner (WMF)]] ([[m:User talk:CKoerner (WMF)|talk]]) 18:40, 25 yulyu 2017 (UTC)
+<!-- Message sent by User:CKoerner (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=User:CKoerner_(WMF)/Archive_search_announce/Distribution_list&oldid=17036927 -->
+
+== Galicia 15 - 15 Challenge ==
+<center>[[File:Mapa de Galiza con bandeira.svg|100px]]</center>
+'''[[:w:en:Wikipedia:Galicia 15 - 15 Challenge|Wikipedia:Galicia 15 - 15 Challenge]]''' is a public writing competition which will improve improve and translate this list of 15 really important articles into as many languages as possible. Everybody can help in any language to collaborate on writing and/or translating articles related to Galicia. To participate you just need to sign up [[:en:Wikipedia:Galicia 15 - 15 Challenge/Participants|here]]. Thank you very much.--[[Amseqdac:Breogan2008|Breogan2008]] ([[Amyannan umsqedac:Breogan2008|asqerdec]]) 14:13, 12 Meɣres 2018 (UTC)
+
+== Wikidata Bridge: edit Wikidata’s data from Wikipedia infoboxes ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+''Sorry for writing this message in English - feel free to help us translating it :)''
+
+Hello all,
+
+Many language versions of Wikipedia use the content of [[Wikidata]], the centralized knowledge base, to fill out the content of infoboxes. The data is stored in Wikidata and displayed, partially or completely, in the Wikipedia’s language, on the articles.
+This feature is used by many template editors, but brought several issues that were raised by communities in various places: not being able to edit the data directly from Wikipedia was one of them.
+
+This is the reason why the '''[[mw:Wikidata Bridge|Wikidata Bridge]]''' project started, with the goal of offering a way to Wikipedia editors to edit Wikidata’s data more easily. This will be achieved by an interface, connected to the infobox, that users can access directly from their local wiki. 
+
+The project is now at an early stage of development. A lot of [[mw:Wikidata_Bridge/Research|user research]] has been done, and will continue to be done through the different phases of the project. The next steps of [[mw:Wikidata_Bridge/Development|development]] will be achieved by the development team working at Wikimedia Deutschland, starting now until the end of 2019.
+
+In order to make sure that we’re building a tool that is answering editors’ needs, we’re using agile methods in our development process. We don’t start with a fixed idea of the tool we want to deliver: we will build it together with the editors, based on feedback loops that we will regularly organize. The first version will not necessarily have all of the features you want, but it will keep evolving.
+
+Here’s the planned timeline:
+* From June to August, we will build the setup and technical groundwork. 
+* From September to November 2019, we will develop the first version of the feature and publish a test system so you can try it and give feedback. 
+* Later on, we will test the feature on a few projects, in collaboration with the communities. 
+** We will first focus on early adopters communities who already implemented a shortcut from their infoboxes to edit Wikidata (for example Russian, Catalan, Basque Wikipedias)
+** but we also welcome also communities who [[mw:Wikidata_Bridge/Get_involved|volunteer to be part of the first test round]]. 
+** Then we will reach some of the big Wikipedias (French, German, English) in order to see if the project scales and to address their potentially different needs. 
+** Even later, we can consider enabling the feature on all the other projects. 
+In any case, no deployment or big change will be enforced on the projects without talking to the communities first, and helping the template builders to prepare for the changes they will have to do on the infoboxes’ code.
+
+If you want to get involved, there are several ways to help:
+* Read and help translating [[mw:Wikidata_Bridge|the documentation pages]]
+* Follow the [[mw:Wikidata_Bridge/Updates|updates]] and participate in [[mw:Topic:V1x2lxtu8rgi954a|the first feedback loop]]
+* Talk about it with your local community
+More ideas will be added [[mw:Wikidata_Bridge/Get_involved|on this page]] along the way
+
+If you have any questions for the development team, feel free to ask them [[mw:Talk:Wikidata_Bridge|on the main talk page]]. You can also ask under this message, but if you expect an answer from me, please make sure to ping me.
+
+Thanks for your attention, [[:d:User:Lea Lacroix (WMDE)|Lea Lacroix (WMDE)]] 13:03, 24 Yunyu 2019 (UTC)
+</div>
+<!-- Message sent by User:Lea Lacroix (WMDE)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=User:Lea_Lacroix_(WMDE)/List_Wikipedias&oldid=19168539 -->
+
+== Proposal: Set two-letter project shortcuts as alias to project namespace globally ==
+
+<div lang="en" dir="ltr">
+{{int:please-translate}}
+
+Hello everyone,
+
+I apologize for posting in English. I would like to inform everyone that I created a new global request for comment (GRFC) at Meta Wiki, which may affect your project: [[:m:Requests for comment/Set short project namespace aliases by default globally]].
+
+In this GRFC, I propose that two-project shortcuts for project names will become a default alias for the project namespace. For instance, on all Wikipedias, WP will be an alias to the Wikipedia: namespace (and similar for other projects). Full list is available in the GRFC.
+
+This is already the case for Wikivoyages, and many individual projects asked for this alias to be implemented. I believe this makes it easier to access the materials in the project namespace, as well as creating shortcuts like <tt>WP:NPOV</tt>, as well as helps new projects to use this feature, without having to figure out how to request site configuration changes first.
+
+As far as I can see, {{SITENAME}} currently does not have such an alias set. This means that such an alias will be set for you, if the GRFC is accepted by the global community.
+
+I would like to ask all community members to participate in the request for comment at Meta-Wiki, see [[:m:Requests for comment/Set short project namespace aliases by default globally]].
+
+Please feel free to [[:m:User talk:Martin Urbanec|ask me]] if you have any questions about this proposal.
+
+Best regards,<br />
+--[[:m:User:Martin Urbanec|Martin Urbanec]] ([[:m:User talk:Martin Urbanec|talk]]) 18 Fuṛaṛ 2021 à 14:12 (UTC)
+</div>
+<!-- Message envoyé par User:Martin Urbanec@metawiki en utilisant la liste à https://meta.wikimedia.org/w/index.php?title=User:Martin_Urbanec/MassMessage&oldid=21125035 -->
