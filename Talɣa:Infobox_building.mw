@@ -68,7 +68,7 @@
 |label28 = {{Infobox building/localize|Material(s)}}
 |data28 = {{#invoke:Wikidata | claim | property=P186|formatting = internallink|case=singularra}}
 |label29 = {{Infobox building/localize|Color}}
-|data29 = {{#if:{{#Property:P462|from={{{item|}}}}}|{{legenda|#{{#invoke:Wikidata|claim|item={{#invoke:Wikidata | claim | property=P462|formatting = raw|list=false}}|property=P465|formatting=label|list=false}}|{{#invoke:Wikidata | claim | property=P462|formatting = internallink}}|ertza=grey}}}}
+|data29 = {{#if:{{#Property:P462|from={{{item|}}}}}|{{Boxed text|#{{#invoke:Wikidata|claim|item={{#invoke:Wikidata | claim | property=P462|formatting = raw|list=false}}|property=P465|formatting=label|list=false}}|{{#invoke:Wikidata | claim | property=P462|formatting = internallink}}|border=grey}}}}
 |label30 = {{Infobox building/localize|Style}}
 |data30 = {{#invoke:Wikidata | claim | property=P149|formatting = internallink|case=singularra|separator=<br />|conjunction=<br />}}
 
