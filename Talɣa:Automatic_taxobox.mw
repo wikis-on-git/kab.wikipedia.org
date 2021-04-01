@@ -1,0 +1,199 @@
+<includeonly>{{Infobox
+|bodystyle= width: 220px;
+|above =  {{{name|{{#ifeq:{{#invoke:Wikidata|claim|property=P225|item={{{item|}}}|formatting=label}}|{{PAGENAME}}|{{Automatic taxobox/Italic|{{#invoke:Wikidata | claim | property=P105 |value={{{taxon category|}}} | item={{{item|}}} | formatting=raw |case=singular|list = false }} }}|{{PAGENAME}} }} }}}
+
+|abovestyle = background-color:{{{color|{{#switch:{{{family color|{{#invoke:Wikidata | getParentValues | property=P171 | label=P105 | uptolabelid=Q36732 | showlabelid=Q36732 | item={{{item|}}} |rowformat=$1 | formatting=raw }}  }}}
+| animalia | Q729 = rgb(235,235,210); 
+| plantae | Q756 = rgb(180,250,180);
+| fungi | Q764 = rgb(145,250,250);
+| <!-- Chromalveolate --> Q477950 | <!-- Heterokont--> Q461622 | <!-- Ochrophyta --> Q1048772 = rgb(200,250,80);
+|<!--opisthokont--> Q129021|<!--Choanozoa-->Q1205126 = rgb(238,235,195);
+|<!--Rhizaria -->Q855740|<!-- Chromista-->Q862296 = rgb(240,230,240);
+|<!-- Excavata -->Q691551 = rgb(250,250,100);
+|<!--Eukaryote -->Q19088 |<!-- protist-->Q10892 = rgb(245,215,255);
+|Amoebozoa|  <!-- Amoebozoa--> Q473809 = rgb(170,250,205);
+|<!--Bacteria--> Q473809 |<!-- Firmicutes--> Q149075| <!-- prokaryotes-->Q19081 = rgb(220,235,245);
+|Archaea| <!-- Archaea--> Q10872 = rgb(195,245,250);
+|incertae sedis = rgb(250,240,230);
+|Virus|virus| <!-- virus --> Q808|i|ii|iii|iv|v|vi|vii|viii = rgb(250,250,190);
+|#default = white;}}}}}
+|headerstyle = background-color:{{{color|{{#switch:{{{family color|{{#invoke:Wikidata | getParentValues | property=P171 | label=P105 | uptolabelid=Q36732 | showlabelid=Q36732 | item={{{item|}}} |rowformat=$1 | formatting=raw  }}  }}}
+| animalia | Q729 = rgb(235,235,210);  
+| plantae | Q756 = rgb(180,250,180);
+| fungi | Q764 = rgb(145,250,250);
+|<!-- Chromalveolate --> Q477950 | <!-- Heterokont--> Q461622| <!-- Ochrophyta --> Q1048772 = rgb(200,250,80);
+|<!--opisthokont-->Q129021|<!--Choanozoa-->Q1205126 = rgb(238,235,195);
+|<!--Rhizaria -->Q855740|<!-- Chromista-->Q862296= rgb(240,230,240);
+|<!-- Excavata -->Q691551 = rgb(250,250,100);
+|<!--Eukaryote -->Q19088 |<!-- protist-->Q10892 = rgb(245,215,255);
+|Amoebozoa|<!-- Amoebozoa-->Q473809 = rgb(170,250,205);
+|<!--Bacteria--> Q473809 = rgb(220,235,245);
+|Archaea| <!-- Archaea--> Q10872 = rgb(195,245,250);
+|incertae sedis = rgb(250,240,230);
+|Virus|virus| <!-- virus -->Q808|i|ii|iii|iv|v|vi|vii|viii = rgb(250,250,190);
+|#default = white;}}}}}
+<!--
+|subheader = {{{fossil range|{{#if:{{#property:P523|from={{{item|}}}}}{{#property:P524|from={{{item|}}}}}|{{#ifeq:{{#invoke:Wikidata|claim|property=P523|item={{{item|}}}|formatting=label}}|{{#invoke:Wikidata|claim|property=P524|item={{{item|}}}|formatting=label}}|{{fossil range|{{#invoke:Wikidata|claim|property=P523|item={{{item|}}}|formatting=label}}}}|{{fossil range|{{#invoke:Wikidata|claim|property=P523|item={{{item|}}}|formatting=label}}|{{#invoke:Wikidata|claim|property=P524|item={{{item|}}}|formatting=label}}}}}}}}}}}
+-->
+|subheader = {{{fossil range|}}}
+|image = {{#if:{{{image|}}}|[[File:{{{image|}}}|220px]]|{{#if:{{#Property:P10|from={{{item|}}}}}|{{#invoke:Wikidata|claim|property=P10|formatting=[[File:$1|220px]]|item={{{item|}}}|list=false}}|{{#invoke:Wikidata|claim|property=P18|formatting=[[File:$1|220px]]|item={{{item|}}}|list=false}}}}}}
+
+|caption = {{{image caption|{{{caption|}}}}}}
+
+|image2 = {{#if:{{{image2|}}}|[[File:{{{image2|}}}|220px]]|{{#if:{{#property:P51|from={{{item|}}}}}|{{#invoke:Wikidata|claim|property=P51|formatting=[[File:$1|220px]]|item={{{item|}}}|list=false}}}}}}
+
+|caption2 = {{{image caption|{{{caption2|}}} }}}
+
+
+|header1 = {{#if:{{#Property:P141|from={{{item|}}} }}|{{Automatic taxobox/localize|Conservation status}} }}
+|data2 = {{#if:{{#Property:P141|from={{{item|}}} }}|{{Automatic taxobox/status|
+{{{status system|{{{status_system|{{#if:{{#invoke:Wikidata | claim | property=P141 | formatting=raw|item={{{item|}}}}}|IUCN3.1}}}}} }}}|
+{{{status|
+{{#switch:{{#invoke:Wikidata|claim|property=P141|formatting=raw|item={{{item|}}} }}
+|<!--least concern -->Q211005= LC
+|<!--near threatened -->Q719675= NT
+|<!--vulnerable-->Q278113= VU
+|<!--endangered species-->Q11394= EN
+|<!--critically endangered -->|Q219127= CR
+|<!--extinct in the Wild -->Q239509= EW
+|<!--extinct -->Q237350= EX
+|<!--data deficient -->Q3245245= DD
+}}
+}}}
+| {{{status ref|{{{status_ref|{{#if:{{#invoke:Wikidata | claim | property=P141 | formatting=raw|item={{{item|}}}}}}}}}}}}}|extinct={{{extinct|}}} }} }}
+
+|header10 = {{Automatic taxobox/localize|Scientific classification}}
+|data11 =
+{{#invoke:Wikidata | getParentValues | item={{{item|}}} | property=P171 | label=P105 | valuetext=P225|uptolabelid=
+<!--
+------>{{#switch:{{#invoke:Wikidata|claim|property=P105|formatting=raw|item={{{item|}}} }} 
+         | Q36732 <!--kingdom--> | Q38348 <!--phylum--> = Q22666877 <!--superdomain-->
+         | #default = Q36732 <!--kingdom -->
+       }}<!--
+---->
+ | sorting=-1|separator=</td></tr>|rowformat={{((}}Automatic taxobox/Taxon format{{!}}$0{{))}}$1|showlabelid =<!--
+------>{{#switch:{{#invoke:Wikidata|claim|property=P105|formatting=raw|item={{{item|{{{taxon|}}}}}} }} 
+     <!--| kingdom = superdomain/domain/superkingdom/{{{taxon|}}}/{{{taxon2|}}} -->
+         | Q36732 = Q22666877 Q146481 Q19858692 {{{taxon|}}} {{{taxon2|}}}
+     <!--| phylum = superkingdom/kingdom/subkingdom/superphylum/{{{taxon|}}}/{{{taxon2|}}} -->
+         | Q38348 =Q19858692 Q36732 Q2752679 Q3978005 {{{taxon|}}} {{{taxon2|}}}
+     <!--| class = superkingdom/kingdom/subkingdom/phylum/subphylum/superclass/{{{taxon|}}}/{{{taxon2|}}} -->
+         | Q37517 =Q19858692 Q36732 Q2752679 Q38348 Q1153785 Q3504061 {{{taxon|}}} {{{taxon2|}}}
+     <!--| subclass = kingdom/subkingdom/phylum/subphylum/superclass/{{{taxon|}}}/{{{taxon2|}}} -->
+         | Q5867051 =Q36732 Q2752679 Q38348 Q1153785 Q3504061 {{{taxon|}}} {{{taxon2|}}}
+     <!--| order = kingdom/subkingdom/phylum/class/superorder/{{{taxon|}}}/{{{taxon2|}}} -->
+         | Q36602 =Q36732 Q2752679 Q38348 Q37517 Q5868144 {{{taxon|}}} {{{taxon2|}}}
+     <!--| family = kingdom/phylum/order/class/superfamily/{{{taxon|}}}/{{{taxon2|}}} -->
+         | Q35409 = Q36732 Q38348 Q36602 Q37517 Q2136103 {{{taxon|}}} {{{taxon2|}}}
+     <!--| tribe = kingdom/phylum/order/class/superfamily/family/subfamily/{{{taxon|}}}/{{{taxon2|}}} -->
+         | Q227936 = Q36732 Q38348 Q36602 Q37517 Q2136103 Q35409 Q164280 {{{taxon|}}} {{{taxon2|}}}
+     <!--| genus = kingdom/phylum/order/class/family/subfamily/genus/{{{taxon|}}}/{{{taxon2|}}} -->
+         | Q34740 =Q36732 Q38348 Q36602 Q37517 Q35409 Q164280 Q34740 {{{taxon|}}} {{{taxon2|}}}
+     <!--| species = kingdom/phylum/order/class/family/genus/tribe/{{{taxon|}}}/{{{taxon2|}}} -->
+         | Q7432 = Q36732 Q38348 Q36602 Q37517 Q35409 Q34740 Q227936 {{{taxon|}}} {{{taxon2|}}}
+         | no value | {{Automatic taxobox/localize|no value}} =
+     <!--| #default = subdomain/kingdom/phylum/order/class/family/genus/species/subspecies/{{{taxon|}}}/{{{taxon2|}}} -->
+         | #default = Q3491996 Q36732 Q38348 Q36602 Q37517 Q35409 Q34740 Q7432 Q68947 {{{taxon|}}} {{{taxon2|}}}
+       }}
+   }}
+</td></tr>
+{{Automatic taxobox/Taxon format|{{#invoke:Wikidata | claim | property=P105 |value={{{taxon category|}}} | item={{{item|}}} | formatting=label |case=singular|list = false}} }} <!---
+--->{{#invoke:Wikidata | claim | property=P225 |formatting='''$1'''|value={{{binomiala|}}} | item={{{item|}}} }}<!---
+--->{{#if:{{{authority|}}}|<br /><div style="font-style: normal; font-variant:small-caps;">{{{authority|}}}</div>|<br /><div style="font-style: normal; font-variant:small-caps;">{{Automatic taxobox/authority|item={{{item|}}} }}</div>}}
+</td></tr>
+
+|header15 = {{#if:{{{subdivision ranks|}}}|{{{subdivision ranks|}}}|{{#if:{{{subdivision|}}}|{{Automatic taxobox/localize|Subdivision}} }}}}
+|data16 = {{#if:{{{subdivision|}}}|<div style="text-align: left;">{{plainlist|{{{subdivision|}}}}}</div>}}
+
+|header18 = {{#if:{{{synonyms|}}}|{{Automatic taxobox/localize|Synonyms}} }}
+|data19 = {{{synonyms|}}}
+
+|header20 = {{#if:{{#property:P181|from={{{item|}}}}}|{{Automatic taxobox/localize|Geographic distribution}} }}
+|data21 = {{#invoke:Wikidata|claim|property=P181|item={{{item|}}}|formatting=[[File:$1|220px]]|value={{{distribution map|}}}}}
+
+|header30 = {{#if:{{{movement|}}}{{#property:P3512| from={{{item|}}} }}
+                  {{{pregnancy|}}}{{#property:P3063| from={{{item|}}} }}
+                  {{{taxon_color|}}}{{#property:P462| from={{{item|}}} }}
+                  {{{source_of_food|}}}{{#property:P1034| from={{{item|}}} }}
+                  {{{source|}}}{{#property:P1672| from={{{item|}}} }}
+                  {{{bite force quotient|}}}{{#property:P3485| from={{{item|}}} }}
+                  {{{life expectancy|}}}{{#property:P2250| from={{{item|}}} }}
+                  {{{habitat|}}}{{#property:P2974| from={{{item|}}} }}
+                  {{{host|}}}{{#property:P2975| from={{{item|}}} }}
+                  {{{sorrera denbora|}}}{{#property:P3337| from={{{item|}}} }} <!-- unused? -->
+                  {{{length|}}}{{#property:P2043| from={{{item|}}} }}
+                  {{{height|}}}{{#property:P2048| from={{{item|}}} }}
+                  {{{mass|}}}{{#property:P2067| from={{{item|}}} }}
+                  {{{width|}}}{{#property:P2050| from={{{item|}}} }}
+                  {{{heart rate|}}}{{#property:P3395| from={{{item|}}} }}
+                  {{{respiratory rate|}}}{{#property:P3486| from={{{item|}}} }}
+                  {{{discoverer|{{#property:P61| from={{{item|}}}}}}}}
+                  {{{illnesss|{{#property:P1542| from={{{item|}}}}}}}}
+                  {{{gram|{{#property:P2597| from={{{item|}}}}}}}}
+                  {{{ploidia|}}}{{#property:P1349| from={{{item|}}} }}
+                  {{{genome size|}}}{{#property:P2143| from={{{item|}}} }}
+                  {{{minimum audible sound|}}}{{#property:P3387| from={{{item|}}} }}
+                  {{{maximum audible sound|}}}{{#property:P3465| from={{{item|}}} }}
+                  | {{Automatic taxobox/localize|General information}} }}
+
+| label31  = {{Automatic taxobox/localize|Movement}}
+| data31   = {{#invoke:Wikidata | claim | property=P3512 |value={{{movement|}}} | item={{{item|}}} }}
+| label32  = {{Automatic taxobox/localize|Pregnancy}}
+| data32   = {{#invoke:Wikidata | claim | property=P3063 |value={{{pregnancy|}}} | item={{{item|}}} | formatting=unit }}
+| label33 =  {{Automatic taxobox/localize|Color}}
+| data33  = {{#invoke:Wikidata | claim | property=P462 |value={{{taxon_color|}}} | item={{{item|}}} }}
+| label34 = {{Automatic taxobox/localize|Main source of food}}
+| data34  = {{#invoke:Wikidata | claim | property=P1034 |value={{{source_of_food|}}} | item={{{item|}}} }}
+| label35 = {{Automatic taxobox/localize|Source}}
+| data35  = {{#invoke:Wikidata | claim | property=P1672 |value={{{source|}}} | item={{{item|}}} }}
+| label36 = {{Automatic taxobox/localize|Life expectancy}}
+| data36  = {{#invoke:Wikidata | claim | property=P2250 |value={{{life expectancy|}}} | item={{{item|}}} | formatting=unit }}
+| label37 = {{Automatic taxobox/localize|Habitat}}
+| data37  = {{#invoke:Wikidata | claim | property=P2974 |value={{{habitat|}}} | item={{{item|}}} }}
+| label38 = {{Automatic taxobox/localize|Host}}
+| data38  = {{#invoke:Wikidata | claim | property=P2975 |value={{{host|}}} | item={{{item|}}} }}
+| label39 = Sorrera denbora <!-- creation time -->
+| data39  = {{#invoke:Wikidata | claim | property=P3337 |value={{{sorrera denbora|}}} | item={{{item|}}} | formatting=unit }}
+| label40 = {{Automatic taxobox/localize|Length}}
+| data40  = {{#invoke:Wikidata | claim | property=P2043 |value={{{length|}}} | item={{{item|}}} | formatting=unitcode }}
+| label41 = {{Automatic taxobox/localize|Height}}
+| data41  = {{#invoke:Wikidata | claim | property=P2048 |value={{{height|}}} | item={{{item|}}} | formatting=unitcode }}
+| label42 = {{Automatic taxobox/localize|Mass}}
+| data42  = {{#invoke:Wikidata | claim | property=P2067 |value={{{mass|}}} | item={{{item|}}} | formatting=unitcode }}
+| label43 = {{Automatic taxobox/localize|Width}}
+| data43  = {{#invoke:Wikidata | claim | property=P2050 |value={{{width|}}} | item={{{item|}}} | formatting=unitcode }}
+| label44 = {{Automatic taxobox/localize|Heart rate}}
+| data44  = {{#invoke:Wikidata | claim | property=P3395 |value={{{heart rate|}}} | item={{{item|}}} | formatting=unit | separator = &nbsp;—&nbsp;|conjunction=&nbsp;—&nbsp;}}
+| label45 = {{Automatic taxobox/localize|Respiratory rate}}
+| data45  = {{#invoke:Wikidata | claim | property=P3486 |value={{{respiratory rate|}}} | item={{{item|}}} | formatting=unitcode | separator = &nbsp;—&nbsp;|conjunction=&nbsp;—&nbsp;}}
+| label46 = {{Automatic taxobox/localize|Bite force quotient}} 
+| data46  = {{#invoke:Wikidata | claim | property=P3485 |value={{{bite force quotient|}}} | item={{{item|}}} | formatting=unit | separator = &nbsp;—&nbsp;|conjunction=&nbsp;—&nbsp;}}
+| label47 = {{Automatic taxobox/localize|Audible frequency range}}
+| data47  = {{#invoke:Wikidata | claim | property=P3387 |value={{{minimum audible sound|}}} | item={{{item|}}} | formatting=unit | separator = &nbsp;—&nbsp;|conjunction=&nbsp;—&nbsp;}}{{#if:{{#Property:P3465|from={{{item|}}}}}|&nbsp;—&nbsp;}}{{#invoke:Wikidata | claim | property=P3465 |value={{{maximum audible sound|}}} | item={{{item|}}} | formatting=unit | separator = &nbsp;—&nbsp;|conjunction=&nbsp;—&nbsp;}}
+
+| label50 = {{Automatic taxobox/localize|Discoverer}}
+| data50  = {{#invoke:Wikidata | claim | property=P61 |value={{{discoverer|}}} | item={{{item|}}} }}
+| label51 = {{Automatic taxobox/localize|Illnesss}}
+| data51  = {{#ifeq:{{#invoke:Wikidata | claim | property=P1542 |value={{{illnesss|}}} | item={{{item|}}} | formatting=raw }} |Q16686448|
+                    | {{#invoke:Wikidata | claim | property=P1542 |value={{{illnesss|}}} | item={{{item|}}} | formatting = internallink | case = singular}}
+            }}
+| label52 = {{Automatic taxobox/localize|Gram stain}}
+| data52  = {{#invoke:Wikidata | claim | property=P2597 |value={{{gram|}}} | item={{{item|}}} }}
+| label53 = {{Automatic taxobox/localize|Ploidy}}
+| data53  = {{#invoke:Wikidata | claim | property=P1349 |value={{{ploidia|}}} | item={{{item|}}} }}
+| label54 = {{Automatic taxobox/localize|Genome size}}
+| data54  = {{#invoke:Wikidata | claim | property=P2143 |value={{{genome size|}}} | item={{{item|}}} }}
+
+| header60 = {{#if:{{{egg|}}}|{{Automatic taxobox/localize|Egg}} }}
+| data61 = {{#if:{{{egg|}}}|[[File:{{{egg|}}}|220px]]}}
+
+<!--
+| header70 = {{#if:{{#Property:P783}}{{#Property:P784}}{{#Property:P785}}{{#Property:P786}}{{#Property:P787}}{{#Property:P788}}{{#Property:P789}}{{{footer|{{{mushroom|}}}}}}|{{Automatic taxobox/localize|Mycology}} }}
+| data71 = {{#if:{{{footer|{{{mushroom|}}}}}}|{{{footer|{{{mushroom|}}}}}}|{{#if:{{#Property:P783}}{{#Property:P784}}{{#Property:P785}}{{#Property:P786}}{{#Property:P787}}{{#Property:P788}}{{#Property:P789}}|{{Mycomorphbox|}}}}}} -->
+
+| below = {{{notes|}}}
+}}{{#if:{{{item|}}}|<!-- do nothing -->|{{#switch:{{#invoke:Wikidata|claim|property=P31|formatting=raw|list=false }} |Q16521 <!--taxon-->|Q713623<!--clade-->|Q23038290<!--fossil taxon-->|Q310890<!--monotypic taxon--> = <!-- do nothing --> | #default =[[Category:{{Automatic taxobox/localize|Missing taxon in Wikidata}}]] }} }}</includeonly>
+<noinclude>
+Template localization: [[Template:Automatic taxobox/localize]]
+[[Taggayt:Talɣiwin n Wikipedia]]
+</noinclude>
