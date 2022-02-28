@@ -1,0 +1,122 @@
+<!--Intial version: eu:Template:astronomia infotaula-->
+<includeonly>{{Infobox
+|above = {{{name|{{PAGENAMEBASE}}}}} {{#if:{{{symbol|}}}|[[File:{{{symbol}}}|24px]]|{{#invoke:Wikidata|claim|property=P367|formatting=&nbsp;[[File:$1|18px]]|item={{{item|}}} }} }}
+|abovestyle = background-color: #FCC857;
+|headerstyle = background-color: #FCC857;
+|image = {{#if:{{{image|}}}|[[File:{{{image}}}|285px]]|{{#invoke:Wikidata|claim|property=P18|formatting=[[File:$1|285px]]|item={{{item|}}}|list=false}}}}
+|caption = {{#invoke:Wikidata|claim|property=P373|formatting=[[File:Commons-logo.svg|10px|link=[[c:Category:$1]]]] }}
+|header1 = {{#if:{{#property:P2583|from={{{item|}}}}}{{#property:P1215|from={{{item|}}}}}{{#property:P1457|from={{{item|}}}}}{{#property:P215|from={{{item|}}}}}{{#property:P2227|from={{{item|}}}}}{{#property:P61|from={{{item|}}}}}{{#property:P397|from={{{item|}}}}}{{#property:P275|from={{{item|}}}}}{{#property:P1090|from={{{item|}}}}}{{#property:P223|from={{{item|}}}}}{{#property:P59|from={{{item|}}}}}{{{angular diameter|}}}{{{satellites|}}}|{{GetLabelFix|Q193181}}}}
+|label2 = {{GetLabelFix|P2583}} <!-- Distance from Earth -->
+|data2 = {{#invoke:Wikidata|claim|property=P2583|formatting=unitcode|value={{{distance|}}}|item={{{item|}}}}}
+|label3 = {{GetLabelFix|Q124313|linked=true}} <!-- apparent magnitude -->
+|data3 = {{#invoke:Wikidata|claim|property=P1215|value={{{apparent_magnitude|}}}|item={{{item|}}}}}
+|label4 = {{GetLabelFix|Q159653|linked=true}} <!--absolute magnitude -->
+|data4 = {{#invoke:Wikidata|claim|property=P1457|value={{{absolute magnitude|}}}|item={{{item|}}}}}
+|label5 = {{GetLabelFix|Q179600|linked=true}} <!-- spectral class -->
+|data5 = {{#invoke:Wikidata|claim|property=P215|value={{{spectral class|}}}|item={{{item|}}}}}
+|label6 ={{GetLabelFix|Q217030|linked=true}} <!--  metallicity  -->
+|data6 = {{#invoke:Wikidata|claim|property=P2227|value={{{metallicity|}}}|item={{{item|}}}}}
+|label7 ={{GetLabelFix|XXXX}} <!-- [[angular diameter]]  -->
+|data7 = {{{angular diameter|}}}
+|label8 = {{GetLabelFix|P397}} <!-- parent astronomical body -->
+|data8 = {{#invoke:Wikidata|claim|property=P397|formatting=internallink|value={{{parent-body|}}}|item={{{item|}}}}}
+|label9 ={{GetLabelFix|XXXX}} <!-- Satelite kopurua -->
+|data9 = {{{satellites|}}}
+|label10 = {{GetLabelFix|Q1344452}} <!-- Discoverer -->
+|data10 = {{#invoke:Wikidata|claim|property=P61|formatting=internallink|value={{{discoverer|}}}|item={{{item|}}}}}
+|label11 = {{GetLabelFix|P575}}<!-- Date of discovery -->
+|data11 = {{#if:{{{date of discovery|}}}|{{{date of discovery}}}|{{#if:{{#property:P575|from={{{item|}}}}}|{{Start date|{{#invoke:Wikidata|claim|property=P575|formatting=Y|item={{{item|}}}|list=false}}|{{#invoke:Wikidata|claim|property=P575|formatting=n|item={{{item|}}}|list=false}}|{{#invoke:Wikidata|claim|property=P575|formatting=j|item={{{item|}}}|list=false}}}}}}}}
+|label12 ={{GetLabelFix|P65}}  <!--site of astronomical discovery  -->
+|data12 = {{#invoke:Wikidata|claim|property=P65|formatting=internallink|value={{{discovery site|}}}|item={{{item|}}}}}
+|label13 = {{GetLabelFix|Q2332332}} <!-- minor-planet group  -->
+|data13 = {{#invoke:Wikidata|claim|property=P196|formatting=internallink|value={{{planet group|}}}|item={{{item|}}}}}
+|label15 = {{GetLabelFix|P138}} <!-- named after -->
+|data15 = {{#invoke:Wikidata|claim|property=P138|formatting=internallink|value={{{named after|}}}|item={{{item|}}}}}
+|label16 = {{GetLabelFix|Q76250|linked=true}} <!-- redshift -->
+|data16 = {{#invoke:Wikidata|claim|property=P1090|value={{{redshift|}}}|item={{{item|}}}}}
+|label17 = {{GetLabelFix|Q13582682}} <!--galaxy morphological classification  -->
+|data17 = {{#invoke:Wikidata|claim|property=P223|value={{{classification|}}}|item={{{item|}}}}}
+|label18 = {{GetLabelFix|Q8928}} <!-- constellation -->
+|data18 = {{#invoke:Wikidata|claim|property=P59|value={{{constellation|}}}|item={{{item|}}}}}
+|label19 = {{GetLabelFix|Q240105}}<!-- radial velocity  -->
+|data19 = {{#invoke:Wikidata|claim|property=P2216|formatting=unitcode|value={{{radial velocity|}}}|item={{{item|}}}}}
+|data20 = {{#if:{{#Property:P716}}|[https://ssd.jpl.nasa.gov/sbdb.cgi?sstr={{#invoke:Wikidata|claim|property=P716|formatting=raw|item={{{item|}}}}};old=0;orb=1;cov=0;log=0;cad=0#orb '''{{GetLabelFix|Q4026990}}''']}} <!-- !!!! -->
+
+
+
+|header30= {{#if:{{{epoch|}}}{{#Property:P2243|from={{{item|}}}}}{{#Property:P2244|from={{{item|}}}}}{{#Property:P2233|from={{{item|}}}}}{{#Property:P1096|from={{{item|}}}}}{{#Property:P2146|from={{{item|}}}}}{{#Property:P4341|from={{{item|}}}}}{{#Property:P2052|from={{{item|}}}}}{{#Property:P2325|from={{{item|}}}}}{{#Property:P2045|from={{{item|}}}}}{{#Property:P2213|from={{{item|}}}}}{{#Property:P2248|from={{{item|}}}}}| {{GetLabelFix|Q4130}} <!--Orbital characteristics-->}}
+|data31 = {{{epoch|}}}
+|label32 = {{GetLabelFix|Q2858363|linked=true}} <!--[[Apoapsis]]  --> 
+|data32 = {{#invoke:Wikidata|claim|property=P2243|formatting=unitcode|value={{{apoapsis|}}}|item={{{item|}}}|separator=<br />|conjunction=<br />}}
+|label33 = {{GetLabelFix|Q1088950|linked=true}} <!-- [[Periapsis]] -->
+|data33 = {{#invoke:Wikidata|claim|property=P2244|formatting=unitcode|value={{{periapsis|}}}|item={{{item|}}}|separator=<br />|conjunction=<br />}}
+|label34 = {{GetLabelFix|Q78148275|linked=true}} <!--semi-major axis of an orbit  -->
+|data34 = {{#invoke:Wikidata|claim|property=P2233|formatting=unitcode|value={{{axis|}}}|item={{{item|}}}|separator=<br />|conjunction=<br />}}
+|label35 = {{GetLabelFix|Q208474|linked=true}} <!--orbital eccentricity -->
+|data35 = {{#invoke:Wikidata|claim|property=P1096|value={{{eccentricity|}}}|item={{{item|}}}|list=false}}
+|label36 =  {{GetLabelFix|Q37640|linked=true}}<!-- orbital period -->
+|data36 = {{#invoke:Wikidata|claim|property=P2146|formatting=unit|value={{{orbital period|}}}|item={{{item|}}}}}
+|label37 = {{GetLabelFix|Q523236|linked=true}}<!--synodic period -->
+|data37 = {{#invoke:Wikidata|claim|property=P4341|formatting=unit|value={{{synodic period|}}}|item={{{item|}}}}}
+|label38 = {{GetLabelFix|Q200924|linked=true}}<!--orbital speed  -->
+|data38 = {{#invoke:Wikidata|claim|property=P2052|formatting=unitcode|value={{{orbital speed|}}}|item={{{item|}}}}}
+|label39 ={{GetLabelFix|Q216715|linked=true}} <!--  [[mean anomaly]] -->
+|data39 = {{#invoke:Wikidata|claim|property=P2325|formatting=unitcode|value={{{mean anomaly|}}}|item={{{item|}}}}}
+|label40 ={{GetLabelFix|Q4112212|linked=true}}  <!--[[orbital inclination]]  -->
+|data40 = {{#invoke:Wikidata|claim|property=P2045|formatting=unitcode|value={{{inclination|}}}|item={{{item|}}}|separator=<br />|conjunction=<br />}}
+|label41 = {{GetLabelFix|Q270897|linked=true}} <!-- [[longitude of the ascending node]] -->
+|data41 = {{#invoke:Wikidata|claim|property=P2213|formatting=unitcode|value={{{ascending node|}}}|item={{{item|}}}|separator=<br />|conjunction=<br />}}
+|label42 = {{GetLabelFix|Q2269302}}<!-- argument of periapsis  -->
+|data42 = {{#invoke:Wikidata|claim|property=P2248|formatting=unitcode|value={{{argument of periapsis|}}}|item={{{item|}}}|separator=<br />|conjunction=<br />}}
+|label43 = {{GetLabelFix|XXXX}}<!-- [[Tisserand parametroa]]  --> <!-- uses Txantiloi:Asteroide infotaula automatikoa/Tisserand inbariante -->
+|data43 = {{#if:{{{tisserand|}}}|{{formatnum:{{{tisserand}}}}}}}
+
+
+|header50= {{#if:{{#property:P2120|from={{{item|}}}}}{{#property:P2386|from={{{item|}}}}}{{#property:P2547|from={{{item|}}}}}{{#property:P1102|from={{{item|}}}}}{{#property:P2046|from={{{item|}}}}}{{#property:P2234|from={{{item|}}}}}{{#property:P2067|from={{{item|}}}}}{{#property:P2054|from={{{item|}}}}}{{#property:P2076|from={{{item|}}}}}{{#property:P2060|from={{{item|}}}}}{{#property:P571|from={{{item|}}}}}{{#property:P4501|from={{{item|}}}}}{{{surface gravity|}}}{{{inertia-factor|}}}{{{escape-velocity|}}}{{{radiance|}}}|{{GetLabelFix|Q413}} <!--Physical characteristics-->}}
+|label51 =  {{GetLabelFix|Q173817}}<!-- Radius -->
+|data51 = {{#invoke:Wikidata|claim|property=P2120|formatting=unitcode|list=false|value={{{radius|}}}|item={{{item|}}}}}
+|label52 = {{GetLabelFix|Q37221}} <!--Diameter  -->
+|data52 = {{#invoke:Wikidata|claim|property=P2386|formatting=unitcode|list=firstrank|value={{{diameter|}}}|item={{{item|}}}}}
+|label53 = {{GetLabelFix|Q28474}}<!-- perimeter   -->
+|data53 = {{#invoke:Wikidata|claim|property=P2547|formatting=unitcode|list=firstrank|value={{{perimeter|}}}|item={{{item|}}}}}
+|label54 = {{GetLabelFix|Q212750}} <!--flattening  -->
+|data54 = {{#invoke:Wikidata|claim|property=P1102|formatting=unitcode|value={{{flattening|}}}|item={{{item|}}}}}
+|label55 ={{GetLabelFix|Q11500}}<!--  [[area]]  -->
+|data55 = {{#invoke:Wikidata|claim|property=P2046|formatting=unitcode|value={{{area|}}}|item={{{item|}}}}}
+|label56 = {{GetLabelFix|Q39297}}<!--  volume -->
+|data56 = {{#invoke:Wikidata|claim|property=P2234|formatting=unitcode|value={{{volume|}}}|item={{{item|}}}}}
+|label57 = {{GetLabelFix|Q11423|linked=true}} <!--Mass  -->
+|data57 = {{#invoke:Wikidata|claim|property=P2067|formatting=unitcode|value={{{mass|}}}|item={{{item|}}}|separator=<br />|conjunction=<br />}}
+|label58 = {{GetLabelFix|Q29539|linked=true}} <!--density -->
+|data58 = {{#invoke:Wikidata|claim|property=P2054|formatting=unitcode|value={{{density|}}}|item={{{item|}}}|separator=<br />|conjunction=<br />}}
+|label59 = {{GetLabelFix|XXXX}}<!-- Ekuatoreko [[gainazaleko grabitatea]]  -->
+|data59 = {{{surface gravity|}}}
+|label60 = {{GetLabelFix|XXXX}} <!-- [[Inertzia-faktore normal]]a -->
+|data60 = {{{inertia-factor|}}}
+|label61 = {{GetLabelFix|XXXX}}<!--  [[Ihes-abiadura]] -->
+|data61 = {{{escape-velocity|}}}
+|label62 = {{GetLabelFix|Q854050|linked=true}}<!--effective temperature   -->
+|data62 = {{#invoke:Wikidata|claim|property=P2076|qualifier=P518|formatting=table|rowformat=$0 $1|colformat0=unitcode|rowsubformat1=($1)|value={{{temperature|}}}|item={{{item|}}}}}
+|label63 = {{GetLabelFix|Q105902}}<!-- luminosity  -->
+|data63 = {{#invoke:Wikidata|claim|property=P2060|formatting=unitcode|value={{{luminosity|}}}|item={{{item|}}}}}
+|label64 = {{GetLabelFix|XXXX}} <!-- [[Erradiantzia]] -->
+|data64 = {{{radiance|}}}
+|label65 = {{GetLabelFix|Q101038|linked=true}}<!-- [[Albedo]]  -->
+|data65 = {{#invoke:Wikidata|claim|property=P4501|qualifier=P459|formatting=table|rowformat=$0 $1|rowsubformat1=($1)|value={{{albedo|}}}|item={{{item|}}}}}
+|label66 ={{GetLabelFix|Q1750705|linked=true}}  <!--[[asteroid spectral type]]  -->
+|data66 = {{#invoke:Wikidata|claim|property=P720|formatting=unitcode|value={{{spectral type|}}}|item={{{item|}}}}}
+
+|label70 = {{GetLabelFix|P571}} <!-- age -->
+|data70 = {{#invoke:Wikidata|claim|property=P571|formatting=unitcode|value={{{age|}}}|item={{{item|}}}}}
+
+<!--
+| header90 = {{#if:{{#property:P528|from={{{item|}}}}}|Izendapenak}}
+| data91 = {{#if:{{#property:P528|from={{{item|}}}}}|{{Collapsible list|title=ẓer|{{#invoke:Wikidata|claim|property=P528|qualifier=P972|formatting=table|rowformat=$1$0|rowsubformat1=$1:&nbsp;|colformat1=internallink|value={{{catalog|}}}|item={{{item|}}}}}}}}}
+-->
+
+| label92 = {{GetLabelFix|Q817125}}  <!-- Minor planet designation -->
+| data92 = {{#invoke:Wikidata|claim|property=P490|separator=<br />|conjunction=<br />}}
+
+| header98 = {{#if:{{#Property:P155|from={{{item|}}}}}{{#Property:P156|from={{{item|}}}}}| {{GetLabelFix|Q102066}} <!--Navigation-->}}
+| data99 = {{#if:{{#Property:P155|from={{{item|}}}}}|«&nbsp;}}{{#invoke:Wikidata|claim|property=P155|formatting=internallink|item={{{item|}}}|list=false}}{{#if:{{#Property:P156|from={{{item|}}}}}|&nbsp;•&nbsp;}}{{#invoke:Wikidata|claim|property=P156|formatting=internallink|item={{{item|}}}|list=false}}{{#if:{{#Property:P156|from={{{item|}}}}}|&nbsp;»}}
+}}</includeonly><noinclude>{{doc}}</noinclude>
