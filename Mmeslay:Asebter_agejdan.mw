@@ -1,0 +1,299 @@
+== Ilaq a nbeddel Asebtar amenzawi ==
+
+
+=== Imagraden ===
+
+On devrait changer la page d'accueil.... il faut mettre en evidance les articles qui existent dans cette wikipedia. Qlq'un qui ne connait pas vraiment wikipedia et qui viendrait par hasard ici ne verra probablement rien à l'exception de l'article sur matoub lounes.[[Amseqdac:Agurzil|Agurzil]] 22:22, 7 Mayu 2007 (UTC)
+: Exact. [[Amseqdac:Ayadho|Ayadho]] 10:05, 11 Mayu 2007 (UTC)
+====Amek====
+azul fellawen, 
+
+sɛiɣ kra iseqsiyen ara wen diniɣ :
+
+amezwaru : amik adarnuɣ teswira i eṭṭfigh nekki (s ifasneiw d tasewart iw) amek atnarnugh ar labäadh y megraden ?
+wis sin : amik adarnough (les cases à un tableau) negh amik adxelqagh yun ajdid ?
+wis krad : amik adäiwdagh adedmagh (ttsawer) i gellan g wikipedya g tutlayin niden bac aken atenxedmagh g wiki nnegh ? 
+wis kuz : ymelmi wikitionary steqbaylit ?
+
+tanmirt
+
+=== Talɣa ===
+
+Azul fell-awen,
+
+Ay inedbalen, que pensez-vous de figer l'aspect de la page d'accueil dans des classes css ? [[Amseqdac:Ayadho|Ayadho]] 08:58, 26 Yunyu 2007 (UTC)
+::Ur sɛiɣ ara tamussni ɣef CSS, efk-aɣ yiwen exemple, ɛreḍ g usebtar nniḍen akken a nẓer.[[Amseqdac:Agurzil|Agurzil]] 22:25, 29 Yunyu 2007 (UTC)
+
+== Tisefsa (Fonts) ==
+
+We have to chose a sans-serif font. Where can we configure it as a global change (not by users monobook.css) ? [[Amseqdac:Ayadho|Ayadho]] 10:05, 11 Mayu 2007 (UTC)
+:Et mainteant? est ce que ça affiche tous les caracteres sous IE6? [[Amseqdac:Agurzil|Agurzil]] 13:22, 11 Mayu 2007 (UTC)
+:Si ca peux aider, des copies d'écran! [[Amseqdac:Jugurten|Jugurten]] 14:41, 11 Mayu 2007 (UTC)
+:* [http://img527.imageshack.us/img527/6105/firerfoxux7.png firerfox] 
+:* [http://img408.imageshack.us/img408/5103/operaqi9.png opera] 
+:* [http://img82.imageshack.us/img82/1642/iecj9.png IE]
+:: ça m'enerve tout ça, est ce que tu peux rééssayer sous IE6 en vidant le cache? [Ctrl+F5]? merci.[[Amseqdac:Agurzil|Agurzil]] 15:14, 11 Mayu 2007 (UTC)
+::: [http://img209.imageshack.us/img209/1171/20070511171716kf4.png vidé le cache avec crt f5]
+::: Et pourtant ça marche chez moi, mais la version que j'ai une version "stand alone" (vu que j'ai IE7). merci en tout cas. [[Amseqdac:Agurzil|Agurzil]] 15:31, 11 Mayu 2007 (UTC)
+::::: Jugurten, je viens de l'essayer dans un cybercafé ça marche! coment ça se fait que ça ne marche pas sous ton pc? [[Amseqdac:Agurzil|Agurzil]] 15:46, 11 Mayu 2007 (UTC)
+:::::: Je sais pas, peut être est ce du a ma version d' IE qui n'est pas a jour, j'utilise personnelement firerfox et n'ai aucun problemes. [[Amseqdac:Jugurten|Jugurten]] 16:00, 11 Mayu 2007 (UTC)
+::::::: C'est bon, je sais pourquoi tu as ce probleme, tu n'as pas installé la police "Arial Unicode MS", apparemment soit tu n'as pas installé microsoft office, soit tu ne l'as pas bien installé.[[Amseqdac:Agurzil|Agurzil]] 21:15, 11 Mayu 2007 (UTC)
+:::::::: Bon, nttmmslay s-trumit alors :) Je suis sous Linux, je vois toujours une police avec empattements (''serif''). Ca se configure dans une feuille de style CSS ? Si oui, juste après Arial Unicode MS, rajouter DejaVu Sans, et ensuite ''sans-serif''. Ajouter DejaVu Sans n'est pas obligatoire, mais ''sans-serif'' permet de mettre la police sans empattement par défaut du système. [[Amseqdac:Ayadho|Ayadho]] 21:42, 11 Mayu 2007 (UTC)
+::::::::: <s>Avant d'essayer ça, est ce que tu as vider le cache? shift+actualiser sous Firefox.[[Amseqdac:Agurzil|Agurzil]] 22:49, 11 Mayu 2007 (UTC)</s>
+:::::::::: Effectivement, "Arial Unicode MS" n'est plus distribué avec linux, je viens de rajouter une 10aine d'autres polices. Normalement t'auras plus de probelemes sous linux, Jugurten aussi, sauf que la sienne sera un peu plus moche. [[Amseqdac:Agurzil|Agurzil]] 01:46, 12 Mayu 2007 (UTC)
+::::::::::: Ilha, et c'est beau. Tu peux mettre en dernier sans-serif, pour être sûr. Tu modifies ça où, par hasard ? [[Amseqdac:Ayadho|Ayadho]] 19:38, 12 Mayu 2007 (UTC)
+:::::::::::: C'est ici [[MediaWiki:Common.css]], mais il faut être admin pour pouvoir le modifier, tu peux me donner l'ordre qui tu semble le plus approprié et je le copie. [[Amseqdac:Agurzil|Agurzil]] 21:53, 12 Mayu 2007 (UTC)
+::::::::::::: C'est parti :
+<div style="margin-left:27em">
+ /* CSS placed here will be applied to all skins. */
+ /* Set sans-serif fonts */
+ body
+ {
+   font-family: "Arial Unicode MS",
+                "DejaVu Sans",
+                "Microsoft Sans Serif",
+                "Lucida Sans Unicode",
+                "Code2000",
+                "Code2001",
+                "TITUS Cyberbit Basic",
+                "Doulos SIL",
+                "Chrysanthi Unicode",
+                "Bitstream Cyberbit",
+                "Bitstream CyberBase",
+                "Thryomanes",
+                "Gentium",
+                "GentiumAlt",
+                "Lucida Grande",
+                "Free Sans",
+                sans-serif;
+ }
+</div>
+::::::::::::: J'ai surtout rajouté sans-serif à la fin pour être sûr. Si une des polices n'est pas unicode, le navigateur va chercher de toute façon la police installée qui contient les caractères manquants. Il n'est pas besoin de spécifier Hapax Berbère pour avoir le tifinagh, par exemple. [[Amseqdac:Ayadho|Ayadho]] 08:18, 14 Mayu 2007 (UTC)
+
+== Modèles  ==
+
+Azul 
+Etant un pauvre contributeur en Kabyle (j'apprend tout les jours), j'aimerais faire des modèles comme ici: [http://no.wikipedia.org/wiki/Kabyler Kabyler]
+
+Un truc comme  '''Talγa:Igduden''' ? [[Amseqdac:Jugurten|Jugurten]] 21:12, 13 Mayu 2007 (UTC)
+
+:On un déjà un modèle pour les langues, tu peux t'en inspirer [[template:Infobox Tutlayt]]. [[Template:agdud]] semble plus juste. [[Amseqdac:Agurzil|Agurzil]] 21:54, 13 Mayu 2007 (UTC)
+:: Llant tilawin kan di talγa-yagi :-) [[Amseqdac:Ayadho|Ayadho]] 08:07, 14 Mayu 2007 (UTC)
+
+== Clavier ==
+
+Zemreɣ ad xedmeɣ yiwen n "clavier" s leḥruf "spéciaux". [[Amseqdac:At Ferḥat|At Ferḥat]] 15:27, 15 Mayyu 2007
+: I yimseqdacen n Winduz naɣ Linuks ? A moins que tu ne parlais de la boîte wikipédia des caractères spéciaux. Si oui, il en existe une sur la [[:fr:Mediawiki:Edittools|wikipédia francophone]] qui peut servir de point de départ. [[Amseqdac:Ayadho|Ayadho]] 15:47, 15 Mayu 2007 (UTC)
+:: Ur ssineɣ ara amek ara xedmeɣ yiwen uklavié i linux, xedmeɣ yiwen i windows XP d Vista, [http://sferhah.club.fr/downloads/FR-KAB_KEYBOARD.zip]. [[Amseqdac:At Ferḥat|At Ferḥat]] 15:43, 7 Yunyu 2007 (UTC)
+::: Ay aqedac n Mikrusuft :-D Plus sérieusement, j'ai ça en projet d'en faire un pour Linux. [[Amseqdac:Ayadho|Ayadho]] 19:23, 22 Yunyu 2007 (UTC)
+:::: Fki-yi les codes unicodes n leḥruf, fedlek, ma tezmereḍ. [[Amseqdac:Ayadho|Ayadho]] 21:43, 24 Yunyu 2007 (UTC)
+:::::Ẓer [[:fr:Tifinagh#Normalisation_internationale_.28Unicode.29|dagi]], a ten-tafeḍ.  --[[Amseqdac:Vermondo|Vermondo]] 10:20, 25 Yunyu 2007 (UTC)
+:::::: Ur mmeslayeɣ ara af Tifinagh... [[Amseqdac:Ayadho|Ayadho]] 14:07, 25 Yunyu 2007 (UTC)
+::::::: Tifinaɣ mačči d [[tutlayt]] : d [[isekkilen]]. --[[Amseqdac:Vermondo|Vermondo]] 14:19, 25 Yunyu 2007 (UTC)
+:::::::: Lamaɛna, bɣiɣ les codes n leḥruf '''latins'''. Ulac aɣlif, je m'aiderai de la boite de l'interface. [[Amseqdac:Ayadho|Ayadho]] 08:28, 26 Yunyu 2007 (UTC)
+::::::::: ɣ : U+0194 and U+0263. ɛ : U+0190 and U+025B. Ufiɣ ala wigini g lwikipedia s teglizit. [[Amseqdac:Agurzil|Agurzil]] 19:53, 29 Yunyu 2007 (UTC)
+:::::::::: Ay, saḥḥit ;-) Je chercherai les autres avec Gucharmap. [[Amseqdac:Ayadho|Ayadho]] 20:22, 29 Yunyu 2007 (UTC)
+
+== Salut! ==
+Je suis très heureux de voir qu'il y a une Wikipédia en langue kabyle! mais il n'y a pas de mot pour dire "the free encyclopedia" en kabyle? [[Amseqdac:83.227.24.71|83.227.24.71]] 21:28, 30 Mayu 2007 (UTC)
+:Tella : d '''tasanayt tilellit'''. Ẓer kan deg [[asebtar amenzawi|usebter amenzawi]]. --[[Amseqdac:Vermondo|Vermondo]] 11:28, 1 Yunyu 2007 (UTC)
+
+== L'aphabet ==
+
+Pourquoi utilise la langue kabyle l'aphabet latin? [[Amseqdac:Aaker|Aaker]] 21:47, 1 Yunyu 2007 (UTC)
+:Je ne sais pas, mais je sais que si tu vas dans une librairie en Kabylie tu trouves un tas de livres en kabyle avec cet alphabet et rien que dans cet alphabet. Donc c'est reglé par les locuteurs eux-mêmes, pourquoi se poser des questions?--[[Amseqdac:Vermondo|Vermondo]] 01:25, 2 Yunyu 2007 (UTC)
+::Parce-que c'est intréressant à savoir! [[Amseqdac:Aaker|Aaker]] 09:10, 2 Yunyu 2007 (UTC)
+::: Oui, c'est une question d'usage (ça fait plus d'un siècle, non ?). Bien que personnellement, j'aurais aimé que les écrivains eûssent conservé le tifinagh. D'ailleurs, si ç'avait été l'alphabet arabe le plus répandu, on aurait adopté celui-là. [[Amseqdac:Ayadho|Ayadho]] 09:25, 3 Yunyu 2007 (UTC)
+::::Alors, quelle est la raison de l'alphabet latin est le plus utilisé? C'est à cause de l'occupation romain, la colonisation francaise ou il y une autre cause? [[Amseqdac:Aaker|Aaker]] 14:55, 21 Yunyu 2007 (UTC)
+::::: A vérifier, mais je crois que ce sont les pères blancs qui ont commencé à transcrire le kabyle en alphabet latin dans le XIXe ou le début du XXe. Le tifinagh n'était plus utilisé et les langues berbères, du moins le kabyle, n'existait qu'oralement. S'en est suivi l'habitude, et voilà. :-) Personnellement, j'aurai préféré que le tifinagh soit l'usage, mais c'est les choses s'étant passées ainsi, c'est comme ça ;-) [[Amseqdac:Ayadho|Ayadho]] 19:20, 22 Yunyu 2007 (UTC)
+::::::Les premières transcriptions en caractères latins datent dès la fin du 18ème siècle, et pendant tout le 19è, bien avant les Pères Blancs. C'est la propagande arabo-musulmane qui veut que c'est ''ipapasen'' qui ont "créé" la langue berbère. Boulifa n'était pas un Père Blanc et a écrit un livre entier s teqbaylit en caractères latins de plus de 500 pages ... --[[Amseqdac:Vermondo|Vermondo]] 00:41, 23 Yunyu 2007 (UTC)
+::::::: La transcription en caractères latins permet l'usage du kabyle, et du berbère en général pour communiquer avec nos outils modernes (ordinateur, portable, etc).
+:::::::: Ca, c'est juste un petit "plus". Si l'on avait gardé le tifinagh, eh bien ce serait en tifinagh (non mais oh, et pourquoi pas l'ascii 7 bit aussi :-D). [[Amseqdac:Vermondo|Vermondo]], merci pour la correction très intéressante. Cela dit, en aucun cas j'entendais que les pères blancs ont créés la langue (juste une mise en place d'un alphabet alternatif).
+:::::::: Je ne pense pas que le logiciel le permette, mais si un jour le tifinagh gagnait du terrain, ce serait sympa de choisir dans les préférences l'alphabet :-P [[Amseqdac:Ayadho|Ayadho]] 21:23, 24 Yunyu 2007 (UTC)
+
+== Enfin, maitenant il faut l'enrichir ==
+
+j'ai été un des premier lobbystes actifs quand à la création d'un Wikipédia en kabyle, et je suis content qu'il existe enfin.
+Malheureusement maitenant je ne peux pas être d'une grande aide vu que je ne maîtrise pas le kabyle ;-) [[Amseqdac:Medifel|Medifel]] 14:37, 12 Yunyu 2007 (UTC)
+
+== Umseqdac naɣ umsqedac ==
+
+L'état d'annexion n amseqdac ? "Amyannan umsqedac" d talɣa n tidett ? [[Amseqdac:Ayadho|Ayadho]] 09:20, 29 Yunyu 2007 (UTC)
+:Addad amaruz (l'état d'annexion) n yismawen yezmer ad yili : 
+:*''a''+ CV- (''a'' + targalt [consonne] yiwet)  > ''uCV-'' (d amedya : ''aSAru'' > ''uSAru'')
+:**(asg°et: ''i'' + CV- > ''iCV-'' (addad ilelli  win amaruz kifkif-iten, d amedya : ''iSUra'')
+:*''a'' + CC- > (''a'' + sin tergalin) ''weCC-'' (d amedya : ''aRGaz'' > ''weRGaz'')
+:**(asg°et: ''i'' + CCV- > ''yeCCV-'' (d amedya : ''iRGazen'' > ''yeRGazen'')
+:Mi d-yebda waddad amaruz s wezgenaɣri (semi-woyelle), tanzeɣt (la préposition) ''n'' ur iban ara, maca azgenaɣri ad yuɣal d ussid (aɣezzfan, redoublé): ''n wergaz'' > ''wwergaz'' ; ''n yergazen'' > ''yyergazen''. (''ww'' inṭeq d ''bb<sup>w</sup>'' neɣ ''gg<sup>w</sup>'' ; ''yy'' inṭeq d ''gg'').
+:Mi d-yebda waddad amaruz s tiɣri (voyelle) mačči s wezgenaɣri, tanzeɣt (la préposition) ''n'' ur iban ara (yuɣal d ''uu-'' neɣ d ''ii-''), maca iluɣa n tira bɣan dima ad ittwaru. (Normalement il faudrait écrire ''Amyannan n wemseqdac'', prononciation ''amyannan bb°emseqdac''). Wagi d ayen sniɣ, ... Rebbi d amussnaw (''Allah aɛlam''). --[[Amseqdac:Vermondo|Vermondo]] 12:28, 29 Yunyu 2007 (UTC)
+:: Saḥḥit ! Ihi Tizi n Wezzu yuɣal "Tizi Uzzu" ? Ce n'est pas régional ça ? Kra Iqbaliyen ur qarren ara n+w=nw ? Sinon, ma question portait sur la place du e dans le mot (cf titre). [[Amseqdac:Ayadho|Ayadho]] 12:40, 29 Yunyu 2007 (UTC) <small>Allah huwa aɛlim est plus précis :-)</small>
+:::Tizi Uzzu mačči d ''Tizi n Wezzu'': awal wis sin d ''azezzu'' (genêt), addad-is amaruz d ''uzezzu''. ''Tizi n uzezzu'' tuɣal d ''Tizi Uzezzu'', umbaɛd llan wid tt-issiwzzelen ar ''Tizi Uzzu''. --[[Amseqdac:Vermondo|Vermondo]] 13:55, 29 Yunyu 2007 (UTC)
+:::: Ilha, il faut l'expliquer alors sur la Wikipédia francophone. Lamaɛna, j'entends aussi la prononciation axxam nwergaz. Macci d lḥeqq naɣ c'est une question de région ? Tanmirt-ik pour les règles n weddad amaruz. [[Amseqdac:Ayadho|Ayadho]] 20:19, 29 Yunyu 2007 (UTC)
+::::: Ttxemmimeɣ di Tizi Uzzu ttemmslayen "bb" lamaɛana mačči di Burǧ Mnayel (Tizi '''n A'''t Ɛayca, tura [[Tniya]]) naɣ Bgayet (Larbaɛa '''n A'''t Iraten). D haqq ? [[Amseqdac:Ayadho|Ayadho]] 18:44, 11 Ɣuct 2007 (UTC)
+Asmi yella yiwen "e", llan daymen sin yisekkilen deffir-s : he'''lk'''eɣ, we'''qb'''ayli, be'''dd'''el. Lukan yella yiwen usekkil kan deffir "e", ça veut dire que c'est asekkil aneggaru : kce'''m'''. Kečč turiḍ : umsqe'''d'''ac, ur nezmir ara a t-nenṭeq. BTW, Beddleɣ akk wawalen "umseqdac" ɣer "wemseqdac". Vermondo yesɛa lḥeq. [[Amseqdac:Agurzil|Agurzil]] 19:48, 29 Yunyu 2007 (UTC)
+: Ayyy fehmeɣ-k, amkan n "e" d logique daɣen ! Lamaɛna tezmereḍ at-turiḍ : "Amyannan amseqdac", am "Discussion Utilisateur" s-trumit (akk-d mačči "Discusion ''de l'''Utilisateur), naɣ "Talk User" s-teglizit (akk-d mačči "Talk ''to'' User"). Naɣ m'ulac, ilaq a nura "Amyannan '''n''' wemseqdac"... [[Amseqdac:Ayadho|Ayadho]] 20:16, 29 Yunyu 2007 (UTC)
+
+== Qahwah ==
+
+Il faudrait un endroit où discuter du projet, plutôt qu'ici. [[Wikipedia:Qahwah]] naɣ [[Wikipedia:Maqaha]] ? Ur zriɣ ara amek neqqar "Café" s teqbaylit. [[Amseqdac:Ayadho|Ayadho]] 09:34, 5 Yulyu 2007 (UTC)
+:''Ɛuhdeɣ iḍes n '''lqahwa''' / mi d nadam yella / win yeṭṭsen amzun yemmut...'' akken i s-yenna [[Si Muḥand u Mḥand]] (umu  iweṣṣa [[Ccix Muḥand]] ''Berka-k '''lqahwa''' di ssuq / ak<sup>w</sup> d lesfendj n Uẓidan...''). Dɣa awal ɣef tettnadiḍ d ''lqahwa''. Maca, ma nebɣa a nsemma amkan anda ara nemmeslay af timsalin n Wikipedia s teqbaylit, amkan annect-agi d ''tajmaɛt''... --[[Amseqdac:Vermondo|Vermondo]] 11:00, 5 Yulyu 2007 (UTC)
+:: Ok ! [[Wikipedia:Tajmaɛt]] naɣ [[Wikipedia:Agraw]] ? Nniɣ "Lqahwa" axaṭer tilla deg amezruy n Leqbayel, di Fransa u di Tmurt :-) [[Amseqdac:Ayadho|Ayadho]] 14:47, 5 Yulyu 2007 (UTC)
+
+== Nnesxa ==
+
+Il faudrait justifier le texte ainsi :
+ p
+ {
+   text-align:justify;
+ }
+[[Amseqdac:Ayadho|Ayadho]] 19:09, 5 Yulyu 2007 (UTC)
+:Ayɣer? (I wacu?) --[[Amseqdac:Vermondo|Vermondo]] 10:07, 6 Yulyu 2007 (UTC)
+:: Iwaken nnesxa at-tillin justifié. :-) Tura, yettilli "aligné à gauche". [[Amseqdac:Ayadho|Ayadho]] 12:22, 6 Yulyu 2007 (UTC)
+:::Ẓriɣ. D aɣilif? --[[Amseqdac:Vermondo|Vermondo]] 08:07, 7 Yulyu 2007 (UTC)
+::::  Nnesxa justifié d axir. [[Amseqdac:Ayadho|Ayadho]] 10:26, 8 Yulyu 2007 (UTC)
+::::: Ulac lmeḥdiğa. Wikipedyat-nniḍen ur justifint ara.--[[Amseqdac:Vermondo|Vermondo]] 13:42, 8 Yulyu 2007 (UTC)
+:::::: Ih... (Lameɛna Wikipedya s trumit tejustifya.) Ur tettexmmim ara d macci akter esthétique ? [[Amseqdac:Ayadho|Ayadho]] 17:09, 10 Yulyu 2007 (UTC)
+:::::::Wissen d monobook inek. Fr.wiki, nekk ur tt-ẓriɣ ara akka. --[[Amseqdac:Vermondo|Vermondo]] 18:07, 10 Yulyu 2007 (UTC)
+
+== Asebtar amenzawi ==
+
+Asebtar amenzawi ur yesskan ara mliḥi tira-s deg Internet Explorer 6, ur nebɣi ara lbricolage-agi. G leɛnaya-nwen, seggmet-it. [[Amseqdac:Agurzil|Agurzil]] 09:18, 9 Yulyu 2007 (UTC)
+
+:j'ai réussi à corriger le problème, mais le modèle banner a un design grossier sous IE6. Quelqu'un pourrait-il simplifier son code et ses couleurs?  [[Amseqdac:Agurzil|Agurzil]] 13:28, 9 Yulyu 2007 (UTC)
+:: Ca semble correct sous IE, sauf le bandeau de vote. Mais le code peut peut-être être simplifié. [[Amseqdac:Ayadho|Ayadho]] 14:45, 9 Yulyu 2007 (UTC)
+
+== Xorg keyboard for berber diacritics ==
+
+Azul fell-awen,
+
+Xedmeɣ yiwen clavier ayen yesɛan isekkilen imaziɣen. Ilaq a texdmem :
+
+ root@darkstar:/usr/lib/X11/xkb/symbols/pc\> cp fr berbere-latin
+
+sitet ijerriden-agi di wemkan n lxir ("France" af clavier tarumit), di ufaylu (fichier, file) berber-latin :
+
+    // sitet di "AC block" :
+    key <AC02>	{ [         s,          S,    0x1001E63,    0x1001E62 ]	};
+    key <AC03>	{ [         d,          D,    0x1001E0D,    0x1001E0C ] };
+    key <AC05>	{ [         g,          G,    0x1000263,    0x1000194 ] };
+    key <AC06>	{ [         h,          H,    0x1001E25,    0x1001E24 ] };
+    key <AC07>	{ [         j,          J,    0x10001E7,    0x10001E6 ] };
+
+   // sitet di "AB block"
+    key <AB03>	{ [         c,          C,      0x100010D, 0x100010C ] };
+
+Ihi, Alt Gr yid (+ shift for uppercase) :
+* a : ɛ
+* d : ḍ
+* r : ṛ
+* t : ṭ
+* z : ẓ
+* s : ṣ
+* g : ɣ
+* h : ḥ
+* j : ǧ
+* c : č
+
+Mbaɛd, di xorg.conf (fr, for example) :
+
+    Section "InputDevice"
+
+    Identifier	"Keyboard1"
+    Driver	"kbd"
+    [...]
+    Option "XkbLayout"	"fr,berbere-latin"
+    Option "XkbOptions"  "grp:rwin_toggle,grp:lwin_toggle"
+
+Ihi, s Windows key, nezmir a nsexdem le clavier s tmaziɣt naɣ s trumit.
+
+Any feedback welcome :)  [[Amseqdac:Ayadho|Ayadho]] 21:08, 12 Ctember 2007 (UTC)
+
+== Tajmaɛt ==
+
+[[Wikipedia:Tajmaɛt|Dagi]] ! [[Amseqdac:Ayadho|Ayadho]] 10:21, 14 Ctember 2007 (UTC)
+: Ruḥet g usebtar-nni, uriɣ lexbar amaynut... [[Amseqdac:Ayadho|Ayadho]] 19:01, 7 Wamber 2007 (UTC)
+
+
+-------------------------------------------------------------réponse à ton projet !!!
+
+la langue kabyle est indépendante par rapport a toutes les langues, soit l'arabe ou le français. Le kabyle à un alphabet (tifinegh), on a adopté le caractère latin par rapport à sa technologie. Aujourd'hui le kabyle écrit en latin est différent du français et d'anglais , il a ses règles d'écritures, une forme qui le spécifie autant que langue indépendante comme toutes les langues dans le monde entier. ( désolé pour ton projet , on prend toujours le meilleur pour le ressembler ou le surpasser !! Malheureusement le caractère Arabe est loin d'être le meilleur! Donc on prend pas. )
+
+merci ( j'aurais aimé t'écrire en kabyle mais j'ai peur que tu ne comprenne pas )
+
+== Small request ==
+
+Hello! I am a Polish wikipedian and I would like to ask you for your help - writing a new article about former Polish President who won the Nobel Peace Prize in 1983 – '''Lech Wałęsa'''. I have looked for his biography in your Wikipedia but without success. Polish Wikipedians will be grateful for your help. Thank you so much in advance! PS you can find the English version of the article '''[[w:en:Lech Wałęsa|here]]'''. Best wishes from Poland, [[Amseqdac:Patrol110|Patrol110]] 12:04, 25 Jember 2009 (UTC)
+
+==Tahoma as a global font==
+
+Azul d amqqran,
+
+Great work here on Wikipedia Taqbaylit!
+
+I am developing Wikipedia Tarifit (Tamazight n Arrif). I noticed that the font used here on this Wikipedia is different from other Latin script-based Wikipedias, and I want to do the same and change the global font of Tarifit (test) Wikipedia to '''Tahoma'''.
+
+How do you do that?
+
+Thanks,
+
+Tanmmirt aṭṭas.
+
+--[[Amseqdac:Aryaz|Aryaz]] 10:49, 20 Yennayer 2010 (UTC)
+
+== Tira - idea for new Bot ==
+
+I have created an assisted editing bot called 'BerLatBot' that corrects the Unicodes produced by some legacy keyboards for Berber in Latin script - they date from pre-Unicode times when character code pages didn't have exactly the required letters.
+
+It would run on demand, and clean Kabyle wiki pages specified by its operator, who would confirm any changes the Bot suggested.
+
+It would probably need permission from an administrator to clean the orthography on biographical pages, for example in 'Amezruy', which are in particular need of a wash.
+As its operator, I understand the writing system, but I am not Berber, so I have no political motivation to do informational edits on historical or biography pages.
+
+The replacements the Bot does are:
+* "ğ" g with breve, to "ǧ" g with caron
+* "Ğ" G with breve, to "Ǧ" G with caron
+* "γ" Greek gamma, to "ɣ" Latin gamma
+* "Γ" Greek Gamma, to "Ɣ" Latin Gamma
+* "Σ" to "Ɛ"
+
+Comments please! [[Amseqdac:Anderssakoul|Anderssakoul]] 19:17, 25 Furar 2010 (UTC)
+:Very interesting proposal. How to install this bot? --[[Amseqdac:Mmistmurt|Mmistmurt]] ([[Amyannan umsqedac:Mmistmurt|talk]]) 14:36, 7 Ɣuct 2012 (UTC)
+
+==Wikipedia in Tatar==
+Dear friends, may I ask you to add a hyperlink to our Tatar Wikipedia (http://tt.wikipedia.org) to yourr Front page. Tatars - are turkic nation living in Tatarstan Republic, second biggest nation in Russian Federation. hope to hear from you soon. sincerely yours, [[Amseqdac:Muhtac|Muhtac]] 21:50, 20 Meɣres 2011 (UTC)
+
+== Magyar Wikipedia ==
+
+200.680! – [[Amseqdac:Kgyt|Kgyt]] 09:13, 20 Ctember 2011 (UTC)
+
+== Tazuri n Tammazla ==
+
+http://www.martial-arts-amazigh.com/index.php/fr/tazouri-n-tammazla-fr 
+Tammazla yat tunnunt n amwat gant imazighen ntmenni ad idili asghwel sg tutlayt tafransist ar tutlayt tamazight i sujet ad
+
+== Berber is missing ==
+
+Berber is missing from this page:<br />
+https://meta.wikimedia.org/wiki/There_is_also_a_Wikipedia_in_your_language<br />
+Thank you, [[Amseqdac:Varlaam|Varlaam]] ([[Amyannan umsqedac:Varlaam|amyannan]]) 06:39, 19 yennayer 2016 (UTC)
+
+== Mreḥba taɛṛabt ==
+
+Mreḥba = brrkat
+s tmaziɣt
+brrkat
+s Taɛṛabt
+Meṛḥba [[Amseqdac:ABDELHAQUE amazig|ABDELHAQUE amazig]] ([[Amyannan umsqedac:ABDELHAQUE amazig|asqerdec]]) 20 Mayyu 2020 à 20:49 (UTC)
+
+== azul ==
+
+lḥed is an arabic word use (asamas=Monday) instead
+same for teswira(ar) tawlaft(ber) = picture
+Days of the week:
+Sunday= asamas
+Monday= aynas
+Tuesday= asinas
+Wednesday= akṛas
+Thursday= akwas
+Friday=asimwas
+Saturday= asiḍyas [[Amseqdac:Aminehamdi991|Aminehamdi991]] ([[Amyannan umsqedac:Aminehamdi991|asqerdec]]) 6 Meɣres 2022 à 21:20 (UTC)
