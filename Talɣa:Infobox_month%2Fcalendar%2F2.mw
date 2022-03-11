@@ -1,0 +1,67 @@
+<includeonly>{| align="right" class="toccolours vatop" style="margin-left: 1em; text-align:center; clear:right;"
+|- style="background:lightblue;"
+|colspan="8"|'''[[{{#if:{{{aggur|}}}|{{{aggur}}}|{{{1}}}}}|{{{1}}}]] {{{an|}}}'''
+|-
+|width="18.1%"|Sem
+|width="11.7%"| [[Arim|Ari]]
+|width="11.7%"| [[Aram|Ara]]
+|width="11.7%"| [[Ahad|Aha]]
+|width="11.7%"| [[Amhad|Amh]]
+|width="11.7%"| [[Sem|Sem]]
+|width="11.7%"| [[Sed]]
+|width="11.7%"| [[Acer|<span style="color:orange;">Ace</span>]]
+|-
+|[[Imalas {{#if:{{{w1|}}}|{{{w1}}}|{{{imalas}}}}} | <span style="color:green;">{{#if:{{{w1|}}}|{{{w1}}}|{{{imalas}}}}}</span> ]]
+|[[{{Infobox month/calendar/3|1|{{{2}}}|{{{3}}}|aggur={{{1}}}}}|{{Infobox month/calendar/3|1|{{{2}}}|{{{3}}}}}]]
+|[[{{Infobox month/calendar/3|2|{{{2}}}|{{{3}}}|aggur={{{1}}}}}|{{Infobox month/calendar/3|2|{{{2}}}|{{{3}}}}}]]
+|[[{{Infobox month/calendar/3|3|{{{2}}}|{{{3}}}|aggur={{{1}}}}}|{{Infobox month/calendar/3|3|{{{2}}}|{{{3}}}}}]]
+|[[{{Infobox month/calendar/3|4|{{{2}}}|{{{3}}}|aggur={{{1}}}}}|{{Infobox month/calendar/3|4|{{{2}}}|{{{3}}}}}]]
+|[[{{Infobox month/calendar/3|5|{{{2}}}|{{{3}}}|aggur={{{1}}}}}|{{Infobox month/calendar/3|5|{{{2}}}|{{{3}}}}}]]
+|[[{{Infobox month/calendar/3|6|{{{2}}}|{{{3}}}|aggur={{{1}}}}}|{{Infobox month/calendar/3|6|{{{2}}}|{{{3}}}}}]]
+|[[{{Infobox month/calendar/3|7|{{{2}}}|{{{3}}}}} {{{1}}}|<span style="color:orange;">{{Infobox month/calendar/3|7|{{{2}}}|{{{3}}}}}</span>]]
+|-
+|[[Imalas {{#Expr:{{{imalas}}}+1}}| <span style="color:green;">{{#Expr:{{{imalas}}}+1}}</span> ]]
+|[[{{Infobox month/calendar/3|8|{{{2}}}|{{{3}}}}} {{{1}}}|{{Infobox month/calendar/3|8|{{{2}}}|{{{3}}}}}]]
+|[[{{Infobox month/calendar/3|9|{{{2}}}|{{{3}}}}} {{{1}}}|{{Infobox month/calendar/3|9|{{{2}}}|{{{3}}}}}]]
+|[[{{Infobox month/calendar/3|10|{{{2}}}|{{{3}}}}} {{{1}}}|{{Infobox month/calendar/3|10|{{{2}}}|{{{3}}}}}]]
+|[[{{Infobox month/calendar/3|11|{{{2}}}|{{{3}}}}} {{{1}}}|{{Infobox month/calendar/3|11|{{{2}}}|{{{3}}}}}]]
+|[[{{Infobox month/calendar/3|12|{{{2}}}|{{{3}}}}} {{{1}}}|{{Infobox month/calendar/3|12|{{{2}}}|{{{3}}}}}]]
+|[[{{Infobox month/calendar/3|13|{{{2}}}|{{{3}}}}} {{{1}}}|{{Infobox month/calendar/3|13|{{{2}}}|{{{3}}}}}]]
+|[[{{Infobox month/calendar/3|14|{{{2}}}|{{{3}}}}} {{{1}}}|<span style="color:orange;">{{Infobox month/calendar/3|14|{{{2}}}|{{{3}}}}}</span>]]
+|-
+|[[Imalas {{#Expr:{{{imalas}}}+2}}| <span style="color:green;">{{#Expr:{{{imalas}}}+2}}</span> ]]
+|[[{{Infobox month/calendar/3|15|{{{2}}}|{{{3}}}}} {{{1}}}|{{Infobox month/calendar/3|15|{{{2}}}|{{{3}}}}}]]
+|[[{{Infobox month/calendar/3|16|{{{2}}}|{{{3}}}}} {{{1}}}|{{Infobox month/calendar/3|16|{{{2}}}|{{{3}}}}}]]
+|[[{{Infobox month/calendar/3|17|{{{2}}}|{{{3}}}}} {{{1}}}|{{Infobox month/calendar/3|17|{{{2}}}|{{{3}}}}}]]
+|[[{{Infobox month/calendar/3|18|{{{2}}}|{{{3}}}}} {{{1}}}|{{Infobox month/calendar/3|18|{{{2}}}|{{{3}}}}}]]
+|[[{{Infobox month/calendar/3|19|{{{2}}}|{{{3}}}}} {{{1}}}|{{Infobox month/calendar/3|19|{{{2}}}|{{{3}}}}}]]
+|[[{{Infobox month/calendar/3|20|{{{2}}}|{{{3}}}}} {{{1}}}|{{Infobox month/calendar/3|20|{{{2}}}|{{{3}}}}}]]
+|[[{{Infobox month/calendar/3|21|{{{2}}}|{{{3}}}}} {{{1}}}|<span style="color:orange;">{{Infobox month/calendar/3|21|{{{2}}}|{{{3}}}}}</span>]]
+|-
+|[[Imalas {{#Expr:{{{imalas}}}+3}}| <span style="color:green;">{{#Expr:{{{imalas}}}+3}}</span> ]]
+|[[{{Infobox month/calendar/3|22|{{{2}}}|{{{3}}}}} {{{1}}}|{{Infobox month/calendar/3|22|{{{2}}}|{{{3}}}}}]]
+|[[{{Infobox month/calendar/3|23|{{{2}}}|{{{3}}}|aggur={{{1}}}}}|{{Infobox month/calendar/3|23|{{{2}}}|{{{3}}}}}]]
+|[[{{Infobox month/calendar/3|24|{{{2}}}|{{{3}}}|aggur={{{1}}}}}|{{Infobox month/calendar/3|24|{{{2}}}|{{{3}}}}}]]
+|[[{{Infobox month/calendar/3|25|{{{2}}}|{{{3}}}|aggur={{{1}}}}}|{{Infobox month/calendar/3|25|{{{2}}}|{{{3}}}}}]]
+|[[{{Infobox month/calendar/3|26|{{{2}}}|{{{3}}}|aggur={{{1}}}}}|{{Infobox month/calendar/3|26|{{{2}}}|{{{3}}}}}]]
+|[[{{Infobox month/calendar/3|27|{{{2}}}|{{{3}}}|aggur={{{1}}}}}|{{Infobox month/calendar/3|27|{{{2}}}|{{{3}}}}}]]
+|[[{{Infobox month/calendar/3|28|{{{2}}}|{{{3}}}|aggur={{{1}}}}}|<span style="color:orange;">{{Infobox month/calendar/3|28|{{{2}}}|{{{3}}}}}</span>]]{{#ifeq:{{{w5|x}}}{{{lignes|y}}}|&nbsp;0||&nbsp;<!--foncionne pas sans nbsp-->
+{{!}}-
+{{!}}[[Imalas {{#if:{{{w5|}}}|{{{w5}}}|{{#Expr:{{{imalas}}}+4}}}}  | <span style="color:green;">{{#if:{{{w5|}}}|{{{w5}}}|{{#Expr:{{{imalas}}}+4}}}}</span> ]]
+{{!}}[[{{Infobox month/calendar/3|29|{{{2}}}|{{{3}}}|aggur={{{1}}}}}|{{Infobox month/calendar/3|29|{{{2}}}|{{{3}}}}}]]
+{{!}}[[{{Infobox month/calendar/3|30|{{{2}}}|{{{3}}}|aggur={{{1}}}}}|{{Infobox month/calendar/3|30|{{{2}}}|{{{3}}}}}]]
+{{!}}[[{{Infobox month/calendar/3|31|{{{2}}}|{{{3}}}|aggur={{{1}}}}}|{{Infobox month/calendar/3|31|{{{2}}}|{{{3}}}}}]]
+{{!}}[[{{Infobox month/calendar/3|32|{{{2}}}|{{{3}}}|aggur={{{1}}}}}|{{Infobox month/calendar/3|32|{{{2}}}|{{{3}}}}}]]
+{{!}}[[{{Infobox month/calendar/3|33|{{{2}}}|{{{3}}}|aggur={{{1}}}}}|{{Infobox month/calendar/3|33|{{{2}}}|{{{3}}}}}]]
+{{!}}[[{{Infobox month/calendar/3|34|{{{2}}}|{{{3}}}|aggur={{{1}}}}}|{{Infobox month/calendar/3|34|{{{2}}}|{{{3}}}}}]]
+{{!}}[[{{Infobox month/calendar/3|35|{{{2}}}|{{{3}}}|aggur={{{1}}}}}|<span style="color:orange;">{{Infobox month/calendar/3|35|{{{2}}}|{{{3}}}}}</span>]]}}{{#ifeq:{{{w6|x}}}{{{lignes|y}}}|&nbsp;0||&nbsp;<!--foncionne pas sans nbsp-->
+{{!}}-
+{{!}}[[Imalas {{#if:{{{w6|}}}|{{{w6}}}|{{#Expr:{{{imalas}}}+5}}}} | <span style="color:green;">{{#if:{{{w6|}}}|{{{w6}}}|{{#Expr:{{{imalas}}}+5}}}}</span> ]]
+{{!}}[[{{Infobox month/calendar/3|36|{{{2}}}|{{{3}}}|aggur={{{1}}}}}|{{Infobox month/calendar/3|36|{{{2}}}|{{{3}}}}}]]
+{{!}}[[{{Infobox month/calendar/3|37|{{{2}}}|{{{3}}}|aggur={{{1}}}}}|{{Infobox month/calendar/3|37|{{{2}}}|{{{3}}}}}]]
+{{!}}
+{{!}}
+{{!}}
+{{!}}
+{{!}}}}
+|}</includeonly>
